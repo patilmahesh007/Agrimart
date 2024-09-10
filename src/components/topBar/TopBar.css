@@ -1,0 +1,65 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .left {
+    font-size: 14px;
+    color: #2d5031;
+  }
+  
+  .left span {
+    margin-right: px;
+    cursor: pointer;
+  }
+  
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right span {
+    font-size: 14px;
+    color: #2d5031;
+    margin-right: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-media-icon {
+    height: 25px;
+    cursor: pointer;
+  }
+
+  .price {
+    margin-left: 40px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    font-size: 16px;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .menu span {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .menu span:hover {
+    color: #91a57d;
+  }
+  
