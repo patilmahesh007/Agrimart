@@ -27,6 +27,11 @@ function Services() {
               <h3>Vegetables</h3>
               <p>Specialized support for vegetable farming to maximize yield.</p>
             </div>
+            <div className="service-card">
+              <h3>Fruits</h3>
+              <p>Fruit farming consultancy and assistance for better harvests.</p>
+            </div>
+           
           </div>
         </div>
       </div>
