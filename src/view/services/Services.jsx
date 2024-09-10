@@ -12,11 +12,19 @@ function Services() {
       <Navbar />
 
 
-      <div className="servides-page">
+      <div className="services-page">
         <TopBar />  
 
 
-      
+        <div className="services-section">
+          <h2>Our Services</h2>
+          <div className="services-grid">
+            <div className="service-card">
+              <h3>Essentials</h3>
+              <p>We provide essential farming tools and services for crop cultivation.</p>
+            </div>
+          </div>
+        </div>
       </div>
       <Footer />
     </div>
