@@ -1,0 +1,48 @@
+.why-choose-us-container {
+    background-color: #f5ecd7; 
+    padding: 35px;
+    text-align: center;
+    max-width: 90%;
+    display: block;
+    margin: 30px auto;
+  }
+  
+  .why-choose-us-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .heading {
+    font-size: 50px;
+    color: #502e17;
+  }
+  
+  .why-choose-us-text {
+    max-width: 600px;
+  }
+  
+  h2 {
+    font-size: 40px;
+    color: #5f3711;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #5f3711;
+  }
+  
+  .leaf-icon {
+    height: 150px;
+  }
+  
+  .leaf-icon.left {
+    margin-right: 200px;
+  }
+  
+  .leaf-icon.right {
+    margin-left: 200px;
+  }
+  
