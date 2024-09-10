@@ -23,6 +23,10 @@ function Services() {
               <h3>Essentials</h3>
               <p>We provide essential farming tools and services for crop cultivation.</p>
             </div>
+            <div className="service-card">
+              <h3>Vegetables</h3>
+              <p>Specialized support for vegetable farming to maximize yield.</p>
+            </div>
           </div>
         </div>
       </div>
