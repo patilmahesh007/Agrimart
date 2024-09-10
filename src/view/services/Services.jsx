@@ -31,7 +31,14 @@ function Services() {
               <h3>Fruits</h3>
               <p>Fruit farming consultancy and assistance for better harvests.</p>
             </div>
-           
+            <div className="service-card">
+              <h3>Exotics</h3>
+              <p>We offer unique services for exotic plant cultivation.</p>
+            </div>
+            <div className="service-card">
+              <h3>Dairy</h3>
+              <p>Dairy farming solutions for milk production and animal care.</p>
+            </div>
           </div>
         </div>
       </div>
