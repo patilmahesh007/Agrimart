@@ -23,6 +23,18 @@
     z-index: 1;
 }
 
+/* @import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
+  .App-name{
+    font-family: "Ewert", serif;
+  font-weight: 400;
+  font-style: normal;
+
+    color: aquamarine;
+    font-size:100px;
+  }
+  
+  */
+
 .App-section-1 {
     display: flex;
     flex-direction: row;
@@ -96,6 +108,9 @@
 
 
 
+
+/* card two css */
+
 .why-choose-us-content {
     background-color: #3f594440; 
     padding: 35px;
@@ -151,5 +166,6 @@
     border: none;
     font-size: 16px;
   }
-
- 
+  .App-section-3-container {
+    display: flex;
+}

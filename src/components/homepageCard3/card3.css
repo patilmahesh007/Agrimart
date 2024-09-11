@@ -1,50 +1,51 @@
-.App-section-3{
-    display: flex;
-    height: 300px;
-    width: 450px;
-    background-color: rgba(151, 244, 213, 0.726);
-  }
-.App-section-3{
+
+.App-section-3 {
     position: relative;
-}
-.App-section-3 span{
-    position: absolute;
-    top: 25%;
-    left: 1%;
-    z-index: 2;
-font-family:cursive;
-
-}
-.App-section-3 span h2{
-    font-size: 25px;
-color: crimson;
-}
-.App-section-3 span p{
-    font-size:40px;
-}
-.App-section-3 span h3{
-    font-size: 17px;
-    color: rgba(0, 0, 0, 0.738);
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 450px;
+    MAX-width: 450px;
 }
 
-.App-section-img{
-position: absolute;
-height: 260px;
-bottom: 20px;
-right: 0px;
-}
-
-.App-section-3-shop {
-    position: absolute;
-    bottom: 10px; 
-    left: 30px; 
-    border-radius: 7px;
-    background-color: white;
-    color: black;
-    padding: 10px;
+.App-section-3-div1 {
+    width: 80%;
     z-index: 10;
-    font-size: 20px;
-    
-   
-  }
+}
 
+.App-section-3-div1 span h2 {
+    margin: 30px 0px 4px 30px;
+    color: rgba(220, 20, 60, 0.808);
+}
+
+.App-section-3-div1 span p {
+    margin: 0px 0px 4px 30px;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+.App-section-3-div1 span h3 {
+    margin: 0px 0px 4px 30px;
+
+}
+
+.App-section-3-div1 div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px 4px 30px;
+    border-radius: 4px;
+    height: 34px;
+    width: 120px;
+    border:none;
+    background-color: #3f5944f3;
+}
+
+
+.App-section-3-div2 img {
+    position: absolute;
+    height: 250px;
+    bottom: 0px;
+    right: 0px;
+}

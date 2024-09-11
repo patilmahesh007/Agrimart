@@ -8,7 +8,7 @@ function cart() {
   return (
     <div>
           <Navbar/>
-           <h1>Vejitable Card</h1>
+           <h1>Vegetables Card</h1>
 
            <div className='veg-card-continer'>
         {

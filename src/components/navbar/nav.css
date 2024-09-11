@@ -9,7 +9,11 @@
 
 
 }
-
+.fixed-header {
+    position: fixed;
+   z-index: 10;
+   background-color: none;
+  }
 .nav-container {
     margin-right: 60px;
     display: flex;
