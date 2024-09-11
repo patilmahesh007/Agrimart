@@ -19,9 +19,9 @@ function Blog() {
             </div>
           </div>
         </div>
-
          <div className="small-blog-cards">
          {Blogs.map((blog) => {
+            if(blog.type === "smallblogs"){
               return (
                 <SecondBlog
                   id={blog.id}
@@ -31,6 +31,7 @@ function Blog() {
                   details={blog.details}
                 />
               );
+            }
             })}
         </div>
       </div>

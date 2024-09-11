@@ -1,5 +1,6 @@
 .second-blog-container{
    display: flex;
+   gap: 20px;
 }
 .second-blog-image{
        width: 100px;
@@ -14,5 +15,5 @@
 
 }
 .second-blog-desc{
-
+      text-align: justify;
 }

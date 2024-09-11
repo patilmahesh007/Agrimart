@@ -16,6 +16,7 @@ const Blogs = [
     id: 1,
     imgUrl: img1,
     title: "First Blog",
+    type:"smallblogs",
     description:
       "Modern farming methods have often proven effective and have delivered outstanding results...",
     content: [
@@ -45,6 +46,7 @@ const Blogs = [
     id: 2,
     imgUrl: img2,
     title: "First Blog",
+    type:"smallblogs",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit quis delectus modi possimus.",
     content: [
@@ -74,6 +76,7 @@ const Blogs = [
     id: 3,
     imgUrl: img3,
     title: "First Blog",
+    type:"smallblogs",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit quis delectus modi possimus.",
     content: [

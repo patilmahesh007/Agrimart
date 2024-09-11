@@ -57,6 +57,12 @@
     font-weight: bold;
     color: #333;
 }
+.small-blog-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 3px solid gray;
+}
 
 .read-more-btn:hover {
     background-color: rgba(255, 255, 255, 0.9);
