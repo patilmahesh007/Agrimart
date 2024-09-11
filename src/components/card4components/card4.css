@@ -1,0 +1,47 @@
+.fruits-cards-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 120px;
+    gap: 25px; 
+  }
+  
+  .fruits-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #253e32; 
+    color: white;
+    padding: 20px;
+    width: 230px;
+    height: 450px; 
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    /* margin: auto; */
+    position: relative;
+  }
+  
+  .fruits-card h2 {
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .fruits-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    /* margin: 50px 0; */
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+  
+  .fruits-card p {
+    font-size: 16px;
+    line-height: 2.2;
+    text-align: center;
+  }

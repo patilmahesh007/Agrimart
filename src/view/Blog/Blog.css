@@ -1,0 +1,21 @@
+.blog-page{
+    width: 100%;
+}
+.blog-container{
+   text-align: center;
+}
+.para{
+    margin: 0;
+    padding: 0;
+}
+/* .main-component-cards{
+    width: 100%;
+    border: 2px solid navy;
+    padding: 20px;
+}
+.component-cards{
+   margin-top: 20px;
+   display: flex;
+   gap: 10px;
+    
+} */

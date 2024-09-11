@@ -1,0 +1,18 @@
+.read-card-container{
+  width: 100%;
+  margin: 100px 0px;
+}
+.read-card-content{
+     width: 80%;
+     margin: 0 auto;
+}
+.read-blog-image{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    object-fit: cover;
+}
+.read-blog-text{
+    text-align: justify;
+}
