@@ -17,7 +17,7 @@ const Blogs = [
     imgUrl: img1,
     title: "First Blog",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit quis delectus modi possimus.",
+      "Modern farming methods have often proven effective and have delivered outstanding results...",
     content: [
       "Modern farming methods have often proven effective and have delivered outstanding results. A farmer from Nashik, stands testimony to the wonders modern farming techniques can do. Here’s how Mr. Balu Darade grew a whopping 195 quintal onion –",
 
@@ -39,7 +39,7 @@ const Blogs = [
 
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi!",
     ],
-    details: "Piyush Aglawe",
+    details: "oct 23,2019 | Piyush Aglawe",
   },
   {
     id: 2,
@@ -68,7 +68,7 @@ const Blogs = [
 
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi!",
     ],
-    details: "Piyush Aglawe",
+    details:  "oct 23,2019 | Piyush Aglawe",
   },
   {
     id: 3,
@@ -97,7 +97,7 @@ const Blogs = [
 
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi!",
     ],
-    details: "Piyush Aglawe",
+    details:  "oct 23,2019 | Piyush Aglawe",
   },
   {
     id: 4,
@@ -126,7 +126,7 @@ const Blogs = [
 
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi!",
     ],
-    details: "Piyush Aglawe",
+    details: "oct 23,2019 | Piyush Aglawe",
   },
   {
     id: 5,
@@ -155,7 +155,7 @@ const Blogs = [
 
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi!",
     ],
-    details: "Piyush Aglawe",
+    details:  "oct 23,2019 | Piyush Aglawe",
   },
   {
     id: 6,
@@ -184,7 +184,7 @@ const Blogs = [
 
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi!",
     ],
-    details: "Piyush Aglawe",
+    details:  "oct 23,2019 | Piyush Aglawe",
   },
 ];
 

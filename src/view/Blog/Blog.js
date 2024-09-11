@@ -13,8 +13,8 @@ function Blog() {
       </div>
 
       <div className="main-component-cards">
-        <div className="component-cards">
-          <div className="first-blog-feature">
+        <div className="com-cards">
+          <div className="component-cards">
             {Blogs.map((blog) => {
               return (
                 <BlogCard

@@ -8,14 +8,21 @@
     margin: 0;
     padding: 0;
 }
-/* .main-component-cards{
+.main-component-cards{
     width: 100%;
     border: 2px solid navy;
-    padding: 20px;
+}
+.com-cards{
+    width: 80%;
+    border: 2px solid red;
+    margin: 0 auto;
 }
 .component-cards{
-   margin-top: 20px;
+   
    display: flex;
-   gap: 10px;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   gap: 20px;
+   
     
-} */
+}
