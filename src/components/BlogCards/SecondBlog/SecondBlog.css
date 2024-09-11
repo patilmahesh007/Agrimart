@@ -9,10 +9,11 @@
 
 }
 .second-blog-title{
-
+    
 }
 .second-blog-details{
-
+   display: block;
+   margin-top: 8px; 
 }
 .second-blog-desc{
       text-align: justify;

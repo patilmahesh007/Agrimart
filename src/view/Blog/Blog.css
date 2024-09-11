@@ -1,7 +1,7 @@
 .blog-page-header{
     width: 80%;
     border: 5px solid green;
-    margin: 0 auto;
+    margin: 50px auto;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -64,6 +64,8 @@
     /* justify-content: ; */
     gap: 30px;
     border: 3px solid gray;
+    width: 60%;
+    padding-right: 10px;
 }
 
 .read-more-btn:hover {
