@@ -7,9 +7,9 @@ import img6 from "../images/blogImages/img_6.jpg";
 
 const BlogHeading = "Latest Blogs";
 const TagLine =
-  " Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, eum esse eius beatae nam placeat.";
-const TagLine_2 =
-  "Impedit incidunt molestiae cupiditate labore veritatis beatae nulla dicta,      perferendis eaque saepe debitis, recusandae exercitationem!";
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, eum esse eius beatae nam placeat Impedit incidunt molestiae cupiditate labore veritatis beatae nulla dicta, perferendis eaque saepe debitis, recusandae exercitationem!";
+const Blogimgage = img1;
+
 
 const Blogs = [
   {
@@ -188,4 +188,4 @@ const Blogs = [
   },
 ];
 
-export { BlogHeading, TagLine, TagLine_2, Blogs };
+export { BlogHeading, TagLine, Blogimgage,Blogs };
