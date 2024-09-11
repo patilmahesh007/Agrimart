@@ -61,7 +61,7 @@
 .small-blog-cards{
     display: flex;
     flex-direction: column;
-    justify-content: ;
+    /* justify-content: ; */
     gap: 30px;
     border: 3px solid gray;
 }
@@ -79,7 +79,6 @@
     margin: 0 auto;
 }
 .component-cards{
-   
    display: flex;
    justify-content: space-evenly;
    flex-wrap: wrap;
