@@ -1,6 +1,6 @@
 .blog-page-header{
     width: 80%;
-    border: 5px solid green;
+    /* border: 5px solid green; */
     margin: 50px auto;
     display: flex;
     justify-content: space-evenly;
@@ -63,7 +63,7 @@
     flex-direction: column;
     /* justify-content: ; */
     gap: 30px;
-    border: 3px solid gray;
+    /* border: 3px solid gray; */
     width: 60%;
     padding-right: 10px;
 }
@@ -73,11 +73,11 @@
 }
 .main-component-cards{
     width: 100%;
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
 }
 .com-cards{
     width: 80%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
 }
 .component-cards{
