@@ -17,7 +17,6 @@ function App() {
 
       <Navbar />
       <div className="App">
-<span>Agrimart</span>
        
       </div>
 
