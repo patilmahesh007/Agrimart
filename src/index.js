@@ -12,6 +12,13 @@ import Services from './view/services/Services';
 import ReadBlogs from './view/Blog/ReadBlogs/ReadBlogs';
 import './index.css';
 
+
+import Essentials from './view/essentials/Essentials';
+import Dairy from './view/dairy/Dairy';
+import Fruits from './view/fruits/Fruits';
+import Exotics from './view/exotics/Exotics';
+import Vegetables from './view/vegetables/Vegetables';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
@@ -31,6 +38,14 @@ root.render(
 
       <Route path="/login" element={<Login />} />
       <Route path="/sign" element={<Sign />} />
+
+      <Route path="/Essentials" element={<Essentials/>} />
+      <Route path="/Dairy" element={<Dairy/>} />
+      <Route path="/Fruits" element={<Fruits/>} />
+      <Route path="/Exotics" element={<Exotics/>} />
+      <Route path="/Vegetables" element={<Vegetables/>} />
+      
+
 
     </Routes>
   </BrowserRouter>
