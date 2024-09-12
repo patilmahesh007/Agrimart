@@ -10,7 +10,6 @@
   background-position: center;
   min-height: 100vh;
   position: relative;
-  border-radius: 50px 0px 0px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,11 +25,7 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
-  z-index: 1;.App span{
-    font-size: 120px;
-    color: rgba(255, 255, 0, 0.718);
-  
-  }
+  z-index: 1;
 }
 
 
@@ -93,8 +88,11 @@
 }
 
 /* Media Queries for Responsiveness */
+
 @media screen and (max-width: 450px) {
-  
+  .App {
+min-height: 70vh;
+}
   .why-choose-us-content {
     padding: 20px 10px;
     max-width: 95%;
@@ -127,7 +125,9 @@
 }
 
 @media screen and (min-width: 450px) and (max-width: 800px) {
-  
+  .App {
+    min-height: 85vh;
+    }
   .why-choose-us-content {
     padding: 20px 15px;
     max-width: 90%;
