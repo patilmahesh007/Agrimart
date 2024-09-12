@@ -1,5 +1,6 @@
 import React from 'react'
 import "./SecondBlog.css";
+import { Link } from "react-router-dom";
 
 function SecondBlog({ id, imgUrl, title, description, details }) {
   return (
@@ -10,6 +11,9 @@ function SecondBlog({ id, imgUrl, title, description, details }) {
         <hr />
         <span className="second-blog-details">{details}</span>
         <p className="second-blog-desc">{description}</p>
+        <Link to={`/blog/${id}`} className="read-more">
+          read more{" "}
+        </Link>
   </div>
   </div>
   )
