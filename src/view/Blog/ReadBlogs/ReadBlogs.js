@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Blogs } from '../../../config/BlogData';
 import "./ReadBlogs.css"
+import Header from '../../../components/navbar/nav';
+import Footer from '../../../components/footer/footer';
 
 function ReadBlogs() {
     const { blogId } = useParams();
@@ -25,6 +27,8 @@ function ReadBlogs() {
     }, [blogId]);
 
     return (
+        <>
+        <Header/>
         <div className='read-card-container'>
             <div className='read-card-content'>
             <p>ID: {blogId}</p>
@@ -35,6 +39,8 @@ function ReadBlogs() {
             ))}
         </div>
     </div>
+    <Footer/>
+    </>
     );
 }
 

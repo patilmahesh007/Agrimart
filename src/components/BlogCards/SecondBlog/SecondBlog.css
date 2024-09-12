@@ -1,0 +1,20 @@
+.second-blog-container{
+   display: flex;
+   gap: 20px;
+}
+.second-blog-image{
+      width: 130px;
+}
+.second-blog-content{
+
+}
+.second-blog-title{
+    
+}
+.second-blog-details{
+   display: block;
+   margin-top: 8px; 
+}
+.second-blog-desc{
+      text-align: justify;
+}
