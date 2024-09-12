@@ -15,7 +15,7 @@ import Exotics from './../../view/exotics/Exotics';
 import Dairy from './../../view/dairy/Dairy';
 
 const Services = () => {
-  const [selectedCategory, setSelectedCategory] = useState('Essentials');
+  const [selectedCategory, setSelectedCategory] = useState('Service');
 
   const renderCards = () => {
     switch (selectedCategory) {
