@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './view/App/App';
-import Contact from './view/Contact/contact';
 import Login from './view/Login/login';
 import Sign from './view/Login/Signup/sign';
 import Expand from './view/ExpandCard/expand';
@@ -19,7 +18,6 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/contact" element={<Contact />} />
       <Route path="/about" element={<About />} />
       <Route path="/Services" element={<Services />} />
       <Route path="/Cart" element={<Cart />} />

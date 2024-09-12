@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './card3.css';
 function Card3card({ image, description }) {
   return (
+    
         <div className='App-section-3'>
         <div className='App-section-3-div1'>
           <span>
@@ -13,7 +14,7 @@ function Card3card({ image, description }) {
           </span>
         </div>
         <div className='App-section-3-div2'>
-          <img className='App-section-img' src={image} />
+          <img src={image} />
 
         </div>
       </div>

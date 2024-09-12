@@ -27,27 +27,47 @@ const Footer = () => {
     { icon: 'https://img.icons8.com/?size=64&id=6mtfF8X7F8eV&format=png', alt: 'agromart@gmail.com', href: 'mailto:codeex0007@gmail.com' }
   ];
 
+  const footerroutes = [
+    {
+      path: '/about',
+      name: 'About us'
+    },
+    {
+      path: '/services',
+      name: 'Services'
+    },
+    {
+      path: '/blog',
+      name: 'Blog'
+    }
+  ]
+
   return (
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-Agro">
-          <span className="footer-headding"><img className="footer-logo" src={logo }  /></span>
+          <span className="footer-headding"><img className="footer-logo" src={logo} /></span>
           <p className='footer-para'>Agrimart is your one-stop destination for the freshest, most wholesome produce straight from the farm.</p>
         </div>
         <div className="footer-links">
           <span className="footer-headding">Useful Links</span>
-          <ul>
-  <li><Link to="/About">About us</Link></li>
-  <li><Link to="/Services">Services</Link></li>
- 
-</ul>
+          <ul className='footer-li-container'>
+
+            {footerroutes.map((item, index) => (
+              <Link to={item.path} key={index}>
+                <li className='footer-li'>{item.name}</li>
+              </Link>
+            ))}
+
+
+          </ul>
         </div>
         <div className="footer-contact">
           <span className="footer-headding">Contact Us</span><br />
           {contactInfo.map((info) => (
             <span key={info.alt}>
-              <img src={info.icon} className="footer-img1" alt={info.alt} />
-              <a href={info.href}>{info.alt}</a><br />
+              <img src={info.icon} className="footer-img1" alt={info.alt } />
+              <a className='footer-li' href={info.href}>{info.alt}</a><br />
             </span>
           ))}
         </div>
@@ -70,3 +90,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

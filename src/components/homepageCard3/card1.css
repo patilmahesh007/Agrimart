@@ -1,0 +1,124 @@
+.App-section-1 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 90vw;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  
+  .App-section-1-div1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .App-section-1-div1 span {
+    height: auto;
+    width: 80%;
+    font-family: cursive;
+    text-align: justify;
+  }
+  
+  .App-section-1-div2 {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .App-section-1-div2 h3 {
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+  }
+  
+  .App-section-1-div2 p {
+    font-size: 16px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 0 15px;
+  }
+  
+  .App-section-1-images-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .App-section-1-images {
+    height: 80px;
+  }
+  
+  .App-section-1-images-container span {
+    text-align: center;
+    width: auto;
+  }
+  
+  .App-section-1-images-container span p {
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 400px) and (max-width: 800px) {
+    .App-section-1 {
+      flex-direction: column;
+      align-items: center;
+    gap: 0px;
+
+    }
+  
+    .App-section-1-div1 {
+      font-size: 25px;
+      margin: -10px;
+    }
+  
+    .App-section-1-div2 h3 {
+      font-size: 20px;
+    }
+  
+    .App-section-1-div2 p {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (min-width: 801px) and (max-width: 1200px) {
+    .App-section-1 {
+      flex-direction: row;
+    }
+  
+    .App-section-1-div1 {
+      width: 30%;
+      font-size: 45px;
+    }
+  
+    .App-section-1-div2 {
+      width: 70%;
+    }
+  
+    .App-section-1-images-container {
+      justify-content: flex-start;
+    }
+  }
+  
+  @media screen and (min-width: 1201px) {
+    .App-section-1 {
+      flex-direction: row;
+    }
+  
+    .App-section-1-div1 {
+      width: 30%;
+    }
+  
+    .App-section-1-div2 {
+      width: 70%;
+    }
+  
+    .App-section-1-images-container {
+      justify-content: flex-start;
+    }
+  }
+  
