@@ -3,9 +3,13 @@ import { BlogHeading, TagLine, Blogimgage, Blogs } from "../../config/BlogData";
 import "./Blog.css";
 import BlogCard from "../../components/BlogCards/BlogCard";
 import SecondBlog from "../../components/BlogCards/SecondBlog/SecondBlog";
+import Header from "../../components/navbar/nav";
+import Footer from "../../components/footer/footer";
 
 function Blog() {
   return (
+   <>
+    <Header/>
     <div className="blog-page">
 
       <div className="blog-page-header">
@@ -54,7 +58,10 @@ function Blog() {
         </div>
       </div>
     </div>
+
+   <Footer/> 
+    </>
   );
 }
-
+ 
 export default Blog;
