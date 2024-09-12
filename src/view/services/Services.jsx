@@ -40,7 +40,13 @@ const Services = () => {
   };
 
   return (
-    
+    <div>
+      <TopBar setSelectedCategory={setSelectedCategory} />
+      <div className="cards-container">
+        {renderCards()}
+      </div>
+      <Footer /> 
+    </div>
   );
 };
 
