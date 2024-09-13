@@ -31,7 +31,13 @@ const SignupForm = () => {
     localStorage.setItem("email", formData.email);
 
     toast.success("Account created successfully!");
-
+    setFormData({
+      username: "",
+      email: "",
+      phone: "",
+      password: "",
+      confirmPassword: "",
+    });
   }
 
   return (
