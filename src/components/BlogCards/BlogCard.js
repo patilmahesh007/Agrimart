@@ -13,8 +13,8 @@ function BlogCard({ id, imgUrl, title, description, details }) {
 
         <p className="blog-card-desc">{description}</p>
 
-        <Link to={`/blog/${id}`} className="read-more">
-          read more{" "}
+        <Link to={`/blog/${id}`}>
+          <button  className="read-more">Read More</button>
         </Link>
       </div>
     </div>
