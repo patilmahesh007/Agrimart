@@ -17,10 +17,6 @@
 }
 .second-blog-desc{
       text-align: justify;
-      margin: 5px 0px;
-}
-.read-more-btn{
-      font-size: 10px;
-      margin-left: 0px;
-      display: block;
+      padding: 7px 0px;
+      padding-right: 10px;
 }

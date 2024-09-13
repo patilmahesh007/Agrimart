@@ -44,6 +44,7 @@ function Blog() {
         <div className="com-cards">
           <div className="component-cards">
             {Blogs.map((blog) => {
+              if(blog.type === "largeblog"){
               return (
                 <BlogCard
                   id={blog.id}
@@ -53,6 +54,7 @@ function Blog() {
                   details={blog.details}
                 />
               );
+            }
             })}
           </div>
         </div>
