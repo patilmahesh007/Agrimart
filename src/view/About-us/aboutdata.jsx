@@ -6,13 +6,13 @@ function AboutContain({ title, imgurl, description }) {
     return (
         <div className='about-card-container'>
             <div className='about-content'>
-                <h1>
-                    {title}
-                </h1>
                 <img src={imgurl}
                     className='about-content-image'
                     alt="food"
                 />
+                <h1>
+                    {title}
+                </h1>
                 <p className='about-description'>
                     {description}
                 </p>
