@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 import Footer from "../../../components/footer/footer";
 import Navbar from "../../../components/navbar/nav";
-import IMG from "../img/bg.svg";
-import img from "../img/avatar.svg";
+import img1 from "../img/bg.svg";
+import img2 from "../img/avatar.svg";
 import "./sign.css"
 
 
@@ -49,11 +49,11 @@ const SignupForm = () => {
         <div><Navbar/></div>
         <div className="signup-container">
         <div className="img">
-          <img src={IMG} alt="Background" />
+          <img src={img1} alt="Background" />
         </div>
         <div className="signup-content">
           <form onSubmit={handleSubmit}>
-            <img src={img} alt="Avatar" />
+            <img src={img2} alt="Avatar" />
             <h3 className="title">Create Account</h3>
 
             <div className="input-div one">

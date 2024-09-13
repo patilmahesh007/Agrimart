@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import toast, { Toaster } from "react-hot-toast";
 import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navbar/nav";
-import IMG from "../img/bg.svg";
-import img from "../img/avatar.svg";
+import IMG from "./img/bg.svg";
+import img from "./img/avatar.svg";
 import { Link } from "react-router-dom";
 import "./login.css";
 
