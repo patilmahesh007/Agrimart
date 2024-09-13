@@ -97,3 +97,33 @@
 }
 
 
+
+@media (max-width: 480px) {
+  .top-bar {
+    padding: 10px 15px;
+  }
+
+  .left span, .right span {
+    font-size: 10px;
+  }
+
+  .social-icons {
+    gap: 8px;
+  }
+
+  .social-media-icon {
+    height: 18px;
+  }
+
+  .price {
+    margin-left: 10px;
+  }
+
+  .menu {
+    gap: 20px;
+    font-size: 12px;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+  }
+}
