@@ -1,8 +1,3 @@
-/* General Styles */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
 
 .navbar {
     display: flex;
@@ -13,8 +8,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 60px; /* Consistent height for navbar */
-    z-index: 1000; /* Ensures navbar is above other content */
+    z-index: 1000;
 }
 
 .nav-logo a {
@@ -42,6 +36,7 @@ body {
     margin: 0;
     padding: 0;
     margin-right: 30px;
+    font-size: larger;
 }
 
 .nav-item {
@@ -69,8 +64,8 @@ body {
     position: absolute;
     background-color: #2b7a78;
     min-width: 160px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Improved shadow for better visibility */
-    z-index: 1000; /* Ensures dropdown is above other content */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000; 
     border-radius: 5px;
     opacity: 0;
     transition: opacity 0.3s;
@@ -123,16 +118,16 @@ body {
 
 .head-image-1 {
     float: right;
-    opacity: 0.9; /* Removed unnecessary calc() */
+    opacity: 0.9;
 }
 
-/* Headline Styles */
+
 .headline-1 {
     font-size: 65px;
     font-weight: bolder;
     color: #def2f1;
     text-align: center;
-    margin-top: 80px; /* Adjusted from top positioning for better placement */
+    margin-top: 80px; 
 }
 
 .headline-2 {
@@ -140,31 +135,31 @@ body {
     font-weight: bolder;
     color: #fffffe;
     text-align: center;
-    margin-top: 20px; /* Adjusted from top positioning for better placement */
+    margin-top: 20px;
 }
 
 .headline-3 {
     font-size: 30px;
     color: #2b7a78;
     text-align: center;
-    margin-top: 20px; /* Adjusted from top positioning for better placement */
+    margin-top: 20px;
 }
 
 .explore-field {
     font: 50px bold;
     color: #2b7a78;
     text-align: center;
-    margin-top: 20px; /* Adjusted from top positioning for better placement */
+    margin-top: 20px;
 }
 
 /* Media Queries */
 @media (max-width: 768px) {
     .navbar {
-        height: 50px; /* Adjusted height for mobile view */
+        height: 50px; 
     }
     
     .content {
-        padding-top: 50px; /* Match the adjusted navbar height */
+        padding-top: 50px; 
     }
 
     .nav-menu {
@@ -192,7 +187,7 @@ body {
     }
 
     .nav-item {
-        margin-left: 0; /* Adjusted for mobile view */
+        margin-left: 20px; 
     }
 
     .nav-item a {
@@ -215,7 +210,7 @@ body {
 
     .headline-2 {
         font-size: 32px;
-        margin-top: 20px; /* Adjusted from top positioning for better placement */
+        margin-top: 20px; 
     }
 
     .headline-3 {
