@@ -59,23 +59,23 @@ const LoginForm = () => {
     <div>
         <div><Navbar/></div>
         <div className="login-container">
-        <div className="img">
+        <div className="login-img">
           <img src={IMG} alt="Background" />
         </div>
         <div className="login-content">
           <form onSubmit={handleLogin}>
             <img src={img} alt="Avatar" />
-            <h2 className="title">Welcome</h2>
+            <h2 className="title-1">Welcome</h2>
 
-            <div className="input-div one">
-              <div className="i">
+            <div className="input-div1">
+              <div className="login-icon">
                 <i className="fas fa-user"></i>
               </div>
-              <div className="div">
+              <div className="login-input-name">
                 <h5>Username</h5>
                 <input
                   type="text"
-                  className="input"
+                  className="input-1"
                   name="username"
                   value={formData.username}
                   onChange={handleChange}
@@ -84,15 +84,15 @@ const LoginForm = () => {
               </div>
             </div>
 
-            <div className="input-div pass">
-              <div className="i">
+            <div className="input-div2">
+              <div className="login-icon">
                 <i className="fas fa-lock"></i>
               </div>
-              <div className="div">
+              <div className="login-input-name">
                 <h5>Password</h5>
                 <input
                   type="password"
-                  className="input"
+                  className="input-1"
                   name="password"
                   value={formData.password}
                   onChange={handleChange}
@@ -101,8 +101,8 @@ const LoginForm = () => {
               </div>
             </div>
 
-            <input type="submit" className="btn" value="Login" />
-            <div className="signup-text">
+            <input type="submit" className="login-btn" value="Login" />
+            <div className="login-text">
               <span>Not have an account?</span>
               <Link to="/sign">Sign up</Link>
             </div>
