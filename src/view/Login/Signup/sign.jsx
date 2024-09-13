@@ -84,6 +84,25 @@ const SignupForm = () => {
                 />
               </div>
             </div>
+
+            <div className="input-div pass">
+              <div className="i">
+                <i className="fas fa-lock"></i>
+              </div>
+              <div className="div">
+                <h5>Password</h5>
+                <input
+                  type="password"
+                  className="input"
+                  name="password"
+                  value={formData.password}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+            </div>
+
+            
         </div>
         </div>
         <div><Footer/></div>
