@@ -5,7 +5,7 @@ import logo from '../../images/nav/logo2.png';
 const Footer = () => {
   const socialMediaLinks = [
     {
-      icon: 'https://img.icons8.com/?size=48&id=5eT5OnLluNOx&format=png',
+      icon: 'https://cdn-icons-png.flaticon.com/128/717/717392.png',
       alt: 'Instagram',
       href: 'https://www.instagram.com/agrimart20/'
     },
