@@ -59,9 +59,34 @@ const LoginForm = () => {
     <div>
         <div><Navbar/></div>
         <div className="login-container">
+        <div className="img">
+          <img src={IMG} alt="Background" />
+        </div>
+        <div className="login-content">
+          <form onSubmit={handleLogin}/>
+            <img src={img} alt="Avatar" />
+            <h2 className="title">Welcome</h2>
+
+            <div className="input-div one">
+              <div className="i">
+                <i className="fas fa-user"></i>
+              </div>
+              <div className="div">
+                <h5>Username</h5>
+                <input
+                  type="text"
+                  className="input"
+                  name="username"
+                  value={formData.username}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+            </div>
 
         </div>
-        <Footer/>
+        </div>
+        <div><Footer/></div>
     </div>
   )
 }
