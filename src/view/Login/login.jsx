@@ -104,7 +104,7 @@ const LoginForm = () => {
             <input type="submit" className="btn" value="Login" />
             <div className="signup-text">
               <span>Not have an account?</span>
-              <Link to="/login">Sign up</Link>
+              <Link to="/sign">Sign up</Link>
             </div>
           </form>
         </div>
