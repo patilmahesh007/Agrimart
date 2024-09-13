@@ -26,6 +26,10 @@ const SignupForm = () => {
       toast.error("Passwords do not match!");
       return;
     }
+    localStorage.setItem("username", formData.username);
+    localStorage.setItem("password", formData.password);
+    localStorage.setItem("email", formData.email);
+
   }
 
   return (
