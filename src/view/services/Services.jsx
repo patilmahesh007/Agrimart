@@ -40,6 +40,8 @@ const Services = () => {
 
   return (
     <>
+
+    <Navbar/>
     
       <div>
         <TopBar setSelectedCategory={setSelectedCategory} />
