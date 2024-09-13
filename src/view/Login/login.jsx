@@ -63,7 +63,7 @@ const LoginForm = () => {
           <img src={IMG} alt="Background" />
         </div>
         <div className="login-content">
-          <form onSubmit={handleLogin}/>
+          <form onSubmit={handleLogin}>
             <img src={img} alt="Avatar" />
             <h2 className="title">Welcome</h2>
 
@@ -102,8 +102,16 @@ const LoginForm = () => {
             </div>
 
             <input type="submit" className="btn" value="Login" />
+            <div className="signup-text">
+              <span>Not have an account?</span>
+              <Link to="/login">Sign up</Link>
+            </div>
+          </form>
         </div>
-        </div>
+
+      
+        <Toaster />
+      </div>
         <div><Footer/></div>
     </div>
   )
