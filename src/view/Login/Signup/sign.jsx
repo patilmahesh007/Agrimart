@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
+import toast, { Toaster } from "react-hot-toast";
 import Footer from "../../../components/footer/footer";
 import Navbar from "../../../components/navbar/nav";
 import IMG from "./img/bg.svg";
+import img from "./img/avatar.svg";
+import "./sign.css"
 
 
 const SignupForm = () => {
@@ -38,7 +42,7 @@ const SignupForm = () => {
       password: "",
       confirmPassword: "",
     });
-  }
+  };
 
   return (
     <>
@@ -48,7 +52,7 @@ const SignupForm = () => {
           <img src={IMG} alt="Background" />
         </div>
         <div className="signup-content">
-          <form onSubmit={handleSubmit}/>
+          <form onSubmit={handleSubmit}>
             <img src={img} alt="Avatar" />
             <h3 className="title">Create Account</h3>
 
@@ -121,8 +125,15 @@ const SignupForm = () => {
 
             <input type="submit" className="btn" value="Sign Up" />
 
+            <div className="signup-text">
+              <span>Already have an account?</span>
+              <Link to="/sign">Login</Link>
+              </div>
+          </form>
+       </div>
+        <Toaster />
         </div>
-        </div>
+  
         <div><Footer/></div>
         
     </>
