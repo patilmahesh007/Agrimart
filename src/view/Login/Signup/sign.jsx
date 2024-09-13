@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Footer from "../../../components/footer/footer";
 import Navbar from "../../../components/navbar/nav";
+import IMG from "./img/bg.svg";
 
 
 function sign() {
@@ -8,7 +9,9 @@ function sign() {
     <div>
         <div><Navbar/></div>
         <div className="signup-container">
-
+        <div className="img">
+          <img src={IMG} alt="Background" />
+        </div>
         </div>
         <Footer/>
     </div>
