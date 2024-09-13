@@ -127,7 +127,7 @@ const SignupForm = () => {
 
             <div className="signup-text">
               <span>Already have an account?</span>
-              <Link to="/sign">Login</Link>
+              <Link to="/login">Login</Link>
               </div>
           </form>
        </div>
