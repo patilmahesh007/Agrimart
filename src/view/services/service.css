@@ -1,12 +1,7 @@
 .service-heading{
     text-align: center;
 }
-
-
-
-
-
-  
+ 
   .services-section {
     padding: 40px;
     text-align: center;
@@ -18,9 +13,10 @@
   }
   
   .services-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+   display: flex;
+   justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
     padding: 20px;
   }
   

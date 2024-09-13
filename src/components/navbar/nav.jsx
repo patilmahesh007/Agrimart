@@ -1,64 +1,28 @@
 import './nav.css';
 import { NavLink } from 'react-router-dom';
-import React, {  } from 'react';
-
+import React, { } from 'react';
+import {headerdata} from "./../../config/config"
 
 function Header() {
-  
+ 
   return (
     <header className="header">
       <div className="nav-container">
+       {headerdata.map((item,index)=>(
         <NavLink
-          to="/"
-          style={({ isActive }) =>
-            isActive ? { color: 'white' } : { color: 'grey' }
-          }
-          className="nav"
-        >
-          Home
-        </NavLink>
+        key={index}
+        to={item.to}
+        style={({ isActive }) =>
+          isActive ? { color: 'white' } : { color: 'grey' }
+        }
+        className="nav"
+      >
+       {item.name}
+      </NavLink>
+       ))}
+        
 
-        <NavLink
-          to="/services"
-          style={({ isActive }) =>
-            isActive ? { color: 'white' } : { color: 'grey' }
-          }
-          className="nav"
-        >
-          Services
-        </NavLink>
-
-        <NavLink
-          to="/about"
-          style={({ isActive }) =>
-            isActive ? { color: 'white' } : { color: 'grey' }
-          }
-          className="nav"
-        >
-          About
-        </NavLink>
-
-       
-
-        <NavLink
-          to="/blog"
-          style={({ isActive }) =>
-            isActive ? { color: 'white' } : { color: 'grey' }
-          }
-          className="nav"
-        >
-          Blog
-        </NavLink>
-
-        <NavLink
-          to="/cart"
-          style={({ isActive }) =>
-            isActive ? { color: 'white' } : { color: 'grey' }
-          }
-          className="nav"
-        >
-          Cart
-        </NavLink>
+      
       </div>
     </header>
   );
