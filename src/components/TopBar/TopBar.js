@@ -32,12 +32,26 @@ const TopBar = ({ setSelectedCategory }) => {
         </div>
       </div>
 
+
       <nav className="menu top-bar">
-        <span onClick={() => setSelectedCategory('Essentials')}>ESSENTIALS</span>
-        <span onClick={() => setSelectedCategory('Vegetables')}>VEGETABLES</span>
-        <span onClick={() => setSelectedCategory('Fruits')}>FRUITS</span>
-        <span onClick={() => setSelectedCategory('Exotics')}>EXOTICS</span>
-        <span onClick={() => setSelectedCategory('Dairy')}>DAIRY</span>
+
+        <span onClick={() =>
+          setSelectedCategory('Essentials')}>ESSENTIALS
+        </span>
+        <span onClick={() =>
+          setSelectedCategory('Vegetables')}>VEGETABLES
+        </span>
+        <span onClick={() =>
+          setSelectedCategory('Fruits')}>FRUITS
+        </span>
+
+        <span onClick={() =>
+          setSelectedCategory('Exotics')}>EXOTICS
+        </span>
+        <span onClick={() =>
+          setSelectedCategory('Dairy')}>DAIRY
+        </span>
+        
       </nav>
     </>
   );
