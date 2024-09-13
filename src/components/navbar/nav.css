@@ -1,18 +1,20 @@
-.head-image-1 {
-    float: right;
-    opacity: 0.9; /* Removed unnecessary calc() */
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgba(38,65,52,255);
+    background-color: rgba(38, 65, 52, 1);
     padding: 5px 10px;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000; /* Ensures it stays on top of other content */
+    height: 60px; /* Consistent height for navbar */
+    z-index: 1000; /* Ensures navbar is above other content */
 }
 
 .nav-logo a {
@@ -40,7 +42,6 @@
     margin: 0;
     padding: 0;
     margin-right: 30px;
-    color: beige;
 }
 
 .nav-item {
@@ -58,7 +59,7 @@
 
 .nav-item a:hover {
     color: #17252a;
-    background-color: rgba(38,65,52,255);
+    background-color: rgba(38, 65, 52, 1);
     border-radius: 5px;
     transform: scale(1.1);
 }
@@ -69,7 +70,7 @@
     background-color: #2b7a78;
     min-width: 160px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Improved shadow for better visibility */
-    z-index: 1000; /* Ensures it stays on top of other content */
+    z-index: 1000; /* Ensures dropdown is above other content */
     border-radius: 5px;
     opacity: 0;
     transition: opacity 0.3s;
@@ -120,6 +121,12 @@
     transition: all 0.3s;
 }
 
+.head-image-1 {
+    float: right;
+    opacity: 0.9; /* Removed unnecessary calc() */
+}
+
+/* Headline Styles */
 .headline-1 {
     font-size: 65px;
     font-weight: bolder;
@@ -150,10 +157,16 @@
     margin-top: 20px; /* Adjusted from top positioning for better placement */
 }
 
-
-
-
+/* Media Queries */
 @media (max-width: 768px) {
+    .navbar {
+        height: 50px; /* Adjusted height for mobile view */
+    }
+    
+    .content {
+        padding-top: 50px; /* Match the adjusted navbar height */
+    }
+
     .nav-menu {
         display: none;
         flex-direction: column;
@@ -165,6 +178,10 @@
         padding: 0;
     }
 
+    .nav-menu.active {
+        display: flex;
+    }
+
     .nav-logo img {
         width: 30px;
         height: 30px;
@@ -174,12 +191,8 @@
         font-size: 20px;
     }
 
-    .nav-menu.active {
-        display: flex;
-    }
-
     .nav-item {
-        margin-left: 30px;
+        margin-left: 0; /* Adjusted for mobile view */
     }
 
     .nav-item a {
@@ -202,8 +215,7 @@
 
     .headline-2 {
         font-size: 32px;
-        position: relative;
-        top: -650px;
+        margin-top: 20px; /* Adjusted from top positioning for better placement */
     }
 
     .headline-3 {
@@ -218,6 +230,4 @@
         width: 400px;
         border-radius: 10px;
     }
-
-   
 }
