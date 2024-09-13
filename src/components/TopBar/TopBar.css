@@ -62,4 +62,38 @@
   .menu span:hover {
     color: #91a57d;
   }
+
+
+
+
+
   
+@media (max-width: 768px) {
+  .top-bar {
+    padding: 10px 20px;
+  }
+
+  .left span, .right span {
+    font-size: 12px;
+  }
+
+  .social-icons {
+    gap: 10px;
+  }
+
+  .social-media-icon {
+    height: 22px;
+  }
+
+  .price {
+    margin-left: 20px;
+  }
+
+  .menu {
+    gap: 20px;
+    font-size: 14px;
+    justify-content: space-between; /* Spread items across lines */
+  }
+}
+
+
