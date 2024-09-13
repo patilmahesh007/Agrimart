@@ -47,7 +47,7 @@ const SignupForm = () => {
         <div className="img">
           <img src={IMG} alt="Background" />
         </div>
-        <div className="login-content">
+        <div className="signup-content">
           <form onSubmit={handleSubmit}/>
             <img src={img} alt="Avatar" />
             <h3 className="title">Create Account</h3>
@@ -63,6 +63,22 @@ const SignupForm = () => {
                   className="input"
                   name="username"
                   value={formData.username}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+            </div>
+            <div className="input-div one">
+              <div className="i">
+                <i className="fas fa-envelope"></i>
+              </div>
+              <div className="div">
+                <h5>Email</h5>
+                <input
+                  type="email"
+                  className="input"
+                  name="email"
+                  value={formData.email}
                   onChange={handleChange}
                   required
                 />
