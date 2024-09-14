@@ -84,7 +84,7 @@ const LoginForm = () => {
               </div>
             </div>
 
-            <div className="input-div2">
+            <div className="input-div1">
               <div className="login-icon">
                 <i className="fas fa-lock"></i>
               </div>

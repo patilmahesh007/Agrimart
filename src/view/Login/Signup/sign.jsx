@@ -48,23 +48,23 @@ const SignupForm = () => {
     <>
         <div><Navbar/></div>
         <div className="signup-container">
-        <div className="img">
+        <div className="sign-img">
           <img src={img1} alt="Background" />
         </div>
         <div className="signup-content">
           <form onSubmit={handleSubmit}>
             <img src={img2} alt="Avatar" />
-            <h3 className="title">Create Account</h3>
+            <h3 className="title-2">Create Account</h3>
 
-            <div className="input-div one">
-              <div className="i">
+            <div className="input-div1">
+              <div className="sign-icon">
                 <i className="fas fa-user"></i>
               </div>
-              <div className="div">
+              <div className="signup-input-name">
                 <h5>Username</h5>
                 <input
                   type="text"
-                  className="input"
+                  className="input-2"
                   name="username"
                   value={formData.username}
                   onChange={handleChange}
@@ -72,15 +72,15 @@ const SignupForm = () => {
                 />
               </div>
             </div>
-            <div className="input-div one">
-              <div className="i">
+            <div className="input-div1">
+              <div className="sign-icon">
                 <i className="fas fa-envelope"></i>
               </div>
-              <div className="div">
+              <div className="signup-input-name">
                 <h5>Email</h5>
                 <input
                   type="email"
-                  className="input"
+                  className="input-2"
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
@@ -89,15 +89,15 @@ const SignupForm = () => {
               </div>
             </div>
 
-            <div className="input-div pass">
-              <div className="i">
+            <div className="input-div1">
+              <div className="sign-icon">
                 <i className="fas fa-lock"></i>
               </div>
-              <div className="div">
+              <div className="signup-input-name">
                 <h5>Password</h5>
                 <input
                   type="password"
-                  className="input"
+                  className="input-2"
                   name="password"
                   value={formData.password}
                   onChange={handleChange}
@@ -106,15 +106,15 @@ const SignupForm = () => {
               </div>
             </div>
 
-            <div className="input-div pass">
-              <div className="i">
+            <div className="input-div1">
+              <div className="sihn-icon">
                 <i className="fas fa-lock"></i>
               </div>
-              <div className="div">
+              <div className="signup-input-name">
                 <h5>Confirm Password</h5>
                 <input
                   type="password"
-                  className="input"
+                  className="input-2"
                   name="confirmPassword"
                   value={formData.confirmPassword}
                   onChange={handleChange}
@@ -123,7 +123,7 @@ const SignupForm = () => {
               </div>
             </div>
 
-            <input type="submit" className="btn" value="Sign Up" />
+            <input type="submit" className="signup-btn" value="Sign Up" />
 
             <div className="signup-text">
               <span>Already have an account?</span>
