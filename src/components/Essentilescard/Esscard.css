@@ -1,0 +1,43 @@
+.veg-img{
+    height: 20vh;
+    display: block;
+    margin: 0px auto;
+    filter: drop-shadow(10px 10px 20px grey);
+    cursor: pointer;
+    
+     &:hover{
+        transition: all .3s linear;
+        transform: scale(1.1);
+     }
+    }
+    
+    .veg-continer{
+        height: 250px;
+        width: 200px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #e9e8e6;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        box-shadow: 2px 2px 10px hwb(0 31% 69%);
+        
+    }
+    .btn-continer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    }
+    .card-btn{
+        padding: 0.8vh 4vw;
+        background-color: #069219;
+        border: none;
+        cursor: pointer;
+        font-size: 19px;
+    }
+    .info{
+        width: 100%;
+    }
