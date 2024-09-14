@@ -99,6 +99,30 @@
         display: flex;
         height: 200px;
         padding: 20px;
-        padding-bottom: 80px;
+        padding-bottom: 40px;
+    }
+    .expand-main-img{
+        height: 200px;
+        margin-right: auto;
+        padding-top: 15px;
+    }
+    .expand-buttons-container{
+        display: flex;
+        justify-content: center;
+    }
+    .expand-btn{
+        padding: 0px 10px;
+        margin: 6px 30px;
+        height: 30px;
+        width: 100px;
+        cursor: pointer;
+    }
+    .expand-product-name{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .expand-product-price-name{
+        font-size: 15px;
+        margin: 2px;
     }
 }
