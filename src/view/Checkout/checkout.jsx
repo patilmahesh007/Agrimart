@@ -150,6 +150,10 @@ const Checkout = () => {
               />
             </div>
           </div>
+          <button type="submit" className="submit-btn">
+            Complete Purchase
+          </button>
+        </form>
         )}
     </div>
   );
