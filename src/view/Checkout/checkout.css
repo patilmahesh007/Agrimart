@@ -71,3 +71,34 @@ form {
     flex: 1; 
     min-width: 100px;
   }
+  
+.submit-btn {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 90%; 
+    display: block; 
+    margin: 0 auto; 
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .confirmation {
+    text-align: center;
+  }
+  
+  .confirmation h3 {
+    color: #4CAF50;
+  }
+  
