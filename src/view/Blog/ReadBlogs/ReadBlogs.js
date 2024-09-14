@@ -26,6 +26,8 @@ function ReadBlogs() {
     contenth2para3:"",
     contenth2span4:"",
     contenth2para4:"",
+
+    
     
   });
 
@@ -33,17 +35,7 @@ function ReadBlogs() {
     const blogObject = Blogs.find((obj) => obj.id === parseInt(blogId, 10));
     if (blogObject) {
       setBlogDetails(blogObject);
-    } else {
-      setBlogDetails({
-        imgUrl: "",
-        title: "Blog not found",
-        content: [],
-        contenth1:"",
-        parah1:"",
-       
-      });
-    }
-  }, [blogId]);
+    }  }, [blogId]);
 
   return (
     <>

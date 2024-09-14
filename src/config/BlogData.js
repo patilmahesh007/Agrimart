@@ -324,19 +324,19 @@ const Blogs = [
     contenth2span4:"Sustainability",
     contenth2para4:"Requirements for organic, environmentally friendly, or ethically sourced products add complexity in sourcing, traceability, packaging, transportation, and more.",
 
-    contenth3:"Strategies to overcome the complexity of supply chain management in agriculture",
-    contenth3Img:img6,
+    // contenth3:"Strategies to overcome the complexity of supply chain management in agriculture",
+    // contenth3Img:img6,
 
-    contenth3para:[
-      "To decide which digital and analytics technologies to use, start with your desired outcome.",
+    // contenth3para:[
+    //   "To decide which digital and analytics technologies to use, start with your desired outcome.",
       
-      "Understanding your desired future state will allow you to determine the best course of action. It will provide direction and guidance and help you prioritize your tasks and set realistic goals.",
+    //   "Understanding your desired future state will allow you to determine the best course of action. It will provide direction and guidance and help you prioritize your tasks and set realistic goals.",
 
-      "For each of the challenges outlined in the previous section, some strategies can help you mitigate the risks.",
+    //   "For each of the challenges outlined in the previous section, some strategies can help you mitigate the risks.",
 
-      
+
      
-    ],
+    // ],
 
     details:  "oct 23,2019 | Piyush Aglawe",
   },
