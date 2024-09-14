@@ -23,7 +23,7 @@
 .expand-main-img{
     height: 250px;
     margin-right: 150px;
-    margin: 200p;
+    
 }
 .expand-quantity-counter{
 
@@ -54,7 +54,7 @@
 }
 .expand-btn{
     padding: 0px 28px;
-    margin: 6px 60px;
+    margin: 6px 40px;
     height: 40px;
     width: 190px;
     cursor: pointer;
@@ -67,4 +67,38 @@
    background-color:  #24463c;
    border: none;
    color: white;
+}
+@media screen and (min-width:750px) and (max-width:1000px){
+
+    .expand-btn{
+        padding: 0px 20px;
+        margin: 4px 10px;
+        height: 40px;
+        width: 190px;
+        cursor: pointer;
+    }
+    .expand-buttons-container{
+        display: flex;
+        justify-content: center;
+    }
+    .expand-main-img{
+        height: 250px;
+        margin-right: auto;
+        
+    }
+    .expand-container{
+        display: flex;
+        height: 200px;
+        padding: 50px;
+        padding-top: 30px;
+        padding-bottom: 90px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:749px){
+    .expand-container{
+        display: flex;
+        height: 200px;
+        padding: 20px;
+        padding-bottom: 80px;
+    }
 }
