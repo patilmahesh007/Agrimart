@@ -23,7 +23,7 @@ function expand() {
     <>
     <Navbar/>
           <div className="expand-container">
-             <div>
+             <div className="expand-main-image-container">
               <img className="expand-main-img" src={"https://www.pngmart.com/files/15/Salad-Bell-Pepper-Red-Transparent-PNG.png"}/>
              </div>
              
