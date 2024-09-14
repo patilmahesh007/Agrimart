@@ -18,6 +18,15 @@ function ReadBlogs() {
     contenth2sub:"",
     contenth2span:"",
     contenth2para:"",
+    contenth2span1:"",
+    contenth2para1:"",
+    contenth2span2:"",
+    contenth2para2:"",
+    contenth2span3:"",
+    contenth2para3:"",
+    contenth2span4:"",
+    contenth2para4:"",
+    
   });
 
   useEffect(() => {
@@ -56,13 +65,25 @@ function ReadBlogs() {
                   {content}
                 </p>
               ))}
-              <h3>{blogDetails.contenth1}</h3>
+              <h3 className="all-content-headings">{blogDetails.contenth1}</h3>
               <p>{blogDetails.parah1}</p>
 
-              <h3>{blogDetails.contenth2}</h3>
+              <h3 className="all-content-headings">{blogDetails.contenth2}</h3>
              <img src={blogDetails.contenth2Img} alt="img" className="contenrh2img"/>
               <h5>i. {blogDetails.contenth2span}</h5>
               <span>{blogDetails.contenth2para}</span>
+
+              <h5>ii. {blogDetails.contenth2span1}</h5>
+              <span>{blogDetails.contenth2para1}</span>
+
+              <h5>iii. {blogDetails.contenth2span2}</h5>
+              <span>{blogDetails.contenth2para2}</span>
+
+              <h5>iv. {blogDetails.contenth2span3}</h5>
+              <span>{blogDetails.contenth2para3}</span>
+
+              <h5>v. {blogDetails.contenth2span4}</h5>
+              <span>{blogDetails.contenth2para4}</span>
               
 
             </div>

@@ -312,10 +312,31 @@ const Blogs = [
     contenth2span:"Weather dependence :",
     contenth2para:" Crop yields and quality depend heavily on weather conditions like rainfall, temperature, etc. This unpredictability makes it harder to align supply and demand.",
 
-    
+    contenth2span1:"Perishability :",
+    contenth2para1:" Many agricultural products are perishable and require quick transport and processing to avoid spoilage. This adds complexity to logistics and inventory management.",
 
-    
+    contenth2span2:"Variability",
+    contenth2para2:"No two agricultural products are identical in size, taste, etc., which makes standardization and quality control more difficult.",
 
+    contenth2span3:"Labor issues ",
+    contenth2para3:" Agriculture often faces labor shortages from seasonal demand, an aging workforce, and skills gaps as tech rapidly advances.",
+
+    contenth2span4:"Sustainability",
+    contenth2para4:"Requirements for organic, environmentally friendly, or ethically sourced products add complexity in sourcing, traceability, packaging, transportation, and more.",
+
+    contenth3:"Strategies to overcome the complexity of supply chain management in agriculture",
+    contenth3Img:img6,
+
+    contenth3para:[
+      "To decide which digital and analytics technologies to use, start with your desired outcome.",
+      
+      "Understanding your desired future state will allow you to determine the best course of action. It will provide direction and guidance and help you prioritize your tasks and set realistic goals.",
+
+      "For each of the challenges outlined in the previous section, some strategies can help you mitigate the risks.",
+
+      
+     
+    ],
 
     details:  "oct 23,2019 | Piyush Aglawe",
   },
