@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 const Checkout = () => {
   const [formData, setFormData] = useState({
@@ -13,10 +13,8 @@ const Checkout = () => {
     cvv: "",
   });
 
-  // State for form submission
   const [submitted, setSubmitted] = useState(false);
 
-  // Handle input changes
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -24,7 +22,6 @@ const Checkout = () => {
     });
   };
 
-  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitted(true);

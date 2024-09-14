@@ -11,7 +11,7 @@ import Cart from './view/cart/cart';
 import Services from './view/services/Services';
 import ReadBlogs from './view/Blog/ReadBlogs/ReadBlogs';
 import CheckoutData from './components/checkout/CheckoutData'; 
-import './view/checkout/checkout.css'; 
+import './view/checkout/checkout.css';
 import './index.css';
 
 
