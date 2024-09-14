@@ -9,10 +9,27 @@
 .read-blog-image{
     width: 100%;
     display: block;
-    margin: 0 auto;
+    margin: 30px auto;
     height: 300px;
     object-fit: cover;
 }
+.text-content-heading{
+     display: flex;
+     justify-content: space-between;
+}
+.text-content{
+      width: 65%;
+      border: 2px solid red;
+}
 .read-blog-text{
     text-align: justify;
+    margin-top: 15px;
+}
+.content-heading{
+  width: 30%;
+  border: 2px solid blue;
+  height: 400px;
+}
+.contenrh2img{
+  width: 100%;
 }
