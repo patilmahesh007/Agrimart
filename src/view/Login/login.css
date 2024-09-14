@@ -66,7 +66,7 @@ form{
     border-bottom: 2px solid #d9d9d9;
 }
 
-.login-content .input-div1{
+.login-content .input-div2{
 	margin-top: 0;
 }
 
@@ -81,12 +81,12 @@ form{
 	transition: .3s;
 }
 
-.input-div1 > div{
+.input-div2 > div{
     position: relative;
 	height: 45px;
 }
 
-.input-div1 > div > h5{
+.input-div2 > div > h5{
 	position: absolute;
 	left: 10px;
 	top: 50%;
@@ -96,7 +96,7 @@ form{
 	transition: .3s;
 }
 
-.input-div1:before, .input-div1:after{
+.input-div2:before, .input-div2:after{
 	content: '';
 	position: absolute;
 	bottom: -2px;
@@ -106,28 +106,28 @@ form{
 	transition: .4s;
 }
 
-.input-div1:before{
+.input-div2:before{
 	right: 50%;
 }
 
-.input-div1:after{
+.input-div2:after{
 	left: 50%;
 }
 
-.input-div1.focus:before, .input-div1.focus:after{
+.input-div2.focus:before, .input-div2.focus:after{
 	width: 50%;
 }
 
-.input-div1.focus > div > h5{
+.input-div2.focus > div > h5{
 	top: -5px;
 	font-size: 15px;
 }
 
-.input-div1.focus > .i > i{
+.input-div2.focus > .i > i{
 	color: #38d39f;
 }
 
-.input-div1 > div > input{
+.input-div2 > div > input{
 	position: absolute;
 	left: 0;
 	top: 0;
