@@ -3,6 +3,9 @@ import './Fruits.css'
 import Frutecard from '../../components/Frutecard/Frutecard'
 import { FRUTESDATA } from '../../config/Frutesdata'
 
+
+
+
 function Fruits() {
   return (
     <div className='veg-card-continer'>

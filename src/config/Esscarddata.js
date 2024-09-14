@@ -1,18 +1,7 @@
 
 const ESSPRODUCT = [
 
-    {
-        name: "Chilli (Green)",
-        photo: "https://kyssafarms.com/cdn/shop/products/GreenChilli_220x.png?v=1678097407",
-        quantity: "One Unit",
-        price: '40/kg'
-    },
-    {
-        name: "Cucumber",
-        photo: "https://img.freepik.com/free-photo/cucumber-isolated_93675-131293.jpg?t=st=1726304245~exp=1726307845~hmac=ebd90cb6c965a31f1eb9bbd81ecd52f78284a5d4878db9371c80014360cae533&w=740",
-        quantity: "One Unit",
-        price: "25/kg"
-    },
+    
     {
         name: "Garlic",
         photo: "https://www.freepngimg.com/thumb/garlic/2-2-garlic-transparent-thumb.png",
@@ -37,6 +26,18 @@ const ESSPRODUCT = [
         quantity: "One Kg",
         
         price: '40/kg  '
+    },
+    {
+        name: "Chilli (Green)",
+        photo: "https://kyssafarms.com/cdn/shop/products/GreenChilli_220x.png?v=1678097407",
+        quantity: "One Unit",
+        price: '40/kg'
+    },
+    {
+        name: "Cucumber",
+        photo: "https://img.freepik.com/free-photo/cucumber-isolated_93675-131293.jpg?t=st=1726304245~exp=1726307845~hmac=ebd90cb6c965a31f1eb9bbd81ecd52f78284a5d4878db9371c80014360cae533&w=740",
+        quantity: "One Unit",
+        price: "25/kg"
     },
     {
         name: "Onions",
