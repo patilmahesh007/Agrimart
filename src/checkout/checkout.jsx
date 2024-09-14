@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import Header from './components/nav/Nav'; 
 
 const Checkout = () => {
   const [formData, setFormData] = useState({
