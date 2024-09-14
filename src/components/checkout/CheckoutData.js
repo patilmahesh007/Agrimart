@@ -1,5 +1,5 @@
 import React from 'react';
-import Checkout from '../../checkout/checkout'; // Correct path to Checkout component
+import Checkout from '../../checkout/checkout'; 
 
 function CheckoutData() {
   return (

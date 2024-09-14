@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import Header from "../../components/navbar/nav";
-import "./checkout.css";
-import Footer from "../../components/footer/footer";
-
+// import Header from './components/nav/Nav'; 
 
 const Checkout = () => {
   const [formData, setFormData] = useState({
@@ -17,8 +14,10 @@ const Checkout = () => {
     cvv: "",
   });
 
+  // State for form submission
   const [submitted, setSubmitted] = useState(false);
 
+  // Handle input changes
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -26,6 +25,7 @@ const Checkout = () => {
     });
   };
 
+  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitted(true);
@@ -37,7 +37,7 @@ const Checkout = () => {
       <h2 className="checkout-heading">Checkout Page</h2>
 
       {submitted ? (
-        <div className="confirmation">
+        <div className="checkout-confirmation">
           <h3>Thank you for your purchase, {formData.name}!</h3>
           <p>We have sent a confirmation email to {formData.email}.</p>
         </div>
@@ -45,7 +45,7 @@ const Checkout = () => {
         <form onSubmit={handleSubmit}>
           <h3>Billing Information</h3>
 
-          <div className="form-group">
+          <div className="checkout-form-group">
             <label>Name:</label>
             <input
               type="text"
@@ -56,7 +56,7 @@ const Checkout = () => {
             />
           </div>
 
-          <div className="form-group">
+          <div className="checkout-form-group">
             <label>Email:</label>
             <input
               type="email"
@@ -67,7 +67,7 @@ const Checkout = () => {
             />
           </div>
 
-          <div className="form-group">
+          <div className="checkout-form-group">
             <label>Address:</label>
             <input
               type="text"
@@ -78,8 +78,8 @@ const Checkout = () => {
             />
           </div>
 
-          <div className="form-row">
-            <div className="form-group">
+          <div className="checkout-form-row">
+            <div className="checkout-form-group">
               <label>City:</label>
               <input
                 type="text"
@@ -90,7 +90,7 @@ const Checkout = () => {
               />
             </div>
 
-            <div className="form-group">
+            <div className="checkout-form-group">
               <label>State:</label>
               <input
                 type="text"
@@ -101,7 +101,7 @@ const Checkout = () => {
               />
             </div>
 
-            <div className="form-group">
+            <div className="checkout-form-group">
               <label>Zip:</label>
               <input
                 type="text"
@@ -115,7 +115,7 @@ const Checkout = () => {
 
           <h3>Payment Information</h3>
 
-          <div className="form-group">
+          <div className="checkout-form-group">
             <label>Card Number:</label>
             <input
               type="text"
@@ -126,8 +126,8 @@ const Checkout = () => {
             />
           </div>
 
-          <div className="form-row">
-            <div className="form-group">
+          <div className="checkout-form-row">
+            <div className="checkout-form-group">
               <label>Expiry:</label>
               <input
                 type="text"
@@ -139,7 +139,7 @@ const Checkout = () => {
               />
             </div>
 
-            <div className="form-group">
+            <div className="checkout-form-group">
               <label>CVV:</label>
               <input
                 type="text"
@@ -150,11 +150,14 @@ const Checkout = () => {
               />
             </div>
           </div>
-          <button type="submit" className="submit-btn">
+
+          <button type="submit" className="checkout-submit-btn">
             Complete Purchase
           </button>
         </form>
-        )}
+      )}
     </div>
   );
 };
+
+export default Checkout;
