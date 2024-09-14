@@ -19,7 +19,7 @@ function Header() {
           <div className="nav-logo">
             <NavLink to="/">
               <img src={brandIcon} alt="brand logo" className='brand-logo' />
-              Agrimart
+             
             </NavLink>
           </div>
 
