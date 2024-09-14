@@ -3,8 +3,6 @@ import '../Frutecard/Frutecard.css'
 
 function Exoticscard({title,img,prise}) {
   return (
-    
-    
     <div className='veg-continer-bg'>
       <div className=' frute-img-bg'>
       <img src={img} className='veg-img-bg'/></div>
