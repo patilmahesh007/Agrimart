@@ -154,8 +154,14 @@
 
 /* Media Queries */
 @media (max-width: 768px) {
+
+    .header-container {
+        height: 50px;
+    }
+
     .navbar {
         height: 50px; 
+        padding: 0px;
     }
     
     .content {
@@ -178,8 +184,10 @@
     }
 
     .nav-logo img {
-        width: 30px;
-        height: 30px;
+        width: 120px;
+        height: 40px;
+        margin-left: 10px;
+        object-fit: cover;
     }
 
     .nav-logo a {
