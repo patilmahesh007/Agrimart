@@ -10,6 +10,8 @@ import Blog from './view/Blog/Blog';
 import Cart from './view/cart/cart';
 import Services from './view/services/Services';
 import ReadBlogs from './view/Blog/ReadBlogs/ReadBlogs';
+import CheckoutData from './components/checkout/CheckoutData'; 
+import './view/checkout/checkout.css'; 
 import './index.css';
 
 
@@ -45,6 +47,7 @@ root.render(
       <Route path="/Exotics" element={<Exotics/>} />
       <Route path="/Vegetables" element={<Vegetables/>} />
       
+      <Route path="/CheckoutData" element={<CheckoutData/>} />
 
 
     </Routes>
