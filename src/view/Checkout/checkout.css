@@ -101,4 +101,34 @@ form {
   .confirmation h3 {
     color: #4CAF50;
   }
+  @media screen and (max-width: 450px) {
+    .checkout-container {
+      padding: 15px;
+      max-width: 90%;
+    }
+  
+    .form-row {
+      flex-direction: column; 
+    }
+  
+    .form-group input {
+      font-size: 14px;
+    }
+  
+    .submit-btn {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (min-width: 450px) and (max-width: 800px) {
+    .checkout-container {
+      max-width: 80%;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    .checkout-container {
+      max-width: 70%;
+    }
+  }
   
