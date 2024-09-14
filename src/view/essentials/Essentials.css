@@ -1,20 +1,8 @@
-.card-container {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .card {
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 150px;
-  }
-  
-  .card:hover {
-    background-color: #e0e0e0;
-    cursor: pointer;
-  }
-  
+.veg-card-continer{
+  min-height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ padding: 10px;
+}
