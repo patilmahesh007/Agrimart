@@ -8,47 +8,53 @@ import fruitImage from './../../images/serviceCard/fruitImage.webp';
 import dairyImage from './../../images/serviceCard/dairyImage.jpg';
 
 const cardsData = [
-  {
-    title: 'ESSENTIALS',
-    imageUrl: essentialsImage, // Using imported image
-  },
-  {
-    title: 'VEGETABLES',
-    imageUrl: vegetablesImage, // Using imported image
-  },
-  {
-    title: 'EXOTICS',
-    imageUrl: exoticsImage, // Using imported image
-  },
-  {
-    title: 'FRUIT',
-    imageUrl: fruitImage, // Using imported image
-  },
-  {
-    title: 'DAIRY',
-    imageUrl: dairyImage, // Using imported image
-  },
+
+    {
+        title: 'ESSENTIALS',
+        imageUrl: essentialsImage,
+    },
+
+    {
+        title: 'VEGETABLES',
+        imageUrl: vegetablesImage,
+    },
+
+    {
+        title: 'EXOTICS',
+        imageUrl: exoticsImage,
+    },
+
+    {
+        title: 'FRUIT',
+        imageUrl: fruitImage,
+    },
+
+    {
+        title: 'DAIRY',
+        imageUrl: dairyImage,
+    },
+
 ];
 
 const Cards = () => {
-  return (
-    <div className="cards-container">
+    return (
+        <div className="cards-container">
 
-      {cardsData.map((card, index) => (
-        <div className="card" key={index}>
+            {cardsData.map((card, index) => (
+                <div className="card" key={index}>
 
-          <img src={card.imageUrl} alt={card.title} className="card-image" />
+                    <img src={card.imageUrl} alt={card.title} className="card-image" />
 
-          <div className="card-title-container">
-            <h2 className="card-title">{card.title}</h2>
-          </div>
+                    <div className="card-title-container">
+                        <h2 className="card-title">{card.title}</h2>
+                    </div>
 
+                </div>
+
+            ))}
         </div>
 
-      ))}
-    </div>
-
-  );
+    );
 };
 
 export default Cards;

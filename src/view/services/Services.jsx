@@ -55,7 +55,7 @@ const Services = () => {
           <>
             <Slider />
 
-            <ServiceCards/>
+            <ServiceCards />
 
             <div className="services-section">
               <h2>Our Services</h2>
