@@ -10,7 +10,8 @@ import Blog from './view/Blog/Blog';
 import Cart from './view/cart/cart';
 import Services from './view/services/Services';
 import ReadBlogs from './view/Blog/ReadBlogs/ReadBlogs';
-import Feedback from './view/Feedback/Feedback';
+import Feedback from './view/feedback/feedback';
+import Card  from './view/fruitCardExtend/Card';
 import './index.css';
 
 
@@ -34,7 +35,7 @@ root.render(
       <Route path="/blog/:blogId" element={<ReadBlogs />} />
 
       <Route path="/expand" element={<Expand />} />
-      {/* <Route path="/feedback" element={<Feedback />} /> */}
+      <Route path="/feedback" element={<Feedback />} />
 
 
 
