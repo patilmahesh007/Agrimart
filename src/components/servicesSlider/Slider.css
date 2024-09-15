@@ -9,6 +9,7 @@
 .slider {
     display: block;
     margin: 10px auto;
+    object-fit: cover;
     width: 94%;
     height: 100%;
     background-size: cover;
@@ -39,4 +40,46 @@
 
 .slider-container:hover .arrow {
     display: block;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .slider-container {
+        height: 400px; 
+    }
+
+    .arrow {
+        font-size: 40px; 
+    }
+
+    .left-arrow {
+        left: 10px; 
+    }
+
+    .right-arrow {
+        right: 10px;
+    }
+}
+
+
+
+
+@media (max-width: 480px) {
+    .slider-container {
+        height: 300px;
+    }
+
+    .arrow {
+        font-size: 30px;
+    }
+
+    .left-arrow {
+        left: 5px;
+    }
+
+    .right-arrow {
+        right: 5px;
+    }
 }
