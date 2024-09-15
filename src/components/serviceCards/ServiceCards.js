@@ -1,15 +1,24 @@
 import React from 'react';
 import './ServiceCards.css';
 
+<<<<<<< HEAD
 import essentialsImage from '../../images/serviceCards/essentialsImage.webp';
 import vegetablesImage from './../../images/serviceCards/vegetablesImage.jpg';
 import exoticsImage from './../../images/serviceCards/exoticsImage.webp';
 import fruitImage from './../../images/serviceCards/fruitImage.webp';
 import dairyImage from './../../images/serviceCards/dairyImage.jpg';
+=======
+import essentialsImage from './../../images/serviceCard/essentialsImage.webp';
+import vegetablesImage from './../../images/serviceCard/vegetablesImage.jpg';
+import exoticsImage from './../../images/serviceCard/exoticsImage.webp';
+import fruitImage from './../../images/serviceCard/fruitImage.webp';
+import dairyImage from './../../images/serviceCard/dairyImage.jpg';
+>>>>>>> 811c30d5330d9671764d9766d340b70429237897
 
 const cardsData = [
   {
     title: 'ESSENTIALS',
+<<<<<<< HEAD
     imageUrl: essentialsImage, 
   },
   {
@@ -27,6 +36,25 @@ const cardsData = [
   {
     title: 'DAIRY',
     imageUrl: dairyImage, 
+=======
+    imageUrl: essentialsImage, // Using imported image
+  },
+  {
+    title: 'VEGETABLES',
+    imageUrl: vegetablesImage, // Using imported image
+  },
+  {
+    title: 'EXOTICS',
+    imageUrl: exoticsImage, // Using imported image
+  },
+  {
+    title: 'FRUIT',
+    imageUrl: fruitImage, // Using imported image
+  },
+  {
+    title: 'DAIRY',
+    imageUrl: dairyImage, // Using imported image
+>>>>>>> 811c30d5330d9671764d9766d340b70429237897
   },
 ];
 
@@ -51,4 +79,8 @@ const Cards = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Cards;
+=======
+export default Cards;
+>>>>>>> 811c30d5330d9671764d9766d340b70429237897
