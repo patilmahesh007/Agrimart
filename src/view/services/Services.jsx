@@ -14,6 +14,8 @@ import Dairy from './../../view/dairy/Dairy';
 
 import Slider from '../../components/servicesSlider/Slider';
 
+import ServiceCards from './../../components/serviceCards/ServiceCards'
+
 const Services = () => {
   const [selectedCategory, setSelectedCategory] = useState('Service');
 
@@ -53,6 +55,8 @@ const Services = () => {
         {selectedCategory === 'Service' && (
           <>
             <Slider />
+
+            <ServiceCards/>
 
             <div className="services-section">
               <h2>Our Services</h2>
