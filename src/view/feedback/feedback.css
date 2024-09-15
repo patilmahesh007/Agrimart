@@ -1,0 +1,126 @@
+.feedback-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+.feedback-image {
+  border-radius: 10px 0 0 10px;
+  max-width: 500px;
+  height: 532px;
+  object-fit: cover;
+}
+
+.rating-container {
+  width: 400px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius:0 10px  10px 0;
+}
+
+.progress-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.step {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border: 2px solid #aaa;
+  border-radius: 50%;
+  color: #aaa;
+}
+
+.step.active {
+  border-color: green;
+  color: green;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #375241;
+  margin-top: 10px;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.star {
+  font-size: 30px;
+  cursor: pointer;
+  color: gray;
+  margin: 0 5px;
+}
+
+.star.selected {
+  color: rgb(248, 241, 36);
+}
+
+.rating-labels {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  margin-bottom: 20px;
+}
+
+.feedback-section {
+  margin-bottom: 20px;
+}
+
+.feedback-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: none;
+
+}
+
+.submit-button {
+  padding: 10px 35px;
+  background-color: #4b7359;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #1c802b;
+}
+
+.required {
+  color: red;
+}
+
+.rating-user-info {
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+.feedback-input {
+  display: block;
+  margin: 10px auto;
+  height: 20px;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: rgb(97, 96, 96);
+
+}
