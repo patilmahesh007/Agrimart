@@ -1,6 +1,5 @@
 import React from 'react'
-import Exoticscard from '../../components/Exoticscard/Exoticscard'
-import { ExoticsDATA } from '../../config/Exoticsdata'
+
 import './Exotics.css'
 
 function Exotics() {

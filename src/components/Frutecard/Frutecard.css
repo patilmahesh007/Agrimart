@@ -1,44 +1,51 @@
-.veg-img-bg{
-    height: 20vh;
-    display: block;
-    margin: 0px auto;
-    background-color:#e9e8e6 ;
-    cursor: pointer;
-    border-radius: 10%;
-     
-    }
-    
-    .veg-continer-bg{
-        height: 250px;
-        width: 200px;
-        padding: 10px;
-        border-radius: 10px;
-        background-color: #e9e8e6;
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        box-shadow: 2px 2px 10px hwb(0 31% 69%);
-        
-    }
-    .frute-img{
-
-
-    }
-    .btn-continer{
-    width: 100%;
+.App-fruit{
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top: 40px;
-    }
-    .card-btn{
-        padding: 0.8vh 4vw;
-        background-color: #069219;
-        border: none;
-        cursor: pointer;
-        font-size: 19px;
-    }
-    .info{
-        width: 100%;
-    }
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}.card-link{
+    text-decoration: none;
+    color: black;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    background-color: #ddede039;
+    width: 300px;
+    height: 390px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.card-body-div1{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-body-div1 img{
+    height: 80%;
+}
+.card-body-div2{
+    width: 100%;
+    height: 40%;
+}
+.card-body-div2 h3{
+    text-align: center;
+    font-size: 29px;
+}
+.card-body-div2 p{
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+
+}
+.card-body-div2 del{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.464);
+    margin-left: 10px;
+    text-decoration: line-through;
+}
