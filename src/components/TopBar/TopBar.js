@@ -33,7 +33,7 @@ const TopBar = ({ setSelectedCategory }) => {
       </div>
 
 
-      <nav className="menu top-bar">
+      <nav className="menu">
 
         <span onClick={() =>
           setSelectedCategory('Essentials')}>ESSENTIALS

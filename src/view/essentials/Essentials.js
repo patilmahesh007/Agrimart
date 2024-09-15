@@ -1,13 +1,33 @@
 import React from 'react'
 import "./Essentials.css"
+import Esscard from '../../components/Essentilescard/Esscard'
+import { ESSPRODUCT } from '../../config/Esscarddata'
 
 function Essentials() {
   return (
-    <div className="card-container">
-      <div className="card">Essential Item 1</div>
-      <div className="card">Essential Item 2</div>
-      <div className="card">Essential Item 3</div>
-    </div>
+    <div className='veg-card-continer'>
+    {
+      ESSPRODUCT.map((product)=>{
+        
+       return(
+        <Esscard
+        
+        img ={product.photo}
+        title={product.name}
+        prise={product.price}
+
+        
+        />
+
+       )
+
+
+        
+      })
+    }
+
+</div>
+    
   )
 }
 

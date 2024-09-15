@@ -11,8 +11,8 @@ function SecondBlog({ id, imgUrl, title, description, details }) {
         <hr />
         <span className="second-blog-details">{details}</span>
         <p className="second-blog-desc">{description}</p>
-        <Link to={`/blog/${id}`} className="read-more">
-          read more{" "}
+        <Link to={`/blog/${id}`}>
+          <button className='read-more'>Read More</button>
         </Link>
   </div>
   </div>
