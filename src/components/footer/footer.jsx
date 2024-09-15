@@ -2,29 +2,35 @@ import React from 'react';
 import './footer.css';
 import { Link } from 'react-router-dom';
 import logo from '../../images/nav/logo2.png';
+import calling from "./images/call.png"
+import location from "./images/location.png"
+import email from "./images/email.png"
+import insta from "./images/instagram.png"
+import twitter from "./images/twitter.png"
+
 const Footer = () => {
   const socialMediaLinks = [
     {
-      icon: 'https://img.icons8.com/?size=50&id=32292&format=png',
+      icon: insta,
       alt: 'Instagram',
       href: 'https://www.instagram.com/agrimart20/'
     },
     {
-      icon: 'https://cdn-icons-png.flaticon.com/128/458/458595.png',
+      icon: twitter,
       alt: 'Twitter',
       href: 'https://x.com/Agrimart3'
     },
     {
-      icon: 'https://img.icons8.com/?size=64&id=6mtfF8X7F8eV&format=png',
+      icon: email,
       alt: 'Gmail',
       href: 'mailto:agrimart@gmail.com'
     },
   ];
 
   const contactInfo = [
-    { icon: 'https://cdn-icons-png.flaticon.com/128/535/535239.png', alt: 'Agromart pune ', href: 'https://maps.app.goo.gl/PjnAu7sv8ukzt1xb8' },
-    { icon: 'https://cdn-icons-png.flaticon.com/128/126/126509.png', alt: '+91 8468954007', href: 'tel:+918468954007' },
-    { icon: 'https://img.icons8.com/?size=64&id=6mtfF8X7F8eV&format=png', alt: 'agromart@gmail.com', href: 'mailto:codeex0007@gmail.com' }
+    { icon:location, alt: 'Agromart pune ', href: 'https://maps.app.goo.gl/PjnAu7sv8ukzt1xb8' },
+    { icon: calling, alt: '+91 8468954007', href: 'tel:+918468954007' },
+    { icon: email, alt: 'agromart@gmail.com', href: 'mailto:codeex0007@gmail.com' }
   ];
 
   const footerroutes = [
@@ -39,6 +45,10 @@ const Footer = () => {
     {
       path: '/blog',
       name: 'Blog'
+    },
+    {
+      path:'/feedback',
+      name:'feedback'
     }
   ]
 
