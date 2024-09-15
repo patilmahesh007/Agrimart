@@ -2,22 +2,22 @@ import React, { useState, useEffect } from 'react';
 import './Slider.css';
 
 
-import img1 from './../../images/servicesSlider/img5.webp';
-import img2 from './../../images/servicesSlider/img4.webp';
+import img5 from './../../images/servicesSlider/img5.webp';
+import img4 from './../../images/servicesSlider/img4.webp';
 import img3 from './../../images/servicesSlider/img3.webp';
-import img4 from './../../images/servicesSlider/img2.webp';
-import img5 from './../../images/servicesSlider/img1.webp';
+import img2 from './../../images/servicesSlider/img2.webp';
+import img1 from './../../images/servicesSlider/img1.webp';
 
 const Slider = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     
     const images = [
-        img1,
-        img2,
-        img3,
-        img4,
         img5,
+        img4,
+        img3,
+        img2,
+        img1,
     ];
 
     const nextImg = () => {
