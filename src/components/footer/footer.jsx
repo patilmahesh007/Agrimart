@@ -5,12 +5,12 @@ import logo from '../../images/nav/logo2.png';
 const Footer = () => {
   const socialMediaLinks = [
     {
-      icon: 'https://cdn-icons-png.flaticon.com/128/717/717392.png',
+      icon: 'https://img.icons8.com/?size=50&id=32292&format=png',
       alt: 'Instagram',
       href: 'https://www.instagram.com/agrimart20/'
     },
     {
-      icon: 'https://cdn-icons-png.flaticon.com/128/5968/5968958.png',
+      icon: 'https://cdn-icons-png.flaticon.com/128/458/458595.png',
       alt: 'Twitter',
       href: 'https://x.com/Agrimart3'
     },

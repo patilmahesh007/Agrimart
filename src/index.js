@@ -10,6 +10,7 @@ import Blog from './view/Blog/Blog';
 import Cart from './view/cart/cart';
 import Services from './view/services/Services';
 import ReadBlogs from './view/Blog/ReadBlogs/ReadBlogs';
+import Feedback from './view/Feedback/Feedback';
 import './index.css';
 
 
@@ -33,6 +34,7 @@ root.render(
       <Route path="/blog/:blogId" element={<ReadBlogs />} />
 
       <Route path="/expand" element={<Expand />} />
+      <Route path="/feedback" element={<Feedback />} />
 
 
 
@@ -46,7 +48,7 @@ root.render(
       <Route path="/Vegetables" element={<Vegetables/>} />
       
 
-
+  
     </Routes>
   </BrowserRouter>
 );

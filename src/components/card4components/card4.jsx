@@ -20,22 +20,26 @@ export default function FruitsCards() {
     {
       title: 'Pear',
       imgSrc: pear,
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius.',
+      description: 'Pears are juicy and sweet, a healthy and delicious snack '
+        + 'that you can enjoy anytime.',
     },
     {
       title: 'Grapes',
       imgSrc: grape,
-      description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut',
+      description: 'Grapes are small, round fruits that come in bunches. They '
+        + 'are perfect for snacking or making wine.',
     },
     {
       title: 'Peach',
       imgSrc: peach,
-      description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.',
+      description: 'Peaches are soft and sweet with a fuzzy skin, commonly used '
+        + 'in desserts, jams, and summer treats.',
     },
     {
       title: 'Apple',
       imgSrc: apple,
-      description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.',
+      description: 'Apples are crisp and refreshing, available in many varieties. '
+        + 'They are used in a wide range of recipes.',
     },
   ];
 
