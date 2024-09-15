@@ -5,10 +5,49 @@ import { Link } from 'react-router-dom';
 import brandIcon from '../img/logo2.png';
 import img3 from '../img/image.png';
 import './sign.css';
-const LoginForm = () => {
 
-};
-return (
+const SignupForm = () => {
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    phone: '',
+    gender: '',
+    age: '',
+    password: '',
+    confirmPassword: ''
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleRegister = (e) => {
+    e.preventDefault();
+
+    if (formData.password === formData.confirmPassword) {
+      localStorage.setItem('username', formData.email);
+      localStorage.setItem('password', formData.password);
+      localStorage.setItem('email', formData.email);
+
+      toast.success('Account created successfully!');
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phone: '',
+        gender: '',
+        age: '',
+        password: '',
+        confirmPassword: ''
+      });
+    } else {
+      toast.error('Passwords do not match!');
+    }
+  };
   <>
     <header className="header-container-1">
       <nav className="nav-bar-1">
@@ -117,5 +156,7 @@ return (
     <Toaster />
     <Footer />
   </>
+
 );
 };
+
