@@ -48,6 +48,7 @@ const SignupForm = () => {
       toast.error('Passwords do not match!');
     }
   };
+  return(
   <>
     <header className="header-container-1">
       <nav className="nav-bar-1">
