@@ -4,7 +4,7 @@ import Footer from "../../components/footer/footer";
 import { Link } from 'react-router-dom';
 import brandIcon from './img/logo2.png';
 import img3 from './img/image.png';
-import './login.css'; // Updated CSS file for login form
+import './login.css'; 
 
 const LoginForm = () => {
   const [formData, setFormData] = useState({
