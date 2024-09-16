@@ -11,40 +11,41 @@ function Header() {
   useEffect(() => {
 
     if (location.pathname === "/") {
-      toast.success("Home loaded", {
+      toast.success("Home loaded 🏠", {
         position: 'top-center',
         duration: 1000,
       });
     }
 
     else if (location.pathname === "/about") {
-      toast.success("About loaded", {
+      toast.success("About loaded 🔎", {
         position: 'top-center',
         duration: 1000,
       });
     }
 
     else if (location.pathname === "/services") {
-      toast.success("Services loaded", {
+      toast.success("Services loaded 👨🏻‍💻", {
         position: 'top-center',
         duration: 1000,
       });
     }
 
-    else if (location.pathname === "/contact") {
-      toast.success("Contact loaded", {
+    else if (location.pathname === "/blog") {
+      toast.success("Blog loaded ✍️", {
         position: 'top-center',
         duration: 1000,
       });
     }
 
-    else {
-      const pageName = location.pathname.replace("/", "");
-      toast.success("page loaded", {
+    else if (location.pathname === "/cart") {
+      toast.success("Cart loaded 🛒", {
         position: 'top-center',
         duration: 1000,
       });
     }
+
+
   }, [location]);
 
   return (
