@@ -17,7 +17,6 @@ function App() {
 
       <Navbar />
       <div className="App">
-       
       </div>
 
       {/* card number  1 */}
@@ -31,7 +30,10 @@ function App() {
 
         <div className="why-choose-us-text">
           <h1 className='why-choose-us-heading'>Why Choose Us ?</h1>
-          <p>By building a culture of sustainability and wholesome living, we strive for a healthier you and a healthier planet.</p>
+          <p>By building a culture of sustainability and wholesome living, we strive for a healthier you and a healthier planet.
+      <Link to="/about"><button className="knowmore-button"  > know more</button></Link>
+
+          </p>
         </div>
 
         <img src="https://cdn.shopify.com/s/files/1/0646/0568/3879/files/leaf.png?v=1719552788"
@@ -41,7 +43,6 @@ function App() {
       </div>
 
 
-      <Link to="/about"><button className="knowmore-button"  > know more</button></Link>
 
 
       <FruitsCard />

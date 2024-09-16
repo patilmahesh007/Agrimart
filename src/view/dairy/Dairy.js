@@ -1,9 +1,13 @@
 import React from 'react'
+import './Dairy.css'
+import Dairycard from '../../components/Dairycard/Dairycard'
+
 
 function Dairy() {
   return (
-    <div>Dairy</div>
+   <Dairycard/>
   )
+  
 }
 
 export default Dairy

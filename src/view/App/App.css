@@ -28,7 +28,6 @@
   z-index: 1;
 }
 
-
 .why-choose-us-content {
   background-color: #3f594440;
   padding: 35px;
@@ -72,10 +71,11 @@
 
 .knowmore-button {
   background-color: #3f5944f3;
+  color: white;
+  padding: 13px 30px;
   display: block;
-  margin: 20px auto;
-  padding: 7px 19px;
-  border-radius: 3px;
+  margin: 30px auto 0 auto;
+  border-radius: 5px;
   border: none;
   font-size: 16px;
 }

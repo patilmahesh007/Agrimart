@@ -13,40 +13,42 @@ function Header() {
   };
 
   return (
-    <header className="header">
-      <nav className="navbar">
-        <div className="nav-logo">
-          <NavLink to="/">
-            <img src={brandIcon} alt="brand logo" className='brand-logo' />
-            Agrimart
-          </NavLink>
-        </div>
+    <div className='header-container'>
+      <header className="header">
+        <nav className="navbar">
+          <div className="nav-logo">
+            <NavLink to="/">
+              <img src={brandIcon} alt="brand logo" className='brand-logo' />
+             
+            </NavLink>
+          </div>
 
-        <ul className={`nav-menu ${menuActive ? 'active' : ''}`} >
-          {headerdata.map((item, index) => (
-            <li className="nav-item" key={index}>
-              <NavLink
-                to={item.to}
-                style={({ isActive }) =>
-                  isActive ? { color: 'white' } : { color: 'beige' }
-                }
-                className="nav"
-              >
-                {item.name}
-              </NavLink>
-            </li>
-          ))}
-         
-        </ul>
+          <ul className={`nav-menu ${menuActive ? 'active' : ''}`} >
+            {headerdata.map((item, index) => (
+              <li className="nav-item" key={index}>
+                <NavLink
+                  to={item.to}
+                  style={({ isActive }) =>
+                    isActive ? { color: 'white' } : { color: 'beige' }
+                  }
+                  className="nav"
+                >
+                  {item.name}
+                </NavLink>
+              </li>
+            ))}
 
-        <div className="dropdown-items" id="dropdown-items" onClick={toggleMenu}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+          </ul>
 
-      </nav>
-    </header>
+          <div className="dropdown-items" id="dropdown-items" onClick={toggleMenu}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+        </nav>
+      </header>
+    </div>
   );
 }
 

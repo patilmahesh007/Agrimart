@@ -19,7 +19,7 @@
   
   .App-section-1-div1 span {
     height: auto;
-    width: 80%;
+    width: 50%;
     font-family: cursive;
     text-align: justify;
   }
@@ -46,8 +46,8 @@
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
+    justify-content: space-around;
+    gap: 35px;
   }
   
   .App-section-1-images {

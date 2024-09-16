@@ -1,0 +1,173 @@
+
+.header-container-1 {
+	width: 840px;
+	padding: 10px 30px;
+	background-color: rgba(38, 65, 52, 1); 
+	display: flex;
+	justify-content: flex-end;
+	margin: 100px auto 0 auto;
+	border-radius: 10px 10px 0px 0px;
+  }
+  
+  .nav-bar-1 {
+	display: flex;
+	gap: 20px;
+  }
+  
+  .nav-link-1 {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 10px 20px;
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 5px;
+	transition: 0.3s;
+  }
+  
+  .nav-link-1:hover {
+	background-color: white;
+	color: rgba(38, 65, 52, 1);
+  }
+  
+  .nav-link-1.active {
+	background-color: white;
+	color: rgba(38, 65, 52, 1);
+  }
+  
+  
+  .form-container-1 {
+	display: flex;
+	width: 900px;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background-color: white;
+	margin: 0 auto 100px auto;
+	border-radius: 0 0px 10px 100px;
+  }
+  
+  .welcome-section-1 {
+	background-color: rgba(38, 65, 52, 1); 
+	color: white;
+	padding: 50px;
+	text-align: center;
+	width: 40%;
+	border-radius: 0 70px 0px 100px;
+	justify-content: space-between;
+	font-family:cursive;
+  }
+  .welcome-section-1 .brand-logo{
+	height: 100px;
+	width:240px;
+	margin-top:10px;
+  }
+  .welcome-section-1 .user-img{
+	width:90px;
+	height:90px;
+	margin-bottom:30px;
+  }
+  .welcome-section-1 h2 {
+	margin-bottom: 20px;
+	font-size: 40px;
+  }
+  
+  .welcome-section-1 p {
+	font-size: 20px;
+	justify-content: space-between;
+  }
+  
+  .registration-section-1 {
+	background-color: #fff;
+	padding: 50px;
+	width: 60%;
+  }
+  
+  .form-box-1 h2 {
+	text-align: center;
+	margin-bottom: 30px;
+  }
+  
+  .form-box-1 {
+	width: 100%;
+  }
+  
+  .input-group-1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 5px; 
+  }
+  .input-group-2{
+	display: flex;
+	align-items: center;
+	gap:3px;
+	margin-bottom: 10px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+  border-color: rgba(38, 65, 52, 1);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: rgba(38, 65, 52, 1); 
+  outline: none; 
+}
+
+  .input-group-1 input[type="text"] {
+	width: 48%;
+  }
+  .input-group-2 input[type="text"] {
+	width: 48%;
+  }
+  
+  .input-group-1 input[type="radio"] {
+	margin-right: 1px; 
+  }
+ 
+  .input-group-1 label {
+	margin-right: 5px;
+	font-size: 16px;
+  }
+  .input-group-2 label {
+	margin-right:10px;
+	font-size: 16px;
+  }
+  
+  button.register-btn-1 {
+	width: 100%;
+	padding: 10px;
+	background-color: rgba(38, 65, 52, 1); 
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 20px;
+  }
+  .login-register-section-1 p a{
+	color: rgba(38, 65, 52, 1);
+	}
+	
+	.login-register-section-1 p  {
+	  color: rgba(38, 65, 52, 1);
+	  text-decoration: none;
+	  text-align: center;
+	  margin-top: 10px;
+	}
+	.login-register-section-1 p a:hover{
+	text-decoration: underline;
+	color:rgb(52, 113, 83);
+	}

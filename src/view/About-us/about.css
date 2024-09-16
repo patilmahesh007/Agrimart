@@ -1,15 +1,12 @@
-/* AboutUs.css */
-/* AboutUs.css */
-
 .about-container {
   padding: 20px;
-  background-color: #f2f8e2; /* Light green for an organic feel */
+  background-color: #fff; 
   color: #333;
 }
 
 .about-hero {
   text-align: center;
-  background: #0e2f10;
+  background: #375241;
   padding: 50px;
   border-radius: 10px;
   margin-bottom: 50px;
@@ -47,18 +44,18 @@
 }
 .about-card-container{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: 10px;
   flex-wrap: wrap;
   
 }
 
 .about-content{
-  margin: 10px;
-  max-width: 350px;
+  margin: 5px;
+  max-width: 360px;
   padding: 0;
   border-radius: 20px;
-  box-shadow: 10px 5px 30px #2e7031;
+  box-shadow: 2px 2px  8px #2e7031;
   cursor: pointer; 
   background-color: #fff;
 }
@@ -85,7 +82,8 @@
   line-height: 1.2;
   margin-bottom: 20px;
   animation: slideUp 1s ease-in-out;
-  padding: 10px;
+  padding: 5px 15px;
+  text-align: justify;
 }
 
 /* Animations */

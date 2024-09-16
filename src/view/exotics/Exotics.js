@@ -1,8 +1,9 @@
 import React from 'react'
+import Exoticscard from '../../components/Exoticscard/Exoticscard'
 
 function Exotics() {
   return (
-    <div>Exotics</div>
+    <div><Exoticscard/></div>
   )
 }
 
