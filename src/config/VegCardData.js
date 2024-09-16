@@ -3,9 +3,11 @@ import ashgourd from "../../src/images/card/ash-gourd.png"
 import babycorn from "../../src/images/card/baby-corn.png"
 import beetroot from "../../src/images/card/beetroot.png"
 import cabbage from "../../src/images/card/cabbage.png"
-
+import cauliflower from "../../src/images/card/cauliflower.png"
 import capsicum from "../../src/images/card/capsicum.png"
 import bhindi from "../../src/images/card/bhendi.png"
+import drumstick from "../../src/images/card/drumstick.png"
+import carrot from "../../src/images/card/carrot.png"
 
 
 
@@ -13,22 +15,27 @@ import bhindi from "../../src/images/card/bhendi.png"
 const VegCardData = [
 
     {
-        id:" 200",
-        title: "veg",
-        description: "A delicious, sweet fruit available in various colors.",
-        image: Apple,
-        price: "₹80/kg",
-        oldPrice: "₹100/kg",
+        id: "119",
+        title: "Fresh Orange Carrots",
+        description: "Crunchy and sweet orange carrots, ideal for salads, snacks, and cooking. Packed with flavor and nutrients.",
+        image: carrot,
+        price: "₹60/kg",
+        oldPrice: "₹75/kg",
         quantity: "1 kg",
-        shelfLife: "2 weeks",
-        farmer: "Aarti Devi",
-        manufacturer: "Sangli Farmers Union, Sangli 416 416. Lic. No. - 10024031001111.",
-        sellerFSSAI: "24345678000101",
-        marketedBy: "Hilltop Orchard, Mussoorie 248179.",
-        healthBenefits: "High in fiber, vitamin C, and antioxidants. Promotes heart health, supports weight management, and reduces the risk of diabetes.",
+        shelfLife: "2-3 weeks",
+        farmer: "Kavita Sharma",
+        manufacturer: "Harvest Roots, Uttar Pradesh 201001. Lic. No. - 10024031001134.",
+        sellerFSSAI: "24345678000124",
+        marketedBy: "Veggie Delight, Delhi 110001.",
+        healthBenefits: "High in beta-carotene, which the body converts into vitamin A. Supports eye health, boosts immune function, and promotes healthy skin.",
         storageTemperature: "0-4°C",
-        storageType: "Refrigeration",
-        imageSlider: [Apple, "https://i.pinimg.com/236x/4f/6c/c4/4f6cc46e50e7a0ff21c5e0a77423b0b5.jpg", "https://i.pinimg.com/236x/fe/0d/1d/fe0d1d36996a0e72931d080983773c1e.jpg","https://i.pinimg.com/236x/62/a8/bd/62a8bd58fbc9bb5d7e5517ac0d2d1ce6.jpg"]
+        storageType: "Refrigerated storage",
+        imageSlider: [
+           carrot,
+            "https://w7.pngwing.com/pngs/143/955/png-transparent-three-carrot-vegetables-carrot-peruvian-cuisine-root-vegetables-fruit-vegetable-carrot-natural-foods-food-recipe-thumbnail.png",
+            "https://w7.pngwing.com/pngs/720/73/png-transparent-carrot-vegetable-fruit-legume-carrot-food-tomato-onion-thumbnail.png",
+            "https://w7.pngwing.com/pngs/438/269/png-transparent-carrot-computer-file-carrot-natural-foods-leaf-vegetable-image-file-formats-thumbnail.png"
+        ]
     },
     {
         id: "111",
@@ -167,7 +174,57 @@ const VegCardData = [
             "https://w7.pngwing.com/pngs/950/39/png-transparent-okra-ladyfinger-goan-cuisine-bhendi-fry-vegetable-okra-food-chili-pepper-fruit-thumbnail.png",
             "https://w7.pngwing.com/pngs/217/236/png-transparent-lady-finger-vegetable-gumbo-ladyfinger-okra-vegetable-fruit-okra-natural-foods-leaf-vegetable-food-thumbnail.png"
         ]
+    },
+    {
+        id: "117",
+        title: "Fresh Cauliflower",
+        description: "Crisp and versatile cauliflower, perfect for a variety of dishes including soups, stews, and stir-fries.",
+        image: cauliflower,
+        price: "₹70/kg",
+        oldPrice: "₹85/kg",
+        quantity: "1 kg",
+        shelfLife: "1-2 weeks",
+        farmer: "Rajesh Patel",
+        manufacturer: "Pure Veg Farms, Punjab 140001. Lic. No. - 10024031001132.",
+        sellerFSSAI: "24345678000122",
+        marketedBy: "Fresh Harvest, Bangalore 560001.",
+        healthBenefits: "High in vitamins C and K, and a good source of fiber. May support immune function, improve digestion, and provide antioxidant protection.",
+        storageTemperature: "4-7°C",
+        storageType: "Refrigerated storage",
+        imageSlider: [
+            cauliflower,
+            "https://w7.pngwing.com/pngs/18/487/png-transparent-cauliflower-hollandaise-sauce-vegetable-cooking-romanesco-broccoli-cauliflower-leaf-vegetable-food-recipe-thumbnail.png",
+            "https://w7.pngwing.com/pngs/160/16/png-transparent-cauliflower-cheese-broccoflower-cauliflower-leaf-vegetable-food-recipe-thumbnail.png",
+            "https://w7.pngwing.com/pngs/599/505/png-transparent-cauliflower-broccolini-vegetable-organic-food-cauliflower-leaf-vegetable-food-frozen-vegetables-thumbnail.png"
+        ]
+    },
+    {
+        id: "118",
+        title: "Fresh Drumstick (Moringa)",
+        description: "Nutrient-rich drumsticks, also known as moringa, perfect for soups, stews, and curries. Known for its high nutritional value and unique flavor.",
+        image: drumstick,
+        price: "₹100/kg",
+        oldPrice: "₹130/kg",
+        quantity: "500 g",
+        shelfLife: "1 week",
+        farmer: "Suman Rani",
+        manufacturer: "Moringa Farms, Rajasthan 302001. Lic. No. - 10024031001133.",
+        sellerFSSAI: "24345678000123",
+        marketedBy: "Nutrient Greens, Hyderabad 500001.",
+        healthBenefits: "Rich in vitamins A, C, and E, and a good source of calcium and iron. May support immune health, improve digestion, and provide antioxidant protection.",
+        storageTemperature: "7-10°C",
+        storageType: "Refrigerated storage",
+        imageSlider: [
+            drumstick,
+            "https://w7.pngwing.com/pngs/214/646/png-transparent-green-vegetables-vegetable-organic-food-eggplant-fruit-ingredient-drumstick-cut-leaf-vegetable-food-tomato-thumbnail.png",
+            "https://w7.pngwing.com/pngs/279/503/png-transparent-drumstick-tree-vegetable-drum-stick-health-vegetable-food-nutrition-scallion-thumbnail.png",
+            "https://w7.pngwing.com/pngs/214/646/png-transparent-green-vegetables-vegetable-organic-food-eggplant-fruit-ingredient-drumstick-cut-leaf-vegetable-food-tomato-thumbnail.png"
+        ]
     }
+    
+    
+    
+    
     
     
     
