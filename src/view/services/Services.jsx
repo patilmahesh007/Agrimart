@@ -13,11 +13,12 @@ import Exotics from './../../view/exotics/Exotics';
 import Dairy from './../../view/dairy/Dairy';
 
 import Slider from '../../components/servicesSlider/Slider';
+import ServiceCards from './../../components/serviceCards/ServiceCards'
 
 const Services = () => {
   const [selectedCategory, setSelectedCategory] = useState('Service');
 
-  const renderCards = () => {
+  const renderPage = () => {
     switch (selectedCategory) {
       case 'Essentials':
         return <Essentials />;
@@ -46,13 +47,15 @@ const Services = () => {
         <TopBar setSelectedCategory={setSelectedCategory} />
 
         <div className="cards-container">
-          {renderCards()}
+          {renderPage()}
         </div>
 
         {/* Conditionally render the Slider and Services section */}
         {selectedCategory === 'Service' && (
           <>
             <Slider />
+
+            <ServiceCards />
 
             <div className="services-section">
               <h2>Our Services</h2>

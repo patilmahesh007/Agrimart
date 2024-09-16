@@ -1,0 +1,85 @@
+.card-page {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.card-page-leftside {
+    height: 100vh;
+    width: 50vw;
+    overflow-y: scroll;
+}
+
+.card-page-leftside::-webkit-scrollbar {
+    display: none;
+
+}
+
+.card-slider-div2 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.card-slider-div2 img {
+    height: 80px;
+
+}
+
+.card-page-leftside-div1 {
+    height: 70vh;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-page-leftside-div1-img {
+    height: 300px;
+}
+
+.card-page-leftside-div2 {
+    padding-left: 120px;
+}
+
+.card-page-leftside-div2-smallcard b {
+    font-size: 18px;
+}
+
+.card-page-leftside-div2-smallcard span {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+.card-page-leftside-div2-smallcard {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 20px;
+}
+
+
+.card-page-rightside {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+}
+.card-page-rightside-div1{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content:end ;
+}
+
+.card-page-rightside-div2{
+    height: 70%;
+}
+
+.card-page-rightside h1 {
+
+    font-size: 29px;
+}

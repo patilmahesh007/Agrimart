@@ -10,7 +10,8 @@ import Blog from './view/Blog/Blog';
 import Cart from './view/cart/cart';
 import Services from './view/services/Services';
 import ReadBlogs from './view/Blog/ReadBlogs/ReadBlogs';
-import Feedback from './view/Feedback/Feedback';
+import Feedback from './view/feedback/feedback';
+import Card  from './view/fruitCardExtend/Card';
 import './index.css';
 
 
@@ -38,12 +39,14 @@ root.render(
 
 
 
+
+
       <Route path="/login" element={<Login />} />
       <Route path="/sign" element={<Sign />} />
 
       <Route path="/Essentials" element={<Essentials/>} />
       <Route path="/Dairy" element={<Dairy/>} />
-      <Route path="/Fruits" element={<Fruits/>} />
+      <Route path="/Card/:cardId" element={<Card/>} />
       <Route path="/Exotics" element={<Exotics/>} />
       <Route path="/Vegetables" element={<Vegetables/>} />
       
