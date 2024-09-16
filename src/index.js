@@ -11,7 +11,7 @@ import Cart from './view/cart/cart';
 import Services from './view/services/Services';
 import ReadBlogs from './view/Blog/ReadBlogs/ReadBlogs';
 import Feedback from './view/feedback/feedback';
-import Card  from './view/fruitCardExtend/Card';
+import Card  from './view/SERVICEEXPAND/fruitCardExtend/Card';
 import './index.css';
 
 

@@ -1,22 +1,43 @@
-import React from 'react'
-import "./vegcard.css"
+import React from 'react';
+import VegCardData from '../../config/VegCardData';
+import { Link } from 'react-router-dom';
+import './../Frutecard/Frutecard.css';
+import QuantityButton from '../BuynowButton/Buynow';
 
-function Vegcard({title,img,prise}) {
-  
+
+function Vegcard() {
   return (
-    <div className='veg-continer'>
-      <div className='info'>
-      <img src={img} className='veg-img'/></div>
-      <div className='info'>
-      <h3>{title}</h3>
-      </div>
-      <div className='info'>
-      <b> Price: {prise}</b> </div>
-      <div className='btn-continer'>
-      <button className='card-btn'> More</button>
-      </div>
+    <>
+    <div className="App-fruit">
+      {VegCardData.map((card) => {
+        return (
+        
+            <div className="card-body">
+                  <Link to={`/card/${card.id}`} key={card.id} className="card-link">
+              <div className="card-body-div1">
+                <img src={card.image} alt={card.title} className='fruit-card-img' />
+              </div>
+              
+          
+              <div className="card-body-div2">
+                <h3 >{card.title}</h3>
+                <p > {card.price}</p>
+                <del> {card.oldPrice}</del>
+              </div>
+          </Link>
+          <span className="buynow-btn"><QuantityButton /></span>
+
+
+           </div>
+         
+        );
+      })} 
+
     </div>
-  )
+   
+
+    </>
+  );
 }
 
-export default Vegcard
+export default Vegcard;

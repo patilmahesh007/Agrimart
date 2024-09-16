@@ -1,12 +1,19 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import cardData from '../../config/shopCardData';
+import cardData from '../../../config/shopCardData';
+import VegCardData from '../../../config/VegCardData';
+import DairyCardData from '../../../config/DairyCardData';
+import ExoticsCardData from '../../../config/ExoticsCardData';
+import EssentialsCardData from '../../../config/EssentialsCardData';
 import './Card.css';
-import WhyShopCard from "../../components/whyshopcard/whyShopCard"
+import WhyShopCard from "../../../components/whyshopcard/whyShopCard"
+import Navbar from "../../../components/navbar/nav"
+import Footer from "../../../components/footer/footer"
 function Card() {
+  const cardsId = [...cardData,...DairyCardData,...VegCardData,...ExoticsCardData,...EssentialsCardData]
   let { cardId } = useParams();
 
-  let cardObject = cardData.find((card) => card.id == cardId);
+  let cardObject = cardsId.find((card) => card.id == cardId);
 
   if (!cardObject) {
     return <div>Card not found</div>;
@@ -18,8 +25,8 @@ function Card() {
 
   return (
 
-
-
+<div>
+<Navbar/>
     <div className='card-page'>
       <div className='card-page-leftside'>
         <div className='card-page-leftside-div1'>
@@ -36,6 +43,7 @@ function Card() {
             ))}
           </div>
         </div>
+        <hr/>
         <div className='card-page-leftside-div2'>
           <h1>Product Details</h1>
           <div className='card-page-leftside-div2-smallcard'>
@@ -87,11 +95,16 @@ function Card() {
       <hr />
       <div className='card-page-rightside'> 
        <div className='card-page-rightside-div1'>
-
-        <h1>{cardObject.title}</h1><p>{cardObject.price}</p><del> {cardObject.oldPrice}</del>
+       <h1>{cardObject.title}</h1>
+        <hr/>
+       <span>{cardObject.quantity}</span>
+<div>      <b>{cardObject.price}</b>  <h6>MRP<del> { cardObject.oldPrice}</del></h6></div>
+       <h5>(Inclusive of all taxes)</h5>
        </div>
        <div className='card-page-rightside-div2'><WhyShopCard/></div>
       </div>
+    </div>
+    <Footer/>
     </div>
   );
 }
