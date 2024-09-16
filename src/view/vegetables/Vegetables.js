@@ -6,28 +6,7 @@ import './Vegetables.css'
 function vegetables() {
   return (
     
-    <div className='veg-card-continer'>
-    {
-      PRODUCTS.map((product)=>{
-        
-       return(
-        <Vegcard
-        
-        img ={product.photo}
-        title={product.name}
-        prise={product.price}
-
-        
-        />
-
-       )
-
-
-        
-      })
-    }
-
-</div>
+    <Vegcard/>
 
   )
 }

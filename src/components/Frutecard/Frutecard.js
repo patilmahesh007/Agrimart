@@ -1,7 +1,12 @@
-import React from 'react'
-import "./Frutecard.css"
+import React, { useState } from 'react';
+import cardData from '../../config/shopCardData';
+import { Link } from 'react-router-dom';
+import './Frutecard.css';
+import QuantityButton from '../BuynowButton/Buynow';
 
-function Frutecard({title,img,prise}) {
+
+function FruitCard() { 
+  const [Quantity, setQuantity] = useState(0);
   return (
     
     <div className='veg-continer-bg'>
@@ -13,11 +18,13 @@ function Frutecard({title,img,prise}) {
       
       <b> Price: {prise}</b> </div>
       <div className='btn-continer'>
-     
       <button className='card-btn'> More</button>
       </div>
     </div>
-  )
+   
+
+    </>
+  );
 }
 
-export default Frutecard
+export default FruitCard;

@@ -29,7 +29,7 @@ function Header() {
                 <NavLink
                   to={item.to}
                   style={({ isActive }) =>
-                    isActive ? { color: 'white' } : { color: 'beige' }
+                    isActive ? { color: 'white' } : { color: '#999999' }
                   }
                   className="nav"
                 >
