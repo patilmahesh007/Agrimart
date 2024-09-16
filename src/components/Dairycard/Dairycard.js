@@ -1,21 +1,29 @@
-import React from 'react'
+import React from 'react';
+import DairyCardData from '../../config/DairyCardData';
+import { Link } from 'react-router-dom';
+import './../Frutecard/Frutecard.css';
 
-function Dairycard({title,img,prise}) {
+function DairyCard() {
   return (
-    <div className='veg-continer-bg'>
-    <div className=' frute-img-bg'>
-    <img src={img} className='veg-img-bg'/></div>
-    <div className='info'>
-    <h3>{title}</h3>
-    
-    
-    <b> Price: {prise}</b> </div>
-    <div className='btn-continer'>
-    <button className='card-btn'> More</button>
+    <div className="App-fruit">
+      {DairyCardData.map((card) => {
+        return (
+          <Link to={`/card/${card.id}`} key={card.id} className="card-link">
+            <div className="card-body">
+              <div className="card-body-div1">
+                <img src={card.image} alt={card.title} />
+              </div>
+              <div className="card-body-div2">
+                <h3>{card.title}</h3>
+                <p>Price: {card.price}</p>
+                <del> {card.oldPrice}</del>
+              </div>
+            </div>
+          </Link>
+        );
+      })}
     </div>
-  </div>
-)
-  
+  );
 }
 
-export default Dairycard
+export default DairyCard;

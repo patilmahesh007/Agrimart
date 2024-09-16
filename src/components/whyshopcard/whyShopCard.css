@@ -1,16 +1,17 @@
 
 .card-why-shop img{
-    height: 100px;
+    height: 80px;
 }
 .card-why-shop-container{
     display: flex;
     align-items: center;
     height: 40px;
     width: 100%;
-    gap: 10px;
-    margin: 80px 0px 0px 0px;  
+    gap:3px;
+    margin: 40px 0px 0px 0px;  
 
 }.card-why-shop-heading{
+    
 }
 .card-why-shop-div1{
     height: 100%;
@@ -20,14 +21,14 @@
 .card-why-shop-div2{
     height: 100%;
     width: 80%;
-    padding-top: 20px;
+    padding-top: 17px;
     
 }
 .card-why-shop-div2 span{
-    font-size: 20px;
+    font-size: 17px;
 
 }
 .card-why-shop-div2 p{
-    font-size: 15px;
+    font-size: 13px;
     color: rgba(0, 0, 0, 0.57);
 }

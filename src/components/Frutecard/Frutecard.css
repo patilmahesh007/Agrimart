@@ -49,3 +49,17 @@
     margin-left: 10px;
     text-decoration: line-through;
 }
+.Buy-now-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid aquamarine;
+    height: 5px;
+    padding: 10px 2px;
+    width: 150px;
+    color: white;
+    background-color: #3f5944f3;
+    }
+.Buy-now-btn img{
+    height: 20px;
+}

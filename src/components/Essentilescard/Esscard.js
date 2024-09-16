@@ -1,21 +1,29 @@
-import React from 'react'
-import './Esscard.css'
+import React from 'react';
+import EssentialsCardData from '../../config/EssentialsCardData';
+import { Link } from 'react-router-dom';
+import './../Frutecard/Frutecard.css';
 
-function Esscard({title,img,prise}) {
+function Esscard() {
   return (
-    <div className='veg-continer'>
-      <div className='info'>
-      <img src={img} className='veg-img'/></div>
-      <div className='info'>
-      <h3>{title}</h3>
-      </div>
-      <div className='info'>
-      <b> Price: {prise}</b> </div>
-      <div className='btn-continer'>
-      <button className='card-btn'> More</button>
-      </div>
+    <div className="App-fruit">
+      {EssentialsCardData.map((card) => {
+        return (
+          <Link to={`/card/${card.id}`} key={card.id} className="card-link">
+            <div className="card-body">
+              <div className="card-body-div1">
+                <img src={card.image} alt={card.title} />
+              </div>
+              <div className="card-body-div2">
+                <h3>{card.title}</h3>
+                <p>Price: {card.price}</p>
+                <del> {card.oldPrice}</del>
+              </div>
+            </div>
+          </Link>
+        );
+      })}
     </div>
-  )
+  );
 }
 
-export default Esscard
+export default Esscard;

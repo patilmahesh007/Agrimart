@@ -1,21 +1,30 @@
-import React from 'react'
-import '../Frutecard/Frutecard.css'
+import React from 'react';
+import ExoticsCardData from '../../config/ExoticsCardData';
+import { Link } from 'react-router-dom';
+import './../Frutecard/Frutecard.css';
 
-function Exoticscard({title,img,prise}) {
+function Exoticscard() {
   return (
-    <div className='veg-continer-bg'>
-      <div className=' frute-img-bg'>
-      <img src={img} className='veg-img-bg'/></div>
-      <div className='info'>
-      <h3>{title}</h3>
-      
-      
-      <b> Price: {prise}</b> </div>
-      <div className='btn-continer'>
-      <button className='card-btn'> More</button>
-      </div>
+    <div className="App-fruit">
+      {ExoticsCardData.map((card) => {
+        return (
+          <Link to={`/card/${card.id}`} key={card.id} className="card-link">
+            <div className="card-body">
+              <div className="card-body-div1">
+                <img src={card.image} alt={card.title} />
+              </div>
+              <div className="card-body-div2">
+                <h3>{card.title}</h3>
+                <p>Price: {card.price}</p>
+                <del> {card.oldPrice}</del>
+              </div>
+            </div>
+          </Link>
+        );
+      })}
     </div>
-  )
+  );
 }
 
-export default Exoticscard
+export default Exoticscard;
+ 
