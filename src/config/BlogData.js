@@ -324,22 +324,51 @@ const Blogs = [
     contenth2span4:"Sustainability",
     contenth2para4:"Requirements for organic, environmentally friendly, or ethically sourced products add complexity in sourcing, traceability, packaging, transportation, and more.",
 
-    // contenth3:"Strategies to overcome the complexity of supply chain management in agriculture",
-    // contenth3Img:img6,
+    contenth3:"Strategies to overcome the complexity of supply chain management in agriculture",
+    contenth3Img:img6,
 
-    // contenth3para:[
-    //   "To decide which digital and analytics technologies to use, start with your desired outcome.",
+    contenth3para:[
+      "To decide which digital and analytics technologies to use, start with your desired outcome.",
       
-    //   "Understanding your desired future state will allow you to determine the best course of action. It will provide direction and guidance and help you prioritize your tasks and set realistic goals.",
+      "Understanding your desired future state will allow you to determine the best course of action. It will provide direction and guidance and help you prioritize your tasks and set realistic goals.",
 
-    //   "For each of the challenges outlined in the previous section, some strategies can help you mitigate the risks.",
+      "For each of the challenges outlined in the previous section, some strategies can help you mitigate the risks.",
 
+      "The agri-food industry faces a significant challenge due to the inherent unpredictability of weather conditions, which complicates the management of production, inventory, pricing, and other crucial aspects. Some potential strategies include:",
 
-     
-    // ],
+      "The perishable nature of items necessitates the implementation of swift and efficient procedures to curtail food loss and minimize waste effectively. Potential strategies include:",
+
+      "The fluctuation in the biological attributes of agricultural products poses a substantial challenge. A lack of standardization ultimately complicates processing, quality control, packaging, and sales. Specific management strategies include:",
+
+      "Workforce concerns are prevalent in farm labor, which is inherently dependent on manual labor, characterized by seasonality, primarily located in rural areas, and often pays below market rates. This makes recruiting and retaining an adequate workforce an ongoing challenge. To overcome this, farmers should look to strategies like:",
+
+      "Achieving sustainability demands a balance of ecological and societal responsibility alongside financial feasibility, ensuring that the well-being of both the planet and its inhabitants is prioritized while still maintaining economic prosperity and resilience. Potential strategies include:",
+    ],
+
+    contenth4:"A day in the life of modern farmer John",
+    contenth4para:[
+      "Imagine a day at a farm that has already adopted some of these solutions.",
+
+      "It’s 6am when John wakes up. Over breakfast, he checks the AI-generated harvest predictions for his tomato crop. The models predict crop yields using weather, soil, and imagery, making it easier to assign workers and resources for harvesting.",
+
+      "Out in the field, John deploys small robotic ground vehicles equipped with advanced computer vision algorithms. These robots identify ripe tomatoes and gently detach them from the vine, significantly reducing the need for tedious manual labor.",
+
+      "John uses a secure blockchain platform to check certifications for the distribution company that will ship his tomatoes. The ledger’s transparency gives him confidence in the company’s sustainability and cold-chain practices, ensuring that his produce will remain fresh during transit (perishability).",
+
+      "Using his smartphone, John then adjusts the conditions in his smart greenhouse (seasonality, weather dependence). IoT sensors continuously monitor factors like moisture, light, and temperature, allowing John to make precise adjustments that optimize tomato growth.",
+
+    "  Later in the day, John reviews data from his automated sorting and grading system. Using near-infrared spectroscopy and machine learning algorithms, the system classifies tomatoes based on ripeness, color, and size. He only ships produce of consistent quality (variability).",
+
+   " John ends his day by examining analytics on the sustainability impacts of his farming techniques. These lifecycle metrics, which include water usage and carbon emissions, help John refine his practices to reduce his environmental footprint.",
+
+"Blending AI, robotics, blockchain, analytics, and IoT, John improves efficiency, sustainability, and yields on his farm. These tools not only make his life easier but also meet the evolving needs of his customers.",
+
+"So, exactly what are each of these technologies John is using?",
+    ],
 
     details:  "oct 23,2019 | Piyush Aglawe",
   },
+
   {
     id: 11,
     imgUrl: img2,

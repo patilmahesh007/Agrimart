@@ -10,9 +10,11 @@ function ReadBlogs() {
   const [blogDetails, setBlogDetails] = useState({
     imgUrl: "",
     title: "",
+
     content: [],
     contenth1:"",
     parah1:"",
+
     contenth2:"",
     contenth2Img:"",
     contenth2sub:"",
@@ -26,6 +28,15 @@ function ReadBlogs() {
     contenth2para3:"",
     contenth2span4:"",
     contenth2para4:"",
+
+    contenth3:"",
+    contenth3Img:"",
+    contenth3para:[],
+
+    contenth4:"",
+    contenth4para:[],
+
+
 
     
     
@@ -77,7 +88,23 @@ function ReadBlogs() {
               <h5>v. {blogDetails.contenth2span4}</h5>
               <span>{blogDetails.contenth2para4}</span>
               
+              <h3>{blogDetails.contenth3}</h3>
+              <img src={blogDetails.contenth3Img} alt="img" className="contenrh2img"/>
+              {blogDetails.contenth3para.map((contenth3para, index) => (
+                <p key={index} className="read-blog-text">
+                  {contenth3para}
+                </p>
+              ))}
 
+              <h3>{blogDetails.contenth4}</h3> 
+              {blogDetails.contenth4para.map((contenth4para, index) => (
+                <p key={index} className="read-blog-text">
+                  {contenth4para}
+                </p>
+              ))}
+
+              
+              
             </div>
             <div className="content-heading"></div>
           </div>
