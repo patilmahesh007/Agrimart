@@ -1,5 +1,5 @@
 import React from 'react';
-import cardData from './../../config/shopCardData';
+import cardData from '../../config/shopCardData';
 import { Link } from 'react-router-dom';
 import './Frutecard.css';
 

@@ -27,6 +27,7 @@ const cardData = [
 function WhyShopCard() {
   return (
   <>
+
     <h2 className='card-why-shop-heading'>Why shop from Agrimart?</h2>
         <div className='card-why-shop'>
       {cardData.map((card) => (

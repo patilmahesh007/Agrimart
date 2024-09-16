@@ -1,31 +1,9 @@
 import React from 'react'
-
-import './Exotics.css'
+import Exoticscard from '../../components/Exoticscard/Exoticscard'
 
 function Exotics() {
   return (
-    <div className='veg-card-continer'>
-    {
-      ExoticsDATA.map((product)=>{
-        
-       return(
-        <Exoticscard
-        
-        img ={product.photo}
-        title={product.name}
-        prise={product.price}
-
-        
-        />
-
-       )
-
-
-        
-      })
-    }
-
-</div>
+    <div><Exoticscard/></div>
   )
 }
 
