@@ -1,29 +1,37 @@
 import Apple from "./../images/fruitcard/apple.png";
 import chill from "../../src/images/card/chill.png"
-
+import ginger from "../../src/images/card/ginger.png"
+import potato from "../../src/images/card/potato.png"
+import onion from "../../src/images/card/onion.png"
 import cucumber from "../../src/images/card/cucumber.png"
+import garlic from "../../src/images/card/garlic.png"
 
 
 
 const EssentialsCardData = [
 
     {
-        id: "100",
-        title: "Essentials",
-        description: "A delicious, sweet fruit available in various colors.",
-        image: Apple,
-        price: "₹80/kg",
-        oldPrice: "₹100/kg",
+        id: "110",
+        title: "Fresh Potatoes",
+        description: "Versatile and hearty potatoes, perfect for a wide range of dishes from fries to mash.",
+        image: potato,
+        price: "₹40/kg",
+        oldPrice: "₹55/kg",
         quantity: "1 kg",
-        shelfLife: "2 weeks",
-        farmer: "Aarti Devi",
-        manufacturer: "Sangli Farmers Union, Sangli 416 416. Lic. No. - 10024031001111.",
-        sellerFSSAI: "24345678000101",
-        marketedBy: "Hilltop Orchard, Mussoorie 248179.",
-        healthBenefits: "High in fiber, vitamin C, and antioxidants. Promotes heart health, supports weight management, and reduces the risk of diabetes.",
-        storageTemperature: "0-4°C",
-        storageType: "Refrigeration",
-        imageSlider: [Apple, "https://i.pinimg.com/236x/4f/6c/c4/4f6cc46e50e7a0ff21c5e0a77423b0b5.jpg", "https://i.pinimg.com/236x/fe/0d/1d/fe0d1d36996a0e72931d080983773c1e.jpg","https://i.pinimg.com/236x/62/a8/bd/62a8bd58fbc9bb5d7e5517ac0d2d1ce6.jpg"]
+        shelfLife: "1-2 months",
+        farmer: "Ravi Singh",
+        manufacturer: "Root Harvesters, Uttar Pradesh 201001. Lic. No. - 10024031001125.",
+        sellerFSSAI: "24345678000115",
+        marketedBy: "Potato Paradise, Delhi 110001.",
+        healthBenefits: "Good source of vitamins C and B6, potassium, and dietary fiber. Supports digestive health, provides energy, and helps in maintaining healthy blood pressure.",
+        storageTemperature: "7-10°C",
+        storageType: "Cool, dark storage",
+        imageSlider: [
+           potato,
+           "https://w7.pngwing.com/pngs/1018/700/png-transparent-potato-vegetable-food-fruit-potato-soup-food-baking-thumbnail.png",
+            "https://w7.pngwing.com/pngs/638/759/png-transparent-sliced-potatoes-mashed-potato-north-slavic-fermented-cereal-soups-hasselback-potatoes-vegetable-potato-food-photography-nutrition-thumbnail.png",
+            "https://w7.pngwing.com/pngs/56/104/png-transparent-sweet-potato-cultivar-tuber-vegetable-potato-food-potatoes-fruit-thumbnail.png"
+        ]
     },
     {
         id: "102",
@@ -69,7 +77,79 @@ const EssentialsCardData = [
             "https://img.freepik.com/premium-photo/falling-cucumber-slice-isolated-white-background_1153035-6835.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybridhttps://img.freepik.com/premium-photo/falling-cucumber-slice-isolated-white-background_1153035-6835.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/premium-photo/close-up-green-beans-against-white-background_1048944-6171364.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
+    },
+    {
+        id: "104",
+        title: "Fresh Garlic",
+        description: "Aromatic and flavorful garlic bulbs that add a rich taste and health benefits to your cooking.",
+        image: garlic,
+        price: "₹120/kg",
+        oldPrice: "₹150/kg",
+        quantity: "500 g",
+        shelfLife: "2-3 months",
+        farmer: "Rajesh Kumar",
+        manufacturer: "Pure Roots Farms, Maharashtra 411001. Lic. No. - 10024031001122.",
+        sellerFSSAI: "24345678000112",
+        marketedBy: "Spice Essence, Kolkata 700001.",
+        healthBenefits: "Rich in allicin, which has antioxidant and anti-inflammatory properties. May support heart health, boost the immune system, and aid in digestion.",
+        storageTemperature: "Cool, dry place",
+        storageType: "Dry storage",
+        imageSlider: [
+            garlic,
+            "https://w7.pngwing.com/pngs/94/744/png-transparent-shallot-garlic-ramsons-allicin-garlic-food-onion-desktop-wallpaper-thumbnail.png",
+            "https://w7.pngwing.com/pngs/111/606/png-transparent-garlic-potato-onion-vegetable-computer-icons-garlic-food-onion-vegetables-thumbnail.png",
+            "https://w7.pngwing.com/pngs/838/915/png-transparent-solo-garlic-oil-of-clove-mincing-food-minced-garlic-food-baking-natural-thumbnail.png"
+        ]
+    },
+    {
+        id: "108",
+        title: "Fresh Ginger",
+        description: "Zesty and aromatic ginger roots that add a distinctive flavor and spice to your dishes and beverages.",
+        image: ginger,
+        price: "₹80/kg",
+        oldPrice: "₹100/kg",
+        quantity: "500 g",
+        shelfLife: "1-2 weeks",
+        farmer: "Sunita Devi",
+        manufacturer: "Spice Roots, Assam 781001. Lic. No. - 10024031001123.",
+        sellerFSSAI: "24345678000113",
+        marketedBy: "Zesty Spices, Bangalore 560001.",
+        healthBenefits: "Contains gingerol, which has anti-inflammatory and antioxidant effects. May help with nausea, improve digestion, and reduce muscle pain.",
+        storageTemperature: "10-15°C",
+        storageType: "Cool storage",
+        imageSlider: [
+            ginger,
+            "https://w7.pngwing.com/pngs/288/738/png-transparent-brown-ginger-ginger-tea-extract-vegetable-root-ginger-food-fruit-vegetables-thumbnail.png",
+            "https://w7.pngwing.com/pngs/90/394/png-transparent-ginger-oil-food-sugar-molasses-ginger-leaf-recipe-chicken-meat-thumbnail.png",
+            "https://w7.pngwing.com/pngs/11/37/png-transparent-juice-honey-lemon-ginger-tea-honey-ginger-slices-honey-bee-kitchen-food-thumbnail.png"
+        ]
+    },
+    {
+        id: "109",
+        title: "Fresh Onions",
+        description: "Crisp and flavorful onions that add depth and richness to a wide variety of dishes.",
+        image: onion,
+        price: "₹50/kg",
+        oldPrice: "₹70/kg",
+        quantity: "1 kg",
+        shelfLife: "1-2 months",
+        farmer: "Amit Sharma",
+        manufacturer: "Harvest Farms, Karnataka 560001. Lic. No. - 10024031001124.",
+        sellerFSSAI: "24345678000114",
+        marketedBy: "Onion World, Pune 411001.",
+        healthBenefits: "Rich in antioxidants and vitamins C and B6. May support heart health, reduce inflammation, and boost the immune system.",
+        storageTemperature: "Cool, dry place",
+        storageType: "Dry storage",
+        imageSlider: [
+           onion,
+            "https://w7.pngwing.com/pngs/992/6/png-transparent-red-onion-food-vegetable-shallot-yellow-onion-onion-food-nutrition-onion-thumbnail.png",
+            "https://w7.pngwing.com/pngs/659/771/png-transparent-slices-of-onions-shallot-scallion-icon-sliced-onion-purple-food-vegetables-thumbnail.png",
+            "https://w7.pngwing.com/pngs/172/49/png-transparent-red-onion-yellow-onion-vegetable-food-potato-onion-vegetable-leaf-vegetable-onion-shallot-thumbnail.png"
+        ]
     }
+    
+    
+    
     
     
 
