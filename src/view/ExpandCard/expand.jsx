@@ -2,9 +2,12 @@ import { useState } from "react"
 import Footer from "../../components/footer/footer"
 import Navbar from "../../components/navbar/nav"
 import './expand.css'
+import { FRUTESDATA } from "../../config/Frutesdata"
 import minus  from './../../images/expand/minus-icon.png'
 import plus from './../../images/expand/plus icon.png'
 import { useParams } from "react-router-dom"
+import Frutecard from "../../components/Frutecard/Frutecard"
+import SecondBlog from "../../components/BlogCards/SecondBlog/SecondBlog"
 
 function expandcards (){
   const {expandcard} = useParams();
@@ -16,7 +19,7 @@ function expandcards (){
   })
 }
 
-function expand() {
+function expand(title) {
    const [selectprice , setSelectprice] =useState()
   const [quality , setquality]=useState(1)
   return (
@@ -24,7 +27,7 @@ function expand() {
     <Navbar/>
           <div className="expand-container">
              <div className="expand-main-image-container">
-              <img className="expand-main-img" src={"https://www.pngmart.com/files/15/Salad-Bell-Pepper-Red-Transparent-PNG.png"}/>
+              <img className="expand-main-img" src={title}/>
              </div>
              
              <div className="expand-details">
@@ -48,7 +51,20 @@ function expand() {
                         <img src={plus}/>
                   </div>
                 </div>
-
+                {/* {Blogs.map((blog) => {
+            if(blog.type === "smallblogs"){
+              return (
+                <SecondBlog
+                  id={blog.id}
+                  imgUrl={blog.imgUrl}
+                  title={blog.title}
+                  description={blog.description}
+                  details={blog.details}
+                />
+              );
+            }
+            })} */}
+                 
                 <div className="expand-buttons-container">
                    <button type="button" className="expand-btn add-to-cart">Add To Cart</button>
                    <button type="button" className="expand-btn Buy-it-now">Buy It Now</button>

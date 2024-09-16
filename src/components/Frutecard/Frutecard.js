@@ -13,6 +13,7 @@ function Frutecard({title,img,prise}) {
       
       <b> Price: {prise}</b> </div>
       <div className='btn-continer'>
+     
       <button className='card-btn'> More</button>
       </div>
     </div>

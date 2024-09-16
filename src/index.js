@@ -10,7 +10,7 @@ import Blog from './view/Blog/Blog';
 import Cart from './view/cart/cart';
 import Services from './view/services/Services';
 import ReadBlogs from './view/Blog/ReadBlogs/ReadBlogs';
-import Feedback from './view/Feedback/Feedback';
+import Feedback from './view/feedback/feedback';
 import './index.css';
 
 
