@@ -35,7 +35,16 @@ function ReadBlogs() {
 
     contenth4:"",
     contenth4para:[],
-
+    
+    contenth5:"",
+    contenth5Img:"",
+    contenth5para:"",
+    contenth5head1:"",
+    contenth5para1:[],
+    contenth5head2:"",
+    contenth5para2:[],
+    contenth5head3:"",
+    contenth5para3:[],
 
 
     
@@ -103,8 +112,23 @@ function ReadBlogs() {
                 </p>
               ))}
 
-              
-              
+                <h3>{blogDetails.contenth5}</h3>
+                <img src={blogDetails.contenth5Img} alt="img" className="contenrh2img"/>
+                <p>{blogDetails.contenth5para}</p>
+                <h2>{blogDetails.contenth5head1}</h2>
+                {blogDetails.contenth5para1.map((contenth5para1, index) => (
+                <p key={index} className="read-blog-text">
+                  {contenth5para1}
+                </p>
+              ))}
+               
+               <h2>{blogDetails.contenth5head2}</h2>
+              {blogDetails.contenth5para2.map((contenth5para2, index) => (
+                <p key={index} className="read-blog-text">
+                  {contenth5para2}
+                </p>
+              ))}
+
             </div>
             <div className="content-heading"></div>
           </div>
