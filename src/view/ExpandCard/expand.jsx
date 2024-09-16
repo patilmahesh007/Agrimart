@@ -51,19 +51,7 @@ function expand(title) {
                         <img src={plus}/>
                   </div>
                 </div>
-                {/* {Blogs.map((blog) => {
-            if(blog.type === "smallblogs"){
-              return (
-                <SecondBlog
-                  id={blog.id}
-                  imgUrl={blog.imgUrl}
-                  title={blog.title}
-                  description={blog.description}
-                  details={blog.details}
-                />
-              );
-            }
-            })} */}
+             
                  
                 <div className="expand-buttons-container">
                    <button type="button" className="expand-btn add-to-cart">Add To Cart</button>
