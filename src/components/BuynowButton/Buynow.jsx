@@ -9,7 +9,9 @@ const QuantityButton = () => {
   };
 
   const handleIncrease = () => {
-    setQuantity(prevQuantity => prevQuantity + 1);
+   if (quantity < 10) {
+      setQuantity(prevQuantity => prevQuantity + 1);
+    }
   };
 
   const handleDecrease = () => {
