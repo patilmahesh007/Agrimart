@@ -10,6 +10,7 @@ import Vegetables from './../../view/vegetables/Vegetables';
 import Fruits from './../../view/fruits/Fruits';
 import Exotics from './../../view/exotics/Exotics';
 import Dairy from './../../view/dairy/Dairy';
+import Cart from './../../view/cart/cart'; 
 
 import Slider from '../../components/servicesSlider/Slider';
 import ServiceCards from './../../components/serviceCards/ServiceCards';
@@ -33,6 +34,9 @@ const Services = () => {
 
       case 'Dairy':
         return <Dairy />;
+
+      case 'Cart':
+        return <Cart />;
 
       default:
         return null;
@@ -82,7 +86,6 @@ const Services = () => {
                   <h3>Dairy</h3>
                   <p>Dairy farming solutions for milk production and animal care.</p>
                 </div>
-
               </div>
             </div>
           </>
