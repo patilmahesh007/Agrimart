@@ -39,13 +39,6 @@ function Header() {
       });
     }
 
-    else if (location.pathname === "/cart") {
-      toast.success("Cart loaded 🛒", {
-        position: 'top-center',
-        duration: 1000,
-      });
-    }
-
   }, [location]);
 
   const toggleMenu = () => {
