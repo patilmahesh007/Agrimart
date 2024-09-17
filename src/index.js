@@ -6,7 +6,6 @@ import Login from './view/Login/login';
 import Sign from './view/Login/Signup/sign';
 import About from './view/About-us/about';
 import Blog from './view/Blog/Blog';
-import Cart from './view/cart/cart';
 import Services from './view/services/Services';
 import ReadBlogs from './view/Blog/ReadBlogs/ReadBlogs';
 import Feedback from './view/feedback/feedback';
@@ -28,7 +27,6 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="/about" element={<About />} />
       <Route path="/Services" element={<Services />} />
-      <Route path="/Cart" element={<Cart />} />
 
       <Route path="/blog" element={<Blog />} />
       <Route path="/blog/:blogId" element={<ReadBlogs />} />

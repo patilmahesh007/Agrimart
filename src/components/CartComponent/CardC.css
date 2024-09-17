@@ -1,0 +1,42 @@
+
+.CardC-body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 9999;
+  }
+  
+  .CardC-body-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(8px); 
+    background-color: rgba(0, 0, 0, 0.519); 
+    z-index: 1;
+  }
+  
+  .CardC-container {
+    height: 100vh;
+    width: 30vw;
+    background-color: crimson;
+    position: relative; /* Stay relative to the parent */
+    z-index: 10000; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  
+  .CardC-container span img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
