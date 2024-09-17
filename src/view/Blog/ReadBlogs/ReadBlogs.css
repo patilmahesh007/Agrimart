@@ -1,6 +1,13 @@
 .read-card-container{
   width: 100%;
-  margin: 100px 0px;
+  margin: 50px 0px;
+}
+.read-blog-main-heading{
+  width: 70%;
+}
+.read-blog-main-heading h1{
+  font-size: 50px;
+  font-weight: 700;
 }
 .read-card-content{
      width: 80%;
@@ -19,21 +26,33 @@
 }
 .text-content{
       width: 65%;
-      border: 2px solid red;
+      /* border: 2px solid red; */
 }
 .read-blog-text{
     text-align: justify;
-    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
 }
 .content-heading{
   width: 30%;
   border: 2px solid blue;
-  height: 400px;
+  height: 600px;
+  position: sticky;
+  top: 100px;
 }
 .contenrh2img{
   width: 100%;
+  margin-bottom: 20px;
 }
 .all-content-headings{
   margin-top: 30px;
   margin-bottom: 20px;
+  
+}
+.read-blog-span-text-heading{
+       margin-bottom: 2px;
+}
+.read-blog-span-text{
+      margin-bottom: 10px;
+      font-size: 18px;
 }

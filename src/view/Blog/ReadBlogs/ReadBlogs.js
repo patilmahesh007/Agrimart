@@ -59,8 +59,10 @@ function ReadBlogs() {
       <Header />
       <div className="read-card-container">
         <div className="read-card-content">
-          <p>ID: {blogId}</p>
-          <h2>{blogDetails.title}</h2>
+          {/* <p>ID: {blogId}</p> */}
+          <div className="read-blog-main-heading">
+          <h1>{blogDetails.title}</h1>
+          </div>
           <img
             src={blogDetails.imgUrl}
             alt={blogDetails.title}
@@ -74,31 +76,31 @@ function ReadBlogs() {
                   {content}
                 </p>
               ))}
-              <h3 className="all-content-headings">{blogDetails.contenth1}</h3>
-              <p>{blogDetails.parah1}</p>
+              <h1 className="all-content-headings">{blogDetails.contenth1}</h1>
+              <p className="read-blog-text">{blogDetails.parah1}</p>
 
-              <h3 className="all-content-headings">{blogDetails.contenth2}</h3>
+              <h1 className="all-content-headings">{blogDetails.contenth2}</h1>
               <img
                 src={blogDetails.contenth2Img}
                 alt="img"
                 className="contenrh2img"
               />
-              <h5>i. {blogDetails.contenth2span}</h5>
-              <span>{blogDetails.contenth2para}</span>
+              <h3 className="read-blog-span-text-heading">i. {blogDetails.contenth2span}</h3>
+              <p className="read-blog-span-text">{blogDetails.contenth2para}</p>
 
-              <h5>ii. {blogDetails.contenth2span1}</h5>
-              <span>{blogDetails.contenth2para1}</span>
+              <h3>ii. {blogDetails.contenth2span1}</h3>
+              <p className="read-blog-span-text">{blogDetails.contenth2para1}</p>
 
-              <h5>iii. {blogDetails.contenth2span2}</h5>
-              <span>{blogDetails.contenth2para2}</span>
+              <h3>iii. {blogDetails.contenth2span2}</h3>
+              <p className="read-blog-span-text">{blogDetails.contenth2para2}</p>
 
-              <h5>iv. {blogDetails.contenth2span3}</h5>
-              <span>{blogDetails.contenth2para3}</span>
+              <h3>iv. {blogDetails.contenth2span3}</h3>
+              <p className="read-blog-span-text">{blogDetails.contenth2para3}</p>
 
-              <h5>v. {blogDetails.contenth2span4}</h5>
-              <span>{blogDetails.contenth2para4}</span>
+              <h3>v. {blogDetails.contenth2span4}</h3>
+              <p className="read-blog-span-text">{blogDetails.contenth2para4}</p>
 
-              <h3>{blogDetails.contenth3}</h3>
+              <h1 className="all-content-headings">{blogDetails.contenth3}</h1>
               <img
                 src={blogDetails.contenth3Img}
                 alt="img"
@@ -110,35 +112,37 @@ function ReadBlogs() {
                 </p>
               ))}
 
-              <h3>{blogDetails.contenth4}</h3>
+              <h1 className="all-content-headings">{blogDetails.contenth4}</h1>
               {blogDetails.contenth4para.map((contenth4para, index) => (
                 <p key={index} className="read-blog-text">
                   {contenth4para}
                 </p>
               ))}
 
-              <h3>{blogDetails.contenth5}</h3>
+              <h1 className="all-content-headings">{blogDetails.contenth5}</h1>
               <img
                 src={blogDetails.contenth5Img}
                 alt="img"
                 className="contenrh2img"
               />
-              <p>{blogDetails.contenth5para}</p>
-              <h2>{blogDetails.contenth5head1}</h2>
+              <p className="read-blog-text">{blogDetails.contenth5para}</p>
+              <h2>A. {blogDetails.contenth5head1}</h2>
               {blogDetails.contenth5para1.map((contenth5para1, index) => (
                 <p key={index} className="read-blog-text">
                   {contenth5para1}
                 </p>
               ))}
 
-              <h2>{blogDetails.contenth5head2}</h2>
+              <h2>B. {blogDetails.contenth5head2}</h2>
               {blogDetails.contenth5para2.map((contenth5para2, index) => (
                 <p key={index} className="read-blog-text">
                   {contenth5para2}
                 </p>
               ))}
             </div>
-            <div className="content-heading"></div>
+            <div className="content-heading">
+
+            </div>
           </div>
         </div>
       </div>
