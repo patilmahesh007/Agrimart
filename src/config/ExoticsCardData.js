@@ -6,6 +6,7 @@ import iceberglettuce from "../../src/images/card/iceberglettuce.png"
 import mint from "../../src/images/card/mint.png"
 import zucchini from "../../src/images/card/zucchini.png"
 import parsley from "../../src/images/card/parsley.png"
+import capsicum from "../../src/images/card/capsicum.png"
 
 
 const ExoticsCardData = [
@@ -188,7 +189,30 @@ const ExoticsCardData = [
             "https://w7.pngwing.com/pngs/901/942/png-transparent-green-leaf-illustration-parsley-coriander-vegetable-parsley-leaf-vegetable-food-leaf-thumbnail.png",
             "https://w7.pngwing.com/pngs/544/610/png-transparent-celery-vegetable-chinese-cabbage-brussels-sprout-grandma-natural-foods-leaf-vegetable-food-thumbnail.png"
         ]
-    }
+    },
+    {
+        id: "309",
+        title: "Fresh Capsicum",
+        description: "Crisp and colorful capsicum (bell peppers) that add a vibrant crunch and a sweet, slightly tangy flavor to your dishes.",
+        image: capsicum,
+        price: "₹120/kg",
+        oldPrice: "₹150/kg",
+        quantity: "1 kg",
+        shelfLife: "1-2 weeks",
+        farmer: "Nina Patel",
+        manufacturer: "Fresh Veggie Farms, Karnataka 560001. Lic. No. - 10024031001130.",
+        sellerFSSAI: "24345678000120",
+        marketedBy: "Colorful Produce, Hyderabad 500001.",
+        healthBenefits: "Rich in vitamins A and C, and antioxidants. May support immune health, improve skin health, and provide anti-inflammatory benefits.",
+        storageTemperature: "7-10°C",
+        storageType: "Refrigerated storage",
+        imageSlider: [
+            capsicum,
+            "https://w7.pngwing.com/pngs/548/382/png-transparent-bell-pepper-chili-pepper-vegetable-black-pepper-natural-foods-food-tomato-thumbnail.png",
+            "https://w7.pngwing.com/pngs/784/722/png-transparent-two-green-bell-peppers-bell-pepper-facing-heaven-pepper-hunan-capsicum-frutescens-vegetable-green-bell-pepper-natural-foods-food-chili-pepper-thumbnail.png",
+            "https://w7.pngwing.com/pngs/949/731/png-transparent-chili-pepper-cayenne-pepper-red-bell-pepper-paprika-quasiphysical-pepper-natural-foods-food-nightshade-family-thumbnail.png"
+        ]
+    },
     
     
     
