@@ -55,8 +55,6 @@
 
 .nav-item a:hover {
     color: #17252a;
-    background-color: #fff;
-    border-radius: 5px;
     transform: scale(1.1);
 }
 

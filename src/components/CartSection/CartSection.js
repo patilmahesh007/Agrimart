@@ -24,7 +24,7 @@ const TopBarSection = ({ setSelectedCategory }) => {
         </div>
         <span className='price'>RS. 0.00</span>
 
-        <span onClick={() => setSelectedCategory('Cart')}>
+        <span>
           <img src='https://cdn-icons-png.flaticon.com/128/3916/3916624.png'
             alt='cart icon'
             className='social-media-icon' />
