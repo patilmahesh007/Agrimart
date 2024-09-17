@@ -12,19 +12,21 @@ const TopBar = ({ setSelectedCategory }) => {
 
         <div className="right">
           <div className="social-icons">
-            <a href='https://www.facebook.com' target='blank'>
+            <a href='https://www.facebook.com' target='_blank' rel='noreferrer'>
               <img src='https://cdn-icons-png.flaticon.com/128/6422/6422199.png'
                 alt='facebook icon'
                 className='social-media-icon' />
             </a>
-            <a href='https://www.instagram.com/' target='blank'>
+            <a href='https://www.instagram.com/' target='_blank' rel='noreferrer'>
               <img src='https://cdn-icons-png.flaticon.com/128/6422/6422200.png'
                 alt='instagram icon'
                 className='social-media-icon' />
             </a>
           </div>
           <span className='price'>RS. 0.00</span>
-          <span>
+
+          {/* When clicked, set the selected category to 'Cart' */}
+          <span onClick={() => setSelectedCategory('Cart')}>
             <img src='https://cdn-icons-png.flaticon.com/128/3916/3916624.png'
               alt='cart icon'
               className='social-media-icon' />
@@ -32,29 +34,16 @@ const TopBar = ({ setSelectedCategory }) => {
         </div>
       </div>
 
-
       <nav className="menu">
-
-        <span onClick={() =>
-          setSelectedCategory('Essentials')}>ESSENTIALS
-        </span>
-        <span onClick={() =>
-          setSelectedCategory('Vegetables')}>VEGETABLES
-        </span>
-        <span onClick={() =>
-          setSelectedCategory('Fruits')}>FRUITS
-        </span>
-
-        <span onClick={() =>
-          setSelectedCategory('Exotics')}>EXOTICS
-        </span>
-        <span onClick={() =>
-          setSelectedCategory('Dairy')}>DAIRY
-        </span>
-        
+        <span onClick={() => setSelectedCategory('Essentials')}>ESSENTIALS</span>
+        <span onClick={() => setSelectedCategory('Vegetables')}>VEGETABLES</span>
+        <span onClick={() => setSelectedCategory('Fruits')}>FRUITS</span>
+        <span onClick={() => setSelectedCategory('Exotics')}>EXOTICS</span>
+        <span onClick={() => setSelectedCategory('Dairy')}>DAIRY</span>
       </nav>
     </>
   );
 };
 
 export default TopBar;
+

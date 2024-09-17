@@ -9,7 +9,7 @@ function cart() {
            <h1>Vegetables Card</h1>
 
 
-           <Footer/>
+          
     </div>
   )
 }
