@@ -4,14 +4,13 @@ import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navbar/nav";
 import './service.css';
 import TopBar from './../../components/TopBar/TopBar';
-import "../../view/cart/card.css";
 
 import Essentials from './../../view/essentials/Essentials';
 import Vegetables from './../../view/vegetables/Vegetables';
 import Fruits from './../../view/fruits/Fruits';
 import Exotics from './../../view/exotics/Exotics';
 import Dairy from './../../view/dairy/Dairy';
-import Cart from './../../view/cart/cart'; 
+
 
 import Slider from '../../components/servicesSlider/Slider';
 import ServiceCards from './../../components/serviceCards/ServiceCards';
