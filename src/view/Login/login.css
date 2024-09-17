@@ -38,7 +38,7 @@
   .login-form-container {
     display: flex;
     width: 900px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 15px rgba(38, 65, 52, 1);
     overflow: hidden;
     background-color: white;
     margin: 0 auto 100px auto;
@@ -55,26 +55,28 @@
     font-family: cursive;
   }
   
-  .login-welcome-section .login-brand-logo {
+  .login-form-container .login-welcome-section .login-brand-logo {
     height: 100px;
     width: 240px;
     margin-top: 10px;
   }
   
-  .login-welcome-section .login-user-img {
+  .login-form-container .login-welcome-section .login-user-img {
     width: 90px;
     height: 90px;
     margin-bottom: 30px;
   }
   
-  .login-welcome-section h2 {
+  .login-form-container .login-welcome-section h2 {
     margin-bottom: 20px;
     font-size: 40px;
+    color: white;
   }
   
-  .login-welcome-section p {
+  .login-form-container .login-welcome-section p {
     font-size: 20px;
     justify-content: space-between;
+    color: white;
   }
   
   .login-form-section {

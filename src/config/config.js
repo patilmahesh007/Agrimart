@@ -19,11 +19,8 @@ const headerdata = [{
 }, {
   to: "/blog",
   name: "Blog"
-},
-{
-  to: "/cart",
-  name: "Cart"
 }
+
 
 ]
 
