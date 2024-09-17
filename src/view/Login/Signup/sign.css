@@ -39,7 +39,7 @@
   .form-container-1 {
 	display: flex;
 	width: 900px;
-	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+	box-shadow: 4px 4px 15px rgba(38, 65, 52, 1);
 	overflow: hidden;
 	background-color: white;
 	margin: 0 auto 100px auto;
@@ -66,14 +66,16 @@
 	height:90px;
 	margin-bottom:30px;
   }
-  .welcome-section-1 h2 {
+  .form-container-1 .welcome-section-1 h2 {
 	margin-bottom: 20px;
 	font-size: 40px;
+	color: white;
   }
   
-  .welcome-section-1 p {
+  .form-container-1 .welcome-section-1 p {
 	font-size: 20px;
 	justify-content: space-between;
+	color: white;
   }
   
   .registration-section-1 {
