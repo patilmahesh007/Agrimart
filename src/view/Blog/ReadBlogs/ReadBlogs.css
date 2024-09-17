@@ -28,6 +28,10 @@
       width: 65%;
       /* border: 2px solid red; */
 }
+.blogs-content-headings{
+  padding: 0px 20px;
+  text-align: start;
+}
 .read-blog-text{
     text-align: justify;
     margin-bottom: 15px;
@@ -35,10 +39,13 @@
 }
 .content-heading{
   width: 30%;
-  border: 2px solid blue;
   height: 600px;
   position: sticky;
   top: 100px;
+}
+.content-heading h1{
+  padding: 0px 20px;
+  margin-bottom: 25px;
 }
 .contenrh2img{
   width: 100%;
@@ -51,8 +58,9 @@
 }
 .read-blog-span-text-heading{
        margin-bottom: 2px;
+       font-size: 20px;
 }
 .read-blog-span-text{
-      margin-bottom: 10px;
-      font-size: 18px;
+      margin-bottom: 15px;
+      font-size: 20px;
 }

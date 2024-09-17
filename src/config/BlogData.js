@@ -300,37 +300,37 @@ const Blogs = [
 
       "This article will discuss agri-supply chain management. It will cover the basics, challenges, and digital technologies for agriculture that can improve efficiency, profits, and food supply.",
     ],
-    contenth1: "What is the agriculture supply chain?",
+    contenth1: "1. What is the agriculture supply chain?",
     parah1:
       "The agriculture supply chain, or value chain as it’s sometimes called, is the process of moving food from farms to consumers through organizations, people, and resources. An interconnected network of businesses — input suppliers, farms, processors, distributors, and retailers — work together to get farm commodities to consumers’ plates.",
 
-    contenth2: "Challenges in the agri-food supply chain",
+    contenth2: "2. Challenges in the agri-food supply chain",
     contenth2Img: img1,
     contenth2sub:
       "Agriculture supply chain management is incredibly complex, which affects food quality, safety, sustainability, and economic viability. Specific challenges include:",
 
-    contenth2span: "Weather dependence :",
+    contenth2span: "i. Weather dependence :",
     contenth2para:
       " Crop yields and quality depend heavily on weather conditions like rainfall, temperature, etc. This unpredictability makes it harder to align supply and demand.",
 
-    contenth2span1: "Perishability :",
+    contenth2span1: "ii. Perishability :",
     contenth2para1:
       " Many agricultural products are perishable and require quick transport and processing to avoid spoilage. This adds complexity to logistics and inventory management.",
 
-    contenth2span2: "Variability",
+    contenth2span2: "iii. Variability",
     contenth2para2:
       "No two agricultural products are identical in size, taste, etc., which makes standardization and quality control more difficult.",
 
-    contenth2span3: "Labor issues ",
+    contenth2span3: "iv. Labor issues ",
     contenth2para3:
       " Agriculture often faces labor shortages from seasonal demand, an aging workforce, and skills gaps as tech rapidly advances.",
 
-    contenth2span4: "Sustainability",
+    contenth2span4: "v. Sustainability",
     contenth2para4:
       "Requirements for organic, environmentally friendly, or ethically sourced products add complexity in sourcing, traceability, packaging, transportation, and more.",
 
     contenth3:
-      "Strategies to overcome the complexity of supply chain management in agriculture",
+      "3. Strategies to overcome the complexity of supply chain management in agriculture",
     contenth3Img: img6,
 
     contenth3para: [
@@ -351,7 +351,7 @@ const Blogs = [
       "Achieving sustainability demands a balance of ecological and societal responsibility alongside financial feasibility, ensuring that the well-being of both the planet and its inhabitants is prioritized while still maintaining economic prosperity and resilience. Potential strategies include:",
     ],
 
-    contenth4: "A day in the life of modern farmer John",
+    contenth4: "4. A day in the life of modern farmer John",
     contenth4para: [
       "Imagine a day at a farm that has already adopted some of these solutions.",
 
@@ -373,7 +373,7 @@ const Blogs = [
     ],
 
     contenth5:
-      "Digital technologies for the agricultural value chain — and how they work together for maximum efficiency",
+      "5. Digital technologies for the agricultural value chain — and how they work together for maximum efficiency",
     contenth5Img: img8,
     contenth5para:
       "When looking to improve agricultural supply chain management, the first thing that may spring to mind is supply chain software. And that’s certainly one option. But there are many other digital technologies to consider.",
@@ -396,7 +396,18 @@ const Blogs = [
 
       "  Advanced analytics provides the brains by crunching data into quantitative insights. Machine learning and AI flex the muscle of human-like cognition to apply those insights through perception, reasoning, and informed decision-making. Together, they maximize the value of data to optimize agriculture across the supply chain.",
     ],
+    blog10Content:[
+      "1. What is the agriculture supply chain?",
 
+      "2. Challenges in the agri-food supply chain",
+
+      "3. Strategies to overcome the complexity of supply chain management in agriculture",
+
+      "4. A day in the life of modern farmer John",
+
+      "5. Digital technologies for the agricultural value chain — and how they work together for maximum efficiency",
+      
+    ],   
     details: "oct 23,2019 | Piyush Aglawe",
   },
 

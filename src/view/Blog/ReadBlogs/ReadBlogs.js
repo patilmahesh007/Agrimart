@@ -8,6 +8,9 @@ import Footer from "../../../components/footer/footer";
 function ReadBlogs() {
   const { blogId } = useParams();
   const [blogDetails, setBlogDetails] = useState({
+
+    blog10Content: [],
+
     imgUrl: "",
     title: "",
 
@@ -85,19 +88,19 @@ function ReadBlogs() {
                 alt="img"
                 className="contenrh2img"
               />
-              <h3 className="read-blog-span-text-heading">i. {blogDetails.contenth2span}</h3>
+              <h3 className="read-blog-span-text-heading">{blogDetails.contenth2span}</h3>
               <p className="read-blog-span-text">{blogDetails.contenth2para}</p>
 
-              <h3>ii. {blogDetails.contenth2span1}</h3>
+              <h3 className="read-blog-span-text-heading">{blogDetails.contenth2span1}</h3>
               <p className="read-blog-span-text">{blogDetails.contenth2para1}</p>
 
-              <h3>iii. {blogDetails.contenth2span2}</h3>
+              <h3 className="read-blog-span-text-heading">{blogDetails.contenth2span2}</h3>
               <p className="read-blog-span-text">{blogDetails.contenth2para2}</p>
 
-              <h3>iv. {blogDetails.contenth2span3}</h3>
+              <h3 className="read-blog-span-text-heading">{blogDetails.contenth2span3}</h3>
               <p className="read-blog-span-text">{blogDetails.contenth2para3}</p>
 
-              <h3>v. {blogDetails.contenth2span4}</h3>
+              <h3 className="read-blog-span-text-heading">{blogDetails.contenth2span4}</h3>
               <p className="read-blog-span-text">{blogDetails.contenth2para4}</p>
 
               <h1 className="all-content-headings">{blogDetails.contenth3}</h1>
@@ -141,7 +144,12 @@ function ReadBlogs() {
               ))}
             </div>
             <div className="content-heading">
-
+              <h1>Content</h1>
+            {blogDetails.blog10Content.map((blog10Content, index) => (
+                <h2 key={index} className="blogs-content-headings">
+                  {blog10Content}
+                </h2>
+              ))}
             </div>
           </div>
         </div>
