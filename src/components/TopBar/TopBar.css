@@ -28,15 +28,17 @@
     letter-spacing: 1px;
     border-bottom: 1px solid #ddd;
   }
-  
-  .menu span {
-    cursor: pointer;
-    transition: color 0.3s ease;
+
+  .menu-item {
+    color: #555;
   }
-  
-  .menu span:hover {
+
+  .menu-item:hover {
     color: #91a57d;
+    transition: color 0.3s ease;
+    cursor: pointer;
   }
+  
 
 
 

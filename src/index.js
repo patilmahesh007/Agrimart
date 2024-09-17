@@ -45,6 +45,7 @@ root.render(
       <Route path="/Card/:cardId" element={<Card/>} />
       <Route path="/Exotics" element={<Exotics/>} />
       <Route path="/Vegetables" element={<Vegetables/>} />
+      <Route path="/Fruits" element={<Fruits/>} />
       
 
   

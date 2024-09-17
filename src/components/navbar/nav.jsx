@@ -9,37 +9,7 @@ function Header() {
   const location = useLocation();
   const [menuActive, setMenuActive] = useState(false);
 
-  useEffect(() => {
-
-    if (location.pathname === "/") {
-      toast.success("Home loaded 🏠", {
-        position: 'top-center',
-        duration: 1000,
-      });
-    }
-
-    else if (location.pathname === "/about") {
-      toast.success("About loaded 🔎", {
-        position: 'top-center',
-        duration: 1000,
-      });
-    }
-
-    else if (location.pathname === "/services") {
-      toast.success("Services loaded 👨🏻‍💻", {
-        position: 'top-center',
-        duration: 1000,
-      });
-    }
-
-    else if (location.pathname === "/blog") {
-      toast.success("Blog loaded ✍️", {
-        position: 'top-center',
-        duration: 1000,
-      });
-    }
-
-  }, [location]);
+ 
 
   const toggleMenu = () => {
     setMenuActive(!menuActive);

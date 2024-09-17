@@ -8,14 +8,19 @@ import capsicum from "../../src/images/card/capsicum.png"
 import bhindi from "../../src/images/card/bhendi.png"
 import drumstick from "../../src/images/card/drumstick.png"
 import carrot from "../../src/images/card/carrot.png"
-
+import bitter from "../../src/images/card/bitter.png"
+import big_brinjal from "../../src/images/card/big_brinjal.png"
+import french_beans from "../../src/images/card/french_beans.png"
+import mushroom from "../../src/images/card/mushroom.png"
+import papaya from "../../src/images/card/papaya.png"
+import pumpkin from "../../src/images/card/pumpkin.png"
 
 
 
 const VegCardData = [
 
     {
-        id: "119",
+        id: "101",
         title: "Fresh Orange Carrots",
         description: "Crunchy and sweet orange carrots, ideal for salads, snacks, and cooking. Packed with flavor and nutrients.",
         image: carrot,
@@ -39,7 +44,7 @@ const VegCardData = [
     },
     {
         id: "111",
-        title: "Fresh Ash Gourd (White Pumpkin)",
+        title: "Fresh Ash Gourd ",
         description: "A mild-flavored, refreshing vegetable with a light green skin and white flesh, perfect for soups, stews, and curries.",
         image: ashgourd,
         price: "₹70/kg",
@@ -154,7 +159,7 @@ const VegCardData = [
     },
     {
         id: "116",
-        title: "Fresh Bhindi (Okra)",
+        title: "Fresh Bhindi",
         description: "Tender and crisp bhindi, also known as okra, perfect for stir-fries, curries, and as a nutritious addition to various dishes.",
         image: bhindi,
         price: "₹90/kg",
@@ -200,7 +205,7 @@ const VegCardData = [
     },
     {
         id: "118",
-        title: "Fresh Drumstick (Moringa)",
+        title: "Fresh Drumstick",
         description: "Nutrient-rich drumsticks, also known as moringa, perfect for soups, stews, and curries. Known for its high nutritional value and unique flavor.",
         image: drumstick,
         price: "₹100/kg",
@@ -220,7 +225,153 @@ const VegCardData = [
             "https://w7.pngwing.com/pngs/279/503/png-transparent-drumstick-tree-vegetable-drum-stick-health-vegetable-food-nutrition-scallion-thumbnail.png",
             "https://w7.pngwing.com/pngs/214/646/png-transparent-green-vegetables-vegetable-organic-food-eggplant-fruit-ingredient-drumstick-cut-leaf-vegetable-food-tomato-thumbnail.png"
         ]
+    },
+    {
+        id: "119",
+        title: "Fresh Bitter Gourd",
+        description: "Fresh bitter gourd, also known as bitter melon, known for its distinct bitter taste and numerous health benefits. Ideal for curries, stir-fries, and juices.",
+        image: bitter,
+        price: "₹90/kg",
+        oldPrice: "₹110/kg",
+        quantity: "500 g",
+        shelfLife: "1 week",
+        farmer: "Nisha Patel",
+        manufacturer: "Bitter Greens Farm, Karnataka 560001. Lic. No. - 10024031001136.",
+        sellerFSSAI: "24345678000126",
+        marketedBy: "Herbal Fresh, Bangalore 560002.",
+        healthBenefits: "Rich in vitamins C and A. Known for its potential to regulate blood sugar levels and support digestion. Contains antioxidants and may have anti-inflammatory properties.",
+        storageTemperature: "8-12°C",
+        storageType: "Cool, dry place",
+        imageSlider: [
+            bitter,
+            "https://w7.pngwing.com/pngs/6/759/png-transparent-green-vegetable-bitter-melon-vegetable-beetroot-gourd-seed-bitter-gourd-leaf-vegetable-food-leaf-thumbnail.png",
+            "https://w7.pngwing.com/pngs/110/772/png-transparent-bitter-melon-vegetable-food-chayote-health-vegetable-natural-foods-food-gourd-thumbnail.png",
+            "https://w7.pngwing.com/pngs/198/229/png-transparent-vegetarian-cuisine-bitter-melon-broccoli-vegetable-bitter-gourd-natural-foods-leaf-vegetable-food-thumbnail.png"
+        ]
+    },
+    {
+        id: "120",
+        title: "Big Brinjal",
+        description: "Fresh and large brinjals, also known as eggplants, perfect for grilling, stuffing, or adding to curries. Known for their rich flavor and versatility in cooking.",
+        image: big_brinjal,
+        price: "₹70/kg",
+        oldPrice: "₹90/kg",
+        quantity: "500 g",
+        shelfLife: "1 week",
+        farmer: "Rajiv Mehta",
+        manufacturer: "Veggie Harvest, Tamil Nadu 600001. Lic. No. - 10024031001137.",
+        sellerFSSAI: "24345678000127",
+        marketedBy: "Harvest Delights, Chennai 600002.",
+        healthBenefits: "Rich in dietary fiber and antioxidants. May support heart health, aid in weight management, and improve digestion.",
+        storageTemperature: "12-15°C",
+        storageType: "Cool, dry place",
+        imageSlider: [
+            big_brinjal,
+            "https://w7.pngwing.com/pngs/843/179/png-transparent-purple-eggplant-eggplant-vegetable-food-ingredient-broccoli-fresh-eggplant-purple-food-tomato-thumbnail.png",
+            "https://w7.pngwing.com/pngs/169/423/png-transparent-three-black-eggplants-eggplant-dolma-vegetable-eggplant-leaf-vegetable-food-cabbage-thumbnail.png",
+            "https://w7.pngwing.com/pngs/832/980/png-transparent-three-eggplants-illustration-eggplant-jalebi-tomato-urdu-dish-fresh-brinjal-natural-foods-food-fruit-thumbnail.png"
+        ]
+    },
+    {
+        id: "121",
+        title: "Fresh French Beans",
+        description: "Crisp and tender French beans, ideal for stir-fries, salads, and as a side dish. Known for their delicate flavor and high nutritional content.",
+        image: french_beans,
+        price: "₹90/kg",
+        oldPrice: "₹110/kg",
+        quantity: "500 g",
+        shelfLife: "1 week",
+        farmer: "Meera Gupta",
+        manufacturer: "Green Harvest, Himachal Pradesh 171001. Lic. No. - 10024031001138.",
+        sellerFSSAI: "24345678000128",
+        marketedBy: "Fresh Veggie Co., Shimla 171002.",
+        healthBenefits: "Rich in vitamins A, C, and K, and a good source of dietary fiber. May support digestive health, aid in weight management, and boost overall energy levels.",
+        storageTemperature: "4-7°C",
+        storageType: "Refrigerated storage",
+        imageSlider: [
+            french_beans,
+            "https://w7.pngwing.com/pngs/929/1007/png-transparent-green-string-beans-green-bean-vegetable-garlic-green-beans-leaf-vegetable-food-recipe-thumbnail.png",
+            "https://w7.pngwing.com/pngs/467/387/png-transparent-bunch-of-string-beans-green-bean-chili-con-carne-vegetable-tomato-green-beans-leaf-vegetable-food-cooking-thumbnail.png",
+            "https://w7.pngwing.com/pngs/994/808/png-transparent-green-bean-mahlmann-beteiligungs-gmbh-common-bean-lima-bean-chinese-lettuce-scallion-bean-vegetarian-food-thumbnail.png"
+        ]
+    },
+    {
+        id: "121",
+        title: "Fresh Mushrooms",
+        description: "Fresh and flavorful mushrooms, perfect for adding depth to soups, stews, stir-fries, and more. Known for their umami taste and versatility in cooking.",
+        image: mushroom,
+        price: "₹120/kg",
+        oldPrice: "₹150/kg",
+        quantity: "500 g",
+        shelfLife: "1 week",
+        farmer: "Vikram Singh",
+        manufacturer: "Mushroom Farm, Maharashtra 411001. Lic. No. - 10024031001139.",
+        sellerFSSAI: "24345678000129",
+        marketedBy: "Gourmet Greens, Pune 411002.",
+        healthBenefits: "Rich in B vitamins, selenium, and antioxidants. May support immune function, heart health, and provide essential nutrients for overall well-being.",
+        storageTemperature: "4-7°C",
+        storageType: "Refrigerated storage",
+        imageSlider: [
+            mushroom,
+            "https://w7.pngwing.com/pngs/387/908/png-transparent-two-brown-mushroom-illustration-common-mushroom-edible-mushroom-food-fungus-mushroom-eating-shiitake-mushroom-cloud-thumbnail.png",
+            "https://w7.pngwing.com/pngs/858/297/png-transparent-common-mushroom-edible-mushroom-fungus-vegetable-mushroom-cream-soup-olive-thumbnail.png",
+            "https://w7.pngwing.com/pngs/284/181/png-transparent-beige-mushroojms-common-mushroom-fungus-food-mushroom-poisoning-white-mushrooms-image-file-formats-shiitake-agaricaceae-thumbnail.png"
+        ]
+    },
+    {
+        id: "122",
+        title: "Fresh Papaya",
+        description: "Ripe and juicy papayas, perfect for eating fresh, making smoothies, or adding to fruit salads. Known for their sweet flavor and health benefits.",
+        image: papaya,
+        price: "₹80/kg",
+        oldPrice: "₹100/kg",
+        quantity: "500 g",
+        shelfLife: "1 week",
+        farmer: "Geeta Sharma",
+        manufacturer: "Tropical Fruits Ltd., Karnataka 560001. Lic. No. - 10024031001140.",
+        sellerFSSAI: "24345678000130",
+        marketedBy: "Sweet Harvest, Bangalore 560002.",
+        healthBenefits: "High in vitamins A, C, and E. Contains enzymes like papain that aid digestion and reduce inflammation. May support skin health, boost the immune system, and aid in digestion.",
+        storageTemperature: "10-15°C",
+        storageType: "Cool, dry place",
+        imageSlider: [
+            papaya,
+            "https://w7.pngwing.com/pngs/527/613/png-transparent-sliced-papaya-fruit-papaya-fruit-asian-pear-food-ripening-papaya-tropical-fruit-eating-green-papaya-thumbnail.png",
+            "https://w7.pngwing.com/pngs/939/54/png-transparent-papaya-pawpaw-tropical-fruit-eating-papaya-s-leaf-vegetable-food-tropical-fruit-thumbnail.png",
+            "https://w7.pngwing.com/pngs/20/861/png-transparent-papaya-food-fruit-papaya-green-papaya-superfood-papaya-peel-thumbnail.png"
+        ]
+    },
+    {
+        id: "123",
+        title: "Fresh Pumpkin",
+        description: "Sweet and hearty pumpkins, perfect for soups, pies, and roasting. Known for their rich flavor and high nutritional value.",
+        image: pumpkin,
+        price: "₹60/kg",
+        oldPrice: "₹80/kg",
+        quantity: "1 kg",
+        shelfLife: "2 weeks",
+        farmer: "Rajeev Kumar",
+        manufacturer: "Harvest Fields, Uttar Pradesh 201001. Lic. No. - 10024031001141.",
+        sellerFSSAI: "24345678000131",
+        marketedBy: "Pure Harvest, Lucknow 226001.",
+        healthBenefits: "Rich in vitamins A and C, and a good source of fiber. May support immune health, vision, and digestive function. Contains antioxidants and promotes healthy skin.",
+        storageTemperature: "10-15°C",
+        storageType: "Cool, dry place",
+        imageSlider: [
+           pumpkin,
+           "https://w7.pngwing.com/pngs/181/1002/png-transparent-mashed-pumpkin-vegetable-bhaji-fritter-pumpkin-food-orange-cooking-thumbnail.png",
+            "https://w7.pngwing.com/pngs/491/741/png-transparent-pumpkin-food-gourd-hemp-oil-guava-pumpkin-natural-foods-food-orange-thumbnail.png",
+            "https://w7.pngwing.com/pngs/658/547/png-transparent-pumpkin-pie-bisque-food-pumpkin-natural-foods-orange-gourd-thumbnail.png"
+        ]
     }
+    
+
+    
+    
+    
+    
+    
+    
     
     
     
