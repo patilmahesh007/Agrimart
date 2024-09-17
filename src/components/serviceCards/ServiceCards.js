@@ -10,51 +10,53 @@ import dairyImage from './../../images/serviceCard/dairyImage.jpg';
 const cardsData = [
 
     {
-        title: 'ESSENTIALS',
+        title: 'Essentials',
         imageUrl: essentialsImage,
     },
 
     {
-        title: 'VEGETABLES',
+        title: 'Vegetables',
         imageUrl: vegetablesImage,
     },
 
     {
-        title: 'EXOTICS',
+        title: 'Exotics',
         imageUrl: exoticsImage,
     },
 
     {
-        title: 'FRUIT',
+        title: 'Fruits',
         imageUrl: fruitImage,
     },
 
     {
-        title: 'DAIRY',
+        title: 'Dairy',
         imageUrl: dairyImage,
     },
 
 ];
 
-const Cards = () => {
+const ServiceCards = ({ setSelectedCategory }) => {
+
     return (
         <div className="cards-container">
 
             {cardsData.map((card, index) => (
-                <div className="card" key={index}>
+                <div className="card" key={index} onClick={() => setSelectedCategory(card.title)}>
 
                     <img src={card.imageUrl} alt={card.title} className="card-image" />
 
                     <div className="card-title-container">
+
                         <h2 className="card-title">{card.title}</h2>
+
                     </div>
-
+                    
                 </div>
-
             ))}
-        </div>
 
+        </div>
     );
 };
 
-export default Cards;
+export default ServiceCards;
