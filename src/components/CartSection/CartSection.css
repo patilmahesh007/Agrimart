@@ -1,0 +1,51 @@
+/* Top Bar Styles */
+.topbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  max-height: 100vh;
+}
+
+.topbar-left span, .topbar-right span {
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.topbar-cart-icon {
+  width: 24px;
+  cursor: pointer;
+}
+
+.topbar-price {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Cart Menu Styles */
+.topbar-cart-menu {
+  position: fixed;
+  top: 0;
+  right: -300px; /* Initially hidden off-screen */
+  width: 300px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out; /* Smooth sliding effect */
+  transform: translateX(100%); /* Hidden by default */
+  z-index: 1000;
+}
+
+.topbar-cart-menu-open {
+  transform: translateX(0); /* Slides cart into view */
+}
+
+/* Basic styling for cart content */
+.topbar-cart-menu p {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}

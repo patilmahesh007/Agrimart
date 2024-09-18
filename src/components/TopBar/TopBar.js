@@ -1,24 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './TopBar.css';
-import CartSection from "./../../components/CartSection/CartSection"
+import CartSection from "./../../components/CartSection/CartSection";
 
-const TopBar = ({ setSelectedCategory }) => {
+const TopBar = () => {
   return (
     <>
-      
-      <CartSection setSelectedCategory={setSelectedCategory} />
-
+      <CartSection />
       <nav className="menu">
-        <span onClick={() => setSelectedCategory('Essentials')}>ESSENTIALS</span>
-        <span onClick={() => setSelectedCategory('Vegetables')}>VEGETABLES</span>
-        <span onClick={() => setSelectedCategory('Fruits')}>FRUITS</span>
-        <span onClick={() => setSelectedCategory('Exotics')}>EXOTICS</span>
-        <span onClick={() => setSelectedCategory('Dairy')}>DAIRY</span>
+        <Link to="/essentials" className='menu-item'>ESSENTIALS</Link>
+        <Link to="/vegetables" className='menu-item'>VEGETABLES</Link>
+        <Link to="/Fruits" className='menu-item'>FRUITS</Link>
+        <Link to="/exotics" className='menu-item'>EXOTICS</Link>
+        <Link to="/dairy" className='menu-item'>DAIRY</Link>
       </nav>
     </>
   );
 };
 
 export default TopBar;
-
-

@@ -3,44 +3,74 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 0;
+}
+
+.feedback-header {
+  width: 800px;
+  height: 30px;
+  padding: 10px 30px;
+  background-color: rgba(38, 65, 52, 1);
+  display: flex;
+  justify-content: flex-end;
+  margin: 60px auto 0 auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.feedback-form-container {
+  display: flex;
+  width: 900px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: white;
+  margin: 0;
+  border-radius: 0 0px 20px 100px;
 
 }
 
-.feedback-image {
-  border-radius: 10px 0 0 10px;
-  max-width: 500px;
-  height: 532px;
+.feedback-welcome-section {
+  background-color: rgba(38, 65, 52, 1);
+  color: white;
+  padding: 50px;
+  text-align: center;
+  width: 60%;
+  border-radius: 0 70px 0px 100px;
+  font-family: cursive;
+  height: 432px;
+  width: 300px;
+  object-fit: cover;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.feedback-welcome-section h2 {
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.feedback-welcome-section p {
+  font-size: 30px;
+}
+
+.feedback-brand-logo {
+  height: 80px;
+  margin-top: 70px;
+}
+
+.feedback-user-img {
+  height: 80px;
   object-fit: cover;
 }
 
 .rating-container {
   width: 400px;
+  height: 470px;
   text-align: center;
   font-family: Arial, sans-serif;
   padding: 30px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius:0 10px  10px 0;
-}
+  border-radius: 0 0 10px 0;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 
-.progress-bar {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-.step {
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  border: 2px solid #aaa;
-  border-radius: 50%;
-  color: #aaa;
-}
-
-.step.active {
-  border-color: green;
-  color: green;
 }
 
 h2 {
@@ -79,7 +109,7 @@ h2 {
 }
 
 .feedback-section textarea {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -100,7 +130,7 @@ h2 {
 }
 
 .submit-button:hover {
-  background-color: #1c802b;
+  background-color: #2c4f31;
 }
 
 .required {
@@ -108,8 +138,7 @@ h2 {
 }
 
 .rating-user-info {
-  display: block;
-  margin-bottom: 10px;
+  width: 95%;
 
 }
 
@@ -117,10 +146,107 @@ h2 {
   display: block;
   margin: 10px auto;
   height: 20px;
-  width: 80%;
+
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
   color: rgb(97, 96, 96);
 
+}
+
+@media screen and (max-width:436px) {
+  .feedback-header {
+    width: 0;
+    height: 0;
+    padding: 0;
+
+  }
+
+  .feedback-welcome-section {
+    padding: 50px;
+    border-radius: 10px 10px 0 0;
+    height: 350px;
+    width: 240px;
+    box-shadow: none;
+
+  }
+
+  .feedback-welcome-section h2 {
+    margin-bottom: 40px;
+  }
+
+  .feedback-brand-logo {
+    height: 80px;
+    margin-top: 30px;
+  }
+
+  .rating-container {
+    width: 300px;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 30px;
+  }
+
+
+}
+
+@media screen and (min-width:436px) and (max-width:800px) {
+  .feedback-header {
+    width: 0;
+    height: 0;
+    padding: 0;
+
+  }
+
+  .feedback-welcome-section {
+    padding: 50px;
+    border-radius: 10px 10px 0 0;
+    height: 350px;
+    width: 300px;
+    box-shadow: none;
+
+  }
+
+  .feedback-welcome-section h2 {
+    color: #fff;
+    margin-bottom: 40px;
+  }
+
+  .feedback-brand-logo {
+    height: 80px;
+    margin-top: 30px;
+  }
+
+  .rating-container {
+    width: 360px;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;  
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width:800px) and (max-width:1100px) {
+  .feedback-header {
+    width: 700px;
+    height: 30px;
+    padding: 10px 30px;
+  }
+
+  .feedback-form-container {
+    width: 700px;
+    background-color: white;
+    margin:0;
+    border-radius: 0 0px 20px 100px;
+
+  }
+
+  .feedback-welcome-section {
+    height: 432px;
+    width: 250px;
+  }
+
+  .rating-container {
+    width: 350px;
+    height: 470px;
+  }
 }

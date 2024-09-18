@@ -5,6 +5,8 @@ import potato from "../../src/images/card/potato.png"
 import onion from "../../src/images/card/onion.png"
 import cucumber from "../../src/images/card/cucumber.png"
 import garlic from "../../src/images/card/garlic.png"
+import lemon from "../../src/images/card/lemon.png"
+import bitter from "../../src/images/card/bitter.png"
 
 
 
@@ -146,7 +148,32 @@ const EssentialsCardData = [
             "https://w7.pngwing.com/pngs/659/771/png-transparent-slices-of-onions-shallot-scallion-icon-sliced-onion-purple-food-vegetables-thumbnail.png",
             "https://w7.pngwing.com/pngs/172/49/png-transparent-red-onion-yellow-onion-vegetable-food-potato-onion-vegetable-leaf-vegetable-onion-shallot-thumbnail.png"
         ]
-    }
+    },
+    {
+        id: "110",
+        title: "Fresh Lemon",
+        description: "Tangy and refreshing lemons, perfect for adding a zesty flavor to dishes or drinks. Rich in vitamin C and antioxidants.",
+        image: lemon,
+        price: "₹60/kg",
+        oldPrice: "₹75/kg",
+        quantity: "500 g",
+        shelfLife: "2 weeks",
+        farmer: "Anil Sharma",
+        manufacturer: "Citrus Orchards, Maharashtra 400001. Lic. No. - 10024031001135.",
+        sellerFSSAI: "24345678000125",
+        marketedBy: "Zesty Fruits, Mumbai 400002.",
+        healthBenefits: "Excellent source of vitamin C, which can boost the immune system. Contains antioxidants that may help in detoxification and improve skin health.",
+        storageTemperature: "10-15°C",
+        storageType: "Cool, dry place",
+        imageSlider: [
+            lemon,
+            "https://w7.pngwing.com/pngs/60/977/png-transparent-blood-orange-tangelo-clementine-tangerine-orange-natural-foods-food-orange-thumbnail.png",
+            "https://w7.pngwing.com/pngs/6/412/png-transparent-sliced-green-fruit-juice-lemon-lime-and-bitters-lemon-lime-drink-fresh-green-lemon-slices-food-photography-citrus-thumbnail.png",
+            "https://w7.pngwing.com/pngs/644/936/png-transparent-lemon-lime-drink-food-lemon-natural-foods-citrus-persian-lime-thumbnail.png"
+        ]
+    },
+    
+    
     
     
     
