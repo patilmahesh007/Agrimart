@@ -1,0 +1,18 @@
+.checkout-leftside{
+    width: 50%;
+    background-color: antiquewhite;
+}
+.contact-heading{
+    margin: 15px 50px;
+}
+.email-input{
+   margin: 5px 30px;
+   width: 80%;
+}
+.country-input{
+    margin: 5px 30px;
+    width: 80%;
+}
+.fullname-container{
+    display: flex;
+}
