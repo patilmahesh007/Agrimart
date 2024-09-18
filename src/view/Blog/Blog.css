@@ -8,13 +8,15 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 140px;
 }
 .blog-card {
-    width: 340px;
-    height: 425px;
+    width: 360px;
+    height: 480px;
     position: relative;
     overflow: hidden;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
 }
 
 .blog-image-container {
@@ -53,13 +55,14 @@
 
 .read-more-btn {
     padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: #253e32;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
-    color: #333;
+    color: #ffffff;
+    border: 1px solid #ffffff;
 }
 .small-blog-cards{
     display: flex;
@@ -72,7 +75,7 @@
 }
 
 .read-more-btn:hover {
-    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #ffffff;
 }
 .main-component-cards{
     width: 100%;

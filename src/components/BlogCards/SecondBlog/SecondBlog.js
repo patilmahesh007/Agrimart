@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./SecondBlog.css";
 import { Link } from "react-router-dom";
 
@@ -12,10 +12,10 @@ function SecondBlog({ id, imgUrl, title, description, details }) {
         <span className="second-blog-details">{details}</span>
         <p className="second-blog-desc">{description}</p>
         <Link to={`/blog/${id}`}>
-          <button className='read-more'>Read More</button>
+          <button className="read-more">Read More</button>
         </Link>
-  </div>
-  </div>
-  )
+      </div>
+    </div>
+  );
 }
-export default SecondBlog
+export default SecondBlog;
