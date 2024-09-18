@@ -17,64 +17,209 @@ const Blogimgage = blogIage;
 const Blogs = [
   {
     id: 1,
-    imgUrl: img1,
-    title: "First Blog",
+    imgUrl: "https://images.pexels.com/photos/4421377/pexels-photo-4421377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     type: "largeblog",
+    title: "Organic Farming: Chemicals-Free Agriculture In Action",
     description:
-      "Modern farming methods have often proven effective and have delivered outstanding results...",
+      "Switching to organic agriculture brings promising prospects both in terms of welfare and nature improvement as well as food diversity...",
+
     content: [
-      "Modern farming methods have often proven effective and have delivered outstanding results. A farmer from Nashik, stands testimony to the wonders modern farming techniques can do. Here’s how Mr. Balu Darade grew a whopping 195 quintal onion –",
+      "Switching to organic agriculture brings promising prospects both in terms of welfare and nature improvement as well as food diversity. Benefits of organic farming also include another significant aspect – the higher nutritional value of natural food as compared to the one grown with chemical additives.",
 
-      "NABARD’s golden initiative",
+      "More and more people have been embracing the idea of organic farming lately, concerned with health and environment care issues, or striving for new gastronomic experiences.",
 
-      "The National Bank for Agriculture and Rural Development (NABARD) initiated a noble program where it trained the farmers for modern farming techniques. Mr. Balu Darade participated in this program as he wished to yield more than 100 quintal, his average produce.",
-
-      "Goodbye to traditional techniques",
-
-      "The traditional method of sowing on flat beds was replaced by raised beds. Following are the advantages of raised bed sowing –",
-
-      "Water can be supplied through drip irrigation, The temperature can be maintained in raised bed sowing, Spacing can be easily maintained Drip irrigation Raised bed sowing allowed the water to be supplied through drip irrigation, a method which has its own advantages –",
-
-      "Drip irrigation reduces water wastage Evaporation is minimal and the consumption is lowered Fertilisers can be used via the dripping system The land between the plant rows remain dry and unwanted plant growth is prevented",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi! Fuga sed doloremque laborum modi voluptatem commodi voluptates. Cumque esse nulla error in a, saepe debitis at totam molestias ad!",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi! Fuga sed doloremque laborum modi voluptatem commodi voluptates. Cumque esse nulla error in a, saepe debitis at totam molestias ad!",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi!",
+      "Despite higher prices, lots of consumers prefer to purchase natural products, with high demand involving the necessity of increased supplies and the exploration of organic farming practices.",
     ],
-    details: "oct 23,2019 | Piyush Aglawe",
+    contenth1: "1. What Is Organic Farming?",
+    parah1:
+      "Organic farming is an agricultural approach that advocates healthy products free from components that may harm humans and nature. They include but are not limited to industrial pesticides, insecticides, fertilizers, clones, GMOs, chemical medications, hormones, growth-boosters, etc.The basic idea of organic agriculture is to provide food with optimum nutritional value and minimum dangerous ingredients, with only permitted substances used. The principle also requires 100% natural forage for livestock and its further processing without synthetics.",
+
+    contenth2: "2. Principles Of Organic Agriculture",
+    contenth2Img: "https://eos.com/wp-content/uploads/2020/09/principles-of-organic-farming.jpg.webp",
+    contenth2sub:
+      "Agriculture supply chain management is incredibly complex, which affects food quality, safety, sustainability, and economic viability. Specific challenges include:",
+
+    contenth2span: "i. Health :",
+    contenth2para:
+      " The principle of health in organic farming suggests avoiding dangerous chemicals leaving poisonous residues that have a negative impact on multiple levels, affecting microscopic soil organisms, crops, animals, and humans. Expanding the common saying to agriculture, we can state that healthy soil produces healthy crops, and healthy crops foster a sound mind in a sound body – with good immunity, regeneration properties, and no disease suffered.",
+
+    contenth2span1: "ii. Ecology :",
+    contenth2para1:
+      " The principle of ecology in farming involves utilizing environmentally friendly techniques like the ones fostering soil quality (preventing depletion, erosion, degradation) or eliminating nature pollution. It also means providing favorable living conditions for all ecosystem members since they closely interconnect. Eco-practices in agriculture maintain the proper balance and save natural resources, for example, restore soil fertility with non-synthetic matters (green manure and animal manures), encourage recycling and genetic diversity of species in the area.",
+
+    contenth2span2: "iii. Fairness",
+    contenth2para2:
+      "The principle of fairness in organic farming advocates a decent and respectful attitude to all participants of the business: farmers, suppliers, traders, consumers. It promotes appropriate working and living conditions and supports people’s needs for sufficient supplies of quality food products.",
+
+    contenth2span3: "iv. Care ",
+    contenth2para3:
+      " The principle of care in agriculture encourages sparing consumption of resources with upcoming generations and nature in mind. Applied farming technologies should be thoroughly assessed as to negative consequences. Precaution and timely risk management must govern any decision making.",
+
+    contenth3:
+      "3. Organic Farming best Practices",
+    contenth3Img: "https://d17ocfn2f5o4rl.cloudfront.net/wp-content/uploads/2023/10/BP-Agriculture-supply-chain.-Graphics-03.jpg",
+
+    contenth3para: [
+      "This farming approach implies covering the field with any plant species, either for a certain season or perennially, partially between the crop rows or completely. Cover crops tackle soil erosion, improve water filtration and aeration with their roots. They also eliminate weeding with upper parts, by hiding unwanted vegetation from the sunlight.",
+
+      "Mixing green plants with the soil enriches it with organic matters and nitrogen in particular. It also increases moisture levels and adds nutrients for microorganisms, thus improving the soil quality. The described method of agriculture also reduces weed infestation.",
+
+      "For each of the challenges outlined in the previous section, some strategies can help you mitigate the risks.",
+
+      "This organic farming practice enriches the soil with natural components that originated from animals, either raw or composted (excluding slaughter by-products). The method has restrictions though, as the material must not contain any synthetic additives, the soil must be tested before applications, and manures are allowed at least three months prior to harvesting.",
+
+      "The perishable nature of items necessitates the implementation of swift and efficient procedures to curtail food loss and minimize waste effectively. Potential strategies include:",
+
+      "The fluctuation in the biological attributes of agricultural products poses a substantial challenge. A lack of standardization ultimately complicates processing, quality control, packaging, and sales. Specific management strategies include:",
+
+    ],
+
+    contenth4: "4. Is Organic Farming Sustainable?",
+    contenth4para: [
+      "Organic farming has gained significant attention in recent years as a sustainable alternative to conventional agriculture. At its core, organic farming focuses on preserving the environment, enhancing biodiversity, and promoting soil health by avoiding synthetic chemicals like pesticides and fertilizers. Instead, organic farmers use natural processes and inputs, such as composting, crop rotation, and biological pest control. This approach not only reduces pollution and conserves water but also fosters healthier ecosystems, contributing to long-term agricultural sustainability.",
+
+      "One of the key elements of organic farming's sustainability lies in its focus on soil health. Conventional farming methods often deplete soil nutrients, leading to erosion and loss of fertility over time. Organic farming, on the other hand, emphasizes building rich, fertile soils by encouraging microbial activity, organic matter, and biodiversity. This helps maintain soil structure, improves water retention, and ensures long-term productivity. Healthy soil is crucial not just for crop yields but for reducing the carbon footprint, as it captures carbon and stores it, mitigating climate change.",
+
+      "However, the question of whether organic farming is fully sustainable also raises some challenges. Organic farming tends to require more land to produce the same yields as conventional farming, which can be a concern in regions facing land scarcity. Additionally, organic methods are more labor-intensive and may result in higher costs for both farmers and consumers. Despite these challenges, organic farming represents a shift towards more environmentally responsible practices. By focusing on long-term ecological balance and reducing chemical inputs, it offers a path forward for sustainable food production.",
+
+      "In conclusion, organic farming presents a promising solution to many of the environmental issues caused by industrial agriculture. While it is not without its challenges, the emphasis on soil health, biodiversity, and natural ecosystems makes it a viable option for sustainable agriculture in the long run.",
+
+    ],
+
+    contenth5:
+      "5. Organic Farming With EOSDA Crop Monitoring",
+    contenth5Img: "https://eos.com/wp-content/uploads/2020/09/historical-data-on-NDVI-index.png.webp",
+    contenth5para:
+      "Advanced agriculture technologies based on satellite data detect critical issues, give timely alerts, and recommend prompt solutions. EOSDA Crop Monitoring is an online tool that facilitates farming processes and helps with agricultural decision-making. The platform assists organic producers with monitoring vegetation levels, compares changes in vegetation values during the last five years based on historical data, and helps to reduce cost on soil testing, allowing timely reaction on the first signs of erosion.",
+    contenth5head1: "EOSDA",
+    contenth5para1: [
+      "EOSDA Crop Monitoring also aids in measuring and determining important soil characteristics that affect its fertility, including moisture level (since long-term soil fertility is one of the key objectives in organic farming).",
+
+      " One of the key features of EOSDA Crop Monitoring is VRA maps, a method of identifying vegetation variations on the field. This method can be successfully employed in organic farming as it helps with saving resources. Our platform offers several variable rate application maps: for sowing, fertilization, and irrigation.",
+
+      "   The productivity maps are based on the historical vegetation data analysis and allow farmers to apply the differential sowing method, thus saving extra cost on expensive seed supplies.",
+    ],
+
+    contenth5head2: "Crop Monitoring",
+    contenth5para2: [
+      " The vegetation maps, on the other hand, reveal current vegetation variations across the field, allowing for differential fertilization, a valuable organic agriculture method. Based on the data from the vegetation maps, farmers can apply fertilizers with more precision according to the needs of each individual zone. This prevents nitrogen accumulation in the soil, saves resources, and costs.",
+
+      " Additionally, EOSDA Crop Monitoring can help with scheduling irrigation events according to real plant water needs. We offer a scouting feature to assist scouts in the field to make highly informed decisions. Combined with our 9 by 9 km 14-day weather forecast and ground moisture sensors, farmers can use our app to adjust irrigation plans. Proper distribution of water across the field perfectly adheres to the principles of organic farming, saving resources, preventing accidental water-logging, while boosting yields and reducing costs.",
+
+      "EOSDA Crop Monitoring helps agriculturalists to cope with the challenges they face in organic crop and livestock production, thus facilitating the concept exploration and implementation. While the approach disadvantages are eliminated, there still remain multiple benefits of organic agriculture to enjoy.",
+
+    ],
+    blog10Content:[
+      "1. What Is Organic Farming?",
+
+      "2. Principles Of Organic Agriculture",
+
+      "3. Organic Farming best Practices",
+
+      "4. Is Organic Farming Sustainable?",
+
+      "5. Organic Farming With EOSDA Crop Monitoring",
+      
+    ],   
+    details: "oct 15,2024 | Prathmesh Deogirkar",
   },
   {
     id: 2,
-    imgUrl: img2,
-    title: "First Blog",
+    imgUrl: "https://images.pexels.com/photos/2382904/pexels-photo-2382904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     type: "largeblog",
+    title: "The Role of Women in Agriculture: Breaking Barriers",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit quis delectus modi possimus.",
-    content: [
-      "Modern farming methods have often proven effective and have delivered outstanding results. A farmer from Nashik, stands testimony to the wonders modern farming techniques can do. Here’s how Mr. Balu Darade grew a whopping 195 quintal onion –",
+      "Today, however, the tide is turning. Women are no longer content to be relegated to the sidelines of the agricultural landscape...",
+      content: [
+        "Women have long played a vital role in agriculture, but their contributions have often gone unrecognized. Today, more than ever, women are stepping into leadership roles, breaking barriers, and transforming the agricultural landscape. Whether they are running farms, advocating for sustainable practices, or driving policy changes, women are at the forefront of a new era in agriculture, shaping the future of food production globally.",
+  
+        "One of the most significant ways women are leading the charge is through innovation and sustainability. Many women farmers prioritize eco-friendly farming practices such as organic farming, agroecology, and regenerative agriculture.",
+  
+        "Despite the progress, women in agriculture still face substantial challenges. Gender inequality persists, especially in terms of access to land, credit, and agricultural resources. Many women farmers are excluded from decision-making processes and lack the training and support they need to grow their operations.",
+      ],
+      contenth1: "1. The importance of women in agriculture",
+      parah1:
+        "One of the most significant ways women are leading the charge is through innovation and sustainability. Many women farmers prioritize eco-friendly farming practices such as organic farming, agroecology, and regenerative agriculture. These methods help reduce environmental impacts and promote long-term farm health, often turning small-scale farms into thriving, sustainable businesses. Women’s focus on community, biodiversity, and resilience is driving a shift toward more responsible agriculture, emphasizing the need to balance productivity with environmental stewardship.",
+  
+      contenth2: "2. The Role of Women in Agricultural Leadership and Policy",
+      contenth2Img: "https://www.hercircle.in/hcm/Engage/D/2D4C3D3F-95AF-4257-8C5E-9D4AF087AFA0.JPG",
+      contenth2sub:
+        "Agriculture supply chain management is incredibly complex, which affects food quality, safety, sustainability, and economic viability. Specific challenges include:",
+  
+      contenth2para:
+        " Agriculture has the potential to be a key driver of growth and the eradication of poverty. But the sector is underperforming in many nations in part because of barriers that prevent women, who are frequently a vital resource in agriculture and the rural economy, from working as productively as they could.",
 
-      "NABARD’s golden initiative",
+      contenth2para1:
+        " In India, agriculture establishes ingrained customs, interpersonal relationships, and gender roles. A significant demographic group is made up of women who work in agriculture, whether through conventional or industrial methods, as subsistence farmers or agricultural labourers. This has led to externalities like poverty and marginalisation, and it has exacerbated issues of gender inequality. Agriculture is intimately related to issues like economic independence, decision-making capacities, agency, and access to education and health care.",
 
-      "The National Bank for Agriculture and Rural Development (NABARD) initiated a noble program where it trained the farmers for modern farming techniques. Mr. Balu Darade participated in this program as he wished to yield more than 100 quintal, his average produce.",
+      contenth2para2:
+        "Women play a pivotal role in agriculture in India. Their contributions are often underestimated, but they are essential to the country's food security and rural economy. The role of women in agriculture in India is of paramount importance, as women make up a significant portion of the agricultural workforce. Their contributions to the sector are multifaceted and play a critical role in ensuring food security, economic sustainability, and rural development. Here's an overview of the importance of women in agriculture in India:",
+  
+      contenth2para3:
+        " Women constitute a substantial part of the agricultural workforce in India. They are involved in various agricultural activities, including sowing, weeding, harvesting, and post-harvest processing.",
+  
+      contenth3:
+        "3. Empowering Women Farmers through Education and Resources",
+      contenth3Img: "https://idronline.org/wp-content/uploads/2023/12/Untitled-design-2-1.jpg",
+  
+      contenth3para: [
+        "Empowering women farmers is essential to fostering growth and sustainability in agriculture. In many parts of the world, women make up a significant portion of the agricultural workforce, yet they often face barriers that limit their potential. Access to education, training, and resources can transform their role, allowing them to overcome these obstacles and become more effective and innovative farmers.",
+  
+        "Education is a cornerstone of empowerment for women farmers. Agricultural training programs designed specifically for women provide essential knowledge on modern farming techniques, crop management, animal husbandry, and sustainable practices. These programs help bridge the gender gap in agriculture by ensuring women have the skills to increase productivity, enhance food security, and implement eco-friendly farming methods. Education also empowers women to adapt to changing climate conditions, adopt new technologies, and improve the overall efficiency of their farms.",
+  
+        "Access to financial resources is equally crucial for empowering women farmers. Many women face challenges in obtaining credit or financing for their agricultural ventures due to traditional gender norms, lack of collateral, or limited financial literacy. Microfinance institutions and cooperatives are stepping in to provide loans, grants, and savings programs tailored for women. These financial tools enable women to invest in seeds, equipment, livestock, and technology, improving their farm outputs and economic stability.",
+  
+        "Beyond education and finance, access to land is another significant hurdle for women farmers. In many countries, cultural norms prevent women from owning or inheriting land, despite their vital role in agriculture. Advocacy efforts are working to change these laws and ensure that women have the same legal rights to land ownership as men. Land security allows women to make long-term investments in their farms, leading to higher productivity and a more stable livelihood.",
+  
+        "Mentorship and networking opportunities also play a key role in empowering women in agriculture. By connecting with other female farmers and leaders, women gain support, share best practices, and develop leadership skills. These networks foster a sense of community and collective empowerment, helping women advocate for their rights and overcome common challenges.",
+  
+        "Empowering women farmers through education, financial support, and resources not only benefits women but also contributes to global agricultural development. Studies have shown that when women have access to the same resources as men, agricultural yields increase, leading to better food security and economic growth. By investing in women, we invest in the future of agriculture, ensuring a more sustainable and inclusive food system.",
+  
+      ],
+  
+      contenth4: "4. Challenges Faced by Women in Agriculture",
+      contenth4para: [
+        "Despite their significant contributions to agriculture, women farmers around the world face a variety of challenges that hinder their potential. These challenges range from limited access to resources and land, to gender-based discrimination, and restricted opportunities for education and financial support. Addressing these obstacles is essential for ensuring that women can fully participate in and benefit from agricultural development.",
+  
+        "One of the most pressing issues for women in agriculture is limited access to land ownership. In many parts of the world, cultural norms and legal restrictions prevent women from owning or inheriting land, even though they often do the bulk of the farm labor. Without secure land rights, women lack the ability to make long-term investments in their farms, limiting productivity and growth. The absence of land ownership also prevents women from using land as collateral to secure loans, further exacerbating financial challenges.",
+  
+        "Another significant barrier is lack of access to credit and financial resources. Women farmers often face difficulties in obtaining loans or financial support due to gender discrimination, lack of collateral, and restricted financial literacy. This limits their ability to purchase essential agricultural inputs like seeds, fertilizers, and machinery, which could boost their farm output. Additionally, women tend to be excluded from formal financial institutions, pushing them towards informal lending systems that often come with higher interest rates and less security.",
+      ],
+  
+      contenth5:
+        "5. Technology and Innovation: Women Driving Change in Agriculture",
+      contenth5Img: "https://media.licdn.com/dms/image/D5612AQHKXvcG19An9Q/article-cover_image-shrink_720_1280/0/1703802881587?e=2147483647&v=beta&t=bmQUw92ctoa6JmzrFtQXQh_vsnfBKtQ0W5Wvq1geO2I",
+      contenth5para:
+        "Digital platforms and mobile apps are also playing a crucial role in empowering women in agriculture. Through these platforms, women can access vital information on weather patterns, market prices, and farming techniques, which helps them make more informed decisions. In regions where women have limited access to agricultural extension services, these apps provide essential support by delivering real-time information and connecting them to buyers and suppliers. This access to digital tools has not only increased the profitability of their farms but has also allowed women to become more competitive in agricultural markets.",
+      contenth5head1: "Digital Tools and Precision Agriculture: Empowering Women Farmers",
+      contenth5para1: [
+        "Explore how women are using digital platforms, mobile apps, and precision farming tools like drones, GPS, and soil sensors to increase efficiency, reduce costs, and promote sustainable practices on their farms.",
+  
+        "the role of women in technology and innovation within agriculture is transformative. As they continue to embrace and develop new technologies, women are reshaping the agricultural landscape, making it more efficient, sustainable, and inclusive",
+      ],
+  
+      contenth5head2: "Women-Led Agri-Tech Startups: Innovating for a Sustainable Future",
+      contenth5para2: [
+        " Highlight the role of women entrepreneurs in founding and leading agri-tech startups, developing smart solutions to address agricultural challenges such as pest control, irrigation, and supply chain management.",
+  
+        "Furthermore, women entrepreneurs are playing a pivotal role in the agricultural technology startup ecosystem. Many are founding agri-tech companies that develop smart solutions to common farming problems, such as pest control, irrigation, and supply chain management. ",
 
-      "Goodbye to traditional techniques",
-
-      "The traditional method of sowing on flat beds was replaced by raised beds. Following are the advantages of raised bed sowing –",
-
-      "Water can be supplied through drip irrigation, The temperature can be maintained in raised bed sowing, Spacing can be easily maintained Drip irrigation Raised bed sowing allowed the water to be supplied through drip irrigation, a method which has its own advantages –",
-
-      "Drip irrigation reduces water wastage Evaporation is minimal and the consumption is lowered Fertilisers can be used via the dripping system The land between the plant rows remain dry and unwanted plant growth is prevented",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi! Fuga sed doloremque laborum modi voluptatem commodi voluptates. Cumque esse nulla error in a, saepe debitis at totam molestias ad!",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi! Fuga sed doloremque laborum modi voluptatem commodi voluptates. Cumque esse nulla error in a, saepe debitis at totam molestias ad!",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi!",
-    ],
-    details: "oct 23,2019 | Piyush Aglawe",
-  },
+  
+      ],
+      blog10Content:[
+        "1. The importance of women in agriculture",
+  
+        "2. The Role of Women in Agricultural Leadership and Policy",
+  
+        "3. Empowering Women Farmers through Education and Resources",
+  
+        "4. Challenges Faced by Women in Agriculture",
+  
+        "5. Technology and Innovation: Women Driving Change in Agriculture",
+        
+      ],   
+      details: "oct 17,2024 | Karishma Wadaskar",
+    },
   {
     id: 3,
     imgUrl: img3,
@@ -287,7 +432,7 @@ const Blogs = [
   },
   {
     id: 10,
-    imgUrl: "https://d17ocfn2f5o4rl.cloudfront.net/wp-content/uploads/2023/10/BP-Agriculture-supply-chain.-Graphics-02.jpg",
+    imgUrl: "https://media.istockphoto.com/id/1346294867/photo/smart-farming-concept.jpg?s=2048x2048&w=is&k=20&c=ujjD8UkN18kO35rT6aLorTlMmoxOql1BTiNbpFBl8GI=",
     type: "smallblogs",
     title: "How Technology Can Solve Agriculture Supply Chain Problems",
     description:
