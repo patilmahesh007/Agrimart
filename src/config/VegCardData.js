@@ -36,11 +36,12 @@ const VegCardData = [
         storageTemperature: "0-4°C",
         storageType: "Refrigerated storage",
         imageSlider: [
-           carrot,
+            carrot,
             "https://w7.pngwing.com/pngs/143/955/png-transparent-three-carrot-vegetables-carrot-peruvian-cuisine-root-vegetables-fruit-vegetable-carrot-natural-foods-food-recipe-thumbnail.png",
             "https://w7.pngwing.com/pngs/720/73/png-transparent-carrot-vegetable-fruit-legume-carrot-food-tomato-onion-thumbnail.png",
             "https://w7.pngwing.com/pngs/438/269/png-transparent-carrot-computer-file-carrot-natural-foods-leaf-vegetable-image-file-formats-thumbnail.png"
         ]
+        , category: "vegetables"
     },
     {
         id: "511",
@@ -64,6 +65,7 @@ const VegCardData = [
             "https://img.freepik.com/free-photo/front-view-autumn-squash-with-walnuts-copy-space_23-2148684069.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             ashgourd
         ]
+        , category: "vegetables"
     },
     {
         id: "512",
@@ -87,6 +89,7 @@ const VegCardData = [
             "https://w7.pngwing.com/pngs/155/626/png-transparent-graphy-popcorn-maize-grain-popcorn-white-food-photography-thumbnail.png",
             "https://w7.pngwing.com/pngs/526/826/png-transparent-pile-of-corns-corn-on-the-cob-popcorn-maize-corn-kernel-sweet-corn-a-golden-corn-kernels-golden-frame-food-nutrition-thumbnail.png"
         ]
+        , category: "vegetables"
     },
     {
         id: "513",
@@ -110,6 +113,7 @@ const VegCardData = [
             "https://w7.pngwing.com/pngs/157/876/png-transparent-juice-beetroot-sugar-beet-mangelwurzel-vegetable-beet-natural-foods-leaf-vegetable-food-thumbnail.png",
             "https://w7.pngwing.com/pngs/247/848/png-transparent-sugar-beet-organic-food-beetroot-vegetable-beet-food-blueberry-fruit-thumbnail.png"
         ]
+        , category: "vegetables"
     },
     {
         id: "514",
@@ -133,6 +137,7 @@ const VegCardData = [
             "https://w7.pngwing.com/pngs/515/420/png-transparent-cabbage-cauliflower-vegetable-cabbage-leaf-vegetable-food-leaf-thumbnail.png",
             "https://w7.pngwing.com/pngs/398/914/png-transparent-sliced-cabbage-art-cabbage-vegetarian-cuisine-vegetable-half-cabbage-leaf-vegetable-food-recipe-thumbnail.png"
         ]
+        , category: "vegetables"
     },
     {
         id: "515",
@@ -156,6 +161,7 @@ const VegCardData = [
             "https://w7.pngwing.com/pngs/784/722/png-transparent-two-green-bell-peppers-bell-pepper-facing-heaven-pepper-hunan-capsicum-frutescens-vegetable-green-bell-pepper-natural-foods-food-chili-pepper-thumbnail.png",
             "https://w7.pngwing.com/pngs/949/731/png-transparent-chili-pepper-cayenne-pepper-red-bell-pepper-paprika-quasiphysical-pepper-natural-foods-food-nightshade-family-thumbnail.png"
         ]
+        , category: "vegetables"
     },
     {
         id: "516",
@@ -179,6 +185,7 @@ const VegCardData = [
             "https://w7.pngwing.com/pngs/950/39/png-transparent-okra-ladyfinger-goan-cuisine-bhendi-fry-vegetable-okra-food-chili-pepper-fruit-thumbnail.png",
             "https://w7.pngwing.com/pngs/217/236/png-transparent-lady-finger-vegetable-gumbo-ladyfinger-okra-vegetable-fruit-okra-natural-foods-leaf-vegetable-food-thumbnail.png"
         ]
+        , category: "vegetables"
     },
     {
         id: "517",
@@ -202,6 +209,7 @@ const VegCardData = [
             "https://w7.pngwing.com/pngs/160/16/png-transparent-cauliflower-cheese-broccoflower-cauliflower-leaf-vegetable-food-recipe-thumbnail.png",
             "https://w7.pngwing.com/pngs/599/505/png-transparent-cauliflower-broccolini-vegetable-organic-food-cauliflower-leaf-vegetable-food-frozen-vegetables-thumbnail.png"
         ]
+        , category: "vegetables"
     },
     {
         id: "518",
@@ -225,6 +233,7 @@ const VegCardData = [
             "https://w7.pngwing.com/pngs/279/503/png-transparent-drumstick-tree-vegetable-drum-stick-health-vegetable-food-nutrition-scallion-thumbnail.png",
             "https://w7.pngwing.com/pngs/214/646/png-transparent-green-vegetables-vegetable-organic-food-eggplant-fruit-ingredient-drumstick-cut-leaf-vegetable-food-tomato-thumbnail.png"
         ]
+        , category: "vegetables"
     },
     {
         id: "519",
@@ -248,6 +257,7 @@ const VegCardData = [
             "https://w7.pngwing.com/pngs/110/772/png-transparent-bitter-melon-vegetable-food-chayote-health-vegetable-natural-foods-food-gourd-thumbnail.png",
             "https://w7.pngwing.com/pngs/198/229/png-transparent-vegetarian-cuisine-bitter-melon-broccoli-vegetable-bitter-gourd-natural-foods-leaf-vegetable-food-thumbnail.png"
         ]
+        , category: "vegetables"
     },
     {
         id: "520",
@@ -271,6 +281,7 @@ const VegCardData = [
             "https://w7.pngwing.com/pngs/169/423/png-transparent-three-black-eggplants-eggplant-dolma-vegetable-eggplant-leaf-vegetable-food-cabbage-thumbnail.png",
             "https://w7.pngwing.com/pngs/832/980/png-transparent-three-eggplants-illustration-eggplant-jalebi-tomato-urdu-dish-fresh-brinjal-natural-foods-food-fruit-thumbnail.png"
         ]
+        , category: "vegetables"
     },
     {
         id: "521",
@@ -294,6 +305,7 @@ const VegCardData = [
             "https://w7.pngwing.com/pngs/467/387/png-transparent-bunch-of-string-beans-green-bean-chili-con-carne-vegetable-tomato-green-beans-leaf-vegetable-food-cooking-thumbnail.png",
             "https://w7.pngwing.com/pngs/994/808/png-transparent-green-bean-mahlmann-beteiligungs-gmbh-common-bean-lima-bean-chinese-lettuce-scallion-bean-vegetarian-food-thumbnail.png"
         ]
+        , category: "vegetables"
     },
     {
         id: "521",
@@ -317,6 +329,7 @@ const VegCardData = [
             "https://w7.pngwing.com/pngs/858/297/png-transparent-common-mushroom-edible-mushroom-fungus-vegetable-mushroom-cream-soup-olive-thumbnail.png",
             "https://w7.pngwing.com/pngs/284/181/png-transparent-beige-mushroojms-common-mushroom-fungus-food-mushroom-poisoning-white-mushrooms-image-file-formats-shiitake-agaricaceae-thumbnail.png"
         ]
+        , category: "vegetables"
     },
     {
         id: "522",
@@ -340,6 +353,7 @@ const VegCardData = [
             "https://w7.pngwing.com/pngs/939/54/png-transparent-papaya-pawpaw-tropical-fruit-eating-papaya-s-leaf-vegetable-food-tropical-fruit-thumbnail.png",
             "https://w7.pngwing.com/pngs/20/861/png-transparent-papaya-food-fruit-papaya-green-papaya-superfood-papaya-peel-thumbnail.png"
         ]
+        , category: "vegetables"
     },
     {
         id: "523",
@@ -358,30 +372,31 @@ const VegCardData = [
         storageTemperature: "10-15°C",
         storageType: "Cool, dry place",
         imageSlider: [
-           pumpkin,
-           "https://w7.pngwing.com/pngs/181/1002/png-transparent-mashed-pumpkin-vegetable-bhaji-fritter-pumpkin-food-orange-cooking-thumbnail.png",
+            pumpkin,
+            "https://w7.pngwing.com/pngs/181/1002/png-transparent-mashed-pumpkin-vegetable-bhaji-fritter-pumpkin-food-orange-cooking-thumbnail.png",
             "https://w7.pngwing.com/pngs/491/741/png-transparent-pumpkin-food-gourd-hemp-oil-guava-pumpkin-natural-foods-food-orange-thumbnail.png",
             "https://w7.pngwing.com/pngs/658/547/png-transparent-pumpkin-pie-bisque-food-pumpkin-natural-foods-orange-gourd-thumbnail.png"
         ]
+        , category: "vegetables"
     },
-    
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ];
 export default VegCardData;
