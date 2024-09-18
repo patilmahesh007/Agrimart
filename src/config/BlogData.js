@@ -408,30 +408,30 @@ const Blogs = [
       "5. Digital technologies for the agricultural value chain — and how they work together for maximum efficiency",
       
     ],   
-    details: "oct 23,2019 | Piyush Aglawe",
+    details: "oct 23,2024 | Piyush Aglawe",
   },
 
   {
     id: 11,
-    imgUrl: img9,
+    imgUrl: "https://images.pexels.com/photos/1719669/pexels-photo-1719669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     type: "smallblogs",
-    title: "How Technology Can Solve Agriculture Supply Chain Problems",
+    title: "Fridays on the Farm: Transitioning to Organics",
     description:
-      "Agriculture has never been easy, and it’s only gotten more complicated in recent years. Extreme weather events are more frequent and severe, impacting crop yields...",
+      "This Friday, meet John Wicks, a fourth-generation farmer and owner of Tiber Ridge Organics in Liberty County, Montana. John grew up in North Central Montana on his family’s...",
 
     content: [
-      "Agriculture has never been easy, and it’s only gotten more complicated in recent years. Extreme weather events are more frequent and severe, impacting crop yields. Geopolitical conflict is high, disrupting the movement of goods. And disease outbreaks — both human and animal — are causing labor and product shortages.",
+      "This Friday, meet John Wicks, a fourth-generation farmer and owner of Tiber Ridge Organics in Liberty County, Montana. John grew up in North Central Montana on his family’s operation where they grew crops and raised cattle. Now a full-time farmer, John took over the operation and gradually transitioned to growing organically.",
 
       "What do these things have in common? They’re all agriculture supply chain disrupters that only compound the issues of an already “fiendishly complex” supply chain.",
 
       "This article will discuss agri-supply chain management. It will cover the basics, challenges, and digital technologies for agriculture that can improve efficiency, profits, and food supply.",
     ],
-    contenth1: "1. What is the agriculture supply chain?",
+    contenth1: "1. Growing Good Yields ",
     parah1:
       "The agriculture supply chain, or value chain as it’s sometimes called, is the process of moving food from farms to consumers through organizations, people, and resources. An interconnected network of businesses — input suppliers, farms, processors, distributors, and retailers — work together to get farm commodities to consumers’ plates.",
 
-    contenth2: "2. Challenges in the agri-food supply chain",
-    contenth2Img: img1,
+    contenth2: "2. Working with USDA",
+    contenth2Img: "https://www.farmers.gov/sites/default/files/2024-09/photo-1-mt_0.jpg",
     contenth2sub:
       "Agriculture supply chain management is incredibly complex, which affects food quality, safety, sustainability, and economic viability. Specific challenges include:",
 
@@ -456,8 +456,8 @@ const Blogs = [
       "Requirements for organic, environmentally friendly, or ethically sourced products add complexity in sourcing, traceability, packaging, transportation, and more.",
 
     contenth3:
-      "3. Strategies to overcome the complexity of supply chain management in agriculture",
-    contenth3Img: img6,
+      "3.Transitional and Organic Grower Assistance Program",
+    contenth3Img: "https://www.farmers.gov/sites/default/files/2024-09/photo-2-mt.jpg",
 
     contenth3para: [
       "To decide which digital and analytics technologies to use, start with your desired outcome.",
@@ -499,11 +499,11 @@ const Blogs = [
     ],
 
     contenth5:
-      "5. Digital technologies for the agricultural value chain — and how they work together for maximum efficiency",
-    contenth5Img: img8,
+      "5. Farm Storage Facility Loan",
+    contenth5Img: "https://www.farmers.gov/sites/default/files/2024-09/photo-4-mt.jpg",
     contenth5para:
       "When looking to improve agricultural supply chain management, the first thing that may spring to mind is supply chain software. And that’s certainly one option. But there are many other digital technologies to consider.",
-    contenth5head1: "Advanced Analytics",
+    contenth5head1: "Advance Storage Facility",
     contenth5para1: [
       " Advanced analytics turns massive amounts of agricultural data into actionable intelligence. It includes optimization algorithms and statistical techniques like predictive modeling and simulation that identify data patterns, trends, and correlations. This provides rigorous quantitative analysis to guide data-driven decision-making.",
 
@@ -512,7 +512,7 @@ const Blogs = [
       "   The key focus is applying mathematical and statistical models to derive meaning from agricultural data sets. The quant-driven insights enable precision farming and data-driven decision-making from farm to fork. When combined with AI implementation, advanced analytics unlocks the full value of data for the industry.",
     ],
 
-    contenth5head2: "Artificial Intelligence (AI)",
+    contenth5head2: "Maintain Good Crop Health",
     contenth5para2: [
       " AI complements advanced analytics by automating data collection and acting on the insights uncovered. Technologies like machine learning, computer vision, generative AI and natural language processing mimic and augment human intelligence. This allows AI in agriculture to take over time-intensive manual tasks.",
 
@@ -523,65 +523,65 @@ const Blogs = [
       "  Advanced analytics provides the brains by crunching data into quantitative insights. Machine learning and AI flex the muscle of human-like cognition to apply those insights through perception, reasoning, and informed decision-making. Together, they maximize the value of data to optimize agriculture across the supply chain.",
     ],
     blog10Content:[
-      "1. What is the agriculture supply chain?",
+      "1. Growing Good Yields",
 
-      "2. Challenges in the agri-food supply chain",
+      "2. Working with USDA",
 
-      "3. Strategies to overcome the complexity of supply chain management in agriculture",
+      "3. Transitional and Organic Grower Assistance Program",
 
       "4. A day in the life of modern farmer John",
 
-      "5. Digital technologies for the agricultural value chain — and how they work together for maximum efficiency",
+      "5. Farm Storage Facility Loan Are Available From Goverment.",
       
     ],   
-    details: "oct 23,2019 | Piyush Aglawe",
+    details: "oct 13,2024 | Elise Gaboury",
   },
   {
     id: 12,
-    imgUrl: img9,
+    imgUrl: "https://images.pexels.com/photos/27177898/pexels-photo-27177898/free-photo-of-woman-in-red-shirt-working-in-garden.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     type: "smallblogs",
-    title: "How Technology Can Solve Agriculture Supply Chain Problems",
+    title: "Inflation Reduction Act in Action: Small Farm Making Big Changes",
     description:
-      "Agriculture has never been easy, and it’s only gotten more complicated in recent years. Extreme weather events are more frequent and severe, impacting crop yields...",
+      "The Inflation Reduction Act is a comprehensive policy aimed at curbing inflation, addressing climate change, and boosting economic growth Within the agricultural sector...",
 
     content: [
-      "Agriculture has never been easy, and it’s only gotten more complicated in recent years. Extreme weather events are more frequent and severe, impacting crop yields. Geopolitical conflict is high, disrupting the movement of goods. And disease outbreaks — both human and animal — are causing labor and product shortages.",
+      "The Inflation Reduction Act is a comprehensive policy aimed at curbing inflation, addressing climate change, and boosting economic growth. Within the agricultural sector, the Act plays a critical role in helping small farms embrace sustainability, improve operational efficiency, and enhance community resilience. By providing financial aid, technical assistance, and promoting renewable energy, the IRA positions small farms as key drivers of rural development.",
 
-      "What do these things have in common? They’re all agriculture supply chain disrupters that only compound the issues of an already “fiendishly complex” supply chain.",
+      "Small farms play a vital role in local economies by providing employment, supporting local food systems, and contributing to community well-being. Through the IRA, small farms are better equipped to grow their businesses, thereby creating more jobs and increasing economic activity within rural communities.",
 
-      "This article will discuss agri-supply chain management. It will cover the basics, challenges, and digital technologies for agriculture that can improve efficiency, profits, and food supply.",
+      "sustainable farming practices foster stronger local food systems by providing healthy, locally-grown produce to the community. This, in turn, increases food security and reduces the carbon footprint associated with long-distance transportation of food.",
     ],
-    contenth1: "1. What is the agriculture supply chain?",
+    contenth1: "1. Understanding the Inflation Reduction Act and Its Impact on Agriculture",
     parah1:
-      "The agriculture supply chain, or value chain as it’s sometimes called, is the process of moving food from farms to consumers through organizations, people, and resources. An interconnected network of businesses — input suppliers, farms, processors, distributors, and retailers — work together to get farm commodities to consumers’ plates.",
+      "One of the key components of the IRA is the financial support provided to farmers. The Act allocates billions of dollars in grants, loans, and tax credits aimed at helping farmers implement energy-efficient technologies and sustainable farming practices. This financial assistance is especially beneficial to small farms, which often struggle to compete with larger agribusinesses due to limited resources. The IRA helps level the playing field by making capital investments more accessible and providing farmers with the tools they need to innovate and reduce operational costs.",
 
-    contenth2: "2. Challenges in the agri-food supply chain",
+    contenth2: "2. Sustainable Farming Practices Inspired by Federal Policies",
     contenth2Img: img1,
     contenth2sub:
       "Agriculture supply chain management is incredibly complex, which affects food quality, safety, sustainability, and economic viability. Specific challenges include:",
 
-    contenth2span: "i. Weather dependence :",
+    contenth2span: "i. Regenerative Agriculture :",
     contenth2para:
-      " Crop yields and quality depend heavily on weather conditions like rainfall, temperature, etc. This unpredictability makes it harder to align supply and demand.",
+      " One of the most transformative approaches supported by federal policies is regenerative agriculture, which focuses on restoring the health of ecosystems through methods that regenerate soil, enhance biodiversity, and improve water retention.",
 
-    contenth2span1: "ii. Perishability :",
+    contenth2span1: "ii. Organic Farming :",
     contenth2para1:
-      " Many agricultural products are perishable and require quick transport and processing to avoid spoilage. This adds complexity to logistics and inventory management.",
+      " Organic farming avoids synthetic pesticides and fertilizers, opting instead for natural alternatives like compost and biological pest control. ",
 
-    contenth2span2: "iii. Variability",
+    contenth2span2: "iii. Agroforestry and Silvopasture",
     contenth2para2:
-      "No two agricultural products are identical in size, taste, etc., which makes standardization and quality control more difficult.",
+      "Agroforestry, which integrates trees and shrubs into crop and livestock systems, and silvopasture, where trees are combined with livestock grazing, are practices that enhance biodiversity and promote sustainable land use.",
 
-    contenth2span3: "iv. Labor issues ",
+    contenth2span3: "iv. Precision Agriculture ",
     contenth2para3:
-      " Agriculture often faces labor shortages from seasonal demand, an aging workforce, and skills gaps as tech rapidly advances.",
+      " Precision agriculture uses technology such as GPS, drones, and sensors to monitor soil conditions, crop health, and water usage, enabling farmers to apply inputs like water, fertilizers, and pesticides more efficiently.",
 
-    contenth2span4: "v. Sustainability",
+    contenth2span4: "v. Conservation Tillage",
     contenth2para4:
-      "Requirements for organic, environmentally friendly, or ethically sourced products add complexity in sourcing, traceability, packaging, transportation, and more.",
+      "Conservation tillage involves minimal soil disturbance and is promoted by federal policies as a way to improve soil health, reduce erosion, and sequester carbon. ",
 
     contenth3:
-      "3. Strategies to overcome the complexity of supply chain management in agriculture",
+      "3. Community Benefits: How Small Farms Are Driving Local Development",
     contenth3Img: img6,
 
     contenth3para: [
@@ -602,7 +602,7 @@ const Blogs = [
       "Achieving sustainability demands a balance of ecological and societal responsibility alongside financial feasibility, ensuring that the well-being of both the planet and its inhabitants is prioritized while still maintaining economic prosperity and resilience. Potential strategies include:",
     ],
 
-    contenth4: "4. A day in the life of modern farmer John",
+    contenth4: "4. Challenges Faced by Small Farms and How the Act is Addressing Them",
     contenth4para: [
       "Imagine a day at a farm that has already adopted some of these solutions.",
 
@@ -624,11 +624,11 @@ const Blogs = [
     ],
 
     contenth5:
-      "5. Digital technologies for the agricultural value chain — and how they work together for maximum efficiency",
+      "5. The Role of Innovation in Transforming Small Farm Operations",
     contenth5Img: img8,
     contenth5para:
       "When looking to improve agricultural supply chain management, the first thing that may spring to mind is supply chain software. And that’s certainly one option. But there are many other digital technologies to consider.",
-    contenth5head1: "Advanced Analytics",
+    contenth5head1: "Integrated Pest Management",
     contenth5para1: [
       " Advanced analytics turns massive amounts of agricultural data into actionable intelligence. It includes optimization algorithms and statistical techniques like predictive modeling and simulation that identify data patterns, trends, and correlations. This provides rigorous quantitative analysis to guide data-driven decision-making.",
 
@@ -637,7 +637,7 @@ const Blogs = [
       "   The key focus is applying mathematical and statistical models to derive meaning from agricultural data sets. The quant-driven insights enable precision farming and data-driven decision-making from farm to fork. When combined with AI implementation, advanced analytics unlocks the full value of data for the industry.",
     ],
 
-    contenth5head2: "Artificial Intelligence (AI)",
+    contenth5head2: "Water Conservation Techniques",
     contenth5para2: [
       " AI complements advanced analytics by automating data collection and acting on the insights uncovered. Technologies like machine learning, computer vision, generative AI and natural language processing mimic and augment human intelligence. This allows AI in agriculture to take over time-intensive manual tasks.",
 
@@ -648,18 +648,18 @@ const Blogs = [
       "  Advanced analytics provides the brains by crunching data into quantitative insights. Machine learning and AI flex the muscle of human-like cognition to apply those insights through perception, reasoning, and informed decision-making. Together, they maximize the value of data to optimize agriculture across the supply chain.",
     ],
     blog10Content:[
-      "1. What is the agriculture supply chain?",
+      "1. Understanding the Inflation Reduction Act and Its Impact on Agriculture",
 
-      "2. Challenges in the agri-food supply chain",
+      "2. Sustainable Farming Practices Inspired by Federal Policies",
 
-      "3. Strategies to overcome the complexity of supply chain management in agriculture",
+      "3. Community Benefits: How Small Farms Are Driving Local Development",
 
-      "4. A day in the life of modern farmer John",
+      "4. Challenges Faced by Small Farms and How the Act is Addressing Them",
 
-      "5. Digital technologies for the agricultural value chain — and how they work together for maximum efficiency",
+      "5. The Role of Innovation in Transforming Small Farm Operations",
       
     ],   
-    details: "oct 23,2019 | Piyush Aglawe",
+    details: "oct 10,2024 | Mahesh Patil",
   },
 ];
 
