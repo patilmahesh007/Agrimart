@@ -10,6 +10,7 @@ import Services from './view/services/Services';
 import ReadBlogs from './view/Blog/ReadBlogs/ReadBlogs';
 import Feedback from './view/feedback/feedback';
 import Card  from './view/SERVICEEXPAND/fruitCardExtend/Card';
+import Checkout from "./view/Checkout/Checkout"
 import './index.css';
 
 
@@ -32,6 +33,8 @@ root.render(
       <Route path="/blog/:blogId" element={<ReadBlogs />} />
 
       <Route path="/feedback" element={<Feedback />} />
+
+      <Route path="/checkout" element={<Checkout />} />
 
 
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './CartSection.css';
 import CartComponent from '../CartComponent/CardC';
+import { Link } from 'react-router-dom';
 const TopBarSection = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
 
@@ -15,8 +16,7 @@ const TopBarSection = () => {
   isCartOpen ? <CartComponent  CardOpen={setIsCartOpen} /> : null
 }      
       <div className="topbar-left">
-        <span>LOG IN</span>
-        <span>JOIN</span>
+        <span><Link  className='login-button-route' to="/login">LOGIN</Link></span>
       </div>
 
       <div className="right">

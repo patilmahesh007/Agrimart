@@ -9,6 +9,8 @@ import './Card.css';
 import WhyShopCard from "../../../components/whyshopcard/whyShopCard"
 import Navbar from "../../../components/navbar/nav"
 import Footer from "../../../components/footer/footer"
+import TopBarSection from '../../../components/CartSection/CartSection';
+
 function Card() {
   const cardsId = [...cardData,...DairyCardData,...VegCardData,...ExoticsCardData,...EssentialsCardData]
   let { cardId } = useParams();
@@ -27,6 +29,8 @@ function Card() {
 
 <div>
 <Navbar/>
+<TopBarSection/>
+
     <div className='card-page'>
       <div className='card-page-leftside'>
         <div className='card-page-leftside-div1'>
