@@ -33,6 +33,7 @@ const ExoticsCardData = [
             "https://w7.pngwing.com/pngs/949/754/png-transparent-basil-leaf-italian-cuisine-basil-herb-leaf-vegetable-mozzarella-basil-leaf-tomato-basil-thumbnail.png",
             "https://w7.pngwing.com/pngs/48/1001/png-transparent-green-leaf-leaf-plant-basil-basil-leaf-plant-basil-thumbnail.png"
         ]
+        , category: "exotics"
     },
     {
         id: "302",
@@ -56,6 +57,7 @@ const ExoticsCardData = [
             "https://w7.pngwing.com/pngs/534/900/png-transparent-broccoli-organic-food-vegetable-cabbage-sulforaphane-broccoli-leaf-vegetable-food-cabbage-thumbnail.png",
             "https://w7.pngwing.com/pngs/572/950/png-transparent-broccoli-brussels-sprout-cauliflower-vegetable-broccoli-s-leaf-vegetable-food-cooking-thumbnail.png"
         ]
+        , category: "exotics"
     },
     {
         id: "303",
@@ -97,6 +99,7 @@ const ExoticsCardData = [
         storageTemperature: "7-10°C",
         storageType: "Refrigeration",
         imageSlider: [Tomato, "https://i.pinimg.com/236x/b0/b5/76/b0b5769b3273e0b2d49ae7dd454b67b3.jpg", "https://i.pinimg.com/236x/88/5b/5d/885b5d0fc39413affbade0032039a449.jpg","https://i.pinimg.com/236x/62/1b/27/621b27f1d0c2841688396128d99f1a4e.jpg"]
+        , category: "exotics"
     },
     {
         id: "305",
@@ -120,6 +123,7 @@ const ExoticsCardData = [
             "https://w7.pngwing.com/pngs/930/640/png-transparent-selective-focus-of-lettuce-lettuce-sandwich-butterhead-lettuce-vegetable-salad-food-lettuce-leaf-vegetable-superfood-spring-greens-thumbnail.png",
             "https://w7.pngwing.com/pngs/280/884/png-transparent-butterhead-lettuce-vegetable-iceberg-lettuce-salad-vegetable-leaf-vegetable-food-spinach-thumbnail.png"
         ]
+        , category: "exotics"
     },
     {
         id: "306",
@@ -143,6 +147,7 @@ const ExoticsCardData = [
             "https://www.pngwing.com/en/free-png-yoijn",
             "https://w7.pngwing.com/pngs/606/480/png-transparent-tea-lemon-balm-herb-mint-herbs-leaf-oregano-nature-thumbnail.png"
         ]
+        , category: "exotics"
     },
     {
         id: "307",
@@ -166,6 +171,7 @@ const ExoticsCardData = [
             "https://w7.pngwing.com/pngs/65/88/png-transparent-sliced-cucumber-juice-pickled-cucumber-vegetable-food-cut-cucumber-slices-natural-foods-tomato-eating-thumbnail.png",
             "https://w7.pngwing.com/pngs/921/338/png-transparent-cucumber-zucchini-pattypan-squash-muskmelon-vegetable-eggplant-food-melon-vegetables-thumbnail.png"
         ]
+        , category: "exotics"
     },
     {
         id: "308",
@@ -189,6 +195,7 @@ const ExoticsCardData = [
             "https://w7.pngwing.com/pngs/901/942/png-transparent-green-leaf-illustration-parsley-coriander-vegetable-parsley-leaf-vegetable-food-leaf-thumbnail.png",
             "https://w7.pngwing.com/pngs/544/610/png-transparent-celery-vegetable-chinese-cabbage-brussels-sprout-grandma-natural-foods-leaf-vegetable-food-thumbnail.png"
         ]
+        , category: "exotics"
     },
     {
         id: "309",
@@ -212,6 +219,7 @@ const ExoticsCardData = [
             "https://w7.pngwing.com/pngs/784/722/png-transparent-two-green-bell-peppers-bell-pepper-facing-heaven-pepper-hunan-capsicum-frutescens-vegetable-green-bell-pepper-natural-foods-food-chili-pepper-thumbnail.png",
             "https://w7.pngwing.com/pngs/949/731/png-transparent-chili-pepper-cayenne-pepper-red-bell-pepper-paprika-quasiphysical-pepper-natural-foods-food-nightshade-family-thumbnail.png"
         ]
+        , category: "exotics"
     },
     
     

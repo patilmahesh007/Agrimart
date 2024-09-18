@@ -34,6 +34,7 @@ const cardData = [
         imageSlider: [Milk, "https://i.pinimg.com/236x/4c/7e/22/4c7e22ad99ab10035ffa370bff1978a1.jpg",
             "https://w7.pngwing.com/pngs/600/735/png-transparent-coffee-milk-milk-bottle-milk-thumbnail.png",
             "https://w7.pngwing.com/pngs/497/643/png-transparent-on-a-milk-carton-on-a-milk-carton-food-milk-food-breakfast-logo-thumbnail.png"]
+        , category: "dairy"
     },
     {
         id: "401",
@@ -80,6 +81,7 @@ const cardData = [
             "https://w7.pngwing.com/pngs/288/479/png-transparent-gruyere-cheese-processed-cheese-parmigiano-reggiano-cheese-food-cheese-beyaz-peynir-thumbnail.png",
             "https://w7.pngwing.com/pngs/216/1015/png-transparent-piled-of-sliced-cheese-milk-blue-cheese-gouda-cheese-cheddar-cheese-cheese-laminations-food-cheese-orange-thumbnail.png"
         ]
+        , category: "dairy"
     },
     {
         id: "405",
@@ -102,6 +104,7 @@ const cardData = [
             "https://w7.pngwing.com/pngs/708/957/png-transparent-cream-on-brown-ceramic-bowl-with-vegetable-leaf-illustration-sour-cream-fajita-gratin-omelette-cream-cream-food-recipe-thumbnail.png",
             "https://w7.pngwing.com/pngs/685/250/png-transparent-creme-fraiche-sour-cream-yoghurt-whipped-cream-joghurt-cream-food-flavor-thumbnail.png"
         ]
+        , category: "dairy"
     },
     {
         id: "406",
@@ -124,6 +127,7 @@ const cardData = [
             "https://w7.pngwing.com/pngs/108/560/png-transparent-three-assorted-flavor-sundaes-in-cups-ice-cream-sundae-smoothie-ice-pop-chocolate-ice-cream-sundae-cream-food-frozen-dessert-thumbnail.png",
             "https://w7.pngwing.com/pngs/477/889/png-transparent-ice-cream-cones-chocolate-ice-cream-sundae-ice-cream-cream-food-frozen-dessert-thumbnail.png"
         ]
+        , category: "dairy"
     },
     {
         id: "407",
@@ -146,6 +150,7 @@ const cardData = [
             "https://w7.pngwing.com/pngs/17/19/png-transparent-clarified-butter-cream-ghee-custard-butter-cream-food-cooking-thumbnail.png",
             "https://w7.pngwing.com/pngs/543/510/png-transparent-ayurveda-condiment-flavor-organic-food-ghee-organic-food-ingredient-govinda-thumbnail.png"
         ]
+        , category: "dairy"
     },
     {
         id: "408",
@@ -163,17 +168,18 @@ const cardData = [
         storageTemperature: "Refrigerated",
         storageType: "Keep in a sealed container",
         imageSlider: [
-            cheese,  
+            cheese,
             "https://img.freepik.com/free-photo/close-up-variety-cheese-board_23-2148325923.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/free-photo/close-up-delicious-mature-cheese-table_23-2148430166.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/free-photo/front-view-delicious-fresh-cheese_23-2150166967.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
+        , category: "dairy"
     },
     {
         id: "409",
         title: " Ricotta Cheese",
         description: "Creamy and mild, our fresh ricotta cheese is made from the finest milk. Perfect for lasagna, desserts, or spreading on toast.",
-        image: ricotta ,  
+        image: ricotta,
         price: "₹350/250g",
         oldPrice: "₹400/250g",
         quantity: "250 g",
@@ -190,6 +196,7 @@ const cardData = [
             "https://img.freepik.com/free-photo/top-view-fresh-sliced-cabbages-salad-with-greens-inside-brown-bowl-bright-blue-green-food-vegetable-salad-freshness-snack_140725-32743.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/premium-photo/ricotta-salata-grated_1114710-276404.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
+        , category: "dairy"
     },
     {
         id: "410",
@@ -207,11 +214,12 @@ const cardData = [
         storageTemperature: "Refrigerated",
         storageType: "Keep upright and sealed",
         imageSlider: [
-           kefir,  // replace with actual image URL
+            kefir,  // replace with actual image URL
             "https://img.freepik.com/premium-photo/glass-jar-milk-strawberries-glass-milk_1140440-25160.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/free-photo/milk-products-dairy-dairy_144627-45965.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/free-photo/ayran-drink-with-mint-cucumber-glass_123827-21607.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
+        , category: "dairy"
     },
     {
         id: "411",
@@ -234,6 +242,7 @@ const cardData = [
             "https://img.freepik.com/premium-photo/clean-minimalistic-setup-featuring-whey-protein-powder-bowl-with-gym-equipment_1300227-5033.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/premium-photo/vitamin-mineral-supplements_967966-26052.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
+        , category: "dairy"
     },
     {
         id: "412",
@@ -251,11 +260,12 @@ const cardData = [
         storageTemperature: "Refrigerated",
         storageType: "Keep in a sealed container",
         imageSlider: [
-           mascarpone,  // replace with actual image URL
+            mascarpone,  // replace with actual image URL
             "https://img.freepik.com/premium-photo/homemade-layered-dessert-with-fresh-apricot-cream-cheese-yogurt-granola-rustic-background_220770-1989.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/free-photo/swiss-meringue-cake-red-plate_114579-3057.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/premium-photo/pastry-with-green-leaf-top-it_865967-298279.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
+        , category: "dairy"
     },
     {
         id: "413",
@@ -278,6 +288,7 @@ const cardData = [
             "https://img.freepik.com/free-photo/macadamia-white-milk-ready-serve_1150-42772.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/free-photo/milk-products-tasty-healthy-dairy-products-table-sour-cream-bowl-cottage-cheese-bowl-cream-bank-milk-jar-glass-bottle-glass_1150-23558.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
+        , category: "dairy"
     },
     {
         id: "414",
@@ -300,6 +311,7 @@ const cardData = [
             "https://img.freepik.com/premium-psd/milk-replacer-transparent-background-isolated-image-generative-ai_862745-5135.jpg?w=740",
             "https://img.freepik.com/free-photo/woman-hand-holding-spoon-top-flour-bowl_114579-31382.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
+        , category: "dairy"
     },
     {
         id: "415",
@@ -317,20 +329,21 @@ const cardData = [
         storageTemperature: "Refrigerated",
         storageType: "Keep sealed and chilled",
         imageSlider: [
-           sour_cream,  // replace with actual image URL
+            sour_cream,  // replace with actual image URL
             "https://img.freepik.com/free-vector/realistic-set-two-ceramic-bowls-with-white-sour-cream-yogurt-sauce-tartar-soft-cheese_1441-1850.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/free-photo/delicious-banana-dessert_23-2150764406.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/free-photo/food-flavor-based-sour-cream_23-2151011162.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
+        , category: "dairy"
     }
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
 
 
 

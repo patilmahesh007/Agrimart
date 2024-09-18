@@ -32,8 +32,8 @@ const EssentialsCardData = [
         storageTemperature: "7-10°C",
         storageType: "Cool, dark storage",
         imageSlider: [
-           potato,
-           "https://w7.pngwing.com/pngs/1018/700/png-transparent-potato-vegetable-food-fruit-potato-soup-food-baking-thumbnail.png",
+            potato,
+            "https://w7.pngwing.com/pngs/1018/700/png-transparent-potato-vegetable-food-fruit-potato-soup-food-baking-thumbnail.png",
             "https://w7.pngwing.com/pngs/638/759/png-transparent-sliced-potatoes-mashed-potato-north-slavic-fermented-cereal-soups-hasselback-potatoes-vegetable-potato-food-photography-nutrition-thumbnail.png",
             "https://w7.pngwing.com/pngs/56/104/png-transparent-sweet-potato-cultivar-tuber-vegetable-potato-food-potatoes-fruit-thumbnail.png"
         ]
@@ -59,6 +59,8 @@ const EssentialsCardData = [
             "https://img.freepik.com/free-photo/red-chilli-paste-black_1150-25554.jpg?t=st=1726483389~exp=1726486989~hmac=fe0e9d4334bb038bddc634a91e167c412c8ce8952a10d10faaac44b72596d994&w=740",
             "https://img.freepik.com/free-photo/red-chilli-paste-black_1150-25548.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
+        , category: "essentials"
+        , category: "essentials"
     },
     {
         id: "103",
@@ -82,6 +84,7 @@ const EssentialsCardData = [
             "https://img.freepik.com/premium-photo/falling-cucumber-slice-isolated-white-background_1153035-6835.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybridhttps://img.freepik.com/premium-photo/falling-cucumber-slice-isolated-white-background_1153035-6835.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/premium-photo/close-up-green-beans-against-white-background_1048944-6171364.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
+        , category: "essentials"
     },
     {
         id: "104",
@@ -105,6 +108,7 @@ const EssentialsCardData = [
             "https://w7.pngwing.com/pngs/111/606/png-transparent-garlic-potato-onion-vegetable-computer-icons-garlic-food-onion-vegetables-thumbnail.png",
             "https://w7.pngwing.com/pngs/838/915/png-transparent-solo-garlic-oil-of-clove-mincing-food-minced-garlic-food-baking-natural-thumbnail.png"
         ]
+        , category: "essentials"
     },
     {
         id: "108",
@@ -128,6 +132,7 @@ const EssentialsCardData = [
             "https://w7.pngwing.com/pngs/90/394/png-transparent-ginger-oil-food-sugar-molasses-ginger-leaf-recipe-chicken-meat-thumbnail.png",
             "https://w7.pngwing.com/pngs/11/37/png-transparent-juice-honey-lemon-ginger-tea-honey-ginger-slices-honey-bee-kitchen-food-thumbnail.png"
         ]
+        , category: "essentials"
     },
     {
         id: "109",
@@ -146,11 +151,12 @@ const EssentialsCardData = [
         storageTemperature: "Cool, dry place",
         storageType: "Dry storage",
         imageSlider: [
-           onion,
+            onion,
             "https://w7.pngwing.com/pngs/992/6/png-transparent-red-onion-food-vegetable-shallot-yellow-onion-onion-food-nutrition-onion-thumbnail.png",
             "https://w7.pngwing.com/pngs/659/771/png-transparent-slices-of-onions-shallot-scallion-icon-sliced-onion-purple-food-vegetables-thumbnail.png",
             "https://w7.pngwing.com/pngs/172/49/png-transparent-red-onion-yellow-onion-vegetable-food-potato-onion-vegetable-leaf-vegetable-onion-shallot-thumbnail.png"
         ]
+        , category: "essentials"
     },
     {
         id: "110",
@@ -174,6 +180,7 @@ const EssentialsCardData = [
             "https://w7.pngwing.com/pngs/6/412/png-transparent-sliced-green-fruit-juice-lemon-lime-and-bitters-lemon-lime-drink-fresh-green-lemon-slices-food-photography-citrus-thumbnail.png",
             "https://w7.pngwing.com/pngs/644/936/png-transparent-lemon-lime-drink-food-lemon-natural-foods-citrus-persian-lime-thumbnail.png"
         ]
+        , category: "essentials"
     },
     {
         id: "111",
@@ -191,11 +198,12 @@ const EssentialsCardData = [
         storageTemperature: "Room temperature",
         storageType: "Cool, dry place",
         imageSlider: [
-           rice,  // replace with actual image URL
+            rice,  // replace with actual image URL
             "https://img.freepik.com/free-photo/sack-rice-seed-with-white-rice-small-wooden-spoon-rice-plant_1150-35744.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/free-photo/appetizing-healthy-rice-with-vegetables-white-plate-wooden-table_2829-19773.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/free-photo/top-view-raw-rice-inside-plate-dark-desk_179666-27235.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
+        , category: "essentials"
     },
     {
         id: "112",
@@ -213,11 +221,12 @@ const EssentialsCardData = [
         storageTemperature: "Room temperature",
         storageType: "Cool, dry place",
         imageSlider: [
-           pasta,  // replace with actual image URL
+            pasta,  // replace with actual image URL
             "https://img.freepik.com/premium-photo/pasta-beef-restaurant-gourmet-flavor-italian-specialties-ambiance-chefs-dishes-quality_1246444-72748.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/free-photo/ai-generated-pasta_23-2150637305.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/premium-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-9170.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
+        , category: "essentials"
     },
     {
         id: "113",
@@ -240,6 +249,7 @@ const EssentialsCardData = [
             "https://example.com/sea_salt_image_2.png",
             "https://example.com/sea_salt_image_3.png"
         ]
+        , category: "essentials"
     },
     {
         id: "114",
@@ -262,6 +272,7 @@ const EssentialsCardData = [
             "https://img.freepik.com/free-photo/bottle-juice-with-fruit-it_1340-34396.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/free-photo/front-view-red-apple-vinegar-blue-wall-food-drink-red-fruit-alcohol-wine-sour-color-juice_179666-17609.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
+        , category: "essentials"
     },
     {
         id: "115",
@@ -284,19 +295,20 @@ const EssentialsCardData = [
             "https://img.freepik.com/free-photo/front-view-cooked-mushrooms-with-seasonings-dark-grey-table-ripe-food-wild_140725-78984.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/premium-photo/market-flavors-detailed-ai-art-diverse-spice-market-display_1291040-217.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
+        , category: "essentials"
     }
-    
-    
 
-    
-        
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
 
 ];
 export default EssentialsCardData
