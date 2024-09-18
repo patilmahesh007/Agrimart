@@ -20,8 +20,8 @@ import pumpkin from "../../src/images/card/pumpkin.png"
 const VegCardData = [
 
     {
-        id: "101",
-        title: "Fresh Orange Carrots",
+        id: "501",
+        title: " Orange Carrots",
         description: "Crunchy and sweet orange carrots, ideal for salads, snacks, and cooking. Packed with flavor and nutrients.",
         image: carrot,
         price: "₹60/kg",
@@ -43,8 +43,8 @@ const VegCardData = [
         ]
     },
     {
-        id: "111",
-        title: "Fresh Ash Gourd ",
+        id: "511",
+        title: " Ash Gourd ",
         description: "A mild-flavored, refreshing vegetable with a light green skin and white flesh, perfect for soups, stews, and curries.",
         image: ashgourd,
         price: "₹70/kg",
@@ -66,8 +66,8 @@ const VegCardData = [
         ]
     },
     {
-        id: "112",
-        title: "Fresh Baby Corn",
+        id: "512",
+        title: " Baby Corn",
         description: "Tender and sweet baby corn, ideal for stir-fries, salads, and as a crunchy snack.",
         image: babycorn,
         price: "₹150/kg",
@@ -89,8 +89,8 @@ const VegCardData = [
         ]
     },
     {
-        id: "113",
-        title: "Fresh Beetroot",
+        id: "513",
+        title: "Beetroot",
         description: "Vibrant and earthy beetroots that add a burst of color and a sweet, rich flavor to salads, juices, and side dishes.",
         image: beetroot,
         price: "₹80/kg",
@@ -112,8 +112,8 @@ const VegCardData = [
         ]
     },
     {
-        id: "114",
-        title: "Fresh Green Cabbage",
+        id: "514",
+        title: " Green Cabbage",
         description: "Crisp and refreshing green cabbage, perfect for salads, stir-fries, and as a side dish.",
         image: cabbage,
         price: "₹50/kg",
@@ -135,8 +135,8 @@ const VegCardData = [
         ]
     },
     {
-        id: "115",
-        title: "Fresh Capsicum",
+        id: "515",
+        title: " Capsicum",
         description: "Crisp and colorful capsicum (bell peppers) that add a vibrant crunch and a sweet, slightly tangy flavor to your dishes.",
         image: capsicum,
         price: "₹120/kg",
@@ -158,8 +158,8 @@ const VegCardData = [
         ]
     },
     {
-        id: "116",
-        title: "Fresh Bhindi",
+        id: "516",
+        title: " Bhindi",
         description: "Tender and crisp bhindi, also known as okra, perfect for stir-fries, curries, and as a nutritious addition to various dishes.",
         image: bhindi,
         price: "₹90/kg",
@@ -181,8 +181,8 @@ const VegCardData = [
         ]
     },
     {
-        id: "117",
-        title: "Fresh Cauliflower",
+        id: "517",
+        title: " Cauliflower",
         description: "Crisp and versatile cauliflower, perfect for a variety of dishes including soups, stews, and stir-fries.",
         image: cauliflower,
         price: "₹70/kg",
@@ -204,8 +204,8 @@ const VegCardData = [
         ]
     },
     {
-        id: "118",
-        title: "Fresh Drumstick",
+        id: "518",
+        title: " Drumstick",
         description: "Nutrient-rich drumsticks, also known as moringa, perfect for soups, stews, and curries. Known for its high nutritional value and unique flavor.",
         image: drumstick,
         price: "₹100/kg",
@@ -227,8 +227,8 @@ const VegCardData = [
         ]
     },
     {
-        id: "119",
-        title: "Fresh Bitter Gourd",
+        id: "519",
+        title: " Bitter Gourd",
         description: "Fresh bitter gourd, also known as bitter melon, known for its distinct bitter taste and numerous health benefits. Ideal for curries, stir-fries, and juices.",
         image: bitter,
         price: "₹90/kg",
@@ -250,7 +250,7 @@ const VegCardData = [
         ]
     },
     {
-        id: "120",
+        id: "520",
         title: "Big Brinjal",
         description: "Fresh and large brinjals, also known as eggplants, perfect for grilling, stuffing, or adding to curries. Known for their rich flavor and versatility in cooking.",
         image: big_brinjal,
@@ -273,8 +273,8 @@ const VegCardData = [
         ]
     },
     {
-        id: "121",
-        title: "Fresh French Beans",
+        id: "521",
+        title: " French Beans",
         description: "Crisp and tender French beans, ideal for stir-fries, salads, and as a side dish. Known for their delicate flavor and high nutritional content.",
         image: french_beans,
         price: "₹90/kg",
@@ -296,8 +296,8 @@ const VegCardData = [
         ]
     },
     {
-        id: "121",
-        title: "Fresh Mushrooms",
+        id: "521",
+        title: " Mushrooms",
         description: "Fresh and flavorful mushrooms, perfect for adding depth to soups, stews, stir-fries, and more. Known for their umami taste and versatility in cooking.",
         image: mushroom,
         price: "₹120/kg",
@@ -319,8 +319,8 @@ const VegCardData = [
         ]
     },
     {
-        id: "122",
-        title: "Fresh Papaya",
+        id: "522",
+        title: "Papaya",
         description: "Ripe and juicy papayas, perfect for eating fresh, making smoothies, or adding to fruit salads. Known for their sweet flavor and health benefits.",
         image: papaya,
         price: "₹80/kg",
@@ -342,8 +342,8 @@ const VegCardData = [
         ]
     },
     {
-        id: "123",
-        title: "Fresh Pumpkin",
+        id: "523",
+        title: " Pumpkin",
         description: "Sweet and hearty pumpkins, perfect for soups, pies, and roasting. Known for their rich flavor and high nutritional value.",
         image: pumpkin,
         price: "₹60/kg",
@@ -363,7 +363,7 @@ const VegCardData = [
             "https://w7.pngwing.com/pngs/491/741/png-transparent-pumpkin-food-gourd-hemp-oil-guava-pumpkin-natural-foods-food-orange-thumbnail.png",
             "https://w7.pngwing.com/pngs/658/547/png-transparent-pumpkin-pie-bisque-food-pumpkin-natural-foods-orange-gourd-thumbnail.png"
         ]
-    }
+    },
     
 
     

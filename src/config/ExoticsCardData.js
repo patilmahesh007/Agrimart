@@ -13,7 +13,7 @@ const ExoticsCardData = [
 
     {
         id: "300",
-        title: "Fresh Basil",
+        title: " Basil",
         description: "Aromatic and flavorful fresh basil leaves, perfect for adding a burst of flavor to dishes, pesto, and salads.",
         image: basil,
         price: "₹150/kg",
@@ -36,7 +36,7 @@ const ExoticsCardData = [
     },
     {
         id: "302",
-        title: "Fresh Broccoli",
+        title: " Broccoli",
         description: "Crisp and nutritious broccoli, ideal for salads, stir-fries, and as a healthy side dish.",
         image: broccoli,
         price: "₹90/kg",
@@ -59,7 +59,7 @@ const ExoticsCardData = [
     },
     {
         id: "303",
-        title: "Fresh Leeks",
+        title: " Leeks",
         description: "Mildly flavored and versatile leeks, perfect for soups, stews, and as a flavorful addition to various dishes.",
         image: Leeks,
         price: "₹120/kg",
@@ -100,7 +100,7 @@ const ExoticsCardData = [
     },
     {
         id: "305",
-        title: "Fresh Iceberg Lettuce",
+        title: "Iceberg Lettuce",
         description: "Crisp and refreshing iceberg lettuce with a crunchy texture, perfect for salads, sandwiches, and wraps.",
         image: iceberglettuce,
         price: "₹80/kg",
@@ -123,7 +123,7 @@ const ExoticsCardData = [
     },
     {
         id: "306",
-        title: "Fresh Mint",
+        title: " Mint",
         description: "Aromatic and refreshing mint leaves, perfect for adding a burst of flavor to drinks, dishes, and desserts.",
         image: mint,
         price: "₹200/kg",
@@ -146,7 +146,7 @@ const ExoticsCardData = [
     },
     {
         id: "307",
-        title: "Fresh Yellow Zucchini",
+        title: " Yellow Zucchini",
         description: "Bright and flavorful yellow zucchini, perfect for grilling, sautéing, or adding a splash of color to salads and dishes.",
         image: zucchini,
         price: "₹100/kg",
@@ -169,7 +169,7 @@ const ExoticsCardData = [
     },
     {
         id: "308",
-        title: "Fresh Parsley",
+        title: " Parsley",
         description: "Fragrant and versatile fresh parsley, ideal for garnishing, flavoring dishes, and adding a fresh, herbal note to salads and soups.",
         image: parsley,
         price: "₹180/kg",
@@ -192,7 +192,7 @@ const ExoticsCardData = [
     },
     {
         id: "309",
-        title: "Fresh Capsicum",
+        title: " Capsicum",
         description: "Crisp and colorful capsicum (bell peppers) that add a vibrant crunch and a sweet, slightly tangy flavor to your dishes.",
         image: capsicum,
         price: "₹120/kg",
