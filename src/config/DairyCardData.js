@@ -17,7 +17,7 @@ const cardData = [
 
     {
         id: "400",
-        title: "Dairy",
+        title: "Milk",
         description: "A delicious, sweet fruit available in various colors.",
         image: Milk,
         price: "₹80/kg",
@@ -37,7 +37,7 @@ const cardData = [
     },
     {
         id: "401",
-        title: "Fresh Paneer",
+        title: " Paneer",
         description: "Soft and creamy paneer, ideal for a variety of dishes including curries, snacks, and grilling. Made from high-quality milk.",
         image: paneer,
         price: "₹300/kg",
@@ -60,7 +60,7 @@ const cardData = [
     },
     {
         id: "403",
-        title: "Fresh Butter",
+        title: " Butter",
         description: "Rich and creamy fresh butter, perfect for cooking, baking, and spreading. Made from high-quality dairy cream for a smooth texture and rich flavor.",
         image: butter,
         price: "₹400/kg",
@@ -105,7 +105,7 @@ const cardData = [
     },
     {
         id: "406",
-        title: "Fresh Cream",
+        title: " Cream",
         description: "Rich and creamy fresh cream, ideal for cooking, baking, and desserts. Adds a smooth and luscious texture to a variety of dishes.",
         image: cream,
         price: "₹120/250g",
@@ -171,7 +171,7 @@ const cardData = [
     },
     {
         id: "409",
-        title: "Fresh Ricotta Cheese",
+        title: " Ricotta Cheese",
         description: "Creamy and mild, our fresh ricotta cheese is made from the finest milk. Perfect for lasagna, desserts, or spreading on toast.",
         image: ricotta ,  
         price: "₹350/250g",
