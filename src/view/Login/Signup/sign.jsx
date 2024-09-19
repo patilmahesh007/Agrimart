@@ -12,8 +12,6 @@ const SignupForm = () => {
     lastName: '',
     email: '',
     phone: '',
-    gender: '',
-    age: '',
     password: '',
     confirmPassword: ''
   });
@@ -39,8 +37,6 @@ const SignupForm = () => {
         lastName: '',
         email: '',
         phone: '',
-        gender: '',
-        age: '',
         password: '',
         confirmPassword: ''
       });
@@ -101,34 +97,7 @@ const SignupForm = () => {
               onChange={handleChange}
               required
             />
-            <div className="input-group-2">
-              <input
-                type="radio"
-                name="gender"
-                id="male"
-                value="male"
-                onChange={handleChange}
-                required
-              />
-              <label htmlFor="male">Male</label>
-              <input
-                type="radio"
-                name="gender"
-                id="female"
-                value="female"
-                onChange={handleChange}
-                required
-              />
-              <label htmlFor="female">Female</label>
-            </div>
-            <input
-              type="text"
-              name="age"
-              placeholder="Enter Your Age"
-              value={formData.age}
-              onChange={handleChange}
-              required
-            />
+             
             <input
               type="password"
               name="password"

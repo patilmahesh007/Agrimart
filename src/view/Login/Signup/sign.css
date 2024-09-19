@@ -135,16 +135,9 @@ input[type="password"]:focus {
 	width: 48%;
   }
   
-  .input-group-1 input[type="radio"] {
-	margin-right: 1px; 
-  }
- 
+  
   .input-group-1 label {
 	margin-right: 5px;
-	font-size: 16px;
-  }
-  .input-group-2 label {
-	margin-right:10px;
 	font-size: 16px;
   }
   
