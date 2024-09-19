@@ -5,6 +5,8 @@ import DairyCardData from './../../config/DairyCardData';
 import VegCardData from './../../config/VegCardData';
 import ExoticsCardData from './../../config/ExoticsCardData';
 import QuantityButton from '../BuynowButton/Buynow';
+import EssentialsCardData from '../../config/EssentialsCardData';
+
 import { Link } from 'react-router-dom';
 
 function CardC({ CardOpen }) {
@@ -32,7 +34,8 @@ function CardC({ CardOpen }) {
       ...cardData,
       ...DairyCardData,
       ...VegCardData,
-      ...ExoticsCardData
+      ...ExoticsCardData,
+      ...EssentialsCardData
     ];
 
     const cardInfos = storedCardData.map(item => {

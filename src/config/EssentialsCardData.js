@@ -1,4 +1,3 @@
-import Apple from "./../images/fruitcard/apple.png";
 import chill from "../../src/images/card/chill.png"
 import ginger from "../../src/images/card/ginger.png"
 import potato from "../../src/images/card/potato.png"

@@ -6,17 +6,20 @@ const card3 = [
   {
     image: brocoli,
     title: "Broccoli",
-    description: "A healthy vegetable"},
-  
+    description: "A healthy vegetable"
+    , link: "/exotics"
+  },
+
   {
     image: straw,
     title: "Strawberry",
     description: "A delicious fruit",
+    link: "/Fruits"
   },
   {
     image: lettuce,
     title: "Strawberry",
-    description: "A delicious fruit",
+    description: "A delicious vegetable", link: "/Fruits"
   },
 ];
 

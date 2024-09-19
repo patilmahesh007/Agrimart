@@ -23,7 +23,7 @@ const [totalPrice1, setTotalPrice1] = useState(0);
 
       <div className="right">
         
-        <span className='price'>{totalPrice1}</span>
+        <span className='price'></span>
 
         <span onClick={() => setIsCartOpen(!isCartOpen)}>
           <img src='https://cdn-icons-png.flaticon.com/128/3916/3916624.png'
@@ -32,10 +32,7 @@ const [totalPrice1, setTotalPrice1] = useState(0);
         </span>
       </div>
 
-      {/* Cart Menu */}
-      <div className={`topbar-cart-menu ${isCartOpen ? 'topbar-cart-menu-open' : ''}`}>
-        <p>Your cart is empty</p>
-      </div>
+  
     </div>
   );
 };
