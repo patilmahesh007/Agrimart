@@ -11,6 +11,7 @@ function CardC({ CardOpen }) {
   const [cartItems, setCartItems] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
 
+  // Retrieve stored cart items from localStorage
   const getStoredCardItems = () => {
     const ids = [];
     for (let i = 0; i < localStorage.length; i++) {
