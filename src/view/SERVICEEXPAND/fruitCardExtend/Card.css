@@ -36,6 +36,7 @@
 .card-page-leftside-div1 {
     height: 55vh;
     gap: 10px;
+
     width: 100%;
     display: flex;
     justify-content: center;
@@ -81,6 +82,17 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
+    margin-top: 40px;
+}
+.card-page-rightside-div1 h4{
+    margin-bottom: 8px;
+}
+.card-page-rightside-div1-h4{
+    color: black;
+
+}
+.card-page-rightside-div1-b{
+    color: rgba(0, 0, 0, 0.59);
 }
 
 .card-page-rightside-div2 {
@@ -119,6 +131,6 @@ font-size: 12px;
 color: rgba(0, 0, 0, 0.707);
 }
 hr {
-    border: 0.5px solid rgba(0, 0, 0, 0.097); /* Sets the color and thickness */
+    border: 0.5px solid rgba(0, 0, 0, 0.097);
   }
   

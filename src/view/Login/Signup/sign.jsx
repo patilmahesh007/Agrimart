@@ -32,6 +32,7 @@ const SignupForm = () => {
       localStorage.setItem('email', formData.email);
 
       toast.success('Account created successfully!');
+      window.location.href = '/login';
       setFormData({
         firstName: '',
         lastName: '',
