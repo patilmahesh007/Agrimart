@@ -35,3 +35,21 @@
 .Apartment-input{
     margin: 5px 40px;
 }
+.input-container-address{
+    margin-left: 30px;
+}
+.inputs-all{
+    margin: 0px 20px;
+}
+ .phonenumber-input{
+margin: 5px 40px;
+ }
+ .main-container{
+    display: flex;
+    flex-direction: row;
+
+ }
+ .checkout-rightside{
+    background-color:aquamarine;
+    width: 50%;
+ }
