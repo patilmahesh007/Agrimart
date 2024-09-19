@@ -1,7 +1,5 @@
 .checkout-leftside{
-    width: 50%;
-    background-color: antiquewhite;
-   
+    width: 50%;  
 }
 .contact-heading{
     margin: 15px 30px;
@@ -50,6 +48,6 @@ margin: 5px 40px;
 
  }
  .checkout-rightside{
-    background-color:aquamarine;
+    
     width: 50%;
  }

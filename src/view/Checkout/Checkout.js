@@ -28,7 +28,10 @@ function Checkout() {
     
       <div className='checkout-rightside'>
                <h1>
-                 <Checkoutccard /> 
+                 <Checkoutccard 
+                 
+               
+                 /> 
                  </h1>
       </div>
         
