@@ -224,7 +224,7 @@ const Blogs = [
     id: 3,
     imgUrl: "https://www.shilliminstitute.org/wp-content/uploads/2023/04/yY8mi7JgYkdx6Lt3WWii8b-890x664.jpg.webp",
     type: "largeblog",
-    title: "Reasons To Buy Produce Directly From a Farmer",
+    title: "Reasons To Buy Product Directly From a Farmer",
     description:
       "In today’s fast-paced world, it's easy to grab produce off supermarket shelves without thinking twice about where it comes from...",
 
@@ -321,42 +321,96 @@ const Blogs = [
   },
   {
     id: 4,
-    imgUrl: img4,
-    title: "First Blog",
+    imgUrl: "https://foodtank.com/wp-content/uploads/2019/06/severe-weather_ftimage.jpg",
     type: "largeblog",
+    title: "How Weather Affects Farming and Product Availability",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit quis delectus modi possimus.",
-    content: [
-      "Modern farming methods have often proven effective and have delivered outstanding results. A farmer from Nashik, stands testimony to the wonders modern farming techniques can do. Here’s how Mr. Balu Darade grew a whopping 195 quintal onion –",
+      "Agriculture is the backbone of human civilization. For millennia, farmers have relied on weather patterns to cultivate crops and raise livestock...",
+    
+      content: [
+        "Agriculture is the backbone of human civilization. For millennia, farmers have relied on weather patterns to cultivate crops and raise livestock. However, this dependence makes agriculture incredibly vulnerable to weather changes. From scorching droughts to unexpected frosts, extreme weather events can affect crop yields, livestock health, and ultimately, our food security.",
+  
+        "In this blog post, we’ll delve into the various aspects of weather impact on agriculture. We’ll explore specific weather events like droughts, floods, hailstorms, and frosts, discussing their effects on different agricultural practices. We’ll also discuss strategies that farmers use to mitigate the impact of weather on crop production.",
+      
+      
+      ],
+      contenth1: "1. The Critical Role of Weather in Agriculture",
+      parah1:
+        "Weather plays an essential role in agriculture, profoundly influencing crop growth, yield, and overall farm productivity. Temperature is crucial as it affects every stage of plant development, from germination to harvest. Crops have specific temperature requirements, and both excessively high and low temperatures can hinder their growth. Sunlight, necessary for photosynthesis, also impacts plant health; variations in sunlight hours and intensity can lead to differences in crop yields. Rainfall is another critical factor, as adequate hydration is necessary for crops to thrive. Farmers must navigate the challenges posed by both insufficient and excessive rainfall, which can affect soil health and crop development.",
+  
+      contenth2: "2. Whether Affects On Organic Agriculture",
+      contenth2Img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNgo-MedIl2vvwRmJW0xj5WJ0f4WT1bAs3hA&s",
+      contenth2sub:
+        "Agriculture supply chain management is incredibly complex, which affects food quality, safety, sustainability, and economic viability. Specific challenges include:",
+  
+      contenth2para:
+        " Extreme weather events, such as droughts, floods, storms, and frosts, pose significant threats to agricultural production, causing widespread damage to crops and disrupting farming practices. Droughts, characterized by prolonged periods of insufficient rainfall, lead to severe water shortages that stress plants, reduce yields, and deplete soil nutrients. Farmers may struggle with irrigation challenges, and prolonged droughts can result in crop failure, reduced agricultural output, and financial losses for farmers.",
 
-      "NABARD’s golden initiative",
-
-      "The National Bank for Agriculture and Rural Development (NABARD) initiated a noble program where it trained the farmers for modern farming techniques. Mr. Balu Darade participated in this program as he wished to yield more than 100 quintal, his average produce.",
-
-      "Goodbye to traditional techniques",
-
-      "The traditional method of sowing on flat beds was replaced by raised beds. Following are the advantages of raised bed sowing –",
-
-      "Water can be supplied through drip irrigation, The temperature can be maintained in raised bed sowing, Spacing can be easily maintained Drip irrigation Raised bed sowing allowed the water to be supplied through drip irrigation, a method which has its own advantages –",
-
-      "Drip irrigation reduces water wastage Evaporation is minimal and the consumption is lowered Fertilisers can be used via the dripping system The land between the plant rows remain dry and unwanted plant growth is prevented",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi! Fuga sed doloremque laborum modi voluptatem commodi voluptates. Cumque esse nulla error in a, saepe debitis at totam molestias ad!",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi! Fuga sed doloremque laborum modi voluptatem commodi voluptates. Cumque esse nulla error in a, saepe debitis at totam molestias ad!",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi!",
-    ],
-    details: "oct 23,2019 | Piyush Aglawe",
-  },
+      contenth2para1:
+        " Floods present a different set of challenges. Excessive rainfall can overwhelm the land, leading to waterlogged soils and erosion. Standing water can suffocate plant roots, promote the growth of harmful pathogens, and wash away vital nutrients. Flooded fields may also become unsuitable for planting, resulting in delayed or lost harvests and significant economic impacts on local farming communities.",
+  
+      contenth2para2:
+        "Storms and high winds can cause physical damage to crops, including broken stems, shattered fruits, and uprooted plants. Severe storms, such as hurricanes and tornadoes, bring intense winds, heavy rain, and hail, all of which can devastate large areas of farmland in a matter of hours. The destruction from such events can be particularly severe for crops that are at critical stages of growth or nearing harvest, leading to substantial financial losses for farmers.",
+  
+  
+      contenth3:
+        "3. Adapting to Weather Challenges: Innovative Farming Strategies for Resilience",
+      contenth3Img: "https://www.agritechtomorrow.com/images/upload/images/Depositphotos_6827181_s-2019(1).jpg",
+  
+      contenth3para: [
+        "In the face of increasingly unpredictable and extreme weather conditions, farmers are adopting innovative strategies to enhance resilience and ensure the sustainability of their operations. These adaptive strategies are crucial for mitigating the impact of weather-related challenges and maintaining productive, sustainable farming practices.",
+  
+        "Mixing green plants with the soil enriches it with organic matters and nitrogen in particular. It also increases moisture levels and adds nutrients for microorganisms, thus improving the soil quality. The described method of agriculture also reduces weed infestation.",
+  
+        "One of the primary approaches is the use of drought-resistant crop varieties. Advances in agricultural science have led to the development of crops that can withstand prolonged periods of low water availability. These varieties are engineered to have deeper root systems, better water retention capabilities, and increased tolerance to heat, making them more resilient to drought conditions.",
+  
+        "By adopting these innovative strategies, farmers can enhance their resilience to weather challenges, ensuring the sustainability and productivity of their operations despite the increasing volatility of climate and weather patterns.",
+  
+      ],
+  
+     
+      contenth4para: [
+        
+      ],
+  
+      contenth5:
+        "4. Climate Change: Shifting Weather Patterns and Their Long-Term Effects on Farming",
+      contenth5Img: "https://www.mdpi.com/agriculture/agriculture-13-01508/article_deploy/html/images/agriculture-13-01508-g001.png",
+      contenth5para:
+        "Changing precipitation patterns are another significant impact of climate change. Altered rainfall patterns lead to more frequent and intense droughts and floods. Prolonged droughts can deplete water resources, making irrigation more challenging and costly, while intense flooding can cause soil erosion, waterlogging, and crop damage. These shifts in precipitation necessitate the adoption of advanced water management techniques and infrastructure improvements to manage water availability and reduce risks.",
+      contenth5head1: "Pest and disease dynamics",
+      contenth5para1: [
+        "Pest and disease dynamics are also influenced by climate change. Warmer temperatures and altered humidity levels can expand the range and increase the activity of pests and pathogens, which can lead to higher incidences of crop diseases and infestations. Farmers may need to adjust pest management strategies and invest in new tools and technologies to protect their crops effectively.",
+  
+      ],
+  
+      contenth5head2: "Soil health",
+      contenth5para2: [
+        " Soil health is affected by changing climate conditions as well. Increased rainfall can lead to erosion and nutrient leaching, while higher temperatures and reduced moisture can contribute to soil degradation. Sustainable soil management practices, such as conservation tillage, cover cropping, and agroforestry, become essential to maintain soil fertility and health under changing conditions.",
+  
+      ],
+      blog10Content:[
+        "1. The Critical Role of Weather in Agriculture",
+  
+        "2. Whether Affects On Organic Agriculture",
+  
+        "3. Adapting to Weather Challenges: Innovative Farming Strategies for Resilience",
+  
+        "4. Climate Change: Shifting Weather Patterns and Their Long-Term Effects on Farming",
+  
+        
+      ],   
+      details: "oct 16,2024 | Rutuja Sanap",
+    },
   {
     id: 5,
-    imgUrl: img5,
-    title: "First Blog",
+    imgUrl: "https://www.unlockfood.ca/EatRightOntario/media/Website-images-resized/How-many-vegetables-and-fruit-do-you-need-resized.jpg",
     type: "largeblog",
+    title: "How to Store Fresh Vegetables and Fruits to Keep Them Longer",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit quis delectus modi possimus.",
-    content: [
+    
+      content: [
       "Modern farming methods have often proven effective and have delivered outstanding results. A farmer from Nashik, stands testimony to the wonders modern farming techniques can do. Here’s how Mr. Balu Darade grew a whopping 195 quintal onion –",
 
       "NABARD’s golden initiative",
