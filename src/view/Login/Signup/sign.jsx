@@ -47,6 +47,7 @@ const SignupForm = () => {
   };
   return(
   <>
+  <div className="signup-register-container">
     <header className="header-container-1">
       <nav className="nav-bar-1">
       <Link to="/sign" className="nav-link-1 active">Registration</Link>
@@ -122,6 +123,7 @@ const SignupForm = () => {
           </form>
         </div>
       </div>
+    </div>
     </div>
 
     <Toaster />
