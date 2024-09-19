@@ -25,7 +25,7 @@ function Vegcard() {
                 <del> {card.oldPrice}</del>
               </div>
           </Link>
-          <span className="buynow-btn"><QuantityButton /></span>
+          <span className="buynow-btn"><QuantityButton id={card.id} name={card.title} /></span>
 
 
            </div>
