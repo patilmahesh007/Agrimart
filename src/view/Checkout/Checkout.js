@@ -1,13 +1,10 @@
 import React from 'react'
 import './Checkout.css'
+import Checkoutccard from '../../components/Checkoutcard/Checkoutcard'
+
 function Checkout() {
   return (
-    <div>
-      <div>
-
-        <hr/>
-      </div>
-    <div className='main-container'/>
+     <div  className='main-container'>
       <div className='checkout-leftside'>
         <h1 className='contact-heading'>Contact</h1>
         <input type='text' className='checkout-email-input' style={{ width:500 }}placeholder='enter a email'/>
@@ -30,7 +27,9 @@ function Checkout() {
     
     
       <div className='checkout-rightside'>
-               
+               <h1>
+                 <Checkoutccard /> 
+                 </h1>
       </div>
         
 
