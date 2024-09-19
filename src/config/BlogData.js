@@ -222,33 +222,102 @@ const Blogs = [
     },
   {
     id: 3,
-    imgUrl: img3,
-    title: "First Blog",
+    imgUrl: "https://www.shilliminstitute.org/wp-content/uploads/2023/04/yY8mi7JgYkdx6Lt3WWii8b-890x664.jpg.webp",
     type: "largeblog",
+    title: "Reasons To Buy Produce Directly From a Farmer",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit quis delectus modi possimus.",
+      "In today’s fast-paced world, it's easy to grab produce off supermarket shelves without thinking twice about where it comes from...",
+
     content: [
-      "Modern farming methods have often proven effective and have delivered outstanding results. A farmer from Nashik, stands testimony to the wonders modern farming techniques can do. Here’s how Mr. Balu Darade grew a whopping 195 quintal onion –",
+      "In today’s fast-paced world, it's easy to grab produce off supermarket shelves without thinking twice about where it comes from. But there’s a growing movement toward buying fresh produce directly from local farmers, and for good reason! Here are some of the key benefits of buying directly from farmers:",
 
-      "NABARD’s golden initiative",
-
-      "The National Bank for Agriculture and Rural Development (NABARD) initiated a noble program where it trained the farmers for modern farming techniques. Mr. Balu Darade participated in this program as he wished to yield more than 100 quintal, his average produce.",
-
-      "Goodbye to traditional techniques",
-
-      "The traditional method of sowing on flat beds was replaced by raised beds. Following are the advantages of raised bed sowing –",
-
-      "Water can be supplied through drip irrigation, The temperature can be maintained in raised bed sowing, Spacing can be easily maintained Drip irrigation Raised bed sowing allowed the water to be supplied through drip irrigation, a method which has its own advantages –",
-
-      "Drip irrigation reduces water wastage Evaporation is minimal and the consumption is lowered Fertilisers can be used via the dripping system The land between the plant rows remain dry and unwanted plant growth is prevented",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi! Fuga sed doloremque laborum modi voluptatem commodi voluptates. Cumque esse nulla error in a, saepe debitis at totam molestias ad!",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi! Fuga sed doloremque laborum modi voluptatem commodi voluptates. Cumque esse nulla error in a, saepe debitis at totam molestias ad!",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi!",
+      "When you buy from farmers, you’re getting produce that’s freshly harvested, often within hours of your purchase. This means the fruits and vegetables you take home retain more nutrients, taste better, and have a longer shelf life compared to store-bought alternatives that have often traveled long distances.",
     ],
-    details: "oct 23,2019 | Piyush Aglawe",
+    contenth1: "1. Building a Personal Connection with Your Food Source",
+    parah1:
+      "One of the greatest benefits of buying directly from farmers is the opportunity to meet the person who grows your food. Unlike purchasing from a supermarket where food often comes from anonymous sources, shopping locally allows you to have face-to-face conversations with farmers.You can ask questions about how your food is grown, the farming methods used, and even the challenges and rewards the farmer experiences.This direct interaction fosters a sense of trust. You get to learn about the farmer's commitment to quality and sustainability.Knowing exactly where your food comes from ensures transparency, so you can be confident that you're consuming fresh, safe, and responsibly-grown produce.Building a relationship with your local farmer might even allow you to request specific products or varieties that aren't typically available in stores. Some farmers offer custom orders or allow customers to pre-order specialty items during harvest.",
+
+    contenth2: "2. Fair Pricing for Both Farmers and Consumers",
+    contenth2Img: "https://www.sohnreyfamilyfoods.com/cdn/shop/articles/IzAjWfm26NLNUDb3JnW2TtDOKTZ6OQm81623949789_300x300.jpg?v=1624889984",
+
+    contenth2span: "i. Eliminating the Middlemen :",
+    contenth2para:
+      " When you buy directly from farmers, you cut out the intermediaries (distributors, wholesalers, and retailers) that often take a cut of the profit.",
+
+    contenth2span1: "ii. Transparent Pricing :",
+    contenth2para1:
+      " Farmers set their own prices based on production costs, labor, and market demand. There’s no need to artificially inflate prices for profit.",
+
+    contenth2span2: "iii. Sustainable Pricing Models",
+    contenth2para2:
+      "Unlike large-scale commercial farming, which is subject to volatile pricing influenced by global markets, local farmers have more control over their pricing.",
+
+    contenth2span3: "iv. Value for Quality ",
+    contenth2para3:
+      " While prices for locally grown produce may occasionally be higher than in supermarkets, the quality of the produce is usually superior. Consumers are often willing to pay a bit more for farm-fresh, organic, or heirloom varieties that haven’t been mass-produced or transported long distances.",
+
+    contenth3:
+      "3. Access to Specialty and Organic Products",
+    contenth3Img: "https://purefoods.in/uploads/2f60c5f15222d389eb5fbf0378a57129.jpg",
+
+    contenth3para: [
+      "Buying directly from farmers gives consumers access to rare and heirloom varieties of fruits and vegetables that are often unavailable in large supermarkets.",
+
+      "Many local farmers practice organic farming or use minimal pesticides and chemicals, even if they aren’t certified by large organic labels.",
+
+      "Farmers who sell directly to consumers often focus on non-GMO crops, ensuring that their produce is grown naturally without genetic modification.",
+
+      "Some farmers and local producers offer wild-harvested goods such as mushrooms, herbs, and berries that cannot be easily found in commercial stores.",
+
+      "Many farmers also create handmade or farm-made artisan products such as cheeses, jams, honey, and cured meats, which are crafted in small batches with high-quality ingredients.",
+
+      "Farmers often have access to seasonal produce that is only available for a short window of time, allowing consumers to enjoy fresh, peak-season items like berries, pumpkins, or early greens",
+
+    ],
+
+    contenth4: "4. Environmental Benefits of Local Farming",
+    contenth4para: [
+      "Locally grown produce is often harvested and sold within the same region, minimizing the need for packaging, refrigeration, and storage, which further reduces environmental impact.",
+
+      "Small-scale, local farms tend to use fewer energy-intensive methods compared to industrial agriculture. Many local farmers practice low-input farming, relying on techniques that minimize the use of heavy machinery, synthetic fertilizers, and pesticides.",
+
+      "Local farms tend to grow a diverse range of crops, which helps maintain soil health, promotes crop rotation, and supports natural biodiversity. This diversity strengthens ecosystems and reduces the likelihood of pest outbreaks and disease.",
+
+      "Many local farmers practice regenerative agriculture, which focuses on rebuilding soil health through techniques like cover cropping, agroforestry, and reduced tillage.",
+
+    ],
+
+    contenth5:
+      "5. The Benefits Of Supporting Local Farmers",
+    contenth5Img: "https://fastercapital.com/i/Local-produce--CornerAMarket--Supporting-Local-Farmers-and-Fresh-Produce--The-Importance-of-Supporting-Local-Farmers.webp",
+    
+    contenth5head1: "Fostering Agricultural Diversity and Innovation",
+    contenth5para1: [
+      "Local farmers, without the pressure of mass production, often invest in a wider variety of crops and livestock, contributing to agricultural diversity.",
+
+      "Your support enables farmers to experiment with innovative practices, such as sustainable farming techniques, organic certification, and new crop varieties, which can stimulate the local agricultural economy and open new market opportunities.",
+    ],
+
+    contenth5head2: "Strengthening the Community Connection",
+    contenth5para2: [
+      " Farmers are an integral part of their local communities, and when they succeed, the entire region benefits.",
+
+      " Farmers often give back by supporting local schools, events, and charities, further enhancing the social fabric of the community. By buying from them, you’re contributing to the economic well-being of the entire area, creating a strong sense of shared success and community support.",
+
+    ],
+    blog10Content:[
+      "1. Building a Personal Connection with Your Food Source",
+
+      "2. Fair Pricing for Both Farmers and Consumers",
+
+      "3. Access to Specialty and Organic Products",
+
+      "4. Environmental Benefits of Local Farming",
+
+      "5. The Benefits Of Supporting Local Farmers",
+      
+    ],   
+    details: "oct 18,2024 | Tushar Zade",
   },
   {
     id: 4,
