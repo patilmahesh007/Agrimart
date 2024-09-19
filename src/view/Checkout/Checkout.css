@@ -1,0 +1,53 @@
+.checkout-leftside{
+    width: 50%;  
+}
+.contact-heading{
+    margin: 15px 30px;
+}
+.checkout-email-input{
+   margin: 5px 40px;
+
+}
+.country-input{
+    margin: 5px 40px;
+    width: 80%;
+}
+.fullname-container{
+    display: flex;
+}
+.firstname-input{
+      width: 80%;
+      margin: 8px 10px;
+      margin-left: 60px;
+}
+.lastname-input{
+    width: 80%; 
+    margin: 8px 10px;
+}
+.input-container-address{
+    display: flex;
+}
+.Address-input{
+    margin: 5px 40px;
+}
+.Apartment-input{
+    margin: 5px 40px;
+}
+.input-container-address{
+    margin-left: 30px;
+}
+.inputs-all{
+    margin: 0px 20px;
+}
+ .phonenumber-input{
+margin: 5px 40px;
+ }
+ .main-container{
+    display: flex;
+    flex-direction: row;
+
+ }
+ .checkout-rightside{
+    
+    width: 50%;
+ }

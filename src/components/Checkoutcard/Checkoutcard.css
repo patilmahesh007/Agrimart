@@ -1,0 +1,22 @@
+.checkout-main-card-container{
+   
+    display: flex;
+    margin:  30px 10px;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+.checkboxcard-image{
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 8px;
+}
+.checkout-title{
+font-size: 40px;
+}
+.checkoutcard-kg{
+    font-size: 20px;
+    text-align: center;
+}
