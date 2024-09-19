@@ -1,18 +1,37 @@
 .checkout-leftside{
     width: 50%;
     background-color: antiquewhite;
+   
 }
 .contact-heading{
-    margin: 15px 50px;
+    margin: 15px 30px;
 }
-.email-input{
-   margin: 5px 30px;
-   width: 80%;
+.checkout-email-input{
+   margin: 5px 40px;
+
 }
 .country-input{
-    margin: 5px 30px;
+    margin: 5px 40px;
     width: 80%;
 }
 .fullname-container{
     display: flex;
+}
+.firstname-input{
+      width: 80%;
+      margin: 8px 10px;
+      margin-left: 60px;
+}
+.lastname-input{
+    width: 80%; 
+    margin: 8px 10px;
+}
+.input-container-address{
+    display: flex;
+}
+.Address-input{
+    margin: 5px 40px;
+}
+.Apartment-input{
+    margin: 5px 40px;
 }
