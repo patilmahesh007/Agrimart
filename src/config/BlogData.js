@@ -222,72 +222,195 @@ const Blogs = [
     },
   {
     id: 3,
-    imgUrl: img3,
-    title: "First Blog",
+    imgUrl: "https://www.shilliminstitute.org/wp-content/uploads/2023/04/yY8mi7JgYkdx6Lt3WWii8b-890x664.jpg.webp",
     type: "largeblog",
+    title: "Reasons To Buy Product Directly From a Farmer",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit quis delectus modi possimus.",
+      "In today’s fast-paced world, it's easy to grab produce off supermarket shelves without thinking twice about where it comes from...",
+
     content: [
-      "Modern farming methods have often proven effective and have delivered outstanding results. A farmer from Nashik, stands testimony to the wonders modern farming techniques can do. Here’s how Mr. Balu Darade grew a whopping 195 quintal onion –",
+      "In today’s fast-paced world, it's easy to grab produce off supermarket shelves without thinking twice about where it comes from. But there’s a growing movement toward buying fresh produce directly from local farmers, and for good reason! Here are some of the key benefits of buying directly from farmers:",
 
-      "NABARD’s golden initiative",
-
-      "The National Bank for Agriculture and Rural Development (NABARD) initiated a noble program where it trained the farmers for modern farming techniques. Mr. Balu Darade participated in this program as he wished to yield more than 100 quintal, his average produce.",
-
-      "Goodbye to traditional techniques",
-
-      "The traditional method of sowing on flat beds was replaced by raised beds. Following are the advantages of raised bed sowing –",
-
-      "Water can be supplied through drip irrigation, The temperature can be maintained in raised bed sowing, Spacing can be easily maintained Drip irrigation Raised bed sowing allowed the water to be supplied through drip irrigation, a method which has its own advantages –",
-
-      "Drip irrigation reduces water wastage Evaporation is minimal and the consumption is lowered Fertilisers can be used via the dripping system The land between the plant rows remain dry and unwanted plant growth is prevented",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi! Fuga sed doloremque laborum modi voluptatem commodi voluptates. Cumque esse nulla error in a, saepe debitis at totam molestias ad!",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi! Fuga sed doloremque laborum modi voluptatem commodi voluptates. Cumque esse nulla error in a, saepe debitis at totam molestias ad!",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi!",
+      "When you buy from farmers, you’re getting produce that’s freshly harvested, often within hours of your purchase. This means the fruits and vegetables you take home retain more nutrients, taste better, and have a longer shelf life compared to store-bought alternatives that have often traveled long distances.",
     ],
-    details: "oct 23,2019 | Piyush Aglawe",
+    contenth1: "1. Building a Personal Connection with Your Food Source",
+    parah1:
+      "One of the greatest benefits of buying directly from farmers is the opportunity to meet the person who grows your food. Unlike purchasing from a supermarket where food often comes from anonymous sources, shopping locally allows you to have face-to-face conversations with farmers.You can ask questions about how your food is grown, the farming methods used, and even the challenges and rewards the farmer experiences.This direct interaction fosters a sense of trust. You get to learn about the farmer's commitment to quality and sustainability.Knowing exactly where your food comes from ensures transparency, so you can be confident that you're consuming fresh, safe, and responsibly-grown produce.Building a relationship with your local farmer might even allow you to request specific products or varieties that aren't typically available in stores. Some farmers offer custom orders or allow customers to pre-order specialty items during harvest.",
+
+    contenth2: "2. Fair Pricing for Both Farmers and Consumers",
+    contenth2Img: "https://www.sohnreyfamilyfoods.com/cdn/shop/articles/IzAjWfm26NLNUDb3JnW2TtDOKTZ6OQm81623949789_300x300.jpg?v=1624889984",
+
+    contenth2span: "i. Eliminating the Middlemen :",
+    contenth2para:
+      " When you buy directly from farmers, you cut out the intermediaries (distributors, wholesalers, and retailers) that often take a cut of the profit.",
+
+    contenth2span1: "ii. Transparent Pricing :",
+    contenth2para1:
+      " Farmers set their own prices based on production costs, labor, and market demand. There’s no need to artificially inflate prices for profit.",
+
+    contenth2span2: "iii. Sustainable Pricing Models",
+    contenth2para2:
+      "Unlike large-scale commercial farming, which is subject to volatile pricing influenced by global markets, local farmers have more control over their pricing.",
+
+    contenth2span3: "iv. Value for Quality ",
+    contenth2para3:
+      " While prices for locally grown produce may occasionally be higher than in supermarkets, the quality of the produce is usually superior. Consumers are often willing to pay a bit more for farm-fresh, organic, or heirloom varieties that haven’t been mass-produced or transported long distances.",
+
+    contenth3:
+      "3. Access to Specialty and Organic Products",
+    contenth3Img: "https://purefoods.in/uploads/2f60c5f15222d389eb5fbf0378a57129.jpg",
+
+    contenth3para: [
+      "Buying directly from farmers gives consumers access to rare and heirloom varieties of fruits and vegetables that are often unavailable in large supermarkets.",
+
+      "Many local farmers practice organic farming or use minimal pesticides and chemicals, even if they aren’t certified by large organic labels.",
+
+      "Farmers who sell directly to consumers often focus on non-GMO crops, ensuring that their produce is grown naturally without genetic modification.",
+
+      "Some farmers and local producers offer wild-harvested goods such as mushrooms, herbs, and berries that cannot be easily found in commercial stores.",
+
+      "Many farmers also create handmade or farm-made artisan products such as cheeses, jams, honey, and cured meats, which are crafted in small batches with high-quality ingredients.",
+
+      "Farmers often have access to seasonal produce that is only available for a short window of time, allowing consumers to enjoy fresh, peak-season items like berries, pumpkins, or early greens",
+
+    ],
+
+    contenth4: "4. Environmental Benefits of Local Farming",
+    contenth4para: [
+      "Locally grown produce is often harvested and sold within the same region, minimizing the need for packaging, refrigeration, and storage, which further reduces environmental impact.",
+
+      "Small-scale, local farms tend to use fewer energy-intensive methods compared to industrial agriculture. Many local farmers practice low-input farming, relying on techniques that minimize the use of heavy machinery, synthetic fertilizers, and pesticides.",
+
+      "Local farms tend to grow a diverse range of crops, which helps maintain soil health, promotes crop rotation, and supports natural biodiversity. This diversity strengthens ecosystems and reduces the likelihood of pest outbreaks and disease.",
+
+      "Many local farmers practice regenerative agriculture, which focuses on rebuilding soil health through techniques like cover cropping, agroforestry, and reduced tillage.",
+
+    ],
+
+    contenth5:
+      "5. The Benefits Of Supporting Local Farmers",
+    contenth5Img: "https://fastercapital.com/i/Local-produce--CornerAMarket--Supporting-Local-Farmers-and-Fresh-Produce--The-Importance-of-Supporting-Local-Farmers.webp",
+    
+    contenth5head1: "Fostering Agricultural Diversity and Innovation",
+    contenth5para1: [
+      "Local farmers, without the pressure of mass production, often invest in a wider variety of crops and livestock, contributing to agricultural diversity.",
+
+      "Your support enables farmers to experiment with innovative practices, such as sustainable farming techniques, organic certification, and new crop varieties, which can stimulate the local agricultural economy and open new market opportunities.",
+    ],
+
+    contenth5head2: "Strengthening the Community Connection",
+    contenth5para2: [
+      " Farmers are an integral part of their local communities, and when they succeed, the entire region benefits.",
+
+      " Farmers often give back by supporting local schools, events, and charities, further enhancing the social fabric of the community. By buying from them, you’re contributing to the economic well-being of the entire area, creating a strong sense of shared success and community support.",
+
+    ],
+    blog10Content:[
+      "1. Building a Personal Connection with Your Food Source",
+
+      "2. Fair Pricing for Both Farmers and Consumers",
+
+      "3. Access to Specialty and Organic Products",
+
+      "4. Environmental Benefits of Local Farming",
+
+      "5. The Benefits Of Supporting Local Farmers",
+      
+    ],   
+    details: "oct 18,2024 | Tushar Zade",
   },
   {
     id: 4,
-    imgUrl: img4,
-    title: "First Blog",
+    imgUrl: "https://foodtank.com/wp-content/uploads/2019/06/severe-weather_ftimage.jpg",
     type: "largeblog",
+    title: "How Weather Affects Farming and Product Availability",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit quis delectus modi possimus.",
-    content: [
-      "Modern farming methods have often proven effective and have delivered outstanding results. A farmer from Nashik, stands testimony to the wonders modern farming techniques can do. Here’s how Mr. Balu Darade grew a whopping 195 quintal onion –",
+      "Agriculture is the backbone of human civilization. For millennia, farmers have relied on weather patterns to cultivate crops and raise livestock...",
+    
+      content: [
+        "Agriculture is the backbone of human civilization. For millennia, farmers have relied on weather patterns to cultivate crops and raise livestock. However, this dependence makes agriculture incredibly vulnerable to weather changes. From scorching droughts to unexpected frosts, extreme weather events can affect crop yields, livestock health, and ultimately, our food security.",
+  
+        "In this blog post, we’ll delve into the various aspects of weather impact on agriculture. We’ll explore specific weather events like droughts, floods, hailstorms, and frosts, discussing their effects on different agricultural practices. We’ll also discuss strategies that farmers use to mitigate the impact of weather on crop production.",
+      
+      
+      ],
+      contenth1: "1. The Critical Role of Weather in Agriculture",
+      parah1:
+        "Weather plays an essential role in agriculture, profoundly influencing crop growth, yield, and overall farm productivity. Temperature is crucial as it affects every stage of plant development, from germination to harvest. Crops have specific temperature requirements, and both excessively high and low temperatures can hinder their growth. Sunlight, necessary for photosynthesis, also impacts plant health; variations in sunlight hours and intensity can lead to differences in crop yields. Rainfall is another critical factor, as adequate hydration is necessary for crops to thrive. Farmers must navigate the challenges posed by both insufficient and excessive rainfall, which can affect soil health and crop development.",
+  
+      contenth2: "2. Whether Affects On Organic Agriculture",
+      contenth2Img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNgo-MedIl2vvwRmJW0xj5WJ0f4WT1bAs3hA&s",
+      contenth2sub:
+        "Agriculture supply chain management is incredibly complex, which affects food quality, safety, sustainability, and economic viability. Specific challenges include:",
+  
+      contenth2para:
+        " Extreme weather events, such as droughts, floods, storms, and frosts, pose significant threats to agricultural production, causing widespread damage to crops and disrupting farming practices. Droughts, characterized by prolonged periods of insufficient rainfall, lead to severe water shortages that stress plants, reduce yields, and deplete soil nutrients. Farmers may struggle with irrigation challenges, and prolonged droughts can result in crop failure, reduced agricultural output, and financial losses for farmers.",
 
-      "NABARD’s golden initiative",
-
-      "The National Bank for Agriculture and Rural Development (NABARD) initiated a noble program where it trained the farmers for modern farming techniques. Mr. Balu Darade participated in this program as he wished to yield more than 100 quintal, his average produce.",
-
-      "Goodbye to traditional techniques",
-
-      "The traditional method of sowing on flat beds was replaced by raised beds. Following are the advantages of raised bed sowing –",
-
-      "Water can be supplied through drip irrigation, The temperature can be maintained in raised bed sowing, Spacing can be easily maintained Drip irrigation Raised bed sowing allowed the water to be supplied through drip irrigation, a method which has its own advantages –",
-
-      "Drip irrigation reduces water wastage Evaporation is minimal and the consumption is lowered Fertilisers can be used via the dripping system The land between the plant rows remain dry and unwanted plant growth is prevented",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi! Fuga sed doloremque laborum modi voluptatem commodi voluptates. Cumque esse nulla error in a, saepe debitis at totam molestias ad!",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi! Fuga sed doloremque laborum modi voluptatem commodi voluptates. Cumque esse nulla error in a, saepe debitis at totam molestias ad!",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi!",
-    ],
-    details: "oct 23,2019 | Piyush Aglawe",
-  },
+      contenth2para1:
+        " Floods present a different set of challenges. Excessive rainfall can overwhelm the land, leading to waterlogged soils and erosion. Standing water can suffocate plant roots, promote the growth of harmful pathogens, and wash away vital nutrients. Flooded fields may also become unsuitable for planting, resulting in delayed or lost harvests and significant economic impacts on local farming communities.",
+  
+      contenth2para2:
+        "Storms and high winds can cause physical damage to crops, including broken stems, shattered fruits, and uprooted plants. Severe storms, such as hurricanes and tornadoes, bring intense winds, heavy rain, and hail, all of which can devastate large areas of farmland in a matter of hours. The destruction from such events can be particularly severe for crops that are at critical stages of growth or nearing harvest, leading to substantial financial losses for farmers.",
+  
+  
+      contenth3:
+        "3. Adapting to Weather Challenges: Innovative Farming Strategies for Resilience",
+      contenth3Img: "https://www.agritechtomorrow.com/images/upload/images/Depositphotos_6827181_s-2019(1).jpg",
+  
+      contenth3para: [
+        "In the face of increasingly unpredictable and extreme weather conditions, farmers are adopting innovative strategies to enhance resilience and ensure the sustainability of their operations. These adaptive strategies are crucial for mitigating the impact of weather-related challenges and maintaining productive, sustainable farming practices.",
+  
+        "Mixing green plants with the soil enriches it with organic matters and nitrogen in particular. It also increases moisture levels and adds nutrients for microorganisms, thus improving the soil quality. The described method of agriculture also reduces weed infestation.",
+  
+        "One of the primary approaches is the use of drought-resistant crop varieties. Advances in agricultural science have led to the development of crops that can withstand prolonged periods of low water availability. These varieties are engineered to have deeper root systems, better water retention capabilities, and increased tolerance to heat, making them more resilient to drought conditions.",
+  
+        "By adopting these innovative strategies, farmers can enhance their resilience to weather challenges, ensuring the sustainability and productivity of their operations despite the increasing volatility of climate and weather patterns.",
+  
+      ],
+  
+     
+      contenth4para: [
+        
+      ],
+  
+      contenth5:
+        "4. Climate Change: Shifting Weather Patterns and Their Long-Term Effects on Farming",
+      contenth5Img: "https://www.mdpi.com/agriculture/agriculture-13-01508/article_deploy/html/images/agriculture-13-01508-g001.png",
+      contenth5para:
+        "Changing precipitation patterns are another significant impact of climate change. Altered rainfall patterns lead to more frequent and intense droughts and floods. Prolonged droughts can deplete water resources, making irrigation more challenging and costly, while intense flooding can cause soil erosion, waterlogging, and crop damage. These shifts in precipitation necessitate the adoption of advanced water management techniques and infrastructure improvements to manage water availability and reduce risks.",
+      contenth5head1: "Pest and disease dynamics",
+      contenth5para1: [
+        "Pest and disease dynamics are also influenced by climate change. Warmer temperatures and altered humidity levels can expand the range and increase the activity of pests and pathogens, which can lead to higher incidences of crop diseases and infestations. Farmers may need to adjust pest management strategies and invest in new tools and technologies to protect their crops effectively.",
+  
+      ],
+  
+      contenth5head2: "Soil health",
+      contenth5para2: [
+        " Soil health is affected by changing climate conditions as well. Increased rainfall can lead to erosion and nutrient leaching, while higher temperatures and reduced moisture can contribute to soil degradation. Sustainable soil management practices, such as conservation tillage, cover cropping, and agroforestry, become essential to maintain soil fertility and health under changing conditions.",
+  
+      ],
+      blog10Content:[
+        "1. The Critical Role of Weather in Agriculture",
+  
+        "2. Whether Affects On Organic Agriculture",
+  
+        "3. Adapting to Weather Challenges: Innovative Farming Strategies for Resilience",
+  
+        "4. Climate Change: Shifting Weather Patterns and Their Long-Term Effects on Farming",
+  
+        
+      ],   
+      details: "oct 16,2024 | Rutuja Sanap",
+    },
   {
     id: 5,
-    imgUrl: img5,
-    title: "First Blog",
+    imgUrl: "https://www.unlockfood.ca/EatRightOntario/media/Website-images-resized/How-many-vegetables-and-fruit-do-you-need-resized.jpg",
     type: "largeblog",
+    title: "How to Store Fresh Vegetables and Fruits to Keep Them Longer",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit quis delectus modi possimus.",
-    content: [
+    
+      content: [
       "Modern farming methods have often proven effective and have delivered outstanding results. A farmer from Nashik, stands testimony to the wonders modern farming techniques can do. Here’s how Mr. Balu Darade grew a whopping 195 quintal onion –",
 
       "NABARD’s golden initiative",
