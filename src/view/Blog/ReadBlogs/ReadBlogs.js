@@ -129,14 +129,14 @@ function ReadBlogs() {
                 className="contenrh2img"
               />
               <p className="read-blog-text">{blogDetails.contenth5para}</p>
-              <h2>A. {blogDetails.contenth5head1}</h2>
+              <h2> {blogDetails.contenth5head1}</h2>
               {blogDetails.contenth5para1.map((contenth5para1, index) => (
                 <p key={index} className="read-blog-text">
                   {contenth5para1}
                 </p>
               ))}
 
-              <h2>B. {blogDetails.contenth5head2}</h2>
+              <h2> {blogDetails.contenth5head2}</h2>
               {blogDetails.contenth5para2.map((contenth5para2, index) => (
                 <p key={index} className="read-blog-text">
                   {contenth5para2}

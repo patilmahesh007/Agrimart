@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import Footer from "../../components/footer/footer";
 import { Link } from 'react-router-dom';
-import brandIcon from './img/logo2.png';
-import img3 from './img/image.png';
+import brandIcon from '../../images/login-img/logo2.png';
+import img3 from '../../images/login-img/image.png';
 import './login.css'; 
 
 const LoginForm = () => {
@@ -11,12 +11,12 @@ const LoginForm = () => {
     email: '',
     password: '',
   });
-  const [islogin, setIsLogin] = useState(false);
+  const [isLogin, setIsLogin] = useState(false);
 
-  // Save login status to localStorage when the state changes
+ 
   const saveLoginStatus = (status) => {
     setIsLogin(status);
-    localStorage.setItem('islogin', status);
+    localStorage.setItem('isLogin', status);
   };
 
   const handleChange = (e) => {
@@ -29,30 +29,31 @@ const LoginForm = () => {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    const storedEmail = localStorage.getItem('email');
-    const storedPassword = localStorage.getItem('password');
+    
+    const users = JSON.parse(localStorage.getItem('users')) || [];
 
-    if (storedEmail && storedPassword) {
-      if (formData.email === storedEmail && formData.password === storedPassword) {
-        toast.success('Login successful!');
-        saveLoginStatus(true);
-        window.location.href = '/checkout';
-      } else {
-        toast.error('Invalid email or password!');
-      }
+
+    const user = users.find(user => user.email === formData.email && user.password === formData.password);
+
+    if (user) {
+      toast.success('Login successful!');
+      saveLoginStatus(true);
+      window.location.href = '/checkout';
     } else {
-      toast.error('No account found. Please sign up first.');
+      toast.error('Invalid email or password!');
     }
   };
 
   const handleForgotPassword = (e) => {
     e.preventDefault();
 
-    const storedEmail = localStorage.getItem('email');
-    if (storedEmail) {
-      toast.info(`Password reset link sent to: ${storedEmail}`);
+    const users = JSON.parse(localStorage.getItem('users')) || [];
+    const user = users.find(user => user.email === formData.email);
+
+    if (user) {
+      toast.info(`Password reset link sent to: ${formData.email}`);
     } else {
-      toast.error('No email found. Please sign up first.');
+      toast.error('No account found with this email. Please sign up first.');
     }
   };
 
@@ -95,7 +96,7 @@ const LoginForm = () => {
               />
               <button type="submit" className="login-btn">Login</button>
               <div className='login-register-section-2'>
-                <p>Do not have an account? <Link to="/sign">Register here</Link></p>
+               <p>Do not have an account? <Link to="/sign">Register here</Link></p>
               </div>
             </form>
           </div>
