@@ -126,7 +126,11 @@ object-fit: cover;
 .cardc-empty-container{
   min-height: 100px;
   width: 100%;
-  background-color: black;
+  background-color: rgb(242, 239, 235);
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .CardC-proceed-to-buy{
   width: 40.5vw;

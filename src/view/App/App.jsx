@@ -48,12 +48,12 @@ function App() {
       <FruitsCard />
       <br />
       <div className="App-section-3-container">
-        {/* card number 3 */}
         {card3card.map((item, index) => (
           <Card3
             key={index}
             image={item.image}
             description={item.description}
+            Link1={item.link}
 
           />
         ))}

@@ -104,15 +104,24 @@ function Card() {
 
             <h4 >
               <Link to="/" className='card-page-rightside-div1-h4'>Home</Link>
-              <Link to="/services" className='card-page-rightside-div1-h4'> / Services / </Link> 
+              <Link to="/services" className='card-page-rightside-div1-h4'> / Services / </Link>
               <Link className='card-page-rightside-div1-h4' to={`/` + cardObject.category} > {cardObject.category} /</Link>
               <b className='card-page-rightside-div1-b'  > {cardObject.title}</b>
             </h4>
             <h1>{cardObject.title}</h1>
             <hr />
-            <span>{cardObject.quantity}</span>
-            <div>      <b>{cardObject.price}</b>  <h6>MRP<del> {cardObject.oldPrice}</del></h6><QuantityButton className="card-page-quantity" /></div>
+            <h3>{cardObject.quantity}</h3>
+            <div>
+              <b>{cardObject.price}</b>
+              <h6>MRP
+                <del> {cardObject.oldPrice}</del>
+              </h6>
+            </div>
             <h5>(Inclusive of all taxes)</h5>
+            <span className="card-page-quantity" >
+              <QuantityButton id={cardObject.id} name={cardObject.title} />
+
+            </span>
           </div>
           <div className='card-page-rightside-div2'><WhyShopCard /></div>
         </div>

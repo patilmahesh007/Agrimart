@@ -5,42 +5,35 @@ import DairyCardData from './../../config/DairyCardData';
 import VegCardData from './../../config/VegCardData';
 import ExoticsCardData from './../../config/ExoticsCardData';
 import QuantityButton from '../BuynowButton/Buynow';
+import EssentialsCardData from '../../config/EssentialsCardData';
 import { Link } from 'react-router-dom';
 
 function CardC({ CardOpen }) {
   const [cartItems, setCartItems] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
 
-  const getStoredCardItems = () => {
-    const ids = [];
-    for (let i = 0; i < localStorage.length; i++) {
-      const key = localStorage.key(i);
-      if (key.startsWith('cartItem-')) {
-        const id = key.replace('cartItem-', '');
-        ids.push(id);
-      }
-    }
-    return ids.map(id => {
-      const item = JSON.parse(localStorage.getItem(`cartItem-${id}`));
-      return item ? { ...item, id } : null;
-    }).filter(item => item !== null);
+  // Get stored cart items from localStorage under 'cartItems' key
+  const getStoredCartItems = () => {
+    const storedCart = JSON.parse(localStorage.getItem('cartItems')) || {};
+    return Object.values(storedCart); // Returns array of cart items
   };
 
   useEffect(() => {
-    const storedCardData = getStoredCardItems();
+    const storedCartData = getStoredCartItems();
     const allCardData = [
       ...cardData,
       ...DairyCardData,
       ...VegCardData,
-      ...ExoticsCardData
+      ...ExoticsCardData,
+      ...EssentialsCardData
     ];
 
-    const cardInfos = storedCardData.map(item => {
-      const card = allCardData.find(card => card.id === item.id);
+    const cardInfos = storedCartData.map(item => {
+      const card = allCardData.find(card => card.id === item.key);
       return card ? { ...card, quantity: item.quantity || 1 } : null;
     }).filter(card => card !== null);
 
-    setCartItems(cardInfos);
+    setCartItems(cardInfos, totalPrice);
   }, []);
 
   const calculateTotalPrice = (items) => {
@@ -49,7 +42,11 @@ function CardC({ CardOpen }) {
       const quantity = parseFloat(item.quantity) || 1;
       return acc + price * quantity;
     }, 0);
-    setTotalPrice(Number(total.toFixed(2)));
+
+    const formattedTotal = Number(total.toFixed(2));
+    setTotalPrice(formattedTotal);
+
+    localStorage.setItem('totalPrice', formattedTotal.toString());
   };
 
   useEffect(() => {
@@ -78,14 +75,16 @@ function CardC({ CardOpen }) {
                 <div className="CardC-card-div2">
                   <h1>{cardInfo.title}</h1>
                   <h5>{cardInfo.quantity}</h5>
-                  <p>{cardInfo.price} <del>{cardInfo.oldPrice}</del></p>
+                  <p>{cardInfo.price} {console.log(cardInfo.price)}<del>{cardInfo.oldPrice}</del></p>
                 </div>
                 <div className="CardC-card-div3">
                   <QuantityButton
                     id={cardInfo.id}
                     name={cardInfo.title}
-                    onQuantityChange={quantity => handleQuantityChange(cardInfo.id, quantity)}
-                  />
+price={cardInfo.price}
+oldprice={cardInfo.oldPrice} 
+
+/>
                 </div>
               </div>
             ))
