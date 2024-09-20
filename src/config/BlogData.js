@@ -11,7 +11,7 @@ import img9 from "../images/blogImages/9.jpg";
 
 const BlogHeading = "Latest Blogs";
 const TagLine =
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, eum esse eius beatae nam placeat Impedit incidunt molestiae cupiditate labore veritatis beatae nulla dicta, perferendis eaque saepe debitis, recusandae exercitationem!";
+  "Farming is the backbone of rural communities, providing fresh produce, livestock, and dairy that sustain families and economies alike. From early morning work in the fields to harvesting the fruits of labor, farmers' dedication fuels the world. Whether through innovation or tradition, agriculture remains a cornerstone of daily life, shaping landscapes and lives with every season.";
 const Blogimgage = "https://c1.wallpaperflare.com/preview/528/216/873/rice-field-farm-nature.jpg";
 
 const Blogs = [
@@ -129,7 +129,7 @@ const Blogs = [
     type: "largeblog",
     title: "The Role of Women in Agriculture: Breaking Barriers",
     description:
-      "Today, however, the tide is turning. Women are no longer content to be relegated to the sidelines of the agricultural landscape...",
+      "Today, however, the tide is turning.The Women are no longer for content to be relegated to the sidelines of the agricultural landscape...",
       content: [
         "Women have long played a vital role in agriculture, but their contributions have often gone unrecognized. Today, more than ever, women are stepping into leadership roles, breaking barriers, and transforming the agricultural landscape. Whether they are running farms, advocating for sustainable practices, or driving policy changes, women are at the forefront of a new era in agriculture, shaping the future of food production globally.",
   
@@ -226,7 +226,7 @@ const Blogs = [
     type: "largeblog",
     title: "Reasons To Buy Product Directly From a Farmer",
     description:
-      "In today’s fast-paced world, it's easy to grab produce off supermarket shelves without thinking twice about where it comes from...",
+      "In today’s fast-paced world,in it's easy to grab produce off supermarket shelves without thinking twice about where it comes from...",
 
     content: [
       "In today’s fast-paced world, it's easy to grab produce off supermarket shelves without thinking twice about where it comes from. But there’s a growing movement toward buying fresh produce directly from local farmers, and for good reason! Here are some of the key benefits of buying directly from farmers:",
@@ -489,7 +489,7 @@ const Blogs = [
     type: "largeblog",
     title: "The Role of Dairy in a Balanced Diet: Health Benefits of Milk and Dairy Products",
     description:
-      "Dairy products have been a dietary staple for thousands of years, playing a vital role in human nutrition...",
+      "Dairy products are have been a dietary staple for the thousands of the years, playing a vital role with the human nutrition...",
 
     content: [
         "Dairy products have been a dietary staple for thousands of years, playing a vital role in human nutrition. From milk to cheese, yogurt to butter, dairy products offer an array of essential nutrients that support overall health and well-being. In this blog, we’ll explore the benefits of including dairy in a balanced diet and why it remains one of the most recommended food groups by nutritionists worldwide.",
@@ -570,7 +570,7 @@ const Blogs = [
       type: "largeblog",
       title: "How Technology Can Solve Agriculture Supply Chain Problems",
       description:
-        "Agriculture has never been easy, and it’s only gotten more complicated in recent years. Extreme weather events are more frequent and severe, impacting crop yields...",
+        "Agriculture has never been easy, and it’s only gotten more complicated in recent years. Extreme weather events are more frequent and severe...",
   
       content: [
         "Agriculture has never been easy, and it’s only gotten more complicated in recent years. Extreme weather events are more frequent and severe, impacting crop yields. Geopolitical conflict is high, disrupting the movement of goods. And disease outbreaks — both human and animal — are causing labor and product shortages.",
@@ -695,7 +695,7 @@ const Blogs = [
       type: "largeblog",
       title: "Fridays on the Farm: Transitioning to Organics",
       description:
-        "This Friday, meet John Wicks, a fourth-generation farmer and owner of Tiber Ridge Organics in Liberty County, Montana. John grew up in North Central Montana on his family’s...",
+        "This Friday, the meet John Wicks,for a fourth-generation of farmer and owner of Tiber Ridge Organics in Liberty County, Montana...",
   
       content: [
         "This Friday, meet John Wicks, a fourth-generation farmer and owner of Tiber Ridge Organics in Liberty County, Montana. John grew up in North Central Montana on his family’s operation where they grew crops and raised cattle. Now a full-time farmer, John took over the operation and gradually transitioned to growing organically.",
@@ -820,7 +820,7 @@ const Blogs = [
       type: "largeblog",
       title: "Inflation Reduction Act in Action: Small Farm Making Big Changes",
       description:
-        "The Inflation Reduction Act is a comprehensive policy aimed at curbing inflation, addressing climate change, and boosting economic growth Within the agricultural sector...",
+        "The Inflation Reduction Act is a comprehensive policy aimed at curbing inflation, addressing climate change, and boosting economic growth...",
   
       content: [
         "The Inflation Reduction Act is a comprehensive policy aimed at curbing inflation, addressing climate change, and boosting economic growth. Within the agricultural sector, the Act plays a critical role in helping small farms embrace sustainability, improve operational efficiency, and enhance community resilience. By providing financial aid, technical assistance, and promoting renewable energy, the IRA positions small farms as key drivers of rural development.",
