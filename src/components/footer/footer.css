@@ -2,16 +2,16 @@
     background-color: rgba(38, 65, 52, 1);
     color: white;
     padding: 2% 10px;
-    font-family: Arial, sans-serif;
+    
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #2f4f4f;
 }
 
@@ -19,7 +19,7 @@
     flex: 1;
     max-width: 300px;
     min-width: 200px;
-    margin: 20px;
+    margin: 15px;
 }
 
 .footer-logo {  
@@ -35,25 +35,23 @@
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: 20px;
-    color: #fff;
+    margin-bottom: 10px;
     font-weight: bold;
 }
 
-/* Full screen: display links vertically */
 .footer-li-container {
+    margin-top: 15px;
     list-style-type: none;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Set to column for full screens */
-    gap: 15px;
+    flex-direction: column;
+    gap: 10px; 
 }
 
 .footer-li {
-    margin: 8px 0;
     color: #aaa;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -61,15 +59,20 @@
     color: #fff; 
 }
 
+.footer-contact {
+    margin-top: 15px;
+}
+
 .footer-contact-list {
     list-style-type: none;
     padding: 0;
+    margin-top: 15px;
 }
 
 .footer-contact-item {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .footer-img1 {
@@ -96,6 +99,7 @@
 }
 
 .footer-follow .footer-social-links {
+    margin-top: 15px;
     display: flex;
     gap: 15px;
 }
@@ -123,12 +127,11 @@
     font-size: 13px;
 }
 
-/* Responsive layout for small screens */
 
-/* On screens smaller than 768px: show links horizontally */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
+        justify-content: space-between;
         align-items: center;
         text-align: center;
     }
@@ -142,22 +145,20 @@
         margin-bottom: 20px;
     }
 
-    /* Display links horizontally */
     .footer-li-container {
         justify-content: center;
         display: flex;
-        flex-direction: row; /* Display links in a row */
+        flex-direction: row; 
         flex-wrap: wrap;
     }
 
     .footer-li {
         margin: 10px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .footer-Agro, .footer-services, .footer-links, .footer-contact, .footer-follow {
         max-width: 100%;
-        margin-bottom: 20px;
     }
 
     .footer-social-links {
@@ -167,16 +168,13 @@
 }
 
 @media (max-width: 480px) {
-    .footer {
-        padding: 20px 10px;
-    }
 
     .footer-heading {
         font-size: 16px;
     }
 
     .footer-li, .footer-link {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .footer-img {
