@@ -1,5 +1,5 @@
-.checkout-container{
-    height: 100vh;
+.checkout-container {
+    height: fit-content;
     margin: 0px;
     width: 100vw;
     display: flex;
@@ -7,17 +7,19 @@
     justify-content: center;
     align-items: center;
 }
-.checkout-div1{
+
+.checkout-div1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 10px 30px;
     width: 50%;
-height: 100vh;
-padding-top: 80px;
+    height: fit-content;
+    padding-top: 40px;
 }
-.checkout-form{
+
+.checkout-form {
 
     display: flex;
     flex-direction: column;
@@ -29,12 +31,14 @@ padding-top: 80px;
 
     width: 95%;
 }
-.checkout-form input{
+
+.checkout-form input {
     text-align: center;
     background-color: rgb(239, 244, 233);
 
 }
-.checkout-select{
+
+.checkout-select {
     width: 47vw;
     height: 7%;
     border: none;
@@ -47,7 +51,8 @@ padding-top: 80px;
     background-color: rgb(239, 244, 233);
 
 }
-.checkout-div1-box1{
+
+.checkout-div1-box1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -57,7 +62,8 @@ padding-top: 80px;
     gap: 50px;
 
 }
-.checkout-div1-box2{
+
+.checkout-div1-box2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -69,45 +75,68 @@ padding-top: 80px;
 
 
 }
-.checkout-phone, .checkout-apartment , .checkout-address{
-  
+
+.checkout-phone,
+.checkout-apartment,
+.checkout-address {
+
     border: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-}
-.checkout-address{
-    height: 7%;
-}
-.checkout-div2{
-    min-width: 50%;
-    height: 100vh;
-padding-top: 80px;
 
 }
-.checkout-redirect{
- display: block;
- margin: 0px auto;
- color: red;
+
+.checkout-address {
+    height: 7%;
 }
-.checkout-rightside-items{
+
+.checkout-div2 {
+    min-width: 50%;
+    height: fit-content;
+    padding-top: 30px;
+
+}
+
+.checkout-redirect {
+    display: block;
+    margin: 0px auto;
+}
+
+.checkout-rightside-items {
     display: flex;
-    background-color: aquamarine;
-    gap: 30px;
+    position: relative;
+    margin: 7px 0px 0px 0px;
+    background-color: aqua;
 }
-.checkout-rightside-name{
-    font-size: 20px;
-    
-    background-color: crimson;
+.checkout-rightside-items2{
+    position: absolute;
+    top: 30px;
+    right:10vw;
+}
+.checkout-rightside-items  img{
+    width: 100px;
+}
+
+.checkout-rightside-name {
+    font-size: 18px;
     width: 20%;
+    margin-top: 20px;
 }
-.checkout-rightside-name span{
+.checkout-rightside-name  h4{
+    font-size: 15px;
+}
+.checkout-rightside-name  h4 del{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.checkout-rightside-name span {
     color: white;
     border-radius: 50%;
     width: fit-content;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.621);
     font-size: 10px;
-padding: 4px;
+    padding: 4px;
 }

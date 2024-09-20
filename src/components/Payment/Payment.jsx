@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import toast ,{ Toaster} from 'react-hot-toast';
 
 const PaymentButton = ({ price, name1, contact1, email1 }) => {
   const navigate = useNavigate();
@@ -41,7 +42,7 @@ const PaymentButton = ({ price, name1, contact1, email1 }) => {
       description: "Test Transaction",
       image: "https://assignment-42-emou.vercel.app/static/media/logo.313036b5e7346daaeaf3.png",
       handler: function (response) {
-        alert("Payment Successful!");
+       toast.success('Payment Successful!');
         console.log(response.razorpay_payment_id);
         console.log(response.razorpay_order_id);
         console.log(response.razorpay_signature);
@@ -74,6 +75,7 @@ const PaymentButton = ({ price, name1, contact1, email1 }) => {
       >
         {loading ? 'Loading...' : `Pay ₹${price} Now`}
       </button>
+      <Toaster/>
     </div>
   );
 };
