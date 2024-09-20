@@ -13,31 +13,31 @@ const TopBar = () => {
       <CartSection />
       <nav className="menu">
 
-        <Link
+        <Link className='menu-item'
           to="/essentials"
           style={isActive('/essentials') ? { color: ' rgba(38, 65, 52, 1)' } : { color: '#999999' }}>
           ESSENTIALS
         </Link>
 
-        <Link
+        <Link className='menu-item'
           to="/vegetables"
           style={isActive('/vegetables') ? { color: ' rgba(38, 65, 52, 1)' } : { color: '#999999' }}>
           VEGETABLES
         </Link>
 
-        <Link
+        <Link className='menu-item'
           to="/Fruits"
           style={isActive('/Fruits') ? { color: ' rgba(38, 65, 52, 1)' } : { color: '#999999' }}>
           FRUITS
         </Link>
 
-        <Link
+        <Link className='menu-item'
           to="/exotics"
           style={isActive('/exotics') ? { color: ' rgba(38, 65, 52, 1)' } : { color: '#999999' }}>
           EXOTICS
         </Link>
 
-        <Link
+        <Link className='menu-item'
           to="/dairy"
           style={isActive('/dairy') ? { color: ' rgba(38, 65, 52, 1)' } : { color: '#999999' }}>
           DAIRY
