@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import './CartSection.css';
 import CartComponent from '../CartComponent/CardC';
+import { Link } from 'react-router-dom';
+import CardC from '../CartComponent/CardC';
 const TopBarSection = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
+const [totalPrice1, setTotalPrice1] = useState(0);
+
 
   const toggleCart = () => {
     setIsCartOpen(!isCartOpen);
@@ -15,13 +19,11 @@ const TopBarSection = () => {
   isCartOpen ? <CartComponent  CardOpen={setIsCartOpen} /> : null
 }      
       <div className="topbar-left">
-        <span>LOG IN</span>
-        <span>JOIN</span>
       </div>
 
       <div className="right">
         
-        <span className='price'>RS. 0.00</span>
+        <span className='price'></span>
 
         <span onClick={() => setIsCartOpen(!isCartOpen)}>
           <img src='https://cdn-icons-png.flaticon.com/128/3916/3916624.png'
@@ -30,10 +32,7 @@ const TopBarSection = () => {
         </span>
       </div>
 
-      {/* Cart Menu */}
-      <div className={`topbar-cart-menu ${isCartOpen ? 'topbar-cart-menu-open' : ''}`}>
-        <p>Your cart is empty</p>
-      </div>
+  
     </div>
   );
 };

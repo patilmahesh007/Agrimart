@@ -39,7 +39,8 @@ const cardData = [
         healthBenefits: "High in fiber, vitamin C, and antioxidants. Promotes heart health, supports weight management, and reduces the risk of diabetes.",
         storageTemperature: "0-4°C",
         storageType: "Refrigeration",
-        imageSlider: [Apple, "https://i.pinimg.com/236x/4f/6c/c4/4f6cc46e50e7a0ff21c5e0a77423b0b5.jpg", "https://i.pinimg.com/236x/fe/0d/1d/fe0d1d36996a0e72931d080983773c1e.jpg","https://i.pinimg.com/236x/62/a8/bd/62a8bd58fbc9bb5d7e5517ac0d2d1ce6.jpg"]
+        imageSlider: [Apple, "https://i.pinimg.com/236x/4f/6c/c4/4f6cc46e50e7a0ff21c5e0a77423b0b5.jpg", "https://i.pinimg.com/236x/fe/0d/1d/fe0d1d36996a0e72931d080983773c1e.jpg", "https://i.pinimg.com/236x/62/a8/bd/62a8bd58fbc9bb5d7e5517ac0d2d1ce6.jpg"]
+        , category: "Fruits"
     },
     {
         id: "3",
@@ -57,7 +58,8 @@ const cardData = [
         healthBenefits: "Rich in vitamin C and vitamin A, promotes immune health, improves digestion, and supports healthy skin and eyes.",
         storageTemperature: "10-13°C",
         storageType: "Room Temperature",
-        imageSlider: [Mango, "https://i.pinimg.com/564x/db/2b/23/db2b236a2ad959b2720acebdf07263f4.jpg", "https://i.pinimg.com/236x/22/a4/20/22a4207169e8aa7d5714429a00a638ba.jpg","https://i.pinimg.com/236x/9f/de/2f/9fde2f0c5805a3fc926709e4115f234c.jpg"]
+        imageSlider: [Mango, "https://i.pinimg.com/564x/db/2b/23/db2b236a2ad959b2720acebdf07263f4.jpg", "https://i.pinimg.com/236x/22/a4/20/22a4207169e8aa7d5714429a00a638ba.jpg", "https://i.pinimg.com/236x/9f/de/2f/9fde2f0c5805a3fc926709e4115f234c.jpg"]
+        , category: "Fruits"
     },
     {
         id: "4",
@@ -75,7 +77,8 @@ const cardData = [
         healthBenefits: "Rich in vitamins A, B6, and C, contains antioxidants, promotes hydration, and may help reduce muscle soreness.",
         storageTemperature: "10-15°C",
         storageType: "Room Temperature",
-        imageSlider: [Watermelon,"https://i.pinimg.com/236x/1e/a7/a9/1ea7a9f76ef5487ed6f0e04286a48126.jpg", "https://i.pinimg.com/236x/3c/8e/1a/3c8e1a7fbde38b0a2f2c92190a83be99.jpg", "https://i.pinimg.com/236x/f5/52/25/f5522551c5a750869e2453979df67264.jpg"]
+        imageSlider: [Watermelon, "https://i.pinimg.com/236x/1e/a7/a9/1ea7a9f76ef5487ed6f0e04286a48126.jpg", "https://i.pinimg.com/236x/3c/8e/1a/3c8e1a7fbde38b0a2f2c92190a83be99.jpg", "https://i.pinimg.com/236x/f5/52/25/f5522551c5a750869e2453979df67264.jpg"]
+        , category: "Fruits"
     },
     {
         id: "5",
@@ -93,7 +96,8 @@ const cardData = [
         healthBenefits: "High in potassium, supports heart health, aids digestion, and provides quick energy.",
         storageTemperature: "12-15°C",
         storageType: "Room Temperature",
-        imageSlider: [Banana, "https://i.pinimg.com/236x/aa/3d/38/aa3d3807d373d42911fe462ea9233be5.jpg", "https://i.pinimg.com/236x/8a/fc/02/8afc025af5d60332fcdea4190a067c84.jpg","https://i.pinimg.com/236x/8e/32/02/8e320293fb03c3aed13b27a744a93a36.jpg"]
+        imageSlider: [Banana, "https://i.pinimg.com/236x/aa/3d/38/aa3d3807d373d42911fe462ea9233be5.jpg", "https://i.pinimg.com/236x/8a/fc/02/8afc025af5d60332fcdea4190a067c84.jpg", "https://i.pinimg.com/236x/8e/32/02/8e320293fb03c3aed13b27a744a93a36.jpg"]
+        , category: "Fruits"
     },
     {
         id: "6",
@@ -111,7 +115,7 @@ const cardData = [
         healthBenefits: "Rich in vitamin C, manganese, and digestive enzymes like bromelain, which can aid digestion and reduce inflammation.",
         storageTemperature: "7-10°C",
         storageType: "Refrigeration",
-        imageSlider: [Pineapple, "https://i.pinimg.com/236x/88/d0/c9/88d0c95072c01cebab90d54ee6b79a20.jpg", "https://i.pinimg.com/236x/e8/c8/5f/e8c85f4af93336cf6dcc20e1aef8e075.jpg","https://i.pinimg.com/236x/f0/eb/8b/f0eb8bffe6f5231017f40e4b0f504a04.jpg"]
+        imageSlider: [Pineapple, "https://i.pinimg.com/236x/88/d0/c9/88d0c95072c01cebab90d54ee6b79a20.jpg", "https://i.pinimg.com/236x/e8/c8/5f/e8c85f4af93336cf6dcc20e1aef8e075.jpg", "https://i.pinimg.com/236x/f0/eb/8b/f0eb8bffe6f5231017f40e4b0f504a04.jpg"]
     },
     {
         id: "7",
@@ -129,7 +133,8 @@ const cardData = [
         healthBenefits: "High in antioxidants like resveratrol, supports heart health, and may help reduce the risk of certain cancers.",
         storageTemperature: "0-4°C",
         storageType: "Refrigeration",
-        imageSlider: [Grapes,"https://i.pinimg.com/236x/cc/15/56/cc1556c25c11da7bd7341e4a0dbac27d.jpg", "https://i.pinimg.com/236x/a4/49/b5/a449b5d74eb1394c6d8ef737732ed883.jpg", "https://i.pinimg.com/236x/c0/09/30/c009304c95cedc705b30f18ee83ffbe8.jpg"]
+        imageSlider: [Grapes, "https://i.pinimg.com/236x/cc/15/56/cc1556c25c11da7bd7341e4a0dbac27d.jpg", "https://i.pinimg.com/236x/a4/49/b5/a449b5d74eb1394c6d8ef737732ed883.jpg", "https://i.pinimg.com/236x/c0/09/30/c009304c95cedc705b30f18ee83ffbe8.jpg"]
+        , category: "Fruits"
     },
     {
         id: "8",
@@ -147,7 +152,8 @@ const cardData = [
         healthBenefits: "Rich in antioxidants, vitamin C, and anti-inflammatory compounds, supports heart health, and may lower blood pressure.",
         storageTemperature: "5-7°C",
         storageType: "Refrigeration",
-        imageSlider: [Pomegranate, "https://i.pinimg.com/236x/c2/b1/09/c2b10932d82f89d8f044556b5e0f1f53.jpg", "https://i.pinimg.com/236x/af/6f/c8/af6fc8e19ae0dd8d23afc3173340569b.jpg","https://i.pinimg.com/236x/41/63/36/4163366ab0efb473609bee6ae8e5e626.jpg"]
+        imageSlider: [Pomegranate, "https://i.pinimg.com/236x/c2/b1/09/c2b10932d82f89d8f044556b5e0f1f53.jpg", "https://i.pinimg.com/236x/af/6f/c8/af6fc8e19ae0dd8d23afc3173340569b.jpg", "https://i.pinimg.com/236x/41/63/36/4163366ab0efb473609bee6ae8e5e626.jpg"]
+        , category: "Fruits"
     },
     {
         id: "9",
@@ -165,7 +171,8 @@ const cardData = [
         healthBenefits: "Rich in healthy fats, fiber, and vitamins C, E, K, and B6. Supports heart health and helps improve digestion.",
         storageTemperature: "4-6°C",
         storageType: "Refrigeration",
-        imageSlider: [Avocado, "https://i.pinimg.com/236x/2b/27/41/2b2741950380c041ca072911e14671f6.jpg", "https://i.pinimg.com/474x/cf/18/ea/cf18ea0da564afac0fbed7c1266436b4.jpg","https://i.pinimg.com/474x/7f/96/35/7f96358283c6d96d3844940ca7292519.jpg"]
+        imageSlider: [Avocado, "https://i.pinimg.com/236x/2b/27/41/2b2741950380c041ca072911e14671f6.jpg", "https://i.pinimg.com/474x/cf/18/ea/cf18ea0da564afac0fbed7c1266436b4.jpg", "https://i.pinimg.com/474x/7f/96/35/7f96358283c6d96d3844940ca7292519.jpg"]
+        , category: "Fruits"
     },
     {
         id: "10",
@@ -183,7 +190,8 @@ const cardData = [
         healthBenefits: "High in vitamin C, fiber, and antioxidants, promotes digestion, supports immune health, and may improve skin texture.",
         storageTemperature: "0-4°C",
         storageType: "Refrigeration",
-        imageSlider: [Kiwi, "https://i.pinimg.com/236x/93/10/99/931099fd4d10b25cd48c2e2f92ccc711.jpg", "https://i.pinimg.com/236x/aa/22/b3/aa22b3810e79c0943e5ea09978285dd9.jpg","https://i.pinimg.com/236x/cc/9b/71/cc9b71654c5c9aef219f348c42eefc3d.jpg"]
+        imageSlider: [Kiwi, "https://i.pinimg.com/236x/93/10/99/931099fd4d10b25cd48c2e2f92ccc711.jpg", "https://i.pinimg.com/236x/aa/22/b3/aa22b3810e79c0943e5ea09978285dd9.jpg", "https://i.pinimg.com/236x/cc/9b/71/cc9b71654c5c9aef219f348c42eefc3d.jpg"]
+        , category: "Fruits"
     },
     {
         id: "11",
@@ -201,7 +209,8 @@ const cardData = [
         healthBenefits: "Rich in vitamin C, fiber, and antioxidants. Supports immune health, improves skin health, and aids in iron absorption.",
         storageTemperature: "4-8°C",
         storageType: "Refrigeration",
-        imageSlider: [Orange, "https://i.pinimg.com/736x/3c/bf/ec/3cbfec1259635898efae5b57ea3ddea3.jpg", "https://i.pinimg.com/236x/87/42/c5/8742c5ecf0e2312af48a75e79208b8ac.jpg","https://i.pinimg.com/236x/01/81/6d/01816da33407be732db0c4a03baa4cad.jpg"]
+        imageSlider: [Orange, "https://i.pinimg.com/736x/3c/bf/ec/3cbfec1259635898efae5b57ea3ddea3.jpg", "https://i.pinimg.com/236x/87/42/c5/8742c5ecf0e2312af48a75e79208b8ac.jpg", "https://i.pinimg.com/236x/01/81/6d/01816da33407be732db0c4a03baa4cad.jpg"]
+        , category: "Fruits"
     },
     {
         id: "12",
@@ -217,7 +226,8 @@ const cardData = [
         healthBenefits: "Rich in vitamin C, fiber, and antioxidants. Supports immune health, improves skin health, and aids in iron absorption.",
         storageTemperature: "4-8°C",
         storageType: "Refrigeration",
-        imageSlider: [Peach, "https://i.pinimg.com/236x/b0/7c/55/b07c556c96fc5de32fe2bd3e85467c49.jpg", "https://i.pinimg.com/236x/00/2f/de/002fde89083bd17e076eb8ad96258bf2.jpg","https://i.pinimg.com/236x/68/32/37/683237ea429c8a69c7633293aec355ba.jpg"]
+        imageSlider: [Peach, "https://i.pinimg.com/236x/b0/7c/55/b07c556c96fc5de32fe2bd3e85467c49.jpg", "https://i.pinimg.com/236x/00/2f/de/002fde89083bd17e076eb8ad96258bf2.jpg", "https://i.pinimg.com/236x/68/32/37/683237ea429c8a69c7633293aec355ba.jpg"]
+        , category: "Fruits"
     },
     {
         id: "13",
@@ -235,7 +245,7 @@ const cardData = [
         healthBenefits: "Rich in fiber and vitamin C, supports digestion, promotes heart health, and may help in weight management.",
         storageTemperature: "2-5°C",
         storageType: "Refrigeration",
-        imageSlider: [Pear, "https://i.pinimg.com/236x/6f/96/ff/6f96ff54e62e980f844282086efaf0c8.jpg", "https://i.pinimg.com/236x/8b/d6/c3/8bd6c3c2dd62603241c615ebf1c790de.jpg" ,"https://i.pinimg.com/236x/df/4c/d0/df4cd0ca8514cf745151f94cc4d8c945.jpg"]
+        imageSlider: [Pear, "https://i.pinimg.com/236x/6f/96/ff/6f96ff54e62e980f844282086efaf0c8.jpg", "https://i.pinimg.com/236x/8b/d6/c3/8bd6c3c2dd62603241c615ebf1c790de.jpg", "https://i.pinimg.com/236x/df/4c/d0/df4cd0ca8514cf745151f94cc4d8c945.jpg"]
     },
     {
         id: "14",
@@ -253,7 +263,8 @@ const cardData = [
         healthBenefits: "High in fiber, antioxidants, and vitamin C. Supports digestion and may help reduce the risk of heart disease.",
         storageTemperature: "0-4°C",
         storageType: "Refrigeration",
-        imageSlider: [Plum, "https://i.pinimg.com/474x/65/7d/21/657d210da9b4ca89c2675c0241fd72f0.jpg", "https://i.pinimg.com/236x/26/9f/87/269f87f8ae82debc2d1bdd308b743124.jpg","https://i.pinimg.com/474x/cc/20/7a/cc207ab2d9d7c290cdb856fc056d0092.jpg"]
+        imageSlider: [Plum, "https://i.pinimg.com/474x/65/7d/21/657d210da9b4ca89c2675c0241fd72f0.jpg", "https://i.pinimg.com/236x/26/9f/87/269f87f8ae82debc2d1bdd308b743124.jpg", "https://i.pinimg.com/474x/cc/20/7a/cc207ab2d9d7c290cdb856fc056d0092.jpg"]
+        , category: "Fruits"
     },
     {
         id: "15",
@@ -271,7 +282,8 @@ const cardData = [
         healthBenefits: "High in vitamin C, manganese, and antioxidants. Supports heart health and may help regulate blood sugar levels.",
         storageTemperature: "2-5°C",
         storageType: "Refrigeration",
-        imageSlider: [Strawberry, "https://i.pinimg.com/236x/fe/2d/91/fe2d91cb38550492a602cf64eaa25f8f.jpg", "https://i.pinimg.com/236x/69/80/46/69804692233011ad9df7d3e68b740338.jpg" ,"https://i.pinimg.com/736x/0a/11/22/0a1122befc79876e02b80b70e2f008e7.jpg"]
+        imageSlider: [Strawberry, "https://i.pinimg.com/236x/fe/2d/91/fe2d91cb38550492a602cf64eaa25f8f.jpg", "https://i.pinimg.com/236x/69/80/46/69804692233011ad9df7d3e68b740338.jpg", "https://i.pinimg.com/736x/0a/11/22/0a1122befc79876e02b80b70e2f008e7.jpg"]
+        , category: "Fruits"
     },
     {
         id: "16",
@@ -289,7 +301,8 @@ const cardData = [
         healthBenefits: "Rich in antioxidants, vitamins C and K. Supports brain health and may help reduce oxidative stress.",
         storageTemperature: "0-2°C",
         storageType: "Refrigeration",
-        imageSlider: [Blueberry, "https://i.pinimg.com/236x/3b/8a/e3/3b8ae356d3b4b5213674bcb4813d012c.jpg", "https://i.pinimg.com/474x/b7/f7/68/b7f768d849e0cfd07ce9aab1ff6ba942.jpg","https://i.pinimg.com/236x/c7/50/80/c75080d4faa3719f012ae229b0636623.jpg"]
+        imageSlider: [Blueberry, "https://i.pinimg.com/236x/3b/8a/e3/3b8ae356d3b4b5213674bcb4813d012c.jpg", "https://i.pinimg.com/474x/b7/f7/68/b7f768d849e0cfd07ce9aab1ff6ba942.jpg", "https://i.pinimg.com/236x/c7/50/80/c75080d4faa3719f012ae229b0636623.jpg"]
+        , category: "Fruits"
     },
     {
         id: "17",
@@ -307,7 +320,7 @@ const cardData = [
         healthBenefits: "High in fiber, antioxidants, and vitamin C. Supports weight loss and helps reduce inflammation.",
         storageTemperature: "0-2°C",
         storageType: "Refrigeration",
-        imageSlider: [Raspberry, "https://i.pinimg.com/236x/ca/65/d1/ca65d16961f96b211fa712a3829c233b.jpg", "https://i.pinimg.com/236x/53/04/a2/5304a23c9d9e04eb3dc477918080ac82.jpg","https://i.pinimg.com/474x/13/a2/d9/13a2d9fb26e3fc587b94c6ca0d50476c.jpg"]
+        imageSlider: [Raspberry, "https://i.pinimg.com/236x/ca/65/d1/ca65d16961f96b211fa712a3829c233b.jpg", "https://i.pinimg.com/236x/53/04/a2/5304a23c9d9e04eb3dc477918080ac82.jpg", "https://i.pinimg.com/474x/13/a2/d9/13a2d9fb26e3fc587b94c6ca0d50476c.jpg"]
     },
     {
         id: "18",
@@ -325,7 +338,8 @@ const cardData = [
         healthBenefits: "High in healthy fats, promotes heart health, and supports brain function.",
         storageTemperature: "10-15°C",
         storageType: "Room Temperature",
-        imageSlider: [Coconut, "https://i.pinimg.com/236x/3e/8a/ca/3e8acaef62cbdf186d5bed0ab97eaae6.jpg", "https://i.pinimg.com/236x/b9/27/85/b92785eb493a6ff6aaffa413d8cef9c5.jpg","https://i.pinimg.com/236x/55/9b/c9/559bc95d19ed05f1caaec03f1a606e7b.jpg"]
+        imageSlider: [Coconut, "https://i.pinimg.com/236x/3e/8a/ca/3e8acaef62cbdf186d5bed0ab97eaae6.jpg", "https://i.pinimg.com/236x/b9/27/85/b92785eb493a6ff6aaffa413d8cef9c5.jpg", "https://i.pinimg.com/236x/55/9b/c9/559bc95d19ed05f1caaec03f1a606e7b.jpg"]
+        , category: "Fruits"
     },
     {
         id: "19",
@@ -343,7 +357,8 @@ const cardData = [
         healthBenefits: "Rich in vitamin C, supports immune health, aids digestion, and promotes hydration.",
         storageTemperature: "8-12°C",
         storageType: "Room Temperature",
-        imageSlider: [Lemon, "https://i.pinimg.com/474x/2f/c2/27/2fc227f61e59bdb879b44e0c3a3fff2b.jpg", "https://i.pinimg.com/474x/2f/c2/27/2fc227f61e59bdb879b44e0c3a3fff2b.jpg","https://i.pinimg.com/236x/00/32/0e/00320edebcc5f7f671d7b9e8be498013.jpg"]
+        imageSlider: [Lemon, "https://i.pinimg.com/474x/2f/c2/27/2fc227f61e59bdb879b44e0c3a3fff2b.jpg", "https://i.pinimg.com/474x/2f/c2/27/2fc227f61e59bdb879b44e0c3a3fff2b.jpg", "https://i.pinimg.com/236x/00/32/0e/00320edebcc5f7f671d7b9e8be498013.jpg"]
+        , category: "Fruits"
     },
     {
         id: "20",
@@ -361,8 +376,9 @@ const cardData = [
         healthBenefits: "Rich in vitamin C and antioxidants, supports immune health and helps improve skin quality.",
         storageTemperature: "8-12°C",
         storageType: "Room Temperature",
-        imageSlider: [Lime, "https://i.pinimg.com/236x/0f/54/df/0f54dff32ab63edc6b5211788828fbbb.jpg", "https://i.pinimg.com/236x/62/fe/5f/62fe5f0d859ecb4a51f1a7fd7ab08d35.jpg","https://i.pinimg.com/474x/1c/de/2d/1cde2dd7fbba100a1ad412b5d9814951.jpg"]
-    },    {
+        imageSlider: [Lime, "https://i.pinimg.com/236x/0f/54/df/0f54dff32ab63edc6b5211788828fbbb.jpg", "https://i.pinimg.com/236x/62/fe/5f/62fe5f0d859ecb4a51f1a7fd7ab08d35.jpg", "https://i.pinimg.com/474x/1c/de/2d/1cde2dd7fbba100a1ad412b5d9814951.jpg"]
+        , category: "Fruits"
+    }, {
         id: "1",
         title: "Tomato",
         description: "A juicy, red vegetable often used in salads and sauces.",
@@ -378,7 +394,8 @@ const cardData = [
         healthBenefits: "Rich in vitamin C, potassium, and antioxidants like lycopene, which may reduce the risk of heart disease and cancer.",
         storageTemperature: "7-10°C",
         storageType: "Refrigeration",
-        imageSlider: [Tomato, "https://i.pinimg.com/236x/b0/b5/76/b0b5769b3273e0b2d49ae7dd454b67b3.jpg", "https://i.pinimg.com/236x/88/5b/5d/885b5d0fc39413affbade0032039a449.jpg","https://i.pinimg.com/236x/62/1b/27/621b27f1d0c2841688396128d99f1a4e.jpg"]
+        imageSlider: [Tomato, "https://i.pinimg.com/236x/b0/b5/76/b0b5769b3273e0b2d49ae7dd454b67b3.jpg", "https://i.pinimg.com/236x/88/5b/5d/885b5d0fc39413affbade0032039a449.jpg", "https://i.pinimg.com/236x/62/1b/27/621b27f1d0c2841688396128d99f1a4e.jpg"]
+        , category: "Fruits"
     }
 ];
 

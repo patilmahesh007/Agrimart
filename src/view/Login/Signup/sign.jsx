@@ -12,8 +12,6 @@ const SignupForm = () => {
     lastName: '',
     email: '',
     phone: '',
-    gender: '',
-    age: '',
     password: '',
     confirmPassword: ''
   });
@@ -34,13 +32,12 @@ const SignupForm = () => {
       localStorage.setItem('email', formData.email);
 
       toast.success('Account created successfully!');
+      window.location.href = '/login';
       setFormData({
         firstName: '',
         lastName: '',
         email: '',
         phone: '',
-        gender: '',
-        age: '',
         password: '',
         confirmPassword: ''
       });
@@ -50,6 +47,7 @@ const SignupForm = () => {
   };
   return(
   <>
+  <div className="signup-register-container">
     <header className="header-container-1">
       <nav className="nav-bar-1">
       <Link to="/sign" className="nav-link-1 active">Registration</Link>
@@ -101,34 +99,7 @@ const SignupForm = () => {
               onChange={handleChange}
               required
             />
-            <div className="input-group-2">
-              <input
-                type="radio"
-                name="gender"
-                id="male"
-                value="male"
-                onChange={handleChange}
-                required
-              />
-              <label htmlFor="male">Male</label>
-              <input
-                type="radio"
-                name="gender"
-                id="female"
-                value="female"
-                onChange={handleChange}
-                required
-              />
-              <label htmlFor="female">Female</label>
-            </div>
-            <input
-              type="text"
-              name="age"
-              placeholder="Enter Your Age"
-              value={formData.age}
-              onChange={handleChange}
-              required
-            />
+             
             <input
               type="password"
               name="password"
@@ -152,6 +123,7 @@ const SignupForm = () => {
           </form>
         </div>
       </div>
+    </div>
     </div>
 
     <Toaster />

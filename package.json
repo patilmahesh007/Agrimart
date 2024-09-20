@@ -1,5 +1,5 @@
 {
-  "name": "AgriMart",
+  "name": "agrimart",
   "version": "1.0.0",
   "scripts": {
     "start": "react-scripts start",
@@ -23,8 +23,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.4.9"
   }
 }

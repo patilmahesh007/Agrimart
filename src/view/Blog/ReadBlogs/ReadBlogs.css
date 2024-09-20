@@ -1,6 +1,13 @@
 .read-card-container{
   width: 100%;
-  margin: 100px 0px;
+  margin: 50px 0px;
+}
+.read-blog-main-heading{
+  width: 70%;
+}
+.read-blog-main-heading h1{
+  font-size: 50px;
+  font-weight: 700;
 }
 .read-card-content{
      width: 80%;
@@ -9,10 +16,51 @@
 .read-blog-image{
     width: 100%;
     display: block;
-    margin: 0 auto;
-    height: 300px;
+    margin: 30px auto;
+    height: 400px;
     object-fit: cover;
+}
+.text-content-heading{
+     display: flex;
+     justify-content: space-between;
+}
+.text-content{
+      width: 65%;
+      /* border: 2px solid red; */
+}
+.blogs-content-headings{
+  padding: 0px 20px;
+  text-align: start;
 }
 .read-blog-text{
     text-align: justify;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.content-heading{
+  width: 30%;
+  height: 600px;
+  position: sticky;
+  top: 100px;
+}
+.content-heading h1{
+  padding: 0px 20px;
+  margin-bottom: 25px;
+}
+.contenrh2img{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.all-content-headings{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  
+}
+.read-blog-span-text-heading{
+       margin-bottom: 2px;
+       font-size: 20px;
+}
+.read-blog-span-text{
+      margin-bottom: 15px;
+      font-size: 20px;
 }

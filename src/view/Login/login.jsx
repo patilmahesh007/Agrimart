@@ -11,6 +11,13 @@ const LoginForm = () => {
     email: '',
     password: '',
   });
+  const [islogin, setIsLogin] = useState(false);
+
+  // Save login status to localStorage when the state changes
+  const saveLoginStatus = (status) => {
+    setIsLogin(status);
+    localStorage.setItem('islogin', status);
+  };
 
   const handleChange = (e) => {
     setFormData({
@@ -28,6 +35,8 @@ const LoginForm = () => {
     if (storedEmail && storedPassword) {
       if (formData.email === storedEmail && formData.password === storedPassword) {
         toast.success('Login successful!');
+        saveLoginStatus(true);
+        window.location.href = '/checkout';
       } else {
         toast.error('Invalid email or password!');
       }
