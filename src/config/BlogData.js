@@ -405,34 +405,84 @@ const Blogs = [
   {
     id: 5,
     imgUrl: "https://www.unlockfood.ca/EatRightOntario/media/Website-images-resized/How-many-vegetables-and-fruit-do-you-need-resized.jpg",
-    type: "largeblog",
     title: "How to Store Fresh Vegetables and Fruits to Keep Them Longer",
+    type: "largeblog",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit quis delectus modi possimus.",
+      "When storing fresh fruits and vegetables, you have to consider “temperature, ethylene, and airflow—the big three,” said Emily Gove...",
     
       content: [
-      "Modern farming methods have often proven effective and have delivered outstanding results. A farmer from Nashik, stands testimony to the wonders modern farming techniques can do. Here’s how Mr. Balu Darade grew a whopping 195 quintal onion –",
-
-      "NABARD’s golden initiative",
-
-      "The National Bank for Agriculture and Rural Development (NABARD) initiated a noble program where it trained the farmers for modern farming techniques. Mr. Balu Darade participated in this program as he wished to yield more than 100 quintal, his average produce.",
-
-      "Goodbye to traditional techniques",
-
-      "The traditional method of sowing on flat beds was replaced by raised beds. Following are the advantages of raised bed sowing –",
-
-      "Water can be supplied through drip irrigation, The temperature can be maintained in raised bed sowing, Spacing can be easily maintained Drip irrigation Raised bed sowing allowed the water to be supplied through drip irrigation, a method which has its own advantages –",
-
-      "Drip irrigation reduces water wastage Evaporation is minimal and the consumption is lowered Fertilisers can be used via the dripping system The land between the plant rows remain dry and unwanted plant growth is prevented",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi! Fuga sed doloremque laborum modi voluptatem commodi voluptates. Cumque esse nulla error in a, saepe debitis at totam molestias ad!",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi! Fuga sed doloremque laborum modi voluptatem commodi voluptates. Cumque esse nulla error in a, saepe debitis at totam molestias ad!",
-
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque, esse voluptatem eveniet at culpa officia id veritatis dolorem ab dolorum quas distinctio iste sint assumenda illum corporis saepe excepturi!",
-    ],
-    details: "oct 23,2019 | Piyush Aglawe",
-  },
+        "Fresh fruits and vegetables are living organisms, even after they’ve been harvested. They continue to undergo various biochemical processes, such as respiration, moisture loss, and enzymatic breakdown. How you store them can either slow down or speed up these processes, affecting their freshness and shelf life. Understanding the science behind proper storage techniques is crucial for preserving the nutritional value, texture, and flavor of your produce.",
+  
+        "One key factor in the ripening and spoilage of produce is the production of ethylene gas, a natural plant hormone that stimulates the ripening process. Certain fruits, such as apples, bananas, and avocados, produce high amounts of ethylene gas, which can cause nearby vegetables and fruits to ripen faster. This is why it's important to separate ethylene-producing fruits from ethylene-sensitive vegetables, such as leafy greens and carrots.",
+  
+      ],
+      contenth1: "1. Understanding Ethylene: The Key to Separating Fruits and Vegetables",
+      parah1:
+        "Ethylene is a natural plant hormone that plays a crucial role in the ripening process of fruits and vegetables. Known as the ripening gas, ethylene is emitted by certain fruits as they mature and can have a significant impact on how quickly nearby produce ripens or spoils.",
+  
+      contenth2: "2. The Role of Humidity in Storing Vegetables: How to Use Your Crisper Drawer",
+      contenth2Img: "https://d12mivgeuoigbq.cloudfront.net/assets/blog/blog_appliances/Q2_2023/crisper-drawer.jpg",
+      contenth2sub:
+        "Agriculture supply chain management is incredibly complex, which affects food quality, safety, sustainability, and economic viability. Specific challenges include:",
+  
+      contenth2para:
+        " Humidity plays a vital role in keeping vegetables fresh. Vegetables are primarily composed of water, and once they are harvested, they gradually lose moisture through a process called transpiration. Controlling the humidity level around your vegetables can slow down this moisture loss and prevent wilting, shriveling, and rotting.",
+  
+     
+      contenth2para1:
+        " The crisper drawer in your refrigerator is designed specifically to help regulate the humidity level for your produce. Most crisper drawers allow you to adjust the humidity settings based on the type of produce you are storing. Understanding how to use this feature properly is key to extending the freshness of your vegetables.",
+  
+      contenth2para2:
+        "Low-humidity settings allow for better airflow, which helps to reduce the accumulation of ethylene gas and prevent moisture buildup that can lead to rotting. Vegetables that tend to emit ethylene gas should be stored in a low-humidity environment. These include:",
+  
+      
+  
+      contenth3:
+        "3. Maximizing Shelf Life with Proper Storage Techniques for Cut Produce",
+      contenth3Img: "https://cdn.thewirecutter.com/wp-content/uploads/2020/05/producestorage-lowres-1141343601.jpg?auto=webp&quality=75&crop=1.91:1&width=1200",
+  
+      contenth3para: [
+        "Once fruits and vegetables are cut, they become much more vulnerable to spoilage. The protective outer layer is compromised, exposing the inner flesh to air, moisture, and bacteria. This leads to faster oxidation, browning, and moisture loss. However, with the right storage techniques, you can extend the freshness of your cut produce, reducing waste and ensuring that it stays safe and nutritious for consumption.",
+  
+        "When you slice fruits or vegetables, the cell walls are broken, releasing enzymes that speed up the process of oxidation (browning) and spoilage. Additionally, exposure to air promotes bacterial growth and dehydration. By using proper storage techniques, you can slow down these processes and keep cut produce fresh longer.",
+  
+        "Use Airtight Containers Airtight containers are essential for keeping oxygen out and preserving moisture in cut produce. Limiting exposure to air slows down the oxidation process, preventing browning and dehydration.",
+  
+      ],
+  
+      contenth4: "4. Freezing and Blanching: A Long-Term Solution for Fresh Produce Sustainable?",
+      contenth4para: [
+        "Freezing is one of the most effective methods for preserving fresh fruits and vegetables for long periods. When done correctly, freezing can maintain the nutritional value, flavor, and texture of produce for several months. However, not all fruits and vegetables can be frozen as-is—some require a process known as blanching to ensure they stay fresh and retain their quality.",
+  
+        "Freezing slows down the enzymatic reactions and microbial activity that cause fruits and vegetables to spoil. By freezing produce at low temperatures, you essentially pause the ripening process and prevent the growth of bacteria, molds, and yeasts. This allows you to store fruits and vegetables for months without worrying about them going bad.",
+  
+      ],
+  
+      
+      contenth5Img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLCOQjBpW8g0dyElDODqHBWL_fvk8kZeEI7Q&s",
+      contenth5para:
+        "",
+      
+      contenth5para1: [
+       
+      ],
+  
+      contenth5para2: [
+      
+      ],
+      blog10Content:[
+        "1. Understanding Ethylene: The Key to Separating Fruits and Vegetables",
+  
+        "2. The Role of Humidity in Storing Vegetables: How to Use Your Crisper Drawer",
+  
+        "3. Maximizing Shelf Life with Proper Storage Techniques for Cut Produce",
+  
+        "4. Freezing and Blanching: A Long-Term Solution for Fresh Produce",
+  
+        
+      ],   
+      details: "oct 15,2024 | Prathmesh Deogirkar",
+    },
   {
     id: 6,
     imgUrl: img6,
