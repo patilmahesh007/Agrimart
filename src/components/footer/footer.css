@@ -1,7 +1,7 @@
 .footer {
     background-color: rgba(38, 65, 52, 1);
     color: white;
-    padding: 40px 20px;
+    padding: 2% 10px;
     font-family: Arial, sans-serif;
 }
 
@@ -40,11 +40,12 @@
     font-weight: bold;
 }
 
+/* Full screen: display links vertically */
 .footer-li-container {
     list-style-type: none;
     padding: 0;
     display: flex;
-    flex-wrap: wrap; 
+    flex-direction: column; /* Set to column for full screens */
     gap: 15px;
 }
 
@@ -122,11 +123,9 @@
     font-size: 13px;
 }
 
+/* Responsive layout for small screens */
 
-
-
-
-
+/* On screens smaller than 768px: show links horizontally */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
@@ -143,10 +142,11 @@
         margin-bottom: 20px;
     }
 
+    /* Display links horizontally */
     .footer-li-container {
-        justify-content: center; 
+        justify-content: center;
         display: flex;
-        flex-direction: row; 
+        flex-direction: row; /* Display links in a row */
         flex-wrap: wrap;
     }
 
