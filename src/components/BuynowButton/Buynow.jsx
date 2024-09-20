@@ -1,20 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import './Buynow.css';
 
-const QuantityButton = ({ id, name }) => {
+const QuantityButton = ({ id, name, price, oldprice }) => {
   const [quantity, setQuantity] = useState(() => {
-    const storedItem = localStorage.getItem(`cartItem-${id}`);
-    return storedItem ? JSON.parse(storedItem).quantity : 0;
+    const storedCart = JSON.parse(localStorage.getItem('cartItems')) || {};
+    return storedCart[id] ? storedCart[id].quantity : 0;
   });
 
   useEffect(() => {
+    const storedCart = JSON.parse(localStorage.getItem('cartItems')) || {};
+
     if (quantity > 0) {
-      const cartItem = { key: id, name, quantity };
-      localStorage.setItem(`cartItem-${id}`, JSON.stringify(cartItem));
+      const updatedCartItem = { key: id, name, quantity, price, oldprice };
+      storedCart[id] = updatedCartItem;
     } else {
-      localStorage.removeItem(`cartItem-${id}`);
+      delete storedCart[id]; 
     }
-  }, [quantity, id, name]);
+
+    localStorage.setItem('cartItems', JSON.stringify(storedCart)); 
+  }, [quantity, id, name, price, oldprice]);
 
   const handleAdd = () => setQuantity(1);
 

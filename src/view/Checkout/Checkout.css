@@ -1,53 +1,113 @@
-.checkout-leftside{
-    width: 50%;  
-}
-.contact-heading{
-    margin: 15px 30px;
-}
-.checkout-email-input{
-   margin: 5px 40px;
-
-}
-.country-input{
-    margin: 5px 40px;
-    width: 80%;
-}
-.fullname-container{
-    display: flex;
-}
-.firstname-input{
-      width: 80%;
-      margin: 8px 10px;
-      margin-left: 60px;
-}
-.lastname-input{
-    width: 80%; 
-    margin: 8px 10px;
-}
-.input-container-address{
-    display: flex;
-}
-.Address-input{
-    margin: 5px 40px;
-}
-.Apartment-input{
-    margin: 5px 40px;
-}
-.input-container-address{
-    margin-left: 30px;
-}
-.inputs-all{
-    margin: 0px 20px;
-}
- .phonenumber-input{
-margin: 5px 40px;
- }
- .main-container{
+.checkout-container{
+    height: 100vh;
+    margin: 0px;
+    width: 100vw;
     display: flex;
     flex-direction: row;
-
- }
- .checkout-rightside{
-    
+    justify-content: center;
+    align-items: center;
+}
+.checkout-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
     width: 50%;
- }
+height: 100vh;
+padding-top: 80px;
+}
+.checkout-form{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    width: 95%;
+}
+.checkout-form input{
+    text-align: center;
+    background-color: rgb(239, 244, 233);
+
+}
+.checkout-select{
+    width: 47vw;
+    height: 7%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(239, 244, 233);
+
+}
+.checkout-div1-box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 47vw;
+    height: 10%;
+    gap: 50px;
+
+}
+.checkout-div1-box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    gap: 10px;
+    width: 47vw;
+
+
+}
+.checkout-phone, .checkout-apartment , .checkout-address{
+  
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.checkout-address{
+    height: 7%;
+}
+.checkout-div2{
+    min-width: 50%;
+    height: 100vh;
+padding-top: 80px;
+
+}
+.checkout-redirect{
+ display: block;
+ margin: 0px auto;
+ color: red;
+}
+.checkout-rightside-items{
+    display: flex;
+    background-color: aquamarine;
+    gap: 30px;
+}
+.checkout-rightside-name{
+    font-size: 20px;
+    
+    background-color: crimson;
+    width: 20%;
+}
+.checkout-rightside-name span{
+    color: white;
+    border-radius: 50%;
+    width: fit-content;
+    background-color: black;
+    font-size: 10px;
+padding: 4px;
+}
