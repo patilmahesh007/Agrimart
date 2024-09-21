@@ -35,7 +35,7 @@ const QuantityButton = ({ id, name, price, oldprice }) => {
       {quantity === 0 ? (
         <button onClick={handleAdd} className="buynow-button-component">Buy Now</button>
       ) : (
-        <div style={{ display: 'flex', gap: '20px', alignItems: 'center', border: '1px solid gray', borderRadius: '5px', padding: '5px 10px' }}>
+        <div className='quantity-btn-container'>
           <button onClick={handleDecrease} style={{ background: 'none', border: 'none' }}>
             <img
               src="https://cdn-icons-png.flaticon.com/128/149/149163.png"

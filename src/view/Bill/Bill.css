@@ -69,7 +69,6 @@ width: 100%;
 .bill-page-item-container{
   display: flex;
   flex-direction: column;
-    background-color: blue;
 }
 .dummy-{
     display: flex;
