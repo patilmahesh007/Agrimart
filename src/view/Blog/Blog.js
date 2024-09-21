@@ -19,7 +19,7 @@ function Blog() {
             <div class="blog-content">
               <h2>{BlogHeading}</h2>
               <p>{TagLine}</p>
-              <button class="read-more-btn">Read More</button>
+              <a href="#below"><button class="read-more-btn">Read More</button></a>
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@ function Blog() {
         </div>
       </div>
 
-      <div className="main-component-cards">
+      <div id="below" className="main-component-cards">
         <div className="com-cards">
           <div className="component-cards">
             {Blogs.map((blog) => {
