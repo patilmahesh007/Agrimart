@@ -19,7 +19,8 @@
     padding-top: 40px;
 }
 .checkout-rightside-scrolldiv{
-    height: 80vh;
+    height: fit-content;
+    max-height: 60vh;
     overflow: scroll;
 }
 .checkout-rightside-scrolldiv::-webkit-scrollbar{
@@ -80,7 +81,12 @@
 
 
 }
-
+.checkout-submit-button{
+    background-color: #3f5944;
+    padding: 7px 40px;
+    color: white;
+    border-radius: 5px;
+}
 .checkout-phone,
 .checkout-apartment,
 .checkout-address {
@@ -111,37 +117,12 @@
 
 .checkout-rightside-items {
     display: flex;
-    position: relative;
     margin: 7px 0px 0px 0px;
-    background-color: aqua;
+   justify-content: space-around;
+    gap:100px;
 }
-.checkout-rightside-items2{
-    position: absolute;
-    top: 30px;
-    right:10vw;
-}
-.checkout-rightside-items  img{
-    width: 100px;
-}
-
-.checkout-rightside-name {
-    font-size: 18px;
+.checkout-rightside-items p{
     width: 20%;
-    margin-top: 20px;
-}
-.checkout-rightside-name  h4{
-    font-size: 15px;
-}
-.checkout-rightside-name  h4 del{
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.603);
-}
-
-.checkout-rightside-name span {
-    color: white;
-    border-radius: 50%;
-    width: fit-content;
-    background-color: rgba(0, 0, 0, 0.621);
-    font-size: 10px;
-    padding: 4px;
+    display: flex;
+    justify-content: center;
 }

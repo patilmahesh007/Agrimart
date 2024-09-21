@@ -4,9 +4,10 @@ import stamp from "./../../images/bill/stamp.png";
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 import { useNavigate } from 'react-router-dom';
-import toast,{Toaster} from 'react-hot-toast';
+import toast, { Toaster } from 'react-hot-toast';
+
 function Bill() {
-  const islogin = localStorage.getItem('islogin');
+  const islogin = localStorage.getItem('isLogin');
   const billdata = JSON.parse(localStorage.getItem('cartItems')) || {};
   const totalPrice = localStorage.getItem('totalPrice');
   const customerData = JSON.parse(localStorage.getItem('checkoutFormData')) || {};
@@ -15,10 +16,10 @@ function Bill() {
 
   useEffect(() => {
     if (!islogin) {
-      const timer = setInterval(() => {
+      const timer = setTimeout(() => {
         window.location.href = '/login';
       }, 2000);
-      return () => clearInterval(timer);
+      return () => clearTimeout(timer);
     }
   }, [islogin]);
 
@@ -28,11 +29,10 @@ function Bill() {
       localStorage.removeItem('cartItems');
       localStorage.removeItem('checkoutFormData');
       setIsDownloaded(false);
-    setTimeout(() => {
-      navigate('/');
-      toast.success('Bill downloaded successfully!');
-
-    },3000);
+      setTimeout(() => {
+        navigate('/');
+        toast.success('Bill downloaded successfully!');
+      }, 3000);
     }
   }, [isDownloaded, navigate]);
 
@@ -67,10 +67,10 @@ function Bill() {
 
   return (
     <>
-      {islogin ? (
+      {islogin ? ( // Correct condition here
         <div>
           <button className="download-button" onClick={downloadPDF}>Download PDF</button>
-          
+
           <div className='bill-page-body'>
             <div className='bill-page'>
               {/* Bill Details */}
@@ -152,7 +152,7 @@ function Bill() {
                         </div>
                       );
                     })}
-                  </div> 
+                  </div>
 
                   <div>
                     {Object.values(billdata).map((item) => {
@@ -170,13 +170,12 @@ function Bill() {
                 <p className='bill-page-div1-line'>BILL TO</p>
                 <img className='stamp-image' src={stamp} alt='Stamp' />
 
-                {/* Total Amount */}
                 <div className='total-ammount-div'>
                   <p>Total amount: ₹{totalPrice}</p>
                   <hr />
                   <p>Amount Paid: ₹{totalPrice}</p>
                   <hr />
-                  <Toaster/>
+                  <Toaster />
                 </div>
               </div>
             </div>

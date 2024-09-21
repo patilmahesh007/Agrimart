@@ -9,7 +9,7 @@ import EssentialsCardData from './../../config/EssentialsCardData';
 
 function Checkout() {
   const totalPrice = localStorage.getItem('totalPrice');
-  const islogin = localStorage.getItem('islogin');
+  const islogin = localStorage.getItem('isLogin');
   const [showPayment, setShowPayment] = useState(false);
   const billdata = JSON.parse(localStorage.getItem('cartItems')) || {};
 
@@ -94,6 +94,7 @@ function Checkout() {
                 onChange={handleChange}
               />
               <input
+                required
                 type="text"
                 name='lastName'
                 placeholder='Last name'
@@ -102,6 +103,7 @@ function Checkout() {
               />
             </div>
             <input
+                required
               type="text"
               name='address'
               placeholder='Address'
@@ -111,6 +113,7 @@ function Checkout() {
             />
             <input
               type="text"
+                required
               name='apartment'
               placeholder='Apartment, suite, etc.'
               className='checkout-apartment'
@@ -119,6 +122,7 @@ function Checkout() {
             />
             <div className='checkout-div1-box2'>
               <input
+                required
                 type="text"
                 name='city'
                 placeholder='City'
@@ -126,6 +130,7 @@ function Checkout() {
                 onChange={handleChange}
               />
               <input
+                required
                 type="text"
                 name='state'
                 placeholder='State'
@@ -133,6 +138,7 @@ function Checkout() {
                 onChange={handleChange}
               />
               <input
+                required
                 type="text"
                 name='zipCode'
                 placeholder='Zip code'
@@ -141,6 +147,7 @@ function Checkout() {
               />
             </div>
             <input
+                required
               type="text"
               name='phoneNumber'
               placeholder='Phone number'
@@ -148,31 +155,9 @@ function Checkout() {
               value={formData.phoneNumber}
               onChange={handleChange}
             />
-            <button type="submit">Submit</button>
+            <button type="submit" className='checkout-submit-button'>Submit</button>
           </form>
-        </div>
-        <hr />
-        <div className='checkout-div2'>
-        <div className='checkout-rightside-scrolldiv'>
-        {Object.values(billdata).map((item) => {
-            const pricePerUnit = getPriceAsNumber(item.price); // Extracted price value
-            const totalItemPrice = pricePerUnit * item.quantity; // Calculate total price for the item
-
-            return (
-              <div key={item.key} className='checkout-rightside-items'>
-                <p className='checkout-rightside-name'>
-                  {item.name}: <span>{item.quantity}</span>
-                  <h4>{item.price}</h4>
-                  <h4><del>{item.oldprice}</del></h4>
-                </p>
-                <div className='checkout-rightside-items2'>
-                  ₹{totalItemPrice}
-                </div>
-              </div>
-            );
-          })}       
-        </div>
-        {showPayment ? (
+          {showPayment ? (
             <PaymentButton
               price={totalPrice}
               name1={formData.firstName + ' ' + formData.lastName}
@@ -180,11 +165,35 @@ function Checkout() {
               contact1={formData.phoneNumber}
             />
           ) : (
-            <h1>Enter data</h1>
+            <h1> .</h1>
           )}
-          <span> <h3>Total: ₹{totalPrice}</h3>
-           
-          </span>
+        </div>
+        <hr />
+        <div className='checkout-div2'>
+        <div className='checkout-rightside-scrolldiv'>
+          <div className='checkout-rightside-items'>
+<h1>Item Name</h1><h1>Quantity</h1>   <h1>  Total Price</h1>
+         </div>
+        {Object.values(billdata).map((item) => {
+            const pricePerUnit = getPriceAsNumber(item.price); 
+            const totalItemPrice = pricePerUnit * item.quantity;  
+
+            return (
+              <div key={item.key} className='checkout-rightside-items'>
+<p>{item.name}</p><p>{item.quantity}</p>   <p>  ₹{totalItemPrice}</p>
+
+              
+              </div>
+            );
+          })}  
+               
+        </div>
+        <div className='checkout-rightside-items'>
+<h1></h1><h1></h1>   <h1>  Total: ₹<u>{totalPrice}</u></h1>
+         </div>
+
+       
+          
        
         </div>
       </div>
