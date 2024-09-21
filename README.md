@@ -57,8 +57,12 @@
 
 ## Installation Process (For Developers):
 
-**1)Clone the Repository:**  ```bash
+**1)Clone the Repository:** 
+
+```bash
    git clone https://github.com/patilmahesh007/icp-8.0-html-css-javascript-React-group-project-4.git
+   ```
+    
 
 **2)Install Dependencies:** Run npm install to install all required packages.
 
