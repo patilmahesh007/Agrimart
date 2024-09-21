@@ -125,7 +125,7 @@
     }
 }
 
-@media screen and (min-width: 450px) and (max-width: 800px) {
+@media screen and (min-width: 450px) and (max-width: 750px) {
     .App-fruit {
         gap: 10px;
     }
@@ -162,9 +162,68 @@
 
 
 }
+@media screen and (min-width: 750px) and (max-width: 926px) {
+    .App-fruit {
+        gap: 15px;
+    }
 
-@media screen and (min-width: 769px) and (max-width: 992px) {}
+    .card-body {
+        width: 220px;
+        height: 300px;
+    }
 
-@media screen and (min-width: 993px) and (max-width: 1200px) {}
+    .card-body-div1 img {
+        height: 150px;
+        padding-top: 30px;
+    }
 
-@media screen and (min-width: 1201px) {}
+    .card-body-div2 h3 {
+        font-size: 22px;
+    }
+
+    .card-body-div2 p {
+        font-size: 16px;
+        margin-left: 5px;
+        bottom: 30px;
+        left: 5px;
+    }
+
+    .card-body-div2 del {
+        font-size: 16px;
+        margin-left: 5px;
+        left: 5px;
+    }
+}
+
+@media screen and (min-width: 926px) and (max-width: 1268px) {
+    .App-fruit {
+        gap: 20px;
+    }
+
+    .card-body {
+        width: 250px;
+        height: 320px;
+    }
+
+    .card-body-div1 img {
+        height: 160px;
+        padding-top: 40px;
+    }
+
+    .card-body-div2 h3 {
+        font-size: 25px;
+    }
+
+    .card-body-div2 p {
+        font-size: 18px;
+        margin-left: 7px;
+        bottom: 35px;
+        left: 7px;
+    }
+
+    .card-body-div2 del {
+        font-size: 18px;
+        margin-left: 7px;
+        left: 7px;
+    }
+}
