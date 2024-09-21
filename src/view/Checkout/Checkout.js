@@ -7,8 +7,6 @@ import VegCardData from './../../config/VegCardData';
 import DairyCardData from './../../config/DairyCardData';
 import EssentialsCardData from './../../config/EssentialsCardData';
 
-
-
 function Checkout() {
   const totalPrice = localStorage.getItem('totalPrice');
   const islogin = localStorage.getItem('islogin');
@@ -21,12 +19,9 @@ function Checkout() {
     ...VegCardData,
     ...ExoticsCardData,
     ...EssentialsCardData
-  ]
+  ];
 
-
-  const imageObject = allData.filter(item => item.id === billdata.key)
-  console.log(imageObject)
-  console.log(billdata)
+  const imageObject = allData.filter(item => item.id === billdata.key);
 
   const [formData, setFormData] = useState({
     country: '',
@@ -51,7 +46,6 @@ function Checkout() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setShowPayment(true);
-
     localStorage.setItem('checkoutFormData', JSON.stringify(formData));
 
     setFormData({
@@ -65,11 +59,17 @@ function Checkout() {
       zipCode: '',
       phoneNumber: '',
     });
+  };
 
+  // Helper function to extract price value as a number from string like "₹50/kg"
+  const getPriceAsNumber = (priceStr) => {
+    if (!priceStr) return 0; // Return 0 if priceStr is undefined or null
+    const match = priceStr.match(/₹(\d+)/);
+    return match ? parseInt(match[1], 10) : 0;
   };
 
   return (
-    islogin ?
+    islogin ? (
       <div className='checkout-container'>
         <div className='checkout-div1'>
           <hr />
@@ -83,7 +83,6 @@ function Checkout() {
             >
               <option value="" disabled>Select Country</option>
               <option value="India">India</option>
-              {/* Add more countries as needed */}
             </select>
             <div className='checkout-div1-box1'>
               <input
@@ -149,46 +148,53 @@ function Checkout() {
               value={formData.phoneNumber}
               onChange={handleChange}
             />
-            <button type="submit" >Submit</button>
+            <button type="submit">Submit</button>
           </form>
         </div>
         <hr />
         <div className='checkout-div2'>
+        <div className='checkout-rightside-scrolldiv'>
+        {Object.values(billdata).map((item) => {
+            const pricePerUnit = getPriceAsNumber(item.price); // Extracted price value
+            const totalItemPrice = pricePerUnit * item.quantity; // Calculate total price for the item
 
-          {Object.values(billdata).map((item) => (
-            <div key={item.key} className='checkout-rightside-items'>
-              <img src="https://agrimart-eta.vercel.app/static/media/apple.a456e5587222d1f05173.png" alt={imageObject.altText} />
-              <p className='checkout-rightside-name'>{item.name + ":"}
-
-                <span>{" " + item.quantity + " "}</span>
-                <h4>{item.price}</h4>
-                <h4><del>{item.oldprice}</del></h4>
-                <h1>{imageObject || "mahesh"}</h1>
-              </p>
-              <div className='checkout-rightside-items2'> {item.price*item.quantity}</div>
-
-
-
-
-            </div>
-          ))}
-
-
-
-
-
-
-          {showPayment ? <PaymentButton
-            price={totalPrice}
-            name1={formData.firstName + ' ' + formData.lastName}
-            email1={formData.email}
-            contact1={formData.phoneNumber} /> : <h1>enter data</h1>}
+            return (
+              <div key={item.key} className='checkout-rightside-items'>
+                <p className='checkout-rightside-name'>
+                  {item.name}: <span>{item.quantity}</span>
+                  <h4>{item.price}</h4>
+                  <h4><del>{item.oldprice}</del></h4>
+                </p>
+                <div className='checkout-rightside-items2'>
+                  ₹{totalItemPrice}
+                </div>
+              </div>
+            );
+          })}       
         </div>
-      </div> : <h1 className='checkout-redirect' >Redirecting to Login...{
-        setInterval(() => {
-          window.location.href = '/login'
-        }, 2000)
-      } </h1>
+        {showPayment ? (
+            <PaymentButton
+              price={totalPrice}
+              name1={formData.firstName + ' ' + formData.lastName}
+              email1={formData.email}
+              contact1={formData.phoneNumber}
+            />
+          ) : (
+            <h1>Enter data</h1>
+          )}
+          <span> <h3>Total: ₹{totalPrice}</h3>
+           
+          </span>
+       
+        </div>
+      </div>
+    ) : (
+      <h1 className='checkout-redirect'>
+        Redirecting to Login...{setInterval(() => {
+          window.location.href = '/login';
+        }, 2000)}
+      </h1>
+    )
   );
 }
 

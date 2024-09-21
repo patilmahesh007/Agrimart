@@ -29,8 +29,12 @@
     margin: 0px 0px 4px 30px;
 
 }
+.knowmore-button-22{
+    color: white;
+    text-decoration: none;
+}
 
-.App-section-3-div1 div {
+.knowmore-button-22{
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -102,6 +102,7 @@ object-fit: cover;
   align-items: start;
   justify-content: start;
   object-fit: cover;
+  padding-top: 30px;
 }
 .CardC-card-div2 h1{  
   font-size: 20px;}
@@ -143,6 +144,7 @@ object-fit: cover;
   bottom: 0;
   right : 0;
   border-radius: 10px 0 0 10px;
+
 }
 
 .CardC-proceed-to-buy-h1{
@@ -157,5 +159,8 @@ gap:120px;
 color: white;
 background-color: #3f5944;
 border-radius: 8px;
-
+}
+.checkout-btn{
+  color: white;
+  text-decoration: none;
 }

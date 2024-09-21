@@ -21,7 +21,7 @@ const PaymentButton = ({ price, name1, contact1, email1 }) => {
     const res = await loadRazorpayScript();
 
     if (!res) {
-      alert('Razorpay SDK failed to load. Are you online?');
+      toast.error('Razorpay SDK failed to load. Please try again.');
       setLoading(false);
       return;
     }
@@ -29,7 +29,7 @@ const PaymentButton = ({ price, name1, contact1, email1 }) => {
     const checkoutData = JSON.parse(localStorage.getItem('checkoutFormData'));
     
     if (!checkoutData) {
-      alert('Checkout data is missing. Please fill the form again.');
+   toast.error('No checkout data found. Please try again.');
       setLoading(false);
       return;
     }
@@ -43,9 +43,7 @@ const PaymentButton = ({ price, name1, contact1, email1 }) => {
       image: "https://assignment-42-emou.vercel.app/static/media/logo.313036b5e7346daaeaf3.png",
       handler: function (response) {
        toast.success('Payment Successful!');
-        console.log(response.razorpay_payment_id);
-        console.log(response.razorpay_order_id);
-        console.log(response.razorpay_signature);
+  
         navigate('/bill');
       },
       prefill: {
