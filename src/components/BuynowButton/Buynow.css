@@ -10,6 +10,27 @@
 }
 .buynow-button-quantity{
     font-size: 20px;
-    
+   
 }
 
+
+@media screen and (max-width: 450px) {
+    .buynow-button-component {
+        padding: 7px 22px;
+        font-size: 14px;
+    }
+    .buynow-button-quantity{
+        font-size: 15px;
+       
+    }
+    
+}                                
+@media screen and (min-width: 450px) and (max-width: 753px) {
+    .buynow-button-component {
+        padding: 10px 26px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {}
+@media screen and (min-width: 993px) and (max-width: 1200px) {}
+@media screen and (min-width: 1201px){}

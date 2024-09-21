@@ -75,16 +75,16 @@ function CardC({ CardOpen }) {
                 <div className="CardC-card-div2">
                   <h1>{cardInfo.title}</h1>
                   <h5>{cardInfo.quantity}</h5>
-                  <p>{cardInfo.price} {}<del>{cardInfo.oldPrice}</del></p>
+                  <p>{cardInfo.price} { }<del>{cardInfo.oldPrice}</del></p>
                 </div>
                 <div className="CardC-card-div3">
                   <QuantityButton
                     id={cardInfo.id}
                     name={cardInfo.title}
-price={cardInfo.price}
-oldprice={cardInfo.oldPrice} 
+                    price={cardInfo.price}
+                    oldprice={cardInfo.oldPrice}
 
-/>
+                  />
                 </div>
               </div>
             ))

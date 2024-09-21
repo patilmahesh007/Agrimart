@@ -53,6 +53,7 @@
   width: 100%;
   display: block;
   margin-left: 50px;
+  margin-top: 20px;
 }
 
 
@@ -92,6 +93,7 @@ object-fit: cover;
 
 .CardC-card-div1 img{
   height: 100px;
+
 
 }
 .CardC-card-div2{
@@ -163,4 +165,148 @@ border-radius: 8px;
 .checkout-btn{
   color: white;
   text-decoration: none;
+}
+@media screen and (max-width: 450px) {
+  .CardC-container {
+    width: 90vw;
+  }
+
+  .CardC-card {
+    height: 80px;
+    width: 90%;
+    padding: 5px;
+  }
+.CardC-card-div1{
+  width: 50%;
+}
+  .CardC-card-div1 img {
+    height: 80px;
+  }
+
+  .CardC-card-div2 h1 {
+    font-size: 18px;
+  }
+
+  .CardC-proceed-to-buy {
+    width: 90vw;
+    height: 80px;
+  }
+
+  .CardC-proceed-to-buy-h1 {
+    font-size: 16px;
+    gap: 80px;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 750px) {
+  .CardC-container {
+    width: 70vw;
+  }
+
+  .CardC-card {
+    height: 90px;
+    width: 85%;
+  }
+
+  .CardC-card-div1 img {
+    height: 90px;
+  }
+
+  .CardC-card-div2 h1 {
+    font-size: 19px;
+  }
+
+  .CardC-proceed-to-buy {
+    width: 70vw;
+    height: 90px;
+  }
+
+  .CardC-proceed-to-buy-h1 {
+    font-size: 18px;
+    gap: 100px;
+  }
+}
+
+@media screen and (min-width: 750px) and (max-width: 992px) {
+  .CardC-container {
+    width: 60vw;
+  }
+
+  .CardC-card {
+    height: 100px;
+    width: 80%;
+  }
+
+  .CardC-card-div1 img {
+    height: 100px;
+  }
+
+  .CardC-card-div2 h1 {
+    font-size: 20px;
+  }
+
+  .CardC-proceed-to-buy {
+    width: 60vw;
+  }
+
+  .CardC-proceed-to-buy-h1 {
+    font-size: 20px;
+    gap: 120px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .CardC-container {
+    width: 50vw;
+  }
+
+  .CardC-card {
+    height: 100px;
+    width: 75%;
+  }
+
+  .CardC-card-div1 img {
+    height: 100px;
+  }
+
+  .CardC-card-div2 h1 {
+    font-size: 22px;
+  }
+
+  .CardC-proceed-to-buy {
+    width: 50vw;
+  }
+
+  .CardC-proceed-to-buy-h1 {
+    font-size: 22px;
+    gap: 120px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .CardC-container {
+    width: 40vw;
+  }
+
+  .CardC-card {
+    height: 100px;
+    width: 80%;
+  }
+
+  .CardC-card-div1 img {
+    height: 100px;
+  }
+
+  .CardC-card-div2 h1 {
+    font-size: 25px;
+  }
+
+  .CardC-proceed-to-buy {
+    width: 40vw;
+  }
+
+  .CardC-proceed-to-buy-h1 {
+    font-size: 25px;
+    gap: 150px;
+  }
 }
