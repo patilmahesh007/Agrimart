@@ -78,6 +78,7 @@
   border-radius: 5px;
   border: none;
   font-size: 16px;
+  text-decoration: none;
 }
 
 .App-section-3-container {
@@ -97,7 +98,7 @@ min-height: 70vh;
     padding: 20px 10px;
     max-width: 95%;
     gap: 3px;
-    margin: 30px auto;
+    margin: 0px auto;
   }
   .why-choose-us-heading {
     font-size: 27px;

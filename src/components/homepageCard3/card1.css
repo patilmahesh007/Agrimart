@@ -83,6 +83,9 @@
     .App-section-1-div2 p {
       font-size: 18px;
     }
+    .App-section-1-images-container{
+      gap: 21px;
+    }
   }
   
   @media screen and (min-width: 801px) and (max-width: 1200px) {

@@ -44,10 +44,6 @@ const Appcard1data = [
     text1: "Farm",
     text2: "Fresh",
   }, {
-    image: wheat,
-    text1: "Agriculture",
-    text2: "Products",
-  },{
     image: flower,
     text1: "Beautiful",
     text2: "Flowers",
