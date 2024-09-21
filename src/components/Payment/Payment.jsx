@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import toast ,{ Toaster} from 'react-hot-toast';
 
 const PaymentButton = ({ price, name1, contact1, email1 }) => {
   const navigate = useNavigate();
@@ -20,7 +21,7 @@ const PaymentButton = ({ price, name1, contact1, email1 }) => {
     const res = await loadRazorpayScript();
 
     if (!res) {
-      alert('Razorpay SDK failed to load. Are you online?');
+      toast.error('Razorpay SDK failed to load. Please try again.');
       setLoading(false);
       return;
     }
@@ -28,7 +29,7 @@ const PaymentButton = ({ price, name1, contact1, email1 }) => {
     const checkoutData = JSON.parse(localStorage.getItem('checkoutFormData'));
     
     if (!checkoutData) {
-      alert('Checkout data is missing. Please fill the form again.');
+   toast.error('No checkout data found. Please try again.');
       setLoading(false);
       return;
     }
@@ -41,10 +42,8 @@ const PaymentButton = ({ price, name1, contact1, email1 }) => {
       description: "Test Transaction",
       image: "https://assignment-42-emou.vercel.app/static/media/logo.313036b5e7346daaeaf3.png",
       handler: function (response) {
-        alert("Payment Successful!");
-        console.log(response.razorpay_payment_id);
-        console.log(response.razorpay_order_id);
-        console.log(response.razorpay_signature);
+       toast.success('Payment Successful!');
+  
         navigate('/bill');
       },
       prefill: {
@@ -74,6 +73,7 @@ const PaymentButton = ({ price, name1, contact1, email1 }) => {
       >
         {loading ? 'Loading...' : `Pay ₹${price} Now`}
       </button>
+      <Toaster/>
     </div>
   );
 };

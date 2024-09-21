@@ -31,10 +31,12 @@
 
   .menu-item {
     color: #555;
+    font-weight: bold;
+    text-decoration: none;
   }
 
   .menu-item:hover {
-    color: #91a57d;
+    color: #999999;
     transition: color 0.3s ease;
     cursor: pointer;
   }

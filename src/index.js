@@ -12,6 +12,7 @@ import Feedback from './view/feedback/feedback';
 import Card  from './view/SERVICEEXPAND/fruitCardExtend/Card';
 import Checkout from "./view/Checkout/Checkout"
 import Bill from './view/Bill/Bill';
+import Profile from './view/Profile/profile';
 import './index.css';
 
 
@@ -37,6 +38,8 @@ root.render(
 
       <Route path="/checkout" element={<Checkout />} />
       <Route path="/bill" element={<Bill />} />
+
+      <Route path="/profile" element={<Profile />} />
   
 
 
