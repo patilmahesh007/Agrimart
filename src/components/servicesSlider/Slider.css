@@ -24,7 +24,6 @@
     top: 50%;
     transform: translateY(-50%);
     padding: 10px;
-
     cursor: pointer;
     display: none;
 }
@@ -39,4 +38,77 @@
 
 .slider-container:hover .arrow {
     display: block;
+}
+
+
+
+
+
+@media (max-width: 575px) {
+    .slider-container {
+        height: 250px; 
+        border-radius: 10px;
+    }
+
+    .slider {
+        width: 100%; 
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .arrow {
+        font-size: 30px; 
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .slider-container {
+        height: 300px; 
+    }
+
+    .slider {
+        width: 100%; 
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .arrow {
+        font-size: 40px; 
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-container {
+        height: 400px; 
+    }
+
+    .slider {
+        width: 100%;
+        height: 100%;
+    }
+
+    .arrow {
+        font-size: 45px;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .slider-container {
+        height: 500px; 
+    }
+
+    .slider {
+        width: 94%; 
+        height: 100%;
+    }
+
+    .arrow {
+        font-size: 50px;
+    }
 }
