@@ -75,7 +75,7 @@ function CardC({ CardOpen }) {
                 <div className="CardC-card-div2">
                   <h1>{cardInfo.title}</h1>
                   <h5>{cardInfo.quantity}</h5>
-                  <p>{cardInfo.price} {console.log(cardInfo.price)}<del>{cardInfo.oldPrice}</del></p>
+                  <p>{cardInfo.price} {}<del>{cardInfo.oldPrice}</del></p>
                 </div>
                 <div className="CardC-card-div3">
                   <QuantityButton
@@ -95,9 +95,9 @@ oldprice={cardInfo.oldPrice}
             <h1 className="CardC-proceed-to-buy-h1">
               <h3>Total<br />₹{Number(totalPrice).toFixed(2)}</h3>
               {localStorage.getItem('islogin') === 'true' ? (
-                <Link to={'/checkout'}>Checkout {`>`}</Link>
+                <Link to={'/checkout'} className='checkout-btn'>Checkout {`>`}</Link>
               ) : (
-                <Link to={'/login'}>Login to Proceed {`>`}</Link>
+                <Link to={'/login'} className='checkout-btn'>Login to Proceed  {`>`}</Link>
               )}
             </h1>
           </div>

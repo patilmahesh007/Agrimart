@@ -12,6 +12,7 @@
     width: 60vw;
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 .bill-page-div1{
     height: fit-content;
@@ -82,4 +83,21 @@ justify-content: space-around;
 }
 .total-ammount-div p{
     margin-bottom: 10px;
+}
+.stamp-image{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    z-index: 10;
+    height: 200px;
+    rotate: 20deg;
+    opacity: 0.5;
+}
+.download-button{
+    background-color: #3f5944;
+   color: white;
+   display: block;
+   margin: auto;
+   margin-top: 20px;
+    padding: 10px 20px;
 }

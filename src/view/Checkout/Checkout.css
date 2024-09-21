@@ -18,9 +18,14 @@
     height: fit-content;
     padding-top: 40px;
 }
-
+.checkout-rightside-scrolldiv{
+    height: 80vh;
+    overflow: scroll;
+}
+.checkout-rightside-scrolldiv::-webkit-scrollbar{
+    display: none;
+}
 .checkout-form {
-
     display: flex;
     flex-direction: column;
     gap: 20px;

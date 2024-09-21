@@ -10,7 +10,7 @@ function Card3card({ image, description ,Link1}) {
             <h2>Fresh Food</h2>
             <p>Healthy Food</p>
             <h3>Get special discount on <br />{description}</h3>
-          <Link to={Link1}><div>Know More</div></Link>
+          <Link to={Link1}><div className='knowmore-button-22'> Know More</div></Link>
           </span>
         </div>
         <div className='App-section-3-div2'>
