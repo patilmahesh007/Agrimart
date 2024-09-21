@@ -26,15 +26,15 @@
 
 ## How It Works:
 
-**1.Browse Products:** Visit the Agrimart website to explore a variety of fresh, organic products.
+**1. Browse Products:** Visit the Agrimart website to explore a variety of fresh, organic products.
 
-**2.Add to Cart:** Select your favorite items and then this add to the shopping cart. 
+**2. Add to Cart:** Select your favorite items and then this add to the shopping cart. 
 
-**3.Registration or Login Process:** In cart your item is added then further proceed to the login.If your registration is done then do login if your login is successfully done then this page redirect to the checkout page.
+**3. Registration or Login Process:** In cart your item is added then further proceed to the login.If your registration is done then do login if your login is successfully done then this page redirect to the checkout page.
 
-**4.Checkout:** Provide delivery details and complete payment securely online.
+**4. Checkout:** Provide delivery details and complete payment securely online.
 
-**5.Delivery:** Your order will be delivered directly to your location within the scheduled time.
+**5. Delivery:** Your order will be delivered directly to your location within the scheduled time.
 
 ## Features:
 
@@ -57,18 +57,18 @@
 
 ## Installation Process (For Developers):
 
-**1)Clone the Repository:** 
+**1) Clone the Repository:** 
 
 ```bash
    git clone https://github.com/patilmahesh007/icp-8.0-html-css-javascript-React-group-project-4.git
    ```
     
 
-**2)Install Dependencies:** Run npm install to install all required packages.
+**2) Install Dependencies:** Run npm install to install all required packages.
 
-**3)Run Application:**  npm start
+**3) Run Application:**  npm start
 
-**4)See Output:** Open your browser and go to http://localhost:3000.
+**4) See Output:** Open your browser and go to http://localhost:3000.
 
 Your application is successfully run...✨️
 
