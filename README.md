@@ -56,6 +56,7 @@ To start shopping at Agrimart, simply:
 ## Links
 
 - **Website**: [Agrimart Official Website](https://agrimart-eta.vercel.app/)
+- **Services**: [Our Services](https://agrimart-eta.vercel.app/services)
 - **Blog**: [Read our Blog](https://agrimart-eta.vercel.app/blog)
 - **Contact**: [Contact Us](mailto:agrimart@gmail.com)
 - **Social Media**:
