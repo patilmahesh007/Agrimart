@@ -1,5 +1,7 @@
 # ***Agrimart***
 
+## Hosting Link: *https://agrimartt.netlify.app/*
+
 ### Agrimart is an online marketplace dedicated to offering fresh, organic products, including vegetables, fruits, dairy products . Focused on sustainability and promoting eco-friendly practices, Agrimart connects consumers directly with local organic farmers, ensuring high-quality, chemical-free produce. The platform prioritizes transparency, sustainable farming, and environmentally responsible packaging. Agrimart also gives us loyalty programs to build a community around healthy, organic living. With a grat commitment...
 
 ![screenshots](./readme-img/home.png)
@@ -65,6 +67,10 @@
 **4)See Output:** Open your browser and go to http://localhost:3000.
 
 Your application is successfully run...✨️
+
+## Contributor
+
+<img src="https://contrib.rocks/image?repo=patilmahesh007/icp-8.0-html-css-javascript-React-group-project-4">
 
 ## Support:
 
