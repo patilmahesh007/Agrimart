@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
-import Footer from '../../../components/footer/footer';
 import { Link } from 'react-router-dom';
 import brandIcon from '../../../images/login-img/logo2.png';
 import img3 from '../../../images/login-img/image.png';
@@ -152,7 +151,7 @@ const SignupForm = () => {
       </div>
 
       <Toaster />
-      <Footer />
+   
     </>
   );
 };
