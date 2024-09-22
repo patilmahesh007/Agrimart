@@ -1,89 +1,110 @@
-.bill-page-body{
+.bill-page-body {
     height: fit-content;
-    width: 100vw;
+    margin: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px 0px;
 }
-.bill-page{
-    border: 1px solid black;
+
+.bill-page {
     height: fit-content;
-    width: 60vw;
+    width: 800px;
     display: flex;
     flex-direction: row;
     position: relative;
+    padding: 20px;
+    box-shadow: 1px 1px 5px #3c6937;
 }
-.bill-page-div1{
+
+.bill-page-div1 {
     height: fit-content;
     width: 50%;
-padding: 20px 0px 10px 30px;
+    padding: 0;
 }
-.bill-page-div1 h1{
+
+.bill-page-div1-d1 {
+    height: 130px;
+}
+
+.bill-page-div1-d2 {
+    height: 160px;
+}
+
+
+
+.bill-page-div1 h1 {
     color: #3f5944;
 
 }
-.bill-page-div2{
+
+.bill-page-div2 {
     height: fit-content;
     width: 50%;
-padding: 20px 0px;
+    padding: 0;
 
 }
-.bill-page-div1-line ,
+
+.bill-page-div1-line,
 .bill-page-div2-line,
-.bill-page-div1-line2 ,
-.bill-page-div2-line2{
+.bill-page-div1-line2,
+.bill-page-div2-line2 {
     color: aliceblue;
-    
     font-size: 20PX;
     display: flex;
     align-items: center;
-background-color: #3f5944;
-height: 50px;
-width: 100%;
+    background-color: #3f5944fc;
+    height: 50px;
+    width: 100%;
+    text-transform: capitalize;
 
 }
-.bill-page-div1-line ,
-.bill-page-div2-line{
+
+.bill-page-div1-line,
+.bill-page-div2-line {
     justify-content: center;
 }
-.bill-page-div1-line{
-    margin-top: 20px;
-}
-.bill-page-div2-line{
-   
-    margin-top: 57px;
-}
-.bill-page-div1-line2{
-    margin-top: 37px;
+
+
+
+.bill-page-div1-line2 {
+
     justify-content: space-around;
 }
-.bill-page-div2-line2{
-    margin-top: 73px;
+
+.bill-page-div2-line2 {
+
     justify-content: space-around;
 }
-.bill-page-item-container-main{
+
+.bill-page-item-container-main {
     display: flex;
     justify-content: space-around;
 }
-.bill-page-item-container{
-  display: flex;
-  flex-direction: column;
-}
-.dummy-{
+
+.bill-page-item-container {
     display: flex;
-justify-content: space-around;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.dummy- {
+    display: flex;
+    justify-content: space-around;
 
 }
-.total-ammount-div{
+
+.total-ammount-div {
     margin-top: 100px;
-    padding-left: 10vw;
+    padding-left: 3vw;
     font-size: 20px;
 }
-.total-ammount-div p{
+
+.total-ammount-div p {
     margin-bottom: 10px;
 }
-.stamp-image{
+
+.stamp-image {
     position: absolute;
     bottom: 20px;
     right: 10px;
@@ -92,11 +113,227 @@ justify-content: space-around;
     rotate: 20deg;
     opacity: 0.5;
 }
-.download-button{
+
+.download-button {
     background-color: #3f5944;
-   color: white;
-   display: block;
-   margin: auto;
-   margin-top: 20px;
-    padding: 10px 20px;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+
+
+@media screen and (max-width:350px) {
+    .bill-page-body {
+        margin: 8px 10px;
+        padding: 30px 0px;
+    }
+
+    .bill-page {
+        max-width: 800px;
+        padding: 10px;
+    }
+
+    .bill-page p {
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .bill-page-div1 {
+        width: 50%;
+
+    }
+
+    .bill-page-div2 {
+        width: 50%;
+
+    }
+
+    .bill-page-div1-line,
+    .bill-page-div2-line,
+    .bill-page-div1-line2,
+    .bill-page-div2-line2 {
+        font-size: 10PX;
+        height: 25px;
+        width: 100%;
+
+    }
+
+
+    .bill-page-div1-line,
+    .bill-page-div2-line,
+    h3 {
+        font-size: 12px;
+    }
+
+
+    .bill-page-div2 h1 {
+        font-size: 20px;
+    }
+
+    .bill-page-div1-d2 {
+        height: 130px;
+    }
+
+    .bill-page-div1-d3 {
+        height: 110px;
+    }
+
+    .total-ammount-div {
+        margin-top: 100px;
+        padding-left: 10vw;
+        font-size: 10px;
+    }
+
+    .total-ammount-div p {
+        margin-bottom: 10px;
+    }
+
+    .stamp-image {
+        bottom: 60px;
+        right: 10px;
+        z-index: 10;
+        height: 80px;
+    }
+
+    .download-button {
+        margin-top: 20px;
+        padding: 10px 30px;
+        border-radius: 5px;
+        font-size: 5px;
+    }
+}
+
+@media screen and (min-width:350px)and (max-width:600px) {
+    .bill-page-body {
+        margin: 8px 10px;
+        padding: 30px 0px;
+    }
+
+    .bill-page {
+        max-width: 800px;
+        padding: 10px;
+    }
+
+    .bill-page p {
+        font-size: 12px;
+    }
+
+    .bill-page-div1 {
+        width: 50%;
+
+    }
+
+    .bill-page-div2 {
+        width: 50%;
+
+    }
+
+    .bill-page-div1-line,
+    .bill-page-div2-line,
+    .bill-page-div1-line2,
+    .bill-page-div2-line2 {
+        font-size: 10PX;
+        height: 30px;
+        width: 100%;
+
+    }
+
+
+
+    .bill-page-div2 h1 {
+        font-size: 20px;
+    }
+
+    .total-ammount-div {
+        margin-top: 100px;
+        padding-left: 10vw;
+        font-size: 10px;
+    }
+
+    .total-ammount-div p {
+        margin-bottom: 10px;
+    }
+
+    .stamp-image {
+        bottom: 60px;
+        right: 80px;
+        z-index: 10;
+        height: 90px;
+    }
+
+    .download-button {
+        margin-top: 20px;
+        padding: 10px 30px;
+        border-radius: 5px;
+        font-size: 5px;
+    }
+}
+
+@media screen and (min-width:600px)and (max-width:900px) {
+    .bill-page-body {
+        margin: 8px 10px;
+        padding: 30px 0px;
+    }
+
+    .bill-page {
+        max-width: 800px;
+        padding: 10px;
+    }
+
+    .bill-page p {
+        font-size: 15px;
+    }
+
+    .bill-page-div1 {
+        width: 50%;
+
+    }
+
+    .bill-page-div2 {
+        width: 50%;
+
+    }
+
+    .bill-page-div1-line,
+    .bill-page-div2-line,
+    .bill-page-div1-line2,
+    .bill-page-div2-line2 {
+        font-size: 10PX;
+        height: 30px;
+        width: 100%;
+
+    }
+
+
+    .bill-page-div2 h1 {
+        font-size: 20px;
+    }
+
+    .total-ammount-div {
+
+        padding-left: 10vw;
+        font-size: 10px;
+    }
+
+    .total-ammount-div p {
+        margin-bottom: 10px;
+    }
+
+    .stamp-image {
+        bottom: 50px;
+        right: 80px;
+        z-index: 10;
+        height: 100px;
+    }
+
+    .download-button {
+        margin-top: 20px;
+        padding: 10px 30px;
+        border-radius: 5px;
+        font-size: 5px;
+    }
 }
