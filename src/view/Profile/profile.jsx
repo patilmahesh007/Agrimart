@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
-import Userimg from '../Login/img/user-profile.png';
+import Userimg from '../../images/login-img/user-profile.png';
 import './profile.css';
 
 const ProfileUser = () => {
