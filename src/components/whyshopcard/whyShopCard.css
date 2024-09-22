@@ -30,3 +30,15 @@
     font-size: 13px;
     color: rgba(0, 0, 0, 0.57);
 }
+
+@media (max-width: 891px){
+    .card-why-shop-container{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        width: 100%;
+        gap:27px;
+        margin: 40px 0px 0px 0px;  
+    
+    }
+}
