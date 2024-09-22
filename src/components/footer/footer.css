@@ -222,4 +222,7 @@
         background-color: #b6c0b8;
         flex-wrap: wrap;
     }
+    .footer-social-links {
+        display: none;
+    }
 }
