@@ -70,10 +70,10 @@ const LoginForm = () => {
             <h2>User Login</h2>
             <form onSubmit={handleLogin}>
               <input
-                type="email"
-                name="email"
-                placeholder="Email"
-                value={formData.email}
+                type="text"
+                name="username"
+                placeholder="Username (First Last)"
+                value={formData.username}
                 onChange={handleChange}
                 required
               />
