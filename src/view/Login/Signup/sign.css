@@ -11,10 +11,11 @@
 
 }
 .signup-register-container{
-overflow-y:hidden ;
  height: 100vh;
 }
-
+.signup-register-container::-webkit-scrollbar{
+	display: none;
+}
 .signup-home-icon .Home-icon {
 	height: 40px;
 	width: 40px;
