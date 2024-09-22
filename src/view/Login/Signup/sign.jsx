@@ -34,6 +34,7 @@ const SignupForm = () => {
 
      
       const newUser = {
+        username: `${formData.firstName} ${formData.lastName}`, 
         firstName: formData.firstName,
         lastName: formData.lastName,
         email: formData.email,
@@ -47,7 +48,7 @@ const SignupForm = () => {
       
       localStorage.setItem('users', JSON.stringify(users));
 
-      toast.success('Account created successfully!');
+      toast.success('Account created successfully!',2000);
       window.location.href = '/login';
 
  
@@ -60,7 +61,7 @@ const SignupForm = () => {
         confirmPassword: ''
       });
     } else {
-      toast.error('Passwords do not match!');
+      toast.error('Passwords do not match!',2000);
     }
   };
 

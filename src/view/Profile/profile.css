@@ -1,0 +1,265 @@
+.profile-user-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 20px;
+   
+  }
+  
+  .profile-user-header {
+    text-align: center;
+    margin-right: 20px;
+    
+  }
+  .profile-user-header h2 {
+    color:rgb(3, 66, 40);
+  }
+  .profile-user-icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-user-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .profile-user-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .profile-update-btn {
+    background-color: rgba(38, 65, 52, 1);
+    color: white;
+  }
+  
+  .profile-logout-btn {
+    background-color: #f6291b;
+    color: white;
+  }
+  
+  .profile-user-btn:hover {
+    opacity: 0.8;
+  }
+  
+  .profile-update-form {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin:50px auto;
+    box-shadow: 4px 4px 15px rgba(38, 65, 52, 1);
+  }
+  .profile-update-form h3{
+    color:rgb(3, 66, 40);
+    margin:20px;
+  }
+  .update-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .update-form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .update-form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .profile-user-btn button[type="submit"] {
+    background-color: rgba(38, 65, 52, 1);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .profile-user-btn  button[type="submit"]:hover {
+    opacity: 0.8;
+  }
+   /* Media Queries */
+@media screen and (max-width: 600px) {
+  .profile-user-container {
+      flex-direction: column;
+     
+      padding: 10px;
+      align-items: center;
+     margin-top:20px;
+  margin-left: 20px;
+  margin-right: 20px;
+    width:60%;
+    margin-bottom: 100px;
+  }
+
+  .profile-user-header {
+      margin-right:0px;
+      margin-bottom:0%;
+   left:50px;
+   right:0px;
+   
+  }
+
+  .profile-update-form {
+      width: 90%;
+      margin-top: 20px;
+      padding: 10px;
+      margin:auto 0px;
+  }
+  .profile-update-form label{
+    font-size:13px;
+  }
+  .profile-user-icon {
+      width: 100px;
+      height: 100px;
+  }
+  .update-form-group input{
+    width:70%;
+    font-size:10px;
+    margin-bottom: 3px;
+  }
+  .profile-user-btn {
+    padding: 7px 17px;
+    font-size:12px;
+}
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .profile-user-container {
+    flex-direction: column;
+   padding: 10px;
+    align-items: center;
+   margin-top:20px;
+margin-left: 50px;
+margin-right: 20px;
+  width:60%;
+  margin-bottom: 100px;
+}
+
+.profile-user-header {
+    margin-right:0px;
+    margin-bottom: 20px;
+ left:50px;
+ right:0px;
+ 
+}
+
+.profile-update-form {
+    width: 90%;
+    margin-top: 20px;
+    padding: 10px;
+    margin:auto 0px;
+}
+.profile-update-form label{
+  font-size:13px;
+}
+.profile-user-icon {
+    width: 120px;
+    height: 120px;
+}
+.update-form-group input{
+  width:70%;
+  font-size:10px;
+  margin-bottom: 3px;
+}
+.profile-user-btn {
+  padding: 9px 19px;
+  font-size:12px;
+}
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .profile-user-container {
+      padding: 15px;
+      width:70%;
+  }
+
+  .profile-user-header {
+      margin-right: 15px;
+  }
+
+  .profile-update-form {
+      width: 60%;
+      margin: 50px auto;
+  }
+
+  .profile-user-icon {
+      width: 120px;
+      height: 120px;
+  }
+  .profile-user-btn {
+    padding: 10px 19px;
+    font-size:12px;
+  }
+  .update-form-group input{
+    width:80%;
+    font-size:12px;
+    margin-bottom: 3px;
+}
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .profile-user-container {
+      padding: 20px;
+  }
+
+  .profile-update-form {
+      width: 60%;
+      margin: 50px auto;
+      margin-left:50px;
+  }
+
+  .profile-user-icon {
+      width: 140px;
+      height: 140px;
+  }
+  
+}
+
+@media screen and (min-width: 1201px) {
+  .profile-user-container {
+    padding: 20px;
+}
+
+.profile-update-form {
+    width: 50%;
+    margin: 50px auto;
+    margin-left:50px;
+}
+
+.profile-user-icon {
+    width: 160px;
+    height: 160px;
+}
+.profile-user-btn {
+  padding: 12px 20px;
+  font-size:17px;
+}
+.update-form-group input{
+  width:90%;
+  font-size:17px;
+  margin-bottom: 10px;
+}
+.profile-update-form label{
+  font-size:20px;
+}
+.profile-update-form h3{
+  font-size: 30px;
+}
+}

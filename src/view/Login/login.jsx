@@ -8,7 +8,7 @@ import './login.css';
 
 const LoginForm = () => {
   const [formData, setFormData] = useState({
-    email: '',
+   username: '',
     password: '',
   });
   const [isLogin, setIsLogin] = useState(false);
@@ -33,29 +33,20 @@ const LoginForm = () => {
     const users = JSON.parse(localStorage.getItem('users')) || [];
 
 
-    const user = users.find(user => user.email === formData.email && user.password === formData.password);
+    const user = users.find(user => user.username === formData.username && user.password === formData.password);
 
     if (user) {
-      toast.success('Login successful!');
+      toast.success('Login successful!',2000);
       saveLoginStatus(true);
-      window.location.href = '/checkout';
+      localStorage.setItem('user', JSON.stringify({ firstName: user.firstName, lastName: user.lastName })); 
+
+      window.location.href = '/profile';
     } else {
-      toast.error('Invalid email or password!');
+      toast.error('Invalid email or password!',2000);
     }
   };
 
-  const handleForgotPassword = (e) => {
-    e.preventDefault();
-
-    const users = JSON.parse(localStorage.getItem('users')) || [];
-    const user = users.find(user => user.email === formData.email);
-
-    if (user) {
-      toast.info(`Password reset link sent to: ${formData.email}`);
-    } else {
-      toast.error('No account found with this email. Please sign up first.');
-    }
-  };
+ 
 
   return (
     <>
@@ -79,10 +70,10 @@ const LoginForm = () => {
             <h2>User Login</h2>
             <form onSubmit={handleLogin}>
               <input
-                type="email"
-                name="email"
-                placeholder="Email"
-                value={formData.email}
+                type="text"
+                name="username"
+                placeholder="Username (First Last)"
+                value={formData.username}
                 onChange={handleChange}
                 required
               />
