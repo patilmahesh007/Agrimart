@@ -1,5 +1,20 @@
+.signup-home-icon{
+	position:absolute;
+	padding:10px;
+	background-color: #fff;
+	box-shadow:4px 4px 10px rgba(38, 65, 52, 1);
+	border-radius: 50%;
+	margin:0 20px;
+	top: 20px;
+	margin-bottom: 1500px;
+	display: flex;
+	
 
-
+}
+.signup-home-icon .Home-icon{
+	height:40px;
+	width:40px;
+}
 
 .header-container-1 {
 	width: 840px;
@@ -169,7 +184,7 @@ input[type="password"]:focus {
 	color:rgb(52, 113, 83);
 	}
 	/*media-queries*/
-	@media screen and (max-width: 600px) {
+	@media screen and (min-width:336.5px)and (max-width:450px)  {
 		.header-container-1{
 			width: 240px;
 		}
@@ -219,9 +234,14 @@ font-size: 13px;
 		  .nav-link-1 {
 			font-size: 13px;
 		  }
+		  .signup-home-icon{
+			margin:0 20px;
+			top: 20px;
+			margin-bottom: 80px
+		  }
 	}
 
-	@media screen and (min-width: 600px) and (max-width: 768px) {
+	@media screen and (min-width:450.5px)and (max-width:650px) {
 		.header-container-1{
 			width: 360px;
 		}
@@ -269,9 +289,14 @@ font-size: 13px;
 		  .login-register-section-1 p{
 			font-size: 15px;
 					  }
+					  .signup-home-icon{
+						margin:0 20px;
+						top: 30px;
+						margin-bottom:10
+					  }			  
 	}
 
-	@media screen and (min-width: 769px) and (max-width: 992px) {
+	@media screen and (min-width:650.5px)and (max-width:1150px) {
 		.header-container-1{
 			width: 680px;
 		}
@@ -282,7 +307,7 @@ font-size: 13px;
 	}
 
 
-	@media screen and (min-width: 993px) and (max-width: 1200px) {
+	@media screen and (min-width:1151px) and (max-width: 1200px) {
 		.header-container-1{
 			width: 800px;
 		}

@@ -4,6 +4,7 @@ import Footer from "../../components/footer/footer";
 import { Link } from 'react-router-dom';
 import brandIcon from '../../images/login-img/logo2.png';
 import img3 from '../../images/login-img/image.png';
+import Homeicon from '../../images/login-img/home.png';
 import './login.css'; 
 
 const LoginForm = () => {
@@ -50,6 +51,11 @@ const LoginForm = () => {
 
   return (
     <>
+    <div className='login-home-icon'>
+          <Link to="/">
+          <img src={Homeicon} className='Home-icon'/>
+          </Link>
+        </div>
       <header className="login-header">
         <nav className="login-nav-bar">
           <Link to="/login" className="login-nav-link active">Login</Link>
