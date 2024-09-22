@@ -225,7 +225,7 @@ function Checkout() {
           <hr />
           <h2><h2>Price ({Object.values(billdata).length} items) :</h2>  <span>₹{totalPrice}</span></h2>
           <h2><h2>Delivery Charges :</h2> <span> <del>₹40</del> ₹0</span></h2>
-          <h2> <h2>  Packaging and Handling :</h2> <span> <del>₹120</del> ₹0</span></h2>
+          <h2> <h2>Packaging  :</h2> <span> <del>₹120</del> ₹0</span></h2>
           <hr />
           <h2><h2>Total Payable: </h2><span>₹{totalPrice}</span></h2>
         </div>

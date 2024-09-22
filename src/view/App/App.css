@@ -72,7 +72,10 @@
 .knowmore-button {
   background-color: #3f5944f3;
   color: white;
-  padding: 13px 30px;
+  display:flex ;
+  justify-content: center;
+  width: 90px;
+  padding: 7px 15px;
   display: block;
   margin: 30px auto 0 auto;
   border-radius: 5px;
@@ -87,9 +90,7 @@
   justify-content: center;
   gap: 30px;
 }
-Link{
-  text-decoration: none;
-}
+
 
 /* Media Queries for Responsiveness */
 
@@ -125,6 +126,7 @@ min-height: 70vh;
 
   .knowmore-button {
     font-size: 14px;
+    text-align: center;
   }
 }
 

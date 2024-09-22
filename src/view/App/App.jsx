@@ -31,7 +31,7 @@ function App() {
         <div className="why-choose-us-text">
           <h1 className='why-choose-us-heading'>Why Choose Us ?</h1>
           <p>By building a culture of sustainability and wholesome living, we strive for a healthier you and a healthier planet.
-      <Link to="/about"><button className="knowmore-button" > know more</button></Link>
+      <Link to="/about" className="knowmore-button">know more</Link>
 
           </p>
         </div>
