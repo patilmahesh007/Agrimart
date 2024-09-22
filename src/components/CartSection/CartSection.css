@@ -57,3 +57,18 @@
   font-size: 18px;
   color: #333;
 }
+.social-media-icon1{
+  height: 30px;
+  padding-left:   20px;
+ }
+
+@media screen and (max-width: 450px) {
+ .social-media-icon1{
+  height: 40px;
+ }
+
+}                                
+@media screen and (min-width: 450px) and (max-width: 750px) {}
+@media screen and (min-width: 750px) and (max-width: 992px) {}
+@media screen and (min-width: 993px) and (max-width: 1200px) {}
+@media screen and (min-width: 1201px){}

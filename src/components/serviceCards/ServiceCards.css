@@ -54,14 +54,82 @@
     font-weight: bold;
     color: #555;
     padding: 15px;
-    background-color: rgba(255, 255, 255, 0.6); /* Initial background color */
-    transition: background-color 0.3s ease; 
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: background-color 0.3s ease;
     z-index: 3;
 }
 
 .card:hover .card-title {
     background-color: #ffffff;
+
 }
 
 
 
+
+
+@media (max-width: 575px) {
+    .cards-container {
+        gap: 10px; /* Reduce gap */
+        margin: 3px;
+    }
+
+    .card {
+        width: 48%;
+        height: 30%; 
+    }
+    
+    .card-title {
+        font-size: 20px;
+        padding: 5px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .cards-container {
+        gap: 20px;
+    }
+
+    .card {
+        width: 220px; 
+        height: 260px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .cards-container {
+        gap: 20px;
+    }
+
+    .card {
+        width: 240px;
+        height: 280px;
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .cards-container {
+        gap: 20px;
+    }
+
+    .card {
+        width: 281px; 
+        height: 300px;
+    }
+
+    .card-title {
+        font-size: 24px;
+    }
+    
+}

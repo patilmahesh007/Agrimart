@@ -23,7 +23,6 @@ function FruitCard() {
                 <del>{card.oldPrice}</del>
               </div>
             </Link>
-            {/* Pass the card.id and card.title to QuantityButton */}
             <span className="buynow-btn">
               <QuantityButton id={card.id} name={card.title} />
             </span>

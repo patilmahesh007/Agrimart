@@ -26,3 +26,15 @@
       padding: 7px 0px;
       padding-right: 10px;
 }
+
+@media (max-width: 768px) {
+      .second-blog-title{
+            font-size: 14px;
+      }
+      .second-blog-details{
+            font-size: 10px;
+      }
+      .second-blog-desc{
+            font-size: 13px;
+      }
+}

@@ -10,6 +10,42 @@
 }
 .buynow-button-quantity{
     font-size: 20px;
-    
+   
+}
+.quantity-btn-container{
+    display: flex;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
+@media screen and (max-width: 450px) {
+    .buynow-button-component {
+        padding: 7px 22px;
+        font-size: 14px;
+    }
+    .buynow-button-quantity{
+        font-size: 15px;
+       
+    }
+    .quantity-btn-container{
+        display: flex;
+      gap: 20px;
+      align-items: center;
+      border: 1px solid gray;
+      border-radius: 5px;
+      
+      padding: 2px 7px;
+    }
+}                                
+@media screen and (min-width: 450px) and (max-width: 753px) {
+    .buynow-button-component {
+        padding: 10px 26px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 753px) and (max-width: 992px) {}
+@media screen and (min-width: 992px) and (max-width: 1200px) {}
+@media screen and (min-width: 1201px){}
