@@ -12,10 +12,9 @@ function CardC({ CardOpen }) {
   const [cartItems, setCartItems] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
 
-  // Get stored cart items from localStorage under 'cartItems' key
   const getStoredCartItems = () => {
     const storedCart = JSON.parse(localStorage.getItem('cartItems')) || {};
-    return Object.values(storedCart); // Returns array of cart items
+    return Object.values(storedCart);
   };
 
   useEffect(() => {
@@ -33,19 +32,20 @@ function CardC({ CardOpen }) {
       return card ? { ...card, quantity: item.quantity || 1 } : null;
     }).filter(card => card !== null);
 
-    setCartItems(cardInfos, totalPrice);
+    setCartItems(cardInfos);
   }, []);
 
   const calculateTotalPrice = (items) => {
     const total = items.reduce((acc, item) => {
-      const price = parseFloat(item.price.replace('₹', '').replace(',', '')) || 0;
+
+      const priceMatch = item.price.match(/₹([\d,]+)/);
+      const price = priceMatch ? parseFloat(priceMatch[1].replace(',', '')) : 0;
       const quantity = parseFloat(item.quantity) || 1;
       return acc + price * quantity;
     }, 0);
 
     const formattedTotal = Number(total.toFixed(2));
     setTotalPrice(formattedTotal);
-
     localStorage.setItem('totalPrice', formattedTotal.toString());
   };
 
@@ -74,8 +74,8 @@ function CardC({ CardOpen }) {
                 </div>
                 <div className="CardC-card-div2">
                   <h1>{cardInfo.title}</h1>
-                  <h5>{cardInfo.quantity}</h5>
-                  <p>{cardInfo.price} { }<del>{cardInfo.oldPrice}</del></p>
+                  <h5 className='CardC-card-quantity'>{cardInfo.quantity}</h5>
+                  <p>{cardInfo.price} <del>{cardInfo.oldPrice}</del></p>
                 </div>
                 <div className="CardC-card-div3">
                   <QuantityButton
@@ -83,7 +83,6 @@ function CardC({ CardOpen }) {
                     name={cardInfo.title}
                     price={cardInfo.price}
                     oldprice={cardInfo.oldPrice}
-
                   />
                 </div>
               </div>
@@ -94,7 +93,7 @@ function CardC({ CardOpen }) {
           <div className="CardC-proceed-to-buy">
             <h1 className="CardC-proceed-to-buy-h1">
               <h3>Total<br />₹{Number(totalPrice).toFixed(2)}</h3>
-              {localStorage.getItem('islogin') === 'true' ? (
+              {localStorage.getItem('isLogin') === 'true' ? (
                 <Link to={'/checkout'} className='checkout-btn'>Checkout {`>`}</Link>
               ) : (
                 <Link to={'/login'} className='checkout-btn'>Login to Proceed  {`>`}</Link>

@@ -69,7 +69,7 @@ const PaymentButton = ({ price, name1, contact1, email1 }) => {
       <button
         onClick={handlePayment}
         disabled={loading}
-        style={{ padding: '10px 20px', fontSize: '16px', backgroundColor: '#3f5944', color: '#fff', border: 'none', borderRadius: '5px' }}
+        style={{ padding: '10px 20px', fontSize: '16px', backgroundColor: '#3f5944f3', color: 'white', border: 'none', borderRadius: '5px' }}
       >
         {loading ? 'Loading...' : `Pay ₹${price} Now`}
       </button>

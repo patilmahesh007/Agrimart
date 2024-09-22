@@ -87,6 +87,9 @@
   justify-content: center;
   gap: 30px;
 }
+Link{
+  text-decoration: none;
+}
 
 /* Media Queries for Responsiveness */
 

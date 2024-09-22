@@ -28,7 +28,7 @@ const [totalPrice1, setTotalPrice1] = useState(0);
         <span onClick={() => setIsCartOpen(!isCartOpen)}>
           <img src='https://cdn-icons-png.flaticon.com/128/3916/3916624.png'
             alt='cart icon'
-            className='social-media-icon' />
+            className='social-media-icon1' />
         </span>
       </div>
 
