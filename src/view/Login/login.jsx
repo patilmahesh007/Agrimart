@@ -60,7 +60,7 @@ const LoginForm = () => {
         <div className="login-welcome-section">
           <img src={img3} alt="User" className="login-user-img" /><br />
           <h2>Welcome Back</h2>
-          <p>Log in to access the best deals!<br />
+          <p className="login-welcome-text">Log in to access the best deals!<br />
             <img src={brandIcon} alt="Brand Logo" className="login-brand-logo" />
           </p>
         </div>
