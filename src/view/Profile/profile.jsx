@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import Userimg from '../../images/login-img/user-profile.png';
+import { Link } from 'react-router-dom';
+import Homeicon from '../../images/login-img/home.png';
 import './profile.css';
 
 const ProfileUser = () => {
@@ -62,7 +64,13 @@ const ProfileUser = () => {
 
   return (
     <>
+     <div className='profile-home-icon'>
+          <Link to="/">
+          <img src={Homeicon} className='Home-icon'/>
+          </Link>
+        </div>
       <div className="profile-user-container">
+     
         <div className="profile-user-header">
           <img src={Userimg} alt="User Icon" className="profile-user-icon" />
           <h2>{user.firstName} {user.lastName}</h2>

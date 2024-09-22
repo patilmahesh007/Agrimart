@@ -1,9 +1,28 @@
+.profile-home-icon{
+  position:absolute;
+	padding:10px;
+	background-color: #fff;
+	box-shadow:4px 4px 10px rgba(38, 65, 52, 1);
+	border-radius: 50%;
+	margin:0 20px;
+	top: 30px;
+	margin-bottom: 1500px;
+	display: flex;
+	
+
+}
+.profile-home-icon .Home-icon{
+	height:40px;
+	width:40px;
+}
+
 .profile-user-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     height: 100vh;
     padding: 20px;
+    margin-left: 100px;
    
   }
   
@@ -95,7 +114,7 @@
     opacity: 0.8;
   }
    /* Media Queries */
-@media screen and (max-width: 600px) {
+   @media screen and (min-width:336.5px)and (max-width:450px) {
   .profile-user-container {
       flex-direction: column;
      
@@ -138,9 +157,15 @@
     padding: 7px 17px;
     font-size:12px;
 }
+.profile-home-icon{
+  margin:0 20px;
+  top: 30px;
+  margin-bottom: 50px
+  }
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
+
+@media screen and (min-width:450.5px)and (max-width:650px) {
   .profile-user-container {
     flex-direction: column;
    padding: 10px;
@@ -182,10 +207,15 @@ margin-right: 20px;
   padding: 9px 19px;
   font-size:12px;
 }
+.profile-home-icon{
+  margin:0 20px;
+  top: 20px;
+  margin-bottom:100px;
+  }		
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width:650.5px)and (max-width:1150px)  {
   .profile-user-container {
       padding: 15px;
       width:70%;
@@ -213,8 +243,13 @@ margin-right: 20px;
     font-size:12px;
     margin-bottom: 3px;
 }
+.profile-home-icon{
+  margin:0 20px;
+  top: 20px;
+  margin-bottom:100px;
+  }	
 }
-@media screen and (min-width: 993px) and (max-width: 1200px) {
+@media screen and (min-width: 1151px) and (max-width: 1200px) {
   .profile-user-container {
       padding: 20px;
   }
