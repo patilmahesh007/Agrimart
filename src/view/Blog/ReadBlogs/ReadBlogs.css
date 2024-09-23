@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap');
+
+
 .read-card-container{
   width: 80%;
   margin: 50px auto;
@@ -8,6 +11,7 @@
 .read-blog-main-heading h1{
   font-size: 50px;
   font-weight: 700;
+  font-family: 'Playfair Display', serif;
 }
 /* .read-card-content{
      width: 80%;
@@ -31,11 +35,13 @@
 .blogs-content-headings{
   padding: 0px 20px;
   text-align: start;
+  font-family: 'Playfair Display', serif;
 }
 .read-blog-text{
     text-align: justify;
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 .content-heading{
   width: 30%;
@@ -46,6 +52,7 @@
 .content-heading h1{
   padding: 0px 20px;
   margin-bottom: 25px;
+  font-family: 'Playfair Display', serif;
 }
 .contenrh2img{
   width: 100%;
@@ -54,15 +61,18 @@
 .all-content-headings{
   margin-top: 30px;
   margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
   
 }
 .read-blog-span-text-heading{
        margin-bottom: 2px;
-       font-size: 20px;
+       font-size: 19px;
+       font-family: 'Playfair Display', serif;
 }
 .read-blog-span-text{
       margin-bottom: 15px;
-      font-size: 20px;
+      font-size: 18px;
+      font-family: 'Roboto', sans-serif;
 }
 
 @media (max-width: 768px) {
