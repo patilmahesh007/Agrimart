@@ -132,7 +132,8 @@
     margin-bottom: 10px;
     width: 120px;
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
+    gap: 10px;
 }
 
 .checkout-div2 h2 h2 {
@@ -144,26 +145,20 @@
 }
 
 @media screen and (max-width: 450px) {
-    .checkout-div1, .checkout-div2 {
-        width: 90%; 
-        padding: 20px 10px; }
+    .checkout-div1 {
+        width: 80%; 
+    }
+
+    .checkout-div2 {
+        width: 100%; 
+    }
 
     .checkout-rightside-items {
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: row;
     }
 
-    .checkout-rightside-items h1, .checkout-rightside-items p {
-        width: 100%; 
-        text-align: center;
-    }
-
-    .checkout-submit-button {
-        width: 100%; 
-    }
-
-    .collapsible-header {
-        font-size: 16px; 
+    .checkout-rightside-items{
+    font-size: 10px;
     }
 }
 
