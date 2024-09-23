@@ -12,7 +12,7 @@ Welcome to **Agrimart** - where we deliver fresh, organic, and wholesome product
 
 - Basic information about AgriMart is provided here, including the mission, values, and what makes AgriMart unique.
 
-<img src="./src/images/readme/home-screenshot.png" height="350px" width="100%" object-fit="cover">
+<img src="./src/images/readme/home-screenshot.png" height="350px"  object-fit="cover">
 
 ### Service Page:
 
@@ -20,7 +20,10 @@ Welcome to **Agrimart** - where we deliver fresh, organic, and wholesome product
 Users can:
 - Click the "Buy Now" button to add a product to the cart.
 - Click on the product card for more detailed information.
+<div style="gap=0px">
+<img src="./readme-img/service-ss.jpeg" height="500px" object-fit="cover">
 
+</div>
 #### Product Categories
 
 Agrimart offers a wide variety of products, including:
@@ -54,7 +57,7 @@ Features:
 - Payment is simulated using Razorpay in Test Mode.
 After the transaction, a bill is generated, and the user can download the bill for their records.
 
-<img src="./src/images/readme/transaction-screenshot.png " height="350px" width="100%" object-fit="cover"/>
+<img src="./src/images/readme/transaction-screenshot.png " height="350px"  object-fit="cover"/>
 
 ### Feedback Submission:
 
