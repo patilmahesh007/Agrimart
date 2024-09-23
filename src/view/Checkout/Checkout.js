@@ -1,26 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Checkout.css';
 import PaymentButton from "./../../components/Payment/Payment";
-import cardData from './../../config/shopCardData';
-import ExoticsCardData from './../../config/ExoticsCardData';
-import VegCardData from './../../config/VegCardData';
-import DairyCardData from './../../config/DairyCardData';
-import EssentialsCardData from './../../config/EssentialsCardData';
-import { Navigate } from 'react-router-dom';
+import Navbar from "./../../components/navbar/nav";
+import { useNavigate } from 'react-router-dom';
 
 function Checkout() {
+  const navigate = useNavigate(); 
   const totalPrice = localStorage.getItem('totalPrice');
   const islogin = localStorage.getItem('isLogin');
   const [showPayment, setShowPayment] = useState(false);
   const billdata = JSON.parse(localStorage.getItem('cartItems')) || {};
 
-  const allData = [
-    ...cardData,
-    ...DairyCardData,
-    ...VegCardData,
-    ...ExoticsCardData,
-    ...EssentialsCardData
-  ];
+
 
   const [formData, setFormData] = useState({
     country: '',
@@ -36,7 +27,13 @@ function Checkout() {
 
   const [expandedSection, setExpandedSection] = useState('deliveryDetails');
 
-
+  useEffect(() => {
+    if (!islogin) {
+      setTimeout(() => {
+        navigate('/login');
+      }, 2000);
+    }
+  }, [islogin, navigate]); 
 
   const toggleSection = (section) => {
     setExpandedSection(expandedSection === section ? null : section);
@@ -64,9 +61,10 @@ function Checkout() {
 
   return (
     islogin ? (
+      <>
+      <Navbar/>
       <div className='checkout-container'>
         <div className='checkout-div1'>
-
           <div className={`collapsible-section ${expandedSection === 'deliveryDetails' ? 'active' : ''}`}>
             <div
               className="collapsible-header"
@@ -158,7 +156,6 @@ function Checkout() {
                 />
                 <button type="submit" className='checkout-submit-button'>Submit</button>
               </form>
-
             </div>
           </div>
 
@@ -202,40 +199,36 @@ function Checkout() {
               Payment Options {expandedSection === 'paymentOptions' ? '-' : '+'}
             </div>
             <div className="collapsible-content">
-           <span>
-          <div>
-          {showPayment ? (
-                <PaymentButton
-                  price={totalPrice}
-                  name1={formData.firstName + ' ' + formData.lastName}
-                  email1={formData.email}
-                  contact1={formData.phoneNumber}
-                />
-              ) : (
-                <h1>Please fill out the form to proceed to payment.</h1>
-              )}
-          </div>
-           </span>
+              <span>
+                <div>
+                  {showPayment ? (
+                    <PaymentButton
+                      price={totalPrice}
+                      name1={formData.firstName + ' ' + formData.lastName}
+                      email1={formData.email}
+                      contact1={formData.phoneNumber}
+                    />
+                  ) : (
+                    <h1>Please fill out the form to proceed to payment.</h1>
+                  )}
+                </div>
+              </span>
             </div>
           </div>
-
         </div>
         <div className='checkout-div2'>
           <h2>PRICE DETAILS</h2>
           <hr />
-          <h2><h2>Price ({Object.values(billdata).length} items) :</h2>  <span>₹{totalPrice}</span></h2>
-          <h2><h2>Delivery Charges :</h2> <span> <del>₹40</del> ₹0</span></h2>
-          <h2> <h2>Packaging  :</h2> <span> <del>₹120</del> ₹0</span></h2>
+          <h2>Price ({Object.values(billdata).length} items): <span>₹{totalPrice}</span></h2>
+          <h2>Delivery Charges: <span><del>₹40</del> ₹0</span></h2>
+          <h2>Packaging: <span><del>₹120</del> ₹0</span></h2>
           <hr />
-          <h2><h2>Total Payable: </h2><span>₹{totalPrice}</span></h2>
+          <h2>Total Payable: <span>₹{totalPrice}</span></h2>
         </div>
-      </div>
-
+      </div></>
     ) : (
       <h1 className='checkout-redirect'>
-        Redirecting to Login...{setInterval(() => {
-          window.location.href = '/login';
-        }, 2000)}
+        Redirecting to Login...
       </h1>
     )
   );
