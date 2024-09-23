@@ -1,20 +1,27 @@
-# Agrimart - Fresh & Organic Products Delivered to Your Doorstep
-
-![Agrimart Logo](./src/images/nav/logo2.png)
+# Agrimart - Fresh & Organic Products Delivered to Your Doorstep 
+<img src="./src/images/nav/logo2.png" width="250" alt="Agrimart Logo">
 
 Welcome to **Agrimart** - where we deliver fresh, organic, and wholesome products directly to your doorstep. At Agrimart, we believe in bringing the goodness of nature straight from farms to your table. With our easy-to-use platform, you can explore a wide range of farm-fresh products and enjoy the convenience of quick delivery.
 
----
+ ### Website link: https://agrimart-eta.vercel.app/
+## Project Structure
 
-## About Us
 
-At Agrimart, our mission is to provide healthy, organic, and sustainable food options to our customers. We believe in the power of nature, and that's why we ensure that our products are sourced from the best farms, ensuring quality and freshness in every delivery. Our focus is on making healthy living easier, more accessible, and affordable for everyone.
+### Pages Included:
+#### Home Page:
 
-![About Us Image](./src//images/readme/about-screenshot.png) <!-- Add an image related to your about page here -->
+- Basic information about AgriMart is provided here, including the mission, values, and what makes AgriMart unique.
 
----
+![Getting Started Image](./src/images/readme/home-screenshot.png)
 
-## Product Categories
+### Service Page:
+
+- Users can explore different products listed here. Each product is displayed in a card format.
+Users can:
+- Click the "Buy Now" button to add a product to the cart.
+- Click on the product card for more detailed information.
+
+#### Product Categories
 
 Agrimart offers a wide variety of products, including:
 
@@ -23,35 +30,49 @@ Agrimart offers a wide variety of products, including:
 - **Fruits**: A wide range of farm-fresh fruits, including local and exotic options.
 - **Exotics**: Rare and exotic fruits and vegetables from around the world.
 - **Dairy**: Fresh milk, yogurt, cheese, and other dairy products.
+### About Page:
 
-![Product Categories Image](./src/images/readme/product-tategory-screenshot.png) <!-- Add an image of product categories or items here -->
-
----
-
-## Features
-
+- Detailed information about the company, its facilities, and commitment to sustainable farming and Non-GMO products.
 - **Fresh and Organic**: We guarantee that all our products are 100% organic and sourced directly from trusted farms.
-- **Quick Delivery**: We provide fast and reliable delivery to ensure that you receive your products as fresh as possible.
-- **No Return Policy**: We maintain strict quality checks to avoid any product returns. This helps us minimize food wastage.
 - **Easy-to-Navigate Website**: A user-friendly website that allows easy browsing and ordering.
-- **Secure Payments**: We offer secure payment gateways to ensure that your transactions are safe and protected.
+### Blog Page:
 
-![Features Image](./src/images/readme/transaction-screenshot.png) <!-- Add an image showcasing features like fresh products, delivery, etc. -->
+- A collection of articles, news, and information related to sustainable farming, non-GMO products, and agriculture practices.
+Features:
+### Cart and Purchase System:
 
----
+- Products can be added to the cart by clicking on the "Buy Now" button.
+- Users can view the items in their cart before proceeding to checkout.
+### Login/Signup:
 
-## Getting Started
+- Users are required to create an account or log in to proceed with the checkout and purchase process.
+### Checkout Page:
 
-To start shopping at Agrimart, simply:
+- After logging in, users can access the checkout page where they provide essential details like name, address, and phone number.
+### Payment:
 
-1. Visit our website [Agrimart](https://agrimart-eta.vercel.app/)
-2. Browse through our product categories.
-3. Add items to your cart and proceed to checkout.
-4. Enjoy fast delivery and fresh products!
+- Payment is simulated using Razorpay in Test Mode.
+After the transaction, a bill is generated, and the user can download the bill for their records.
 
-![Getting Started Image](./src/images/readme/home-screenshot.png) <!-- Add an image of the website homepage or onboarding page here -->
+![Features Image](./src/images/readme/transaction-screenshot.png)
 
----
+### Feedback Submission:
+
+Users can access the Feedback Page from footer to submit their thoughts on their experience, rate products, and provide suggestions for improvement. Feedback data can be stored in Local Storage to persist user input temporarily.
+
+### Local Storage Usage:
+- **Cart**: Products added to the cart are stored in Local Storage so that users don’t lose their selection upon page reload.
+- **User Login Status**: Login details are stored in Local Storage, allowing users to stay logged in across sessions.
+- **Checkout Details**: User details entered during checkout are stored in Local Storage for a seamless experience.
+- **Feedback**: Submitted feedback is temporarily stored in Local Storage until it is processed or sent to the backend.
+
+### Usage:
+- Access the homepage to learn about AgriMart's offerings.
+- Visit the service page to view and purchase products.
+- Login or signup to your account.
+- Add products to the cart, proceed to checkout, and simulate a payment.
+- Download your bill post-transaction.
+Contributing:
 
 ## Links
 
@@ -63,4 +84,13 @@ To start shopping at Agrimart, simply:
   - [Instagram](https://www.instagram.com/agrimart20)
   - [Twitter](https://x.com/Agrimart3)
 
----
+### CONTRIBUTORS : 
+<a href="https://github.com/karishmawadaskar/icp-8.0-html-css-javascript-React-group-project-4/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=karishmawadaskar/icp-8.0-html-css-javascript-React-group-project-4" />
+</a>
+
+### Support :
+If you find my projects helpful or interesting, consider giving them a <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5263c3c4-c0f7-4fea-9901-ea084be83615/d9izh8z-bc267973-93af-48ee-a6a6-4ee6c9225bd1.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUyNjNjM2M0LWMwZjctNGZlYS05OTAxLWVhMDg0YmU4MzYxNVwvZDlpemg4ei1iYzI2Nzk3My05M2FmLTQ4ZWUtYTZhNi00ZWU2YzkyMjViZDEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EXdtHcY0K3_YAE6xErW8kOB7M5LqSo9eBgkjhdOgd9s" width="30px">. It means a lot to me!
+
+
+
