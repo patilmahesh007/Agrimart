@@ -11,15 +11,15 @@ const LoginForm = () => {
     password: '',
   });
   const [isLogin, setIsLogin] = useState(false);
-  const navigate = useNavigate();  // Use this hook to redirect
+  const navigate = useNavigate(); 
 
-  // Function to save login status to localStorage
+ 
   const saveLoginStatus = (status) => {
     setIsLogin(status);
     localStorage.setItem('isLogin', status);
   };
 
-  // Handle input changes and update the formData state
+ 
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -27,30 +27,29 @@ const LoginForm = () => {
     });
   };
 
-  // Handle login form submission
   const handleLogin = (e) => {
     e.preventDefault();
 
-    // Fetch users from localStorage (if any)
+    
     const users = JSON.parse(localStorage.getItem('users')) || [];
 
-    // Check if there is a matching user with the same email and password
+
     const user = users.find(user => user.email === formData.email && user.password === formData.password);
 
     if (user) {
-      // If the user is found, show success message
+      
       toast.success('Login successful!', 2000);
       
-      // Set isLogin to true and store in localStorage
+      
       saveLoginStatus(true);
 
-      // Store user details in localStorage (e.g., firstName, lastName)
+      
       localStorage.setItem('user', JSON.stringify({ firstName: user.firstName, lastName: user.lastName })); 
 
-      // Navigate to checkout or another page
+    
       navigate('/checkout');
     } else {
-      // If no user is found, show error
+    
       toast.error('Invalid email or password!', 2000);
     }
   };
