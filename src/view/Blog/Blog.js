@@ -12,6 +12,7 @@ function Blog() {
     <Header/>
     
     <div className="blog-page">
+     
       <div className="blog-page-header">
         <div class="blog-card">
           <div class="blog-image-container">

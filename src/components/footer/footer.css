@@ -212,15 +212,16 @@
     }
 
     .footer-copyright {
-        font-size: 12px;
+        font-size: 10px;
     }
     .footer-Agro, .footer-services, .footer-links, .footer-contact, .footer-follow{
         margin: 10px 5px;
     }
-    ..footer-bottom {
+    .footer-bottom {
         margin: 0% 5%;
         background-color: #b6c0b8;
         flex-wrap: wrap;
+        padding: 7px 2px;
     }
     .footer-social-links {
         display: none;

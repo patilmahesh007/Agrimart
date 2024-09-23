@@ -154,7 +154,7 @@ function Checkout() {
                   value={formData.phoneNumber}
                   onChange={handleChange}
                 />
-                <button type="submit" className='checkout-submit-button'>Submit</button>
+                <button type="submit" className='checkout-submit-button'  onClick={() => toggleSection('paymentOptions')}>Submit</button>
               </form>
             </div>
           </div>
