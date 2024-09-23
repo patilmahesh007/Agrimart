@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Bill.css';
 import stamp from "./../../images/bill/stamp.png";
+import Navbar from "./../../components/navbar/nav";
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 import { useNavigate } from 'react-router-dom';
@@ -67,6 +68,7 @@ function Bill() {
 
   return (
     <>
+    <Navbar/>
       {islogin ? ( // Correct condition here
         <div>
           <button className="download-button" onClick={downloadPDF}>Download PDF</button>
