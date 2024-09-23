@@ -192,9 +192,9 @@ const EssentialsCardData = [
         storageType: "Cool, dry place",
         imageSlider: [
            rice,  // replace with actual image URL
-            "https://img.freepik.com/free-photo/sack-rice-seed-with-white-rice-small-wooden-spoon-rice-plant_1150-35744.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
+            "https://i.pinimg.com/564x/53/b5/60/53b5606ab3dfdbab925d7eae0dbeb106.jpg",
             "https://img.freepik.com/free-photo/appetizing-healthy-rice-with-vegetables-white-plate-wooden-table_2829-19773.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
-            "https://img.freepik.com/free-photo/top-view-raw-rice-inside-plate-dark-desk_179666-27235.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
+            "https://i.pinimg.com/564x/a6/6e/34/a66e347da14479b3be5cf6d74763dcb7.jpg"
         ]
     },
     {
@@ -214,7 +214,7 @@ const EssentialsCardData = [
         storageType: "Cool, dry place",
         imageSlider: [
            pasta,  // replace with actual image URL
-            "https://img.freepik.com/premium-photo/pasta-beef-restaurant-gourmet-flavor-italian-specialties-ambiance-chefs-dishes-quality_1246444-72748.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
+            "https://i.pinimg.com/564x/42/b4/bc/42b4bc055499d3c28e0a81195867ac45.jpg",
             "https://img.freepik.com/free-photo/ai-generated-pasta_23-2150637305.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
             "https://img.freepik.com/premium-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-9170.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
@@ -263,28 +263,7 @@ const EssentialsCardData = [
             "https://img.freepik.com/free-photo/front-view-red-apple-vinegar-blue-wall-food-drink-red-fruit-alcohol-wine-sour-color-juice_179666-17609.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
         ]
     },
-    {
-        id: "115",
-        title: "Premium Spice Mix",
-        description: "Our premium spice mix combines the finest spices, carefully sourced and blended to enhance the flavor of your dishes. Perfect for curries, marinades, and everyday cooking.",
-        image: spice,  // replace with actual image URL
-        price: "₹200/100g",
-        oldPrice: "₹220/100g",
-        quantity: "100 g",
-        shelfLife: "18 months",
-        manufacturer: "Spice Masters Co., Delhi 110001. Lic. No. - 10024031001157.",
-        sellerFSSAI: "24345678000147",
-        marketedBy: "Flavors of India, Delhi 110002.",
-        ingredients: "Cumin, coriander, turmeric, chili powder, garam masala",
-        storageTemperature: "Room temperature",
-        storageType: "Cool, dry place",
-        imageSlider: [
-            spice,  // replace with actual image URL
-            "https://img.freepik.com/premium-photo/collection-spices-including-one-that-has-word-spice-it_931553-353653.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
-            "https://img.freepik.com/free-photo/front-view-cooked-mushrooms-with-seasonings-dark-grey-table-ripe-food-wild_140725-78984.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
-            "https://img.freepik.com/premium-photo/market-flavors-detailed-ai-art-diverse-spice-market-display_1291040-217.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid"
-        ]
-    }
+ 
     
     
 
