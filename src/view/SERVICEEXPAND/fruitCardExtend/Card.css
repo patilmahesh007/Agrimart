@@ -80,6 +80,7 @@
     height: 100vh;
     padding-left: 30px;
     margin-bottom: 40px;
+    margin-top: 10px;
 }
 
 .card-page-rightside-div1 {
@@ -153,9 +154,9 @@ hr {
 }
 
 
-@media (max-width: 891px) {
+@media screen and (max-width: 500px) {
     .card-page-leftside-div1-img {
-        height: 200px;
+        height: 250px;
     }
 
     .card-page-rightside {
@@ -168,13 +169,14 @@ hr {
     }
 
     .card-slider-div2 img {
-        height: 40px;
+        height: 60px;
     }
 
     .card-page {
         flex-direction: column;
         height: auto;
         width: 100%;
+        position: relative;
     }
 
     .card-page-leftside,
@@ -190,6 +192,7 @@ hr {
         width: 100%;
         text-align: start;
         font-size: 18px;
+        color: green;
     }
 
     .card-page-leftside-div2 {
@@ -217,16 +220,9 @@ hr {
         margin-left: 0px;
     }
 
-    .card-page-rightside-div1-h4 {
-        position: relative;
-        bottom: 400px;
-        font-size: 15px;
-    }
-
-    .card-page-rightside-div1-b {
-        position: relative;
-        bottom: 400px;
-        font-size: 14px;
+    .expand-navbar {
+        position: absolute;
+        top: -10px;
     }
 
     .card-page-rightside-div1 {
@@ -234,7 +230,83 @@ hr {
     }
 }
 
-@media screen and (min-width:891px)and (max-width: 1500px) {
+@media screen and (min-width:500px)and (max-width: 750px) {
+    .card-page-leftside-div1-img {
+        height: 180px;
+    }
+
+    .card-page-rightside {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        padding-left: 20px;
+
+    }
+
+    .card-slider-div2 img {
+        height: 70px;
+    }
+
+    .card-page {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+
+    .card-page-leftside,
+    .card-page-rightside {
+        width: 90%;
+        height: auto;
+
+    }
+
+    .product-details-header {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        text-align: start;
+        font-size: 18px;
+        color: green;
+    }
+
+    .card-page-leftside-div2 {
+        margin: 0;
+        padding: 5px 15px;
+
+    }
+
+    .card-page-leftside-div2 {
+        margin: 0;
+    }
+
+    .card-page-leftside-div2 h2 {
+        display: none;
+    }
+
+    .card-page-leftside-div2-content {
+        display: none;
+        margin-left: 0;
+
+    }
+
+    .card-page-leftside-div2.expanded .card-page-leftside-div2-content {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .expand-navbar {
+        position: absolute;
+        top: -10px;
+    }
+
+    .card-page-rightside-div1 {
+        margin-top: 2px;
+    }
+}
+
+@media screen and (min-width:750px)and (max-width: 1500px) {
     .product-details-header {
         display: none;
 
