@@ -235,7 +235,7 @@ const cardData = [
         marketedBy: "Protein Plus, Delhi 110002.",
         ingredients: "Whey protein concentrate, natural flavor, sweetener",
         storageTemperature: "Room temperature",
-        storageType: "Cool, dry place",
+        storageType: "Cool, dry place",                                         
         imageSlider: [
             whey,  // replace with actual image URL
             "https://img.freepik.com/premium-photo/vitamin-mineral-supplements_967966-26015.jpg?uid=R163383201&ga=GA1.1.1649115650.1725956968&semt=ais_hybrid",
