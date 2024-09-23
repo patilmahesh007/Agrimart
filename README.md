@@ -12,7 +12,7 @@ Welcome to **Agrimart** - where we deliver fresh, organic, and wholesome product
 
 - Basic information about AgriMart is provided here, including the mission, values, and what makes AgriMart unique.
 
-![Getting Started Image](./src/images/readme/home-screenshot.png)
+<img src="./src/images/readme/home-screenshot.png" height="200px" width="100%" object-fit="cover">
 
 ### Service Page:
 
@@ -54,7 +54,7 @@ Features:
 - Payment is simulated using Razorpay in Test Mode.
 After the transaction, a bill is generated, and the user can download the bill for their records.
 
-![Features Image](./src/images/readme/transaction-screenshot.png)
+<img src="./src/images/readme/transaction-screenshot.png " height="200px" width="100%" object-fit="cover"/>
 
 ### Feedback Submission:
 
