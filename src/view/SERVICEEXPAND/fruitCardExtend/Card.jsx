@@ -56,9 +56,9 @@ function Card() {
           <hr />
 
           <div className={`card-page-leftside-div2 ${detailsExpanded ? 'expanded' : ''}`}>
-           
+           <h2>Product Details</h2>
               <h1 className="product-details-header" onClick={toggleDetails}>
-                Product Details {detailsExpanded ? '▲' : '▼'}
+                 View more details  {detailsExpanded ? '▲' : '▼'}
               </h1>
          
             <div className="card-page-leftside-div2-content">
@@ -110,7 +110,7 @@ function Card() {
 
         <div className="card-page-rightside">
           <div className="card-page-rightside-div1">
-            <h4>
+            <h4 className='expand-navbar'>
               <Link to="/" className="card-page-rightside-div1-h4">Home</Link>
               <Link to="/services" className="card-page-rightside-div1-h4"> / Services / </Link>
               <Link className="card-page-rightside-div1-h4" to={`/${cardObject.category}`}>{cardObject.category} /</Link>

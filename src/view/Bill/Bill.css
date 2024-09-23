@@ -14,7 +14,7 @@
     flex-direction: row;
     position: relative;
     padding: 20px;
-    box-shadow: 1px 1px 5px #3c6937;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .bill-page-div1 {
