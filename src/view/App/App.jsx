@@ -6,11 +6,8 @@ import card3card from "./../../config/card3"
 import { Link } from "react-router-dom"
 import FruitsCard from "../../components/card4components/card4"
 import Section1 from "../../components/homepageCard3/card1"
+import {Toaster} from "react-hot-toast"
 function App() {
-
-
-
-
 
   return (
     <>
@@ -62,6 +59,7 @@ function App() {
 
 
       <Footer />
+      <Toaster/>
     </>
 
   )
