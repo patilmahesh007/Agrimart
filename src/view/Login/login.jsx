@@ -1,24 +1,25 @@
 import React, { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import brandIcon from '../../images/login-img/logo2.png';
 import img3 from '../../images/login-img/image.png';
-import Homeicon from '../../images/login-img/home.png';
 import './login.css'; 
 
 const LoginForm = () => {
   const [formData, setFormData] = useState({
-   username: '',
+    email: '',
     password: '',
   });
   const [isLogin, setIsLogin] = useState(false);
+  const navigate = useNavigate();  // Use this hook to redirect
 
- 
+  // Function to save login status to localStorage
   const saveLoginStatus = (status) => {
     setIsLogin(status);
     localStorage.setItem('isLogin', status);
   };
 
+  // Handle input changes and update the formData state
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -26,35 +27,36 @@ const LoginForm = () => {
     });
   };
 
+  // Handle login form submission
   const handleLogin = (e) => {
     e.preventDefault();
 
-    
+    // Fetch users from localStorage (if any)
     const users = JSON.parse(localStorage.getItem('users')) || [];
 
-
-    const user = users.find(user => user.username === formData.username && user.password === formData.password);
+    // Check if there is a matching user with the same email and password
+    const user = users.find(user => user.email === formData.email && user.password === formData.password);
 
     if (user) {
-      toast.success('Login successful!',2000);
+      // If the user is found, show success message
+      toast.success('Login successful!', 2000);
+      
+      // Set isLogin to true and store in localStorage
       saveLoginStatus(true);
+
+      // Store user details in localStorage (e.g., firstName, lastName)
       localStorage.setItem('user', JSON.stringify({ firstName: user.firstName, lastName: user.lastName })); 
 
-      window.location.href = '/profile';
+      // Navigate to checkout or another page
+      navigate('/checkout');
     } else {
-      toast.error('Invalid email or password!',2000);
+      // If no user is found, show error
+      toast.error('Invalid email or password!', 2000);
     }
   };
 
- 
-
   return (
     <>
-    <div className='login-home-icon'>
-          <Link to="/">
-          <img src={Homeicon} className='Home-icon'/>
-          </Link>
-        </div>
       <header className="login-header">
         <nav className="login-nav-bar">
           <Link to="/login" className="login-nav-link active">Login</Link>
@@ -66,7 +68,7 @@ const LoginForm = () => {
         <div className="login-welcome-section">
           <img src={img3} alt="User" className="login-user-img" /><br />
           <h2>Welcome Back</h2>
-          <p>Log in to access the best deals!<br />
+          <p className="login-welcome-text">Log in to access the best deals!<br />
             <img src={brandIcon} alt="Brand Logo" className="login-brand-logo" />
           </p>
         </div>
@@ -75,10 +77,10 @@ const LoginForm = () => {
             <h2>User Login</h2>
             <form onSubmit={handleLogin}>
               <input
-                type="text"
-                name="username"
-                placeholder="Username (First Last)"
-                value={formData.username}
+                type="email"
+                name="email"
+                placeholder="Email"
+                value={formData.email}
                 onChange={handleChange}
                 required
               />
@@ -92,7 +94,7 @@ const LoginForm = () => {
               />
               <button type="submit" className="login-btn">Login</button>
               <div className='login-register-section-2'>
-               <p>Do not have an account? <Link to="/sign">Register here</Link></p>
+               <p>Don't have an account? <Link to="/sign">Register here</Link></p>
               </div>
             </form>
           </div>

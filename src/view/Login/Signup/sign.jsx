@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import brandIcon from '../../../images/login-img/logo2.png';
 import img3 from '../../../images/login-img/image.png';
-import Homeicon from '../../../images/login-img/home.png';
 import './sign.css';
 
 const SignupForm = () => {
@@ -21,6 +20,7 @@ const SignupForm = () => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
+      
     });
   };
 
@@ -49,7 +49,7 @@ const SignupForm = () => {
       localStorage.setItem('users', JSON.stringify(users));
 
       toast.success('Account created successfully!',2000);
-      window.location.href = '/login';
+   window.location.href = '/login';
 
  
       setFormData({
@@ -68,11 +68,6 @@ const SignupForm = () => {
   return (
     <>
       <div className="signup-register-container">
-        <div className='signup-home-icon'>
-          <Link to="/">
-          <img src={Homeicon} className='Home-icon'/>
-          </Link>
-        </div>
         <header className="header-container-1">
           <nav className="nav-bar-1">
             <Link to="/sign" className="nav-link-1 active">Registration</Link>

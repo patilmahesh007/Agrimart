@@ -1,37 +1,42 @@
-.signup-home-icon{
-	position:absolute;
-	padding:10px;
+.signup-home-icon {
+	position: absolute;
+	padding: 10px;
 	background-color: #fff;
-	box-shadow:4px 4px 10px rgba(38, 65, 52, 1);
+	box-shadow: 4px 4px 10px rgba(38, 65, 52, 1);
 	border-radius: 50%;
-	margin:0 20px;
+	margin: 0 20px;
 	top: 20px;
-	margin-bottom: 1500px;
 	display: flex;
-	
+
 
 }
-.signup-home-icon .Home-icon{
-	height:40px;
-	width:40px;
+.signup-register-container{
+ height: 100vh;
+}
+.signup-register-container::-webkit-scrollbar{
+	display: none;
+}
+.signup-home-icon .Home-icon {
+	height: 40px;
+	width: 40px;
 }
 
 .header-container-1 {
 	width: 840px;
 	padding: 10px 30px;
-	background-color: rgba(38, 65, 52, 1); 
+	background-color: rgba(38, 65, 52, 1);
 	display: flex;
 	justify-content: flex-end;
-	margin: 100px auto 0 auto;
+	margin: 10px auto 0 auto;
 	border-radius: 10px 10px 0px 0px;
-  }
-  
-  .nav-bar-1 {
+}
+
+.nav-bar-1 {
 	display: flex;
 	gap: 20px;
-  }
-  
-  .nav-link-1 {
+}
+
+.nav-link-1 {
 	color: white;
 	text-decoration: none;
 	font-size: 16px;
@@ -40,20 +45,20 @@
 	border: 1px solid white;
 	border-radius: 5px;
 	transition: 0.3s;
-  }
-  
-  .nav-link-1:hover {
+}
+
+.nav-link-1:hover {
 	background-color: white;
 	color: rgba(38, 65, 52, 1);
-  }
-  
-  .nav-link-1.active {
+}
+
+.nav-link-1.active {
 	background-color: white;
 	color: rgba(38, 65, 52, 1);
-  }
-  
-  
-  .form-container-1 {
+}
+
+
+.form-container-1 {
 	display: flex;
 	width: 900px;
 	box-shadow: 4px 4px 15px rgba(38, 65, 52, 1);
@@ -61,257 +66,295 @@
 	background-color: white;
 	margin: 0 auto 100px auto;
 	border-radius: 0 0px 10px 100px;
-  }
-  
-  .welcome-section-1 {
-	background-color: rgba(38, 65, 52, 1); 
+}
+
+.welcome-section-1 {
+	background-color: rgba(38, 65, 52, 1);
 	color: white;
 	padding: 50px;
 	text-align: center;
 	width: 40%;
 	border-radius: 0 70px 0px 100px;
 	justify-content: space-between;
-	font-family:cursive;
-  }
-  .welcome-section-1 .brand-logo{
+	font-family: cursive;
+}
+
+.welcome-section-1 .brand-logo {
 	height: 100px;
-	width:240px;
-	margin-top:10px;
-  }
-  .welcome-section-1 .user-img{
-	width:90px;
-	height:90px;
-	margin-bottom:30px;
-  }
-  .form-container-1 .welcome-section-1 h2 {
+	width: 240px;
+	margin-top: 10px;
+}
+
+.welcome-section-1 .user-img {
+	width: 90px;
+	height: 90px;
+	margin-bottom: 30px;
+}
+
+.form-container-1 .welcome-section-1 h2 {
 	margin-bottom: 20px;
 	font-size: 40px;
 	color: white;
-  }
-  
-  .form-container-1 .welcome-section-1 p {
+}
+
+.form-container-1 .welcome-section-1 p {
 	font-size: 20px;
 	justify-content: space-between;
 	color: white;
-  }
-  
-  .registration-section-1 {
+}
+
+.registration-section-1 {
 	background-color: #fff;
 	padding: 50px;
 	width: 60%;
-  }
-  
-  .form-box-1 h2 {
+}
+
+.form-box-1 h2 {
 	text-align: center;
 	margin-bottom: 30px;
-  }
-  
-  .form-box-1 {
+}
+
+.form-box-1 {
 	width: 100%;
-  }
-  
-  .input-group-1 {
+}
+
+.input-group-1 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 5px; 
-  }
-  .input-group-2{
+	gap: 5px;
+}
+
+.input-group-2 {
 	display: flex;
 	align-items: center;
-	gap:3px;
+	gap: 3px;
 	margin-bottom: 10px;
-  }
-  input[type="text"],
-  input[type="email"],
-  input[type="password"] {
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
 	width: 100%;
 	padding: 10px;
 	margin-bottom: 20px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
-  }
-  
+}
+
 input[type="text"]:hover,
 input[type="email"]:hover,
 input[type="password"]:hover {
-  border-color: rgba(38, 65, 52, 1);
+	border-color: rgba(38, 65, 52, 1);
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus {
-  border-color: rgba(38, 65, 52, 1); 
-  outline: none; 
+	border-color: rgba(38, 65, 52, 1);
+	outline: none;
 }
 
-  .input-group-1 input[type="text"] {
+.input-group-1 input[type="text"] {
 	width: 48%;
-  }
-  .input-group-2 input[type="text"] {
+}
+
+.input-group-2 input[type="text"] {
 	width: 48%;
-  }
-  
-  
-  .input-group-1 label {
+}
+
+
+.input-group-1 label {
 	margin-right: 5px;
 	font-size: 16px;
-  }
-  
-  button.register-btn-1 {
+}
+
+button.register-btn-1 {
 	width: 100%;
 	padding: 10px;
-	background-color: rgba(38, 65, 52, 1); 
+	background-color: rgba(38, 65, 52, 1);
 	color: white;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
 	font-size: 16px;
 	margin-top: 20px;
-  }
-  .login-register-section-1 p a{
+}
+
+.login-register-section-1 p a {
 	color: rgba(38, 65, 52, 1);
-	}
-	
-	.login-register-section-1 p  {
-	  color: rgba(38, 65, 52, 1);
-	  text-decoration: none;
-	  text-align: center;
-	  margin-top: 10px;
-	}
-	.login-register-section-1 p a:hover{
+}
+
+.login-register-section-1 p {
+	color: rgba(38, 65, 52, 1);
+	text-decoration: none;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.login-register-section-1 p a:hover {
 	text-decoration: underline;
-	color:rgb(52, 113, 83);
-	}
-	/*media-queries*/
-	@media screen and (min-width:336.5px)and (max-width:450px)  {
-		.header-container-1{
-			width: 240px;
-		}
-		.form-container-1{
-			width: 300px;
-			flex-direction: column;
-			border-radius:0px 0px 10px 10px; 
-			box-shadow: 2px 2px 10px rgba(38, 65, 52, 1);
-		}
-		.welcome-section-1 {
-			width: 100%;
-			border-radius:0px 0px 0px 0px;
-		}
-		.welcome-section-1 .brand-logo{
-			margin:20px auto;
-		  }
-		  .welcome-section-1 .user-img{
-			margin-right: 25%;
-		  }
-		  .form-container-1 .welcome-section-1 h2 {
-			margin-right: 25%;
-		  }
-		  
-		  .form-container-1 .welcome-section-1 p {
-			margin-right: 25%;
-		  }
-		  
-		  .input-group-1 input{
-			justify-content: space-around;
-			
-		  }.form-box-1 {
-			width: 113%;
-		  }
-		  .input-group-1 input[type="text"] {
-			width:90px;
-		  }
-		  .form-box-1 h2 {
-			font-size: 20px;
-		  }
-		  button.register-btn-1{
-			width:220px;
-			font-size: 13px;
-		  }
-		  .login-register-section-1 p{
-font-size: 13px;
-		  }
-		  .nav-link-1 {
-			font-size: 13px;
-		  }
-		  .signup-home-icon{
-			margin:0 20px;
-			top: 20px;
-			margin-bottom: 80px
-		  }
+	color: rgb(52, 113, 83);
+}
+
+/*media-queries*/
+@media screen and (max-width:450px) {
+	.header-container-1 {
+		width: 240px;
 	}
 
-	@media screen and (min-width:450.5px)and (max-width:650px) {
-		.header-container-1{
-			width: 360px;
-		}
-		.form-container-1{
-			width: 420px;
-			flex-direction: column;
-			border-radius:0px 0px 10px 10px; 
-			box-shadow: 2px 2px 10px rgba(38, 65, 52, 1);
-		}
-		.welcome-section-1 {
-			width: 100%;
-			border-radius:0px 0px 0px 0px;
-		}
-		.welcome-section-1 .brand-logo{
-			margin:20px auto;
-			width:300px;
-		  }
-		  .welcome-section-1 .user-img{
-			margin-right: 25%;
-		  }
-		  .form-container-1 .welcome-section-1 h2 {
-			margin-right: 25%;
-		  }
-		  
-		  .form-container-1 .welcome-section-1 p {
-			margin-right: 25%;
-		  }
-		  
-		 .form-box-1 {
-			width: 113%;
-		  }
-		  .input-group-1 input[type="text"] {
-			width:130px;
-		  }
-		  .form-box-1 h2 {
-			font-size: 35px;
-		  }
-		  button.register-btn-1{
-			width:310px;
-			font-size: 18px;
-		  }
-		  .nav-link-1 {
-			font-size: 18px;
-		  }
-		  .login-register-section-1 p{
-			font-size: 15px;
-					  }
-					  .signup-home-icon{
-						margin:0 20px;
-						top: 30px;
-						margin-bottom:10
-					  }			  
+	.form-container-1 {
+		width: 300px;
+		flex-direction: column;
+		border-radius: 0px 0px 10px 10px;
+		box-shadow: 2px 2px 10px rgba(38, 65, 52, 1);
 	}
 
-	@media screen and (min-width:650.5px)and (max-width:1150px) {
-		.header-container-1{
-			width: 680px;
-		}
-		.form-container-1{
-			width: 740px;
-		}
-		
+	.welcome-section-1 {
+		width: 100%;
+		border-radius: 0px 0px 0px 0px;
 	}
 
-
-	@media screen and (min-width:1151px) and (max-width: 1200px) {
-		.header-container-1{
-			width: 800px;
-		}
-		.form-container-1{
-			width: 860px;
-		}
+	.welcome-section-1 .brand-logo {
+		margin: 20px auto;
 	}
+
+	.welcome-section-1 .user-img {
+		margin-right: 25%;
+	}
+
+	.form-container-1 .welcome-section-1 h2 {
+		margin-right: 25%;
+	}
+
+	.form-container-1 .welcome-section-1 p {
+		margin-right: 25%;
+	}
+	 .welcome-section-1 p,.welcome-section-1 h2{
+		display: none;
+	}
+
+	.input-group-1 input {
+		justify-content: space-around;
+
+	}
+
+	.form-box-1 {
+		width: 113%;
+	}
+
+	.input-group-1 input[type="text"] {
+		width: 90px;
+	}
+
+	.form-box-1 h2 {
+		font-size: 20px;
+	}
+
+	button.register-btn-1 {
+		width: 220px;
+		font-size: 13px;
+	}
+
+	.login-register-section-1 p {
+		font-size: 13px;
+	}
+
+	.nav-link-1 {
+		font-size: 13px;
+	}
+
+	.signup-home-icon {
+		margin: 0 20px;
+		top: 20px;
+		margin-bottom: 80px
+	}
+}
+
+@media screen and (min-width:450.5px)and (max-width:650px) {
+	.header-container-1 {
+		width: 360px;
+	}
+
+	.form-container-1 {
+		width: 420px;
+		flex-direction: column;
+		border-radius: 0px 0px 10px 10px;
+		box-shadow: 2px 2px 10px rgba(38, 65, 52, 1);
+	}
+
+	.welcome-section-1 {
+		width: 100%;
+		border-radius: 0px 0px 0px 0px;
+	}
+
+	.welcome-section-1 .brand-logo {
+		margin: 20px auto;
+		width: 300px;
+	}
+
+	.welcome-section-1 .user-img {
+		margin-right: 25%;
+	}
+
+	.form-container-1 .welcome-section-1 h2 {
+		margin-right: 25%;
+	}
+
+	.form-container-1 .welcome-section-1 p {
+		margin-right: 25%;
+	}
+
+	.form-box-1 {
+		width: 113%;
+	}
+
+	.input-group-1 input[type="text"] {
+		width: 130px;
+	}
+
+	.form-box-1 h2 {
+		font-size: 35px;
+	}
+
+	button.register-btn-1 {
+		width: 310px;
+		font-size: 18px;
+	}
+
+	.nav-link-1 {
+		font-size: 18px;
+	}
+
+	.login-register-section-1 p {
+		font-size: 15px;
+	}
+
+	.signup-home-icon {
+		margin: 0 20px;
+		top: 30px;
+		margin-bottom: 10
+	}
+}
+
+@media screen and (min-width:650.5px)and (max-width:1150px) {
+	.header-container-1 {
+		width: 680px;
+	}
+
+	.form-container-1 {
+		width: 740px;
+	}
+
+}
+
+
+@media screen and (min-width:1151px) and (max-width: 1200px) {
+	.header-container-1 {
+		width: 800px;
+	}
+
+	.form-container-1 {
+		width: 860px;
+	}
+}

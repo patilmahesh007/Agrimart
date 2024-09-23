@@ -60,6 +60,7 @@
 .social-media-icon1{
   height: 30px;
   padding-left:   20px;
+  cursor: pointer;
  }
 
 @media screen and (max-width: 450px) {

@@ -234,7 +234,7 @@ function Checkout() {
     ) : (
       <h1 className='checkout-redirect'>
         Redirecting to Login...{setInterval(() => {
-          Navigate('/login');
+          window.location.href = '/login';
         }, 2000)}
       </h1>
     )

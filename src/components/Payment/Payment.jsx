@@ -5,7 +5,7 @@ import toast ,{ Toaster} from 'react-hot-toast';
 const PaymentButton = ({ price, name1, contact1, email1 }) => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
-
+const localemail = JSON.parse(localStorage.getItem('users'))[0].email;
   const loadRazorpayScript = () => {
     return new Promise((resolve) => {
       const script = document.createElement("script");
@@ -48,7 +48,7 @@ const PaymentButton = ({ price, name1, contact1, email1 }) => {
       },
       prefill: {
         name: `${checkoutData.firstname || ''} ${checkoutData.lastname || ''}`,
-        email: email1,
+        email: localemail,
         contact: checkoutData.phoneNumber || '',
       },
       notes: {
