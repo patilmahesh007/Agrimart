@@ -15,7 +15,7 @@
     "react-scripts": "^5.0.1"
   },
   "browserslist": {
-    "production": [
+    "production": [ 
       ">0.2%",
       "not dead",
       "not op_mini all"
