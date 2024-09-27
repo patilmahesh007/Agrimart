@@ -13,7 +13,11 @@ import TopBarSection from '../../../components/CartSection/CartSection';
 import QuantityButton from "./../../../components/BuynowButton/Buynow";
 
 function Card() {
-  const cardsId = [...cardData, ...DairyCardData, ...VegCardData, ...ExoticsCardData, ...EssentialsCardData];
+  const cardsId = [...cardData,
+  ...DairyCardData,
+  ...VegCardData,
+  ...ExoticsCardData,
+  ...EssentialsCardData];
   let { cardId } = useParams();
   let cardObject = cardsId.find((card) => card.id == cardId);
 
@@ -35,7 +39,6 @@ function Card() {
     <div>
       <Navbar />
       <TopBarSection />
-
       <div className="card-page">
         <div className="card-page-leftside">
           <div className="card-page-leftside-div1">
@@ -56,11 +59,11 @@ function Card() {
           <hr />
 
           <div className={`card-page-leftside-div2 ${detailsExpanded ? 'expanded' : ''}`}>
-           <h2>Product Details</h2>
-              <h1 className="product-details-header" onClick={toggleDetails}>
-                 View more details  {detailsExpanded ? '▲' : '▼'}
-              </h1>
-         
+            <h2>Product Details</h2>
+            <h1 className="product-details-header" onClick={toggleDetails}>
+              View more details  {detailsExpanded ? '▲' : '▼'}
+            </h1>
+
             <div className="card-page-leftside-div2-content">
               <div className="card-page-leftside-div2-smallcard">
                 <b>Shelf Life</b>
