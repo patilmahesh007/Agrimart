@@ -15,7 +15,7 @@ const localemail = JSON.parse(localStorage.getItem('users'))[0].email;
       document.body.appendChild(script);
     });
   };
-
+  
   const handlePayment = async () => {
     setLoading(true);
     const res = await loadRazorpayScript();
@@ -35,7 +35,7 @@ const localemail = JSON.parse(localStorage.getItem('users'))[0].email;
     }
 
     const options = {
-      key: "rzp_test_a6DvvpXzDJyvcB",
+      key: process.env.REACT_APP_RAZORPAY_KEY_ID,
       amount: price * 100,
       currency: "INR",
       name: "Agrimart",
